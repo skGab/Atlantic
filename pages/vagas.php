@@ -1,5 +1,5 @@
 <?php
-include("partials/header.php");
+require("../partials/header.php");
 ?>
 
 <!-- MAIN INTRO -->
@@ -46,5 +46,5 @@ include("partials/header.php");
 
 
 <?php
-include("partials/footer.php");
+require("../partials/footer.php");
 ?>
