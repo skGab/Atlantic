@@ -4,7 +4,7 @@ require $root . '/partials/header.php';
 ?>
 
 <!-- MOMENTO EMPRESA -->
-<section id="momento_empresa">
+<!-- <section id="momento_empresa">
     <div class="container px-4">
         <div class="row">
             <div class="col-12">
@@ -98,10 +98,10 @@ require $root . '/partials/header.php';
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 <!-- FALAR COM ESPECIALISTAS -->
-<section id="falar_especialistas">
+<!-- <section id="falar_especialistas">
     <div class="container px-4">
         <div class="row">
             <div class="col">
@@ -139,10 +139,10 @@ require $root . '/partials/header.php';
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 <!-- BLOG -->
-<section id="blog_home">
+<!-- <section id="blog_home">
     <div class="container px-4">
         <div class="row">
             <div class="col-12">
@@ -229,10 +229,10 @@ require $root . '/partials/header.php';
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 <!-- DEPOIMENTOS -->
-<section id="depoimentos">
+<!-- <section id="depoimentos">
     <div class="container px-4 py-5">
         <div class="row mb-5">
             <div class="col-12">
@@ -248,10 +248,10 @@ require $root . '/partials/header.php';
             </figure>
         </div>
     </div>
-</section>
+</section> -->
 
 <!-- ATLANTIC VIDEOS -->
-<section id="videos">
+<!-- <section id="videos">
     <div class="container px-4">
         <div class="row mb-5">
             <div class="col-12">
@@ -275,10 +275,10 @@ require $root . '/partials/header.php';
             </figure>
         </div>
     </div>
-</section>
+</section> -->
 
 <!-- CONTATO -->
-<section id="contato">
+<!-- <section id="contato">
     <div class="container px-4 py-5">
         <div class="row">
             <div class="col-12">
@@ -318,7 +318,7 @@ require $root . '/partials/header.php';
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 <?php
 $root = $_SERVER['DOCUMENT_ROOT'];

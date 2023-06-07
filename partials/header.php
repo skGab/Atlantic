@@ -31,7 +31,29 @@ $root = $_SERVER['DOCUMENT_ROOT'];
 
 <body>
     <!-- HEADER -->
-    <header id="header" class="position-fixed w-100" style="top:0; left:0;">
+    <header id="cotacao">
+        <div class="container px-4 py-2">
+            <div class="row align-items-center justify-content-between">
+                <div class="taxa col-6">
+                    <strong class="small text-white me-1">
+                        € Cotação
+                    </strong>
+                    R$5,56489
+                </div>
+
+                <div class="col-6 px-1">
+                    <div class="horario text-center text-white py-1 rounded">
+                        <strong class="small">
+                            HORÁRIO DE LISBOA
+                        </strong>
+                        14:50
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <header id="header" class="position-fixed w-100" style="top:55; left:0;">
         <div class="px-lg-5 px-3 mt-2">
             <nav class="navbar navbar-light navbar-expand-lg bg-white py-0" aria-label="First navbar example">
                 <div class="container-fluid px-lg-5 px-2">
