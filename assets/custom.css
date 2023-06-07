@@ -110,7 +110,8 @@
     color: rgba(255, 255, 255, .15) !important
 }
 
-.title-banner h1, .title-banner span {
+.title-banner h1,
+.title-banner span {
     font-family: 'Futura PT' !important;
     font-size: 2.5rem;
     font-weight: 700;
@@ -126,4 +127,61 @@
 .filter-banner {
     margin-bottom: -3rem;
     border-radius: 15px;
+}
+
+#modal-vaga {
+    background-color: rgba(0, 0, 0, .15) !important;
+}
+
+#modal-vaga .modal-content {
+    border-radius: 0 !important;
+}
+
+#modal-vaga p {
+    max-height: 350px !important;
+    overflow-y: scroll;
+}
+
+/* width */
+#modal-vaga p::-webkit-scrollbar {
+    width: 3.5px;
+}
+
+/* Track */
+#modal-vaga p::-webkit-scrollbar-track {
+    background: rgba(81, 119, 148, 0.2);
+}
+
+/* Handle */
+#modal-vaga p::-webkit-scrollbar-thumb {
+    background: rgba(37, 131, 226, .8);
+}
+
+/* Handle on hover */
+#modal-vaga p::-webkit-scrollbar-thumb:hover {
+    background: rgba(37, 131, 226, 1);
+}
+
+#form-candidatura input, #form-candidatura textarea {
+    background-color: transparent !important;
+    border: 1.5px solid rgba(81, 119, 148, 1) !important;
+    border-top: none !important;
+    border-right: none !important;
+    border-left: none !important;
+    border-radius: 0px !important;
+    margin-bottom: 1.5rem !important;
+}
+
+#form-candidatura input::placeholder, #form-candidatura textarea::placeholder {
+    font-style: italic !important;
+    color: rgba(81, 119, 148, 1) !important;
+}
+
+#form-candidatura .box {
+    position: absolute;
+    top: -2.2rem;
+    left: 1rem;
+    width: 69px;
+    height: 69px;
+    background-color: rgba(37, 131, 226, 1);
 }

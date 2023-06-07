@@ -146,7 +146,7 @@ h5 {
 
 .h6,
 h6 {
-    font-size: 1rem
+    font-size: .9rem
 }
 
 p {
@@ -3129,7 +3129,8 @@ textarea.form-control.is-invalid {
 
 .btn {
     display: inline-block;
-    font-weight: 400;
+    font-family: 'Futura PT';
+    font-weight: 500;
     line-height: 1.5;
     color: #212529;
     text-align: center;
@@ -3140,7 +3141,7 @@ textarea.form-control.is-invalid {
     -moz-user-select: none;
     user-select: none;
     background-color: transparent;
-    border: 1px solid transparent;
+    border: 2px solid transparent;
     padding: .375rem .75rem;
     font-size: 1rem;
     border-radius: .25rem;
@@ -3531,19 +3532,19 @@ fieldset:disabled .btn {
 }
 
 .btn-outline-primary {
-    color: #0d6efd;
-    border-color: #0d6efd
+    color: rgba(37, 131, 226, 1) ;
+    border-color: rgba(37, 131, 226, 1) 
 }
 
 .btn-outline-primary:hover {
     color: #fff;
-    background-color: #0d6efd;
-    border-color: #0d6efd
+    background-color: rgba(37, 131, 226, 1) ;
+    border-color: rgba(37, 131, 226, 1) 
 }
 
 .btn-check:focus+.btn-outline-primary,
 .btn-outline-primary:focus {
-    box-shadow: 0 0 0 .25rem rgba(13, 110, 253, .5)
+    box-shadow: 0 0 0 .25rem rgba(37, 131, 226, .5) 
 }
 
 .btn-check:active+.btn-outline-primary,
@@ -3552,8 +3553,8 @@ fieldset:disabled .btn {
 .btn-outline-primary.dropdown-toggle.show,
 .btn-outline-primary:active {
     color: #fff;
-    background-color: #0d6efd;
-    border-color: #0d6efd
+    background-color: rgba(37, 131, 226, 1) ;
+    border-color: rgba(37, 131, 226, 1) 
 }
 
 .btn-check:active+.btn-outline-primary:focus,
@@ -3561,12 +3562,12 @@ fieldset:disabled .btn {
 .btn-outline-primary.active:focus,
 .btn-outline-primary.dropdown-toggle.show:focus,
 .btn-outline-primary:active:focus {
-    box-shadow: 0 0 0 .25rem rgba(13, 110, 253, .5)
+    box-shadow: 0 0 0 .25rem rgba(37, 131, 226, .5) 
 }
 
 .btn-outline-primary.disabled,
 .btn-outline-primary:disabled {
-    color: #0d6efd;
+    color: rgba(37, 131, 226, 1);
     background-color: transparent
 }
 
@@ -5931,14 +5932,14 @@ fieldset:disabled .btn {
 
 .btn-close {
     box-sizing: content-box;
-    width: 1em;
-    height: 1em;
+    width: 2rem;
+    height: 2rem;
     padding: .25em .25em;
     color: #000;
-    background: transparent url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000'%3e%3cpath d='M.293.293a1 1 0 011.414 0L8 6.586 14.293.293a1 1 0 111.414 1.414L9.414 8l6.293 6.293a1 1 0 01-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 01-1.414-1.414L6.586 8 .293 1.707a1 1 0 010-1.414z'/%3e%3c/svg%3e") center/1em auto no-repeat;
+    background-color: transparent;
     border: 0;
     border-radius: .25rem;
-    opacity: .5
+    opacity: 1
 }
 
 .btn-close:hover {
@@ -8270,7 +8271,7 @@ fieldset:disabled .btn {
 }
 
 .text-secondary {
-    color: #6c757d !important
+    color: rgba(37, 131, 226, 1)  !important
 }
 
 .text-success {
@@ -8322,7 +8323,7 @@ fieldset:disabled .btn {
 }
 
 .bg-primary {
-    background-color: #0d6efd !important
+    background-color: rgba(37, 131, 226, 1)  !important
 }
 
 .bg-secondary {
@@ -8347,6 +8348,10 @@ fieldset:disabled .btn {
 
 .bg-light {
     background-color: #E1E5EC !important
+}
+
+.bg-gray-light {
+    background-color: rgba(225, 229, 236, 1) !important
 }
 
 .bg-dark {
