@@ -4,7 +4,7 @@ require $root . '/partials/header.php';
 ?>
 
 <!-- QUEM SOMOS -->
-<!-- <section id="quem-somos">
+<section id="quem-somos">
     <div class="container px-4 py-5">
         <div class="row">
             <div class="col-12">
@@ -77,11 +77,10 @@ require $root . '/partials/header.php';
             </div>
         </div>
     </div>
-</section> -->
-
+</section>
 
 <!-- CTA -->
-<!-- <section id="cta">
+<section id="cta">
     <div class="container px-4 py-5">
         <div class="row">
             <div class="col">
@@ -90,10 +89,10 @@ require $root . '/partials/header.php';
             </div>
         </div>
     </div>
-</section> -->
+</section>
 
 <!-- NOSSA EQUIPE -->
-<!-- <section id="nossa-equipe">
+<section id="nossa-equipe">
     <div class="container px-4 py-5">
         <div class="row mb-5">
             <div class="col-12">
@@ -143,10 +142,10 @@ require $root . '/partials/header.php';
             </div>
         </div>
     </div>
-</section> -->
+</section>
 
 <!-- DADOS -->
-<!-- <section id="dados">
+<section id="dados">
     <div class="container px-4 py-5">
         <div class="row">
             <div class="col-6">
@@ -167,10 +166,10 @@ require $root . '/partials/header.php';
             </div>
         </div>
     </div>
-</section> -->
+</section>
 
 <!-- CASES DE SUCESSO -->
-<!-- <section id="cases-sucesso">
+<section id="cases-sucesso">
     <div class="container px-4 py-2">
         <div class="row">
             <div class="col">
@@ -190,7 +189,7 @@ require $root . '/partials/header.php';
             </div>
         </div>
     </div>
-</section> -->
+</section>
 
 <!-- NOSSOS PARCEIROS -->
 <section id="nossos-parceiros">
