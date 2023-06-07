@@ -71,19 +71,3 @@ $root = $_SERVER['DOCUMENT_ROOT'];
 
     <!-- MAIN CONTENT -->
     <main id="main">
-        <!-- MAIN BANNER -->
-        <!-- <section id="main_banner">
-            <div class="container px-4 py-5">
-                <div class="row py-5">
-                    <div class="col">
-                        <span>Acesse e conquiste o mercado Português e Europeu com todo o nosso suporte em todas as etapas de
-                        </span>
-                        <h1>
-                            <strong>INTERNACIONALIZAÇÃO</strong><br>
-                            DE SUA EMPRESA.
-                        </h1>
-                        <button>SAIBA MAIS</button>
-                    </div>
-                </div>
-            </div>
-        </section> -->
