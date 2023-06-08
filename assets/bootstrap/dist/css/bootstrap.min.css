@@ -5248,10 +5248,13 @@ fieldset:disabled .btn {
 .page-link {
     position: relative;
     display: block;
-    color: #0d6efd;
+    color: #2583E2;
+    font-size: 85%;
+    font-weight: 600;
+    line-height: 0;
     text-decoration: none;
-    background-color: #fff;
-    border: 1px solid #dee2e6;
+    background-color: transparent;
+    border: none;
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out
 }
 
@@ -5262,10 +5265,13 @@ fieldset:disabled .btn {
 }
 
 .page-link:hover {
-    z-index: 2;
-    color: #0a58ca;
-    background-color: #e9ecef;
-    border-color: #dee2e6
+    z-index: 3;
+    border-radius: 50%;
+    line-height: 1;
+    color: #fff;
+    background-color: #2583E2;
+    border-color: #2583E2;
+    padding: .3rem .55rem !important
 }
 
 .page-link:focus {
@@ -5282,9 +5288,12 @@ fieldset:disabled .btn {
 
 .page-item.active .page-link {
     z-index: 3;
+    border-radius: 50%;
+    line-height: 1;
     color: #fff;
-    background-color: #0d6efd;
-    border-color: #0d6efd
+    background-color: #2583E2;
+    border-color: #2583E2;
+    padding: .3rem .55rem !important
 }
 
 .page-item.disabled .page-link {
@@ -5295,7 +5304,7 @@ fieldset:disabled .btn {
 }
 
 .page-link {
-    padding: .375rem .75rem
+    padding: 0rem .75rem
 }
 
 .page-item:first-child .page-link {

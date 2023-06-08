@@ -172,7 +172,8 @@
     background: rgba(37, 131, 226, 1);
 }
 
-#form-candidatura input, #form-candidatura textarea {
+#form-candidatura input,
+#form-candidatura textarea {
     background-color: transparent !important;
     border: 1.5px solid rgba(81, 119, 148, 1) !important;
     border-top: none !important;
@@ -182,7 +183,8 @@
     margin-bottom: 1.5rem !important;
 }
 
-#form-candidatura input::placeholder, #form-candidatura textarea::placeholder {
+#form-candidatura input::placeholder,
+#form-candidatura textarea::placeholder {
     font-style: italic !important;
     color: rgba(81, 119, 148, 1) !important;
 }
@@ -196,7 +198,8 @@
     background-color: rgba(37, 131, 226, 1);
 }
 
-#fale-conosco input, #fale-conosco textarea {
+#fale-conosco input,
+#fale-conosco textarea {
     background-color: transparent !important;
     border: 1.5px solid rgba(81, 119, 148, 1) !important;
     border-top: none !important;
@@ -206,7 +209,8 @@
     margin-bottom: 1.5rem !important;
 }
 
-#fale-conosco input::placeholder, #fale-conosco textarea::placeholder {
+#fale-conosco input::placeholder,
+#fale-conosco textarea::placeholder {
     font-style: italic !important;
     color: rgba(81, 119, 148, 1) !important;
 }
@@ -227,4 +231,42 @@
 
 #fale-conosco .form-select {
     padding-left: .75rem !important;
+}
+
+#destaque-artigos .box1 {
+    position: absolute;
+    top: -.75rem;
+    right: -1rem;
+    width: 46px;
+    height: 46px;
+    background-color: rgba(37, 131, 226, 1);
+}
+
+#destaque-artigos .box2 {
+    position: absolute;
+    bottom: -.75rem;
+    left: -.5rem;
+    width: 33px;
+    height: 33px;
+    background-color: rgba(37, 131, 226, 1);
+}
+
+#destaque-artigos img {
+    filter: grayscale(1);
+    object-fit: cover;
+}
+
+#destaque-artigos img:hover {
+    filter: none;
+    transition: filter .4s ease-in-out;
+}
+
+#destaque-artigos .info-post {
+    position: absolute;
+    bottom: 1rem;
+    left: 1.5rem;
+}
+
+#noticias img {
+    object-fit: cover;
 }
