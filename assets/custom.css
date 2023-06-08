@@ -73,6 +73,16 @@
     }
 }
 
+#banner-contato .title-banner span {
+    right: -10rem !important;
+    top: .75rem !important;
+}
+
+#banner-contato {
+    background: url('../assets/images/banner-contato.jpg') no-repeat;
+    background-size: cover;
+}
+
 #banner-vagas {
     background: url('../assets/images/banner-vagas.jpg') no-repeat;
     background-size: cover;
@@ -184,4 +194,37 @@
     width: 69px;
     height: 69px;
     background-color: rgba(37, 131, 226, 1);
+}
+
+#fale-conosco input, #fale-conosco textarea {
+    background-color: transparent !important;
+    border: 1.5px solid rgba(81, 119, 148, 1) !important;
+    border-top: none !important;
+    border-right: none !important;
+    border-left: none !important;
+    border-radius: 0px !important;
+    margin-bottom: 1.5rem !important;
+}
+
+#fale-conosco input::placeholder, #fale-conosco textarea::placeholder {
+    font-style: italic !important;
+    color: rgba(81, 119, 148, 1) !important;
+}
+
+#fale-conosco .box {
+    position: absolute;
+    top: -2.2rem;
+    left: 1rem;
+    width: 69px;
+    height: 69px;
+    background-color: rgba(37, 131, 226, 1);
+}
+
+#fale-conosco .form-select {
+    font-style: italic !important;
+    text-transform: none !important;
+}
+
+#fale-conosco .form-select {
+    padding-left: .75rem !important;
 }
