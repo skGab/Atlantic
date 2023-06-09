@@ -4416,6 +4416,12 @@ fieldset:disabled .btn {
     }
 }
 
+@media screen and (min-width: 992px) {
+    .nav-link {
+        font-size: 12px !important;
+    }
+}
+
 .nav-link:focus,
 .nav-link:hover {
     color: #0a58ca
@@ -7459,7 +7465,7 @@ fieldset:disabled .btn {
 }
 
 .border-secondary {
-    border-color: #6c757d !important
+    border-color: rgba(81, 119, 148, .2) !important
 }
 
 .border-success {

@@ -139,6 +139,39 @@
     border-radius: 15px;
 }
 
+@media screen and (min-width: 992px) {
+    .text-banner p{
+        max-width: 40% !important;
+    }
+    .filter-banner {
+        display: flex !important;
+        align-items: end !important;
+        margin-bottom: -1.5rem !important;
+    }
+    .filter-banner label {
+        width: 50%;
+        font-size: 90% !important;
+    }
+    .vaga h2 {
+        font-size: 14px !important;
+    }
+    .vaga h1 {
+        font-size: 1.5rem !important;
+    }
+    #form-candidatura .box {
+        top: auto !important;
+        bottom: 30% !important;
+        left: 1rem;
+    }
+    #banner-contato.banner {
+        height: 350px !important;
+    }
+    #fale-conosco .form {
+        border-right: 2px solid !important;
+        border-color: rgba(81, 119, 148, .3) !important
+    }
+}
+
 #modal-vaga {
     background-color: rgba(0, 0, 0, .15) !important;
 }
