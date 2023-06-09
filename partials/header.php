@@ -64,9 +64,9 @@ $root = $_SERVER['DOCUMENT_ROOT'];
                                 <li class="nav-item dropdown">
                                     <a class="nav-link pe-3 me-4 dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Momento</a>
                                     <ul class="dropdown-menu" aria-labelledby="dropdown01">
-                                        <li><a class="dropdown-item" href="#">Já estou em portugal e quero tracionar</a></li>
                                         <li><a class="dropdown-item" href="#">Quero conhecer</a></li>
                                         <li><a class="dropdown-item" href="#">Já decidi e quero avançar</a></li>
+                                        <li><a class="dropdown-item" href="#">Já estou em portugal e quero tracionar</a></li>
                                     </ul>
                                 </li>
                                 <li class="nav-item">

@@ -63,7 +63,7 @@
     z-index: 10;
 }
 
-.navbar a {
+.navbar a.nav-link {
     color: #2583E2 !important;
 }
 
@@ -341,9 +341,27 @@
 
 /* DESKTOP */
 
-
-
 @media screen and (min-width: 992px) {
+    .dropdown-menu {
+        text-align: start !important;
+    }
+
+    .dropdown-item {
+        background-color: #2583E2 !important;
+        color: #fff !important;
+        padding: .25rem 1rem !important;
+        border-radius: 35px !important;
+        margin-bottom: .65rem !important;
+        display: inline-block !important;
+        width: auto !important;
+    }
+
+    .dropdown-item:hover {
+        background-color: #fff !important;
+        color: #2583E2 !important;
+        transition: .3s ease-out !important;
+    }
+
     .text-banner p {
         max-width: 40% !important;
     }
