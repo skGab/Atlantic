@@ -84,7 +84,7 @@ body {
     color: var(--text-dark);
   }
 
-  #cotacao {
+  header:first-child {
     background-color: #051129;
     .taxa {
       color: #99ccee;
@@ -100,6 +100,36 @@ body {
   }
 
   main {
+    #contato {
+      background-color: #e1e5ec;
+
+      h2 {
+        color: #2583e2;
+      }
+
+      form {
+        input::placeholder,
+        textarea::placeholder {
+          color: #517794;
+          font-style: italic;
+        }
+
+        input,
+        textarea {
+          border: none;
+          border-bottom: 1px solid #517794;
+        }
+
+        select{
+          font-size: 13px;
+          font-style: italic;
+        }
+
+        button {
+          color: #517794;
+        }
+      }
+    }
   }
 
   footer {
@@ -117,7 +147,7 @@ body {
       background-color: #ffffff;
     }
 
-    .letter{
+    .letter {
       letter-spacing: 1px;
     }
   }

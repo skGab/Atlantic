@@ -1,3 +1,52 @@
+<?php
+$current_page =  $_SERVER['REQUEST_URI'];
+if ($current_page == "/index.php" or $current_page == "/pages/quem-somos.php") : ?>
+    <!-- CONTATO -->
+    <section id="contato" class="py-5">
+        <div class="container px-4 py-5">
+            <div class="row">
+                <div class="col-12 mb-5">
+                    <h2 class="h1">QUER FALAR COM <br> ESPECIALISTA PARA A INTERNACIONALIZAÇÃO?</h2>
+                    <figure>
+                        <img loading="lazy" class="img-fluid" src="../assets/images/banner_contato.png" alt="Thumb contato">
+                    </figure>
+                </div>
+
+                <div class="col-12">
+                    <form>
+                        <div class="mb-3">
+                            <input placeholder="Nome Completo*" type="text" class="form-control bg-transparent" id="name" aria-describedby="nameHelp">
+                        </div>
+
+                        <div class="mb-3">
+                            <input placeholder="Seu e-mail*" type="email" class="form-control bg-transparent" id="email" aria-describedby="emailHelp">
+                        </div>
+
+                        <div class="mb-4">
+                            <input placeholder="Telefone*" type="tel" class="form-control bg-transparent" id="tel" aria-describedby="nameHelp">
+                        </div>
+
+                        <select class="form-select mb-5 px-2" aria-label="Motivo do contato">
+                            <option selected>Motivo do contato</option>
+                            <option value="motivo1">motivo1</option>
+                            <option value="motivo2">motivo2</option>
+                            <option value="motivo3">motivo3</option>
+                        </select>
+
+                        <div class="mb-3">
+                            <textarea class="form-control bg-transparent" placeholder="Mensagem*" id="mensagem" style="height: 100px"></textarea>
+                        </div>
+
+                        <button type="submit" class="bg-transparent border-0 btn d-flex align-items-center">
+                            ENVIAR
+                            <img loading="lazy" class="img-fluid ms-3" src="../assets/icons/seta-direita-contato.svg" alt="Seta Direita">
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+<?php endif ?>
 </main>
 
 <!-- FOOTER -->
