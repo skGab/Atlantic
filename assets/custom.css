@@ -270,3 +270,34 @@
 #noticias img {
     object-fit: cover;
 }
+
+#autor .box {
+    position: absolute;
+    bottom: -.75rem;
+    left: 0rem;
+    width: 91px;
+    height: 75px;
+    z-index: 1 !important;
+    background-color: rgba(37, 131, 226, 1);
+}
+
+#autor .img-autor {
+    position: relative;
+    z-index: 2 !important;
+}
+
+#autor p {
+    line-height: 15.5px;
+}
+
+#comentarios .img-comentario-autor {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#comentarios .icon-plugin {
+    width: 20px;
+    height: 20px;
+}
