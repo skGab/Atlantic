@@ -20,6 +20,11 @@ $root = $_SERVER['DOCUMENT_ROOT'];
     <!-- Bootstrap JS -->
     <script src="assets/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
+    <!-- SPLINE -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" integrity="sha256-5uKiXEwbaQh9cgd2/5Vp6WmMnsUr3VZZw0a8rKnOKNU=" crossorigin="anonymous">
+
+    <script defer src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js" integrity="sha256-FZsW7H2V5X9TGinSjjwYJ419Xka27I8XPDmWryGlWtw=" crossorigin="anonymous"></script>
+
     <!-- STYLE -->
     <link rel="stylesheet" href="assets/css/compressed/style.min.css">
     <link rel="stylesheet" href="assets/font.css">

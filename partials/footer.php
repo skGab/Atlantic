@@ -129,6 +129,37 @@ if ($current_page == "/index.php" or $current_page == "/pages/quem-somos.php") :
     </div>
 </footer>
 
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var splide_eventos = new Splide('#splide_eventos', {
+            type: 'loop',
+            perPage: 2,
+            gap: -60,
+            pagination: false,
+            focus: 'center',
+        });
+        splide_eventos.mount();
+
+        var splide_videos = new Splide('#splide_videos', {
+            type: 'loop',
+            perPage: 1,
+            pagination: false,
+            focus: 'center',
+        });
+        splide_videos.mount();
+
+        var splide_parceiros = new Splide('#splide_parceiros', {
+            type: 'loop',
+            perPage: 3,
+            pagination: false,
+            focus: 'center',
+            autoWidth: true,
+            gap: 40,
+        });
+        splide_parceiros.mount();
+    });
+</script>
+
 </body>
 
 </html>
