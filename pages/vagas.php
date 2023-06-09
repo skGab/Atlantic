@@ -221,7 +221,7 @@ require("../partials/header.php");
                 </form>
             </div>
 
-            <div class="col-lg-6 col-12 ps-lg-5 px-0 position-relative mt-lg-0 mt-2">
+            <div class="col-lg-6 col-12 ps-lg-5 px-0 position-relative mt-lg-0 mt-5">
                 <div class="box"></div>
                 <img class="img-cover" src="../assets/images/img-form-candidatura.jpg" alt="Sala de trabalho">
             </div>
