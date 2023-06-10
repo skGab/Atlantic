@@ -47,39 +47,39 @@ $root = $_SERVER['DOCUMENT_ROOT'];
 
                         <div class="collapse navbar-collapse px-lg-0 px-4 col-lg-5" id="menu">
                             <ul class="navbar-nav ms-lg-auto me-lg-0 ms-0 me-auto text-end mb-lg-0 mb-2">
-                                <button class="navbar-toggler border-0 text-end pe-1 my-4 w-25 ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
+                                <button class="navbar-toggler border-0 text-end pe-2 mt-3 mb-4 w-25 ms-auto me-2" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
                                     <span class="material-symbols-outlined text-white" style="font-size: 42px; font-weight: 200;">
                                         close
                                     </span>
                                 </button>
                                 <li class="nav-item">
-                                    <a class="nav-link pe-3 me-4" href="#">Home</a>
+                                    <a class="nav-link pe-3 me-lg-4" href="#">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link pe-3 me-4" href="#">Quem somos</a>
+                                    <a class="nav-link pe-3 me-lg-4" href="#">Quem somos</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link pe-3 me-4" href="#">Estudo de Mercado</a>
+                                    <a class="nav-link pe-3 me-lg-4" href="#">Estudo de Mercado</a>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link pe-3 me-4 dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Momento</a>
+                                    <a class="nav-link pe-3 me-lg-4 dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Momento</a>
                                     <ul class="dropdown-menu" aria-labelledby="dropdown01">
-                                        <li><a class="dropdown-item" href="#">Quero conhecer</a></li>
-                                        <li><a class="dropdown-item" href="#">Já decidi e quero avançar</a></li>
-                                        <li><a class="dropdown-item" href="#">Já estou em portugal e quero tracionar</a></li>
+                                        <li><a class="dropdown-item pe-lg-2 pe-3" href="#">Quero conhecer</a></li>
+                                        <li><a class="dropdown-item pe-lg-2 pe-3" href="#">Já decidi e quero avançar</a></li>
+                                        <li><a class="dropdown-item pe-lg-2 pe-3" href="#">Já estou em portugal e quero tracionar</a></li>
                                     </ul>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link pe-3 me-4" href="#">Ecossistema</a>
+                                    <a class="nav-link pe-3 me-lg-4" href="#">Ecossistema</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link pe-3 me-4" href="#">Blog</a>
+                                    <a class="nav-link pe-3 me-lg-4" href="#">Blog</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link pe-3 me-4" href="#">Contato</a>
+                                    <a class="nav-link pe-3 me-lg-4" href="#">Contato</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link pe-3 me-4" href="#">Vagas</a>
+                                    <a class="nav-link pe-3 me-lg-4" href="#">Vagas</a>
                                 </li>
                                 <li class="nav-item d-lg-block d-none">
                                     <a class="nav-link pt-2" type="button" data-bs-toggle="modal" data-bs-target="#search-modal">
@@ -89,7 +89,7 @@ $root = $_SERVER['DOCUMENT_ROOT'];
                             </ul>
                             <form class="search-form mb-5 pb-5 col-lg-2 d-lg-none d-flex">
                                 <input class="form-control search-form-input" type="text" placeholder="Pesquisar" aria-label="Pesquisar">
-                                <img src="assets/icons/icon-search-white.svg" alt="">
+                                <img src="../assets/icons/icon-search-white.svg" alt="">
                             </form>
                         </div>
                     </div>
