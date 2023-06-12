@@ -4,11 +4,21 @@ require $root . '/partials/header.php';
 ?>
 
 <!-- QUEM SOMOS -->
-<section id="quem-somos">
+<section id="quem-somos" class="py-5">
     <div class="container px-4 py-5">
         <div class="row">
-            <div class="col-12">
-                <h1>QUEM <strong>SOMOS</strong></h1>
+            <div class="col-12 text-white">
+                <div class="title position-relative">
+                    <h1 class="display-3 mb-4 text-white">QUEM <br>
+                        <strong class="fw-bold">SOMOS</strong>
+                    </h1>
+
+                    <h2 class="display-3 mb-4 text-white position-absolute fw-bold">
+                        QUEM <br>
+                        <strong class="fw-bold">SOMOS</strong>
+                    </h2>
+                </div>
+
                 <p>Fundada em 2016, a Atlantic Hub é uma empresa global, com sede em Lisboa (Portugal) e em São Paulo (Brasil), especializada em fomentar negócios e parcerias dentro do ecossistema de empresas e startups luso-brasileiras.
                 </p>
 
@@ -16,62 +26,68 @@ require $root . '/partials/header.php';
 
                 <p>Contamos com uma equipe de especialistas altamente preparada e qualificada para auxiliar a sua empresa a alcançar suas metas e objetivos.</p>
             </div>
-
-            <figure class="col-12 mb-0">
-                <img loading="lazy" class="img-fluid" src="" alt="Video Quem Somos">
-            </figure>
         </div>
+    </div>
+</section>
 
+<!-- FOCO -->
+<section id="foco" class="pb-5">
+    <div class="container px-4 pb-5">
         <div class="row">
+            <figure class="col-12 mb-4 text-center">
+                <img loading="lazy" class="img-fluid" src="../assets/images/video-quem-somos.png" alt="Video Quem Somos">
+            </figure>
 
-            <div class="col-12">
-                <h2 class="h1 fw-bold">O foco da nossa caminhada
+            <div class="col-12 text-center text-white mb-4">
+                <h2 class="h1 fw-bold mb-3">O foco da nossa <br>
+                    caminhada <br>
                     <span class="fw-light">#Propósito</span>
                 </h2>
 
                 <p>A Atlantic Hub nasceu para sanar uma dor do mercado na qual os empresários enfrentam no processo de internacionalização de suas empresas, e muitas vezes desistem retornando para o seu país de origem. A Atlantic Hub nasce para derrubar as barreiras da expansão de negócios para a Europa, via Portugal.</p>
             </div>
 
-            <div class="col-12">
-                <div class="card py-5">
-                    <img src="" class="card-img-top" alt="Icone Valores">
-                    <div class="card-body">
-                        <h5 class="card-title">Valores
+            <div class="col-12 px-4">
+                <div class="card px-3 py-5 text-center">
+                    <img src="../assets/icons/valores_icone.png" width="26px" class="mx-auto" alt="Icone Valores">
+                    <div class="card-body ">
+                        <h3 class="card-title mb-3 fw-bold">Valores <br>
                             (Como agimos?)</h5>
-                        <p class="card-text">A Atlantic Hub possui como maior princípio saber ouvir o cliente para servi-lo da melhor maneira possível, e trabalhar com ética e foco nos objetivos da empresa cliente.</p>
+                            <p class="card-text">A Atlantic Hub possui como maior princípio saber ouvir o cliente para servi-lo da melhor maneira possível, e trabalhar com ética e foco nos objetivos da empresa cliente.</p>
                     </div>
                 </div>
             </div>
 
-            <div class="col-12">
-                <div class="card py-5">
-                    <img src="" class="card-img-top" alt="Icone Visão">
-                    <div class="card-body">
-                        <h5 class="card-title">Visão
+            <div class="col-12 px-4 my-5">
+                <div class="card px-3 py-5 text-center">
+                    <img src="../assets/icons/visao_icone.png" width="36px" class="mx-auto" alt="Icone Visão">
+                    <div class="card-body ">
+                        <h3 class="card-title mb-3 fw-bold">Visão
+                            <br>
                             (Onde queremos chegar?)</h5>
-                        <p class="card-text">Desejamos nos tornar a maior empresa em número de empresas auxiliadas em seu processo de expansão internacional em Portugal;</p>
+                            <p class="card-text">Desejamos nos tornar a maior empresa em número de empresas auxiliadas em seu processo de expansão internacional em Portugal;</p>
                     </div>
                 </div>
             </div>
 
-            <div class="col-12">
-                <div class="card py-5">
-                    <img src="" class="card-img-top" alt="Icone Missão">
-                    <div class="card-body">
-                        <h5 class="card-title">Missão
+            <div class="col-12 px-4 mb-5">
+                <div class="card px-3 py-5 text-center">
+                    <img src="../assets/icons/missao_icone.png" width="37px" class="mx-auto" alt="Icone Missão">
+                    <div class="card-body ">
+                        <h3 class="card-title mb-3 fw-bold">Missão <br>
                             (Qual o nosso compromisso?)</h5>
-                        <p class="card-text">Alcançar os objetivos de 100% dos nossos clientes, sendo muitas vezes pegar "nos braços" ou "no colo" em seu extremo, ou seja, "vestirmos a camisa" da empresa do cliente como se fossemos mesmo parte dela.</p>
+                            <p class="card-text">Alcançar os objetivos de 100% dos nossos clientes, sendo muitas vezes pegar "nos braços" ou "no colo" em seu extremo, ou seja, "vestirmos a camisa" da empresa do cliente como se fossemos mesmo parte dela.</p>
                     </div>
                 </div>
             </div>
 
-            <div class="col-12">
-                <div class="card py-5">
-                    <img src="" class="card-img-top" alt="Icone Posicionamento">
-                    <div class="card-body">
-                        <h5 class="card-title">Posicionamento
+            <div class="col-12 px-4">
+                <div class="card px-3 py-5 text-center">
+                    <img src="../assets/icons/posicionamento_icone.png" width="40px" class="mx-auto" alt="Icone Posicionamento">
+                    <div class="card-body ">
+                        <h3 class="card-title mb-3 fw-bold">Posicionamento <br>
                             (Como nos diferenciamos?)</h5>
-                        <p class="card-text">Nosso diferencial é possuirmos um processo de internacionalização empresarial completo, com um cuidado especial e jeito Atlantic Hub humano nosso de ser.</p>
+                            <p class="card-text">Nosso diferencial é possuirmos um processo de internacionalização empresarial completo, com um cuidado especial e jeito Atlantic Hub humano nosso de ser.</p>
                     </div>
                 </div>
             </div>
@@ -83,16 +99,16 @@ require $root . '/partials/header.php';
 <section id="cta">
     <div class="container px-4 py-5">
         <div class="row">
-            <div class="col">
-                <h2>Pronto para internacionalizar sua empresa?</h2>
-                <a href=""><img src="" alt="Seta para direita"></a>
+            <div class="col text-center">
+                <h2 class="display-3 mb-4">Pronto para internacionalizar sua empresa?</h2>
+                <a href=""><img loading="lazy" src="../assets/icons/seta_internacionalizar.png" alt="Seta para direita"></a>
             </div>
         </div>
     </div>
 </section>
 
 <!-- NOSSA EQUIPE -->
-<section id="nossa-equipe">
+<section id="nossa-equipe" class="bg-secondary">
     <div class="container px-4 py-5">
         <div class="row mb-5">
             <div class="col-12">
