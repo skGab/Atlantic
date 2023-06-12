@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
   const pageName = window.location.pathname;
 
+  // SLIDES HOME
   if (pageName === '/' || pageName === '/index.php') {
     var splide_eventos = new Splide('#splide_eventos', {
       type: 'loop',
@@ -30,6 +31,7 @@ document.addEventListener('DOMContentLoaded', function () {
     splide_parceiros.mount();
   }
 
+  // SLIDES QUEM SOMOS
   if (pageName === '/pages/quem-somos.php') {
     var splide_equipe = new Splide('#splide_equipe', {
       // type: 'loop',
@@ -52,6 +54,20 @@ document.addEventListener('DOMContentLoaded', function () {
     splide_cases.mount();
   }
 
+  // SLIDES MARKETFIT
+  if (pageName === '/pages/atlantic-marketfit.php') {
+    var splide_potencial = new Splide('#splide_potencial', {
+      type: 'loop',
+      perPage: 3,
+      pagination: false,
+      focus: 'center',
+      autoWidth: true,
+      gap: 40,
+    });
+    splide_potencial.mount();
+  }
+
+  // ANIMAÇÃO MENU
   window.addEventListener('scroll', function () {
     const header = document.getElementById('header');
     const scrollTop = window.scrollY || document.documentElement.scrollTop;

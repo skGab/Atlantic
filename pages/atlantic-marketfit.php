@@ -8,8 +8,15 @@ require $root . '/partials/header.php';
     <div class="container px-4 py-5">
         <div class="row">
             <div class="col-12 text-white py-4">
-                <h1 class="display-1 mb-2 text-white">ATLANTIC MARKETFIT
-                </h1>
+
+                <div class="title position-relative">
+                    <h1 class="display-1 mb-2 text-white">ATLANTIC MARKETFIT
+                    </h1>
+
+                    <h2 class="display-3 mb-4 text-white position-absolute fw-bold">
+                        ATLANTIC MARKETFIT
+                    </h2>
+                </div>
                 <p class="mb-4">O estudo detalhado sobre o mercado e <br> relatório de aderência, elaborado por <br> profissionais experientes e <br> especializados.
                 </p>
                 <a class="text-white border px-3 py-2" href="">ADQUIRA AGORA</a>
@@ -21,13 +28,13 @@ require $root . '/partials/header.php';
 <!-- POTENCIAL -->
 <section id="potencial">
     <div class="container px-4 py-5">
-        <div class="row">
-            <figure class="col mb-0">
-                <img loading="lazy" class="img-fluid" src="" alt="Thumb seção">
+        <div class="row ">
+            <figure class="col mb-0 position-relative">
+                <img loading="lazy" class="img-fluid position-absolute start-50 translate-middle" src="../assets/images/potencial_thumb.png" alt="Thumb seção">
             </figure>
 
-            <div class="col-12">
-                <h2>Qual é o potencial da sua empresa para a internacionalização?</h2>
+            <div class="col-12 pt-5 mb-5">
+                <h2 class="display-5 fw-bold mt-4 mb-3">Qual é o potencial da sua empresa para a internacionalização?</h2>
                 <p>O diagnóstico é o primeiro passo da internacionalização. Você precisa de informações específicas relacionadas aos seus produtos ou serviços, em relação ao mercado português.
                     <span>
                         <strong>
@@ -39,9 +46,23 @@ require $root . '/partials/header.php';
             </div>
 
             <div class="col-12">
-                <h2>Junte-se às empresas que usam e confiam no Atlantic Marketfit</h2>
+                <h2 class="display-5 fw-bold mb-5">Junte-se às empresas que usam e confiam no Atlantic Marketfit</h2>
 
-                *carousel com empresas
+                <section id="splide_potencial" class="splide" aria-label="Splide Potencial">
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <li class="splide__slide">
+                                <img loading="lazy" src="../assets/images/logo_footer3.png" class="img-fluid" alt="Logo Conexão">
+                            </li>
+                            <li class="splide__slide">
+                                <img loading="lazy" src="../assets/images/logo-vertical-blackbeans.png" class="img-fluid" alt="Logo BlackBeans">
+                            </li>
+                            <li class="splide__slide">
+                                <img loading="lazy" src="../assets/images/logo_bossanova.png" class="img-fluid" alt="Logo Bossanova">
+                            </li>
+                        </ul>
+                    </div>
+                </section>
             </div>
         </div>
     </div>

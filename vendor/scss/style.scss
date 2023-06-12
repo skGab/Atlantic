@@ -425,6 +425,8 @@ body {
     // PAGINA ATLANTIC MARKETFIT
     .intro-marketfit {
       background-image: url(../../images/banner_marketfit.png) !important;
+      background-size: cover;
+      background-repeat: no-repeat;
       min-height: 701px;
       h1 {
         font-family: 'Futura PT' !important;
@@ -433,6 +435,21 @@ body {
 
       a {
         border-radius: 30px;
+      }
+
+      .title > h2 {
+        left: 80px !important;
+        top: 100px;
+      }
+    }
+
+    #potencial {
+      h2 {
+        color: var(--title-blue);
+      }
+      padding-top: 5rem;
+      figure {
+        top: -150px;
       }
     }
   }
