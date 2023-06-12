@@ -310,6 +310,10 @@ body {
     }
 
     #foco {
+      h2 > span {
+        font-weight: 300!important;
+      }
+
       background-color: #517794;
 
       figure {
@@ -318,7 +322,7 @@ body {
 
       .card {
         border-radius: 30px;
-        box-shadow: 1px 2px 20px rgba(33, 33, 33, 0.783);
+        box-shadow: 1px 2px 8px rgba(65, 65, 65, 0.783);
         h3 {
           color: #2699fb;
         }
@@ -331,6 +335,72 @@ body {
 
       h2 {
         color: #2583e2;
+      }
+    }
+
+    #nossa-equipe {
+      background-color: #051129;
+      color: var(--title-blue);
+
+      h2 {
+        color: var(--title-blue-2);
+      }
+
+      .desc {
+        max-width: 300px;
+      }
+
+      .col-5 {
+        z-index: 1;
+      }
+
+      .detail {
+        z-index: 0;
+        left: -8px;
+        top: 25px;
+      }
+    }
+
+    #dados {
+      background-color: #e1e5ec;
+      h3 {
+        color: var(--title-blue-2);
+      }
+
+      strong {
+        color: var(--title-blue);
+      }
+
+      figure {
+        z-index: 0;
+        img {
+          z-index: 0;
+        }
+      }
+
+      .col-6 {
+        z-index: 2;
+      }
+    }
+
+    #cases {
+      background-color: var(--text-white);
+      color: #517794;
+      .info {
+        p {
+          max-width: 300px;
+        }
+      }
+    }
+
+    #nossos-parceiros {
+      background-color: var(--text-white);
+      color: var(--title-blue-2);
+    }
+
+    #nossos-parceiros {
+      .gap-bottom {
+        gap: 1rem 0;
       }
     }
   }

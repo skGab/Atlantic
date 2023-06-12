@@ -1,6 +1,6 @@
 <?php
 $current_page =  $_SERVER['REQUEST_URI'];
-if ($current_page == "/index.php" or $current_page == "/pages/quem-somos.php") : ?>
+if ($current_page == "/index.php" or $current_page == "/pages/quero-conhecer.php") : ?>
     <!-- CONTATO -->
     <section id="contato" class="py-5">
         <div class="container px-4 py-5">
@@ -131,32 +131,52 @@ if ($current_page == "/index.php" or $current_page == "/pages/quem-somos.php") :
 
 <script>
     document.addEventListener('DOMContentLoaded', function() {
-        var splide_eventos = new Splide('#splide_eventos', {
-            type: 'loop',
-            perPage: 2,
-            gap: -60,
-            pagination: false,
-            focus: 'center',
-        });
-        splide_eventos.mount();
+        // var splide_eventos = new Splide('#splide_eventos', {
+        //     type: 'loop',
+        //     perPage: 2,
+        //     gap: -60,
+        //     pagination: false,
+        //     focus: 'center',
+        // });
+        // splide_eventos.mount();
 
-        var splide_videos = new Splide('#splide_videos', {
-            type: 'loop',
+        // var splide_videos = new Splide('#splide_videos', {
+        //     type: 'loop',
+        //     perPage: 1,
+        //     pagination: false,
+        //     focus: 'center',
+        // });
+        // splide_videos.mount();
+
+        // var splide_parceiros = new Splide('#splide_parceiros', {
+        //     type: 'loop',
+        //     perPage: 3,
+        //     pagination: false,
+        //     focus: 'center',
+        //     autoWidth: true,
+        //     gap: 40,
+        // });
+        // splide_parceiros.mount();
+
+        var splide_equipe = new Splide('#splide_equipe', {
+            // type: 'loop',
             perPage: 1,
             pagination: false,
             focus: 'center',
+            autoWidth: true,
+            // gap: 40,
         });
-        splide_videos.mount();
+        splide_equipe.mount();
 
-        var splide_parceiros = new Splide('#splide_parceiros', {
-            type: 'loop',
-            perPage: 3,
+        var splide_cases = new Splide('#splide_cases', {
+            // type: 'loop',
+            perPage: 1,
             pagination: false,
             focus: 'center',
             autoWidth: true,
-            gap: 40,
+            // gap: 40,
         });
-        splide_parceiros.mount();
+        splide_cases.mount();
     });
 </script>
 

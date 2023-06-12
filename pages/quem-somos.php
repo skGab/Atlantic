@@ -41,7 +41,7 @@ require $root . '/partials/header.php';
             <div class="col-12 text-center text-white mb-4">
                 <h2 class="h1 fw-bold mb-3">O foco da nossa <br>
                     caminhada <br>
-                    <span class="fw-light">#Propósito</span>
+                    <span class="fw-light"># PROPÓSITO</span>
                 </h2>
 
                 <p>A Atlantic Hub nasceu para sanar uma dor do mercado na qual os empresários enfrentam no processo de internacionalização de suas empresas, e muitas vezes desistem retornando para o seu país de origem. A Atlantic Hub nasce para derrubar as barreiras da expansão de negócios para a Europa, via Portugal.</p>
@@ -108,205 +108,261 @@ require $root . '/partials/header.php';
 </section>
 
 <!-- NOSSA EQUIPE -->
-<section id="nossa-equipe" class="bg-secondary">
+<section id="nossa-equipe">
     <div class="container px-4 py-5">
         <div class="row mb-5">
             <div class="col-12">
-                <h2>NOSSA EQUIPE</h2>
+                <h2 class="h1 mb-5">NOSSA EQUIPE</h2>
             </div>
 
-            <div class="col-12">
-                <img loading="lazy" class="mb-5" src="" alt="Foto Equipe">
-                <h3>EDUARDO MIGLIORELLI</h3>
-                <h5>CEO / CO-FOUNDER</h5>
-                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                    officia deserunt mollit anim id est laborum. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                    officia deserunt mollit anim id est laborum. </p>
-            </div>
+            <section id="splide_equipe" class="splide" aria-label="Splide Equipe">
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        <li class="splide__slide text-center">
+                            <figure class="mb-4">
+                                <img loading="lazy" class="img-fluid" src="../assets/images/equipe/thumb_eduardo.png" alt="Foto Eduardo">
+                                <div class="box"></div>
+                            </figure>
 
-            <figure class="col mb-0">
-                <a href="" target="_blank">
-                    <img loading="lazy" class="img-fluid" src="" alt="Icone Facebook">
-                </a>
-                <a href="" target="_blank">
-                    <img loading="lazy" class="img-fluid" src="" alt="Icone Instagram">
-                </a>
-                <a href="" target="_blank">
-                    <img loading="lazy" class="img-fluid" src="" alt="Icone Twitter">
-                </a>
-            </figure>
+                            <div class="info mb-5">
+                                <h3 class="fw-bold h5">EDUARDO MIGLIORELLI</h3>
+                                <p>CEO / CO-FOUNDER</p>
+                                <p class="text-center mx-auto desc">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                                    officia deserunt mollit anim id est laborum. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                                    officia deserunt mollit anim id est laborum. </p>
+                            </div>
+
+                            <figure class="col mb-0">
+                                <a href="" target="_blank">
+                                    <img loading="lazy" class="img-fluid" src="../assets/icons/facebook.svg" alt="Icone Facebook">
+                                </a>
+                                <a href="" target="_blank" class="mx-2">
+                                    <img loading="lazy" class="img-fluid" src="../assets/icons/instagram.svg" alt="Icone Instagram">
+                                </a>
+                                <a href="" target="_blank">
+                                    <img loading="lazy" class="img-fluid" src="../assets/icons/twitter.svg" alt="Icone Twitter">
+                                </a>
+                            </figure>
+                        </li>
+                    </ul>
+                </div>
+            </section>
         </div>
 
-        <div class="row">
-            <div class="col-6">
-                <img loading="lazy" class="img-fluid" src="" alt="Foto equipe">
+        <div class="row text-center align-items-center justify-content-center py-5 position-relative">
+
+            <div class="detail position-absolute p-0">
+                <img loading="lazy" class="w-100" src="../assets/images/atlantic-detail.png" alt="Atlantic Team">
             </div>
-            <div class="col-6">
-                <img loading="lazy" class="img-fluid" src="" alt="Foto equipe">
+
+            <div class="col-5 text-end">
+                <img loading="lazy" class="img-fluid" src="../assets/images/equipe/equipe1.png" alt="Foto equipe">
             </div>
-            <div class="col-6">
-                <img loading="lazy" class="img-fluid" src="" alt="Foto equipe">
+            <div class="col-5 text-start">
+                <img loading="lazy" class="img-fluid" src="../assets/images/equipe/equipe2.png" alt="Foto equipe">
             </div>
-            <div class="col-6">
-                <img loading="lazy" class="img-fluid" src="" alt="Foto equipe">
+            <div class="col-5 text-end my-4">
+                <img loading="lazy" class="img-fluid" src="../assets/images/equipe/equipe3.png" alt="Foto equipe">
             </div>
-            <div class="col-6">
-                <img loading="lazy" class="img-fluid" src="" alt="Foto equipe">
+            <div class="col-5 text-start my-4">
+                <img loading="lazy" class="img-fluid" src="../assets/images/equipe/equipe4.png" alt="Foto equipe">
             </div>
-            <div class="col-6">
-                <img loading="lazy" class="img-fluid" src="" alt="Foto equipe">
+            <div class="col-5 text-end">
+                <img loading="lazy" class="img-fluid" src="../assets/images/equipe/equipe5.png" alt="Foto equipe">
+            </div>
+            <div class="col-5 text-start">
+                <img loading="lazy" class="img-fluid" src="../assets/images/equipe/equipe6.png" alt="Foto equipe">
             </div>
         </div>
     </div>
 </section>
 
 <!-- DADOS -->
-<section id="dados">
-    <div class="container px-4 py-5">
+<section id="dados" class="position-relative">
+    <figure class="mb-0 position-absolute top-50 start-50 translate-middle">
+        <img loading="lazy" src="../assets/images/nossos-numeros.png" alt="Nossos numeros">
+    </figure>
+
+    <div class="container px-4 py-5 text-center">
         <div class="row">
-            <div class="col-6">
-                <h3>Fundação</h3>
-                <strong>2016</strong>
+            <div class="col-6 mb-4">
+                <h3 class="h6 mb-0">FUNDAÇÃO</h3>
+                <strong class="fw-bold h1">2016</strong>
             </div>
-            <div class="col-6">
-                <h3>Empresários levados à Portugal</h3>
-                <strong>+800</strong>
+
+            <div class="col-6 mb-4">
+                <h3 class="h6 mb-0">CLIENTES</h3>
+                <strong class="fw-bold h1">110</strong>
             </div>
+
             <div class="col-6">
-                <h3>Clientes</h3>
-                <strong>110</strong>
+                <h3 class="h6 mb-0">EMPRESÁRIOS <br> LEVADOS À PORTUGAL</h3>
+                <strong class="fw-bold h1">+800</strong>
             </div>
+
             <div class="col-6">
-                <h3>Rede de contatoS</h3>
-                <strong>+ 30 mil</strong>
+                <h3 class="h6 mb-0">REDE DE <br> CONTATOS</h3>
+                <strong class="fw-bold h1">+ 30 mil</strong>
             </div>
         </div>
     </div>
 </section>
 
 <!-- CASES DE SUCESSO -->
-<section id="cases-sucesso">
-    <div class="container px-4 py-2">
+<section id="cases">
+    <div class="container px-4 py-4">
         <div class="row">
-            <div class="col">
-                <h2>CASES DE SUCESSO</h2>
-                <p>Confiram abaixo as empresas que confiaram no nosso trabalho!
+            <div class="col mb-5">
+                <h2 class="h1 mb-4">CASES <br> DE SUCESSO</h2>
+                <p class="mb-0">Confiram abaixo as empresas que confiaram no nosso trabalho!
                 </p>
             </div>
 
-            <div class="col-12">
-                <h3>*carossel com cases</h3>
-            </div>
+            <section id="splide_cases" class="splide" aria-label="Splide Cases">
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        <li class="splide__slide">
+                            <figure class="mb-4 text-center">
+                                <img loading="lazy" class="img-fluid" src="../assets/images/cases/conquest_logo.png" alt="Logo Conquest">
+                            </figure>
 
-            <div class="col-12 mt-4">
-                <h3>TCIA</h3>
-                <p>A TCIA é uma empresa com sede em Brasília e possui uma excelente expertise na gestão de estoques voltada para a área de engenharia de operações e manutenção para a infraestrutura de redes de telecomunicações. Por meio do programa Atlantic MarketFit, a Atlantic Hub avaliou todas as oportunidades de mercado para construir a entrada da empresa em território europeu com todas as fases do Scale Out. Criamos um modelo de negócios e, atualmente, nos encontramos na etapa da abertura da empresa e realização de visitas comerciais, a fim de construir um networking eficiente e promissor para a empresa.
-                </p>
-            </div>
+                            <div class="info px-5 text-start px-5">
+                                <h3>TCIA</h3>
+                                <p>A TCIA é uma empresa com sede em Brasília e possui uma excelente expertise na gestão de estoques voltada para a área de engenharia de operações e manutenção para a infraestrutura de redes de telecomunicações. Por meio do programa Atlantic MarketFit, a Atlantic Hub avaliou todas as oportunidades de mercado para construir a entrada da empresa em território europeu com todas as fases do Scale Out. Criamos um modelo de negócios e, atualmente, nos encontramos na etapa da abertura da empresa e realização de visitas comerciais, a fim de construir um networking eficiente e promissor para a empresa.
+                                </p>
+                            </div>
+                        </li>
+
+                        <li class="splide__slide">
+                            <figure class="mb-4 text-center">
+                                <img loading="lazy" class="img-fluid" src="../assets/images/cases/tcia_logo.png" alt="Logo TCIA">
+                            </figure>
+
+                            <div class="info px-5 text-start">
+                                <h3>TCIA</h3>
+                                <p>A TCIA é uma empresa com sede em Brasília e possui uma excelente expertise na gestão de estoques voltada para a área de engenharia de operações e manutenção para a infraestrutura de redes de telecomunicações. Por meio do programa Atlantic MarketFit, a Atlantic Hub avaliou todas as oportunidades de mercado para construir a entrada da empresa em território europeu com todas as fases do Scale Out. Criamos um modelo de negócios e, atualmente, nos encontramos na etapa da abertura da empresa e realização de visitas comerciais, a fim de construir um networking eficiente e promissor para a empresa.
+                                </p>
+                            </div>
+                        </li>
+
+                        <li class="splide__slide">
+                            <figure class="mb-4 text-center">
+                                <img loading="lazy" class="img-fluid" src="../assets/images/cases/brain_logo.png" alt="Logo Brain">
+                            </figure>
+
+                            <div class="info px-5 text-start">
+                                <h3>TCIA</h3>
+                                <p>A TCIA é uma empresa com sede em Brasília e possui uma excelente expertise na gestão de estoques voltada para a área de engenharia de operações e manutenção para a infraestrutura de redes de telecomunicações. Por meio do programa Atlantic MarketFit, a Atlantic Hub avaliou todas as oportunidades de mercado para construir a entrada da empresa em território europeu com todas as fases do Scale Out. Criamos um modelo de negócios e, atualmente, nos encontramos na etapa da abertura da empresa e realização de visitas comerciais, a fim de construir um networking eficiente e promissor para a empresa.
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
         </div>
     </div>
 </section>
 
 <!-- NOSSOS PARCEIROS -->
-<section id="nossos-parceiros">
+<section id="nossos-parceiros" class="pb-5">
     <div class="container px-4 py-5">
-        <div class="row">
+        <div class="row gap-bottom">
             <div class="col-12">
-                <h2>NOSSOS PARCEIROS</h2>
+                <h2 class="h1 mb-4">NOSSOS <br> PARCEIROS</h2>
             </div>
 
-            <figure class="col-4 mb-0">
-                <img loading="lazy" class="img-fluid" src="" alt="Thumb parceiro">
+            <figure class="col-4">
+                <img loading="lazy" class="img-fluid" src="../assets/images/parceiros/federacao_logo.png" alt="Logo Federação">
             </figure>
             <figure class="col-4 mb-0">
-                <img loading="lazy" class="img-fluid" src="" alt="Thumb parceiro">
+                <img loading="lazy" class="img-fluid" src="../assets/images/parceiros/bauc_logo.png" alt="Logo Bauc">
             </figure>
             <figure class="col-4 mb-0">
-                <img loading="lazy" class="img-fluid" src="" alt="Thumb parceiro">
+                <img loading="lazy" class="img-fluid" src="../assets/images/parceiros/nodap_logo.png" alt="Logo Nodap">
             </figure>
             <figure class="col-4 mb-0">
-                <img loading="lazy" class="img-fluid" src="" alt="Thumb parceiro">
+                <img loading="lazy" class="img-fluid" src="../assets/images/parceiros/portugal_logo.png" alt="Logo Portugal Ventures">
             </figure>
             <figure class="col-4 mb-0">
-                <img loading="lazy" class="img-fluid" src="" alt="Thumb parceiro">
+                <img loading="lazy" class="img-fluid" src="../assets/images/parceiros/nacionalidade_logo.png" alt="Logo Nacionalidade">
             </figure>
             <figure class="col-4 mb-0">
-                <img loading="lazy" class="img-fluid" src="" alt="Thumb parceiro">
+                <img loading="lazy" class="img-fluid" src="../assets/images/parceiros/conexao_logo.png" alt="Logo Conexão Europa">
             </figure>
             <figure class="col-4 mb-0">
-                <img loading="lazy" class="img-fluid" src="" alt="Thumb parceiro">
+                <img loading="lazy" class="img-fluid" src="../assets/images/parceiros/blackbeans_logo.png" alt="Logo Black Beans">
             </figure>
             <figure class="col-4 mb-0">
-                <img loading="lazy" class="img-fluid" src="" alt="Thumb parceiro">
+                <img loading="lazy" class="img-fluid" src="../assets/images/parceiros/salomao_logo.png" alt="Logo Brasil Salomão">
             </figure>
             <figure class="col-4 mb-0">
-                <img loading="lazy" class="img-fluid" src="" alt="Thumb parceiro">
+                <img loading="lazy" class="img-fluid" src="../assets/images/parceiros/bossanova_logo.png" alt="Logo Bossanova">
             </figure>
             <figure class="col-4 mb-0">
-                <img loading="lazy" class="img-fluid" src="" alt="Thumb parceiro">
+                <img loading="lazy" class="img-fluid" src="../assets/images/parceiros/euro_logo.png" alt="Logo EuroDicas">
             </figure>
             <figure class="col-4 mb-0">
-                <img loading="lazy" class="img-fluid" src="" alt="Thumb parceiro">
+                <img loading="lazy" class="img-fluid" src="../assets/images/parceiros/martinhal_logo.png" alt="Logo Martinhal">
             </figure>
             <figure class="col-4 mb-0">
-                <img loading="lazy" class="img-fluid" src="" alt="Thumb parceiro">
+                <img loading="lazy" class="img-fluid" src="../assets/images/parceiros/logo_random3.png" alt="Logo Câmara">
             </figure>
             <figure class="col-4 mb-0">
-                <img loading="lazy" class="img-fluid" src="" alt="Thumb parceiro">
+                <img loading="lazy" class="img-fluid" src="../assets/images/parceiros/por_logo.png" alt="Logo Camara">
             </figure>
             <figure class="col-4 mb-0">
-                <img loading="lazy" class="img-fluid" src="" alt="Thumb parceiro">
+                <img loading="lazy" class="img-fluid" src="../assets/images/parceiros/camara_logo.png" alt="Logo Camara">
             </figure>
             <figure class="col-4 mb-0">
-                <img loading="lazy" class="img-fluid" src="" alt="Thumb parceiro">
+                <img loading="lazy" class="img-fluid" src="../assets/images/parceiros/logo_random.png" alt="Logo Camara">
             </figure>
             <figure class="col-4 mb-0">
-                <img loading="lazy" class="img-fluid" src="" alt="Thumb parceiro">
+                <img loading="lazy" class="img-fluid" src="../assets/images/parceiros/investsp_logo.png" alt="Logo Invest SP">
             </figure>
             <figure class="col-4 mb-0">
-                <img loading="lazy" class="img-fluid" src="" alt="Thumb parceiro">
+                <img loading="lazy" class="img-fluid" src="../assets/images/parceiros/digitalks_logo.png" alt="Logo Digitalks">
             </figure>
             <figure class="col-4 mb-0">
-                <img loading="lazy" class="img-fluid" src="" alt="Thumb parceiro">
+                <img loading="lazy" class="img-fluid" src="../assets/images/parceiros/world.png" alt="Logo World">
             </figure>
             <figure class="col-4 mb-0">
-                <img loading="lazy" class="img-fluid" src="" alt="Thumb parceiro">
+                <img loading="lazy" class="img-fluid" src="../assets/images/parceiros/itescs_logo.png" alt="Logo Itescs">
             </figure>
             <figure class="col-4 mb-0">
-                <img loading="lazy" class="img-fluid" src="" alt="Thumb parceiro">
+                <img loading="lazy" class="img-fluid" src="../assets/images/parceiros/celepar_logo.png" alt="Logo Celepar">
             </figure>
             <figure class="col-4 mb-0">
-                <img loading="lazy" class="img-fluid" src="" alt="Thumb parceiro">
+                <img loading="lazy" class="img-fluid" src="../assets/images/parceiros/sae_logo.png" alt="Logo SAE BRASIL">
             </figure>
             <figure class="col-4 mb-0">
-                <img loading="lazy" class="img-fluid" src="" alt="Thumb parceiro">
+                <img loading="lazy" class="img-fluid" src="../assets/images/parceiros/ourinvest_logo.png" alt="Logo OURINVEST">
             </figure>
             <figure class="col-4 mb-0">
-                <img loading="lazy" class="img-fluid" src="" alt="Thumb parceiro">
+                <img loading="lazy" class="img-fluid" src="../assets/images/parceiros/abcasa_logo.png" alt="Logo ABCCASA">
             </figure>
             <figure class="col-4 mb-0">
-                <img loading="lazy" class="img-fluid" src="" alt="Thumb parceiro">
+                <img loading="lazy" class="img-fluid" src="../assets/images/parceiros/inodev_logo.png" alt="Logo INODEV">
+            </figure>
+            <figur class="col-4 mb-0" e>
+                <img loading="lazy" class="img-fluid" src="../assets/images/parceiros/conselho_logo.png" alt="Logo Conselho">
+            </figur>
+            <figure class="col-4 mb-0">
+                <img loading="lazy" class="img-fluid" src="../assets/images/parceiros/logo_random2.png" alt="Logo Casa de Portugal">
             </figure>
             <figure class="col-4 mb-0">
-                <img loading="lazy" class="img-fluid" src="" alt="Thumb parceiro">
+                <img loading="lazy" class="img-fluid" src="../assets/images/parceiros/fcj_logo.png" alt="Logo FCJ">
             </figure>
             <figure class="col-4 mb-0">
-                <img loading="lazy" class="img-fluid" src="" alt="Thumb parceiro">
+                <img loading="lazy" class="img-fluid" src="../assets/images/parceiros/abd_logo.png" alt="Logo ABDi">
             </figure>
             <figure class="col-4 mb-0">
-                <img loading="lazy" class="img-fluid" src="" alt="Thumb parceiro">
+                <img loading="lazy" class="img-fluid" src="../assets/images/parceiros/hakingrio_logo.png" alt="Logo Hacking Rio">
             </figure>
             <figure class="col-4 mb-0">
-                <img loading="lazy" class="img-fluid" src="" alt="Thumb parceiro">
+                <img loading="lazy" class="img-fluid" src="../assets/images/parceiros/startup_logo.png" alt="Logo Startupi">
             </figure>
             <figure class="col-4 mb-0">
-                <img loading="lazy" class="img-fluid" src="" alt="Thumb parceiro">
-            </figure>
-            <figure class="col-4 mb-0">
-                <img loading="lazy" class="img-fluid" src="" alt="Thumb parceiro">
-            </figure>
-            <figure class="col-4 mb-0">
-                <img loading="lazy" class="img-fluid" src="" alt="Thumb parceiro">
+                <img loading="lazy" class="img-fluid" src="../assets/images/parceiros/logo_mds.png" alt="Logo MDS">
             </figure>
         </div>
     </div>
