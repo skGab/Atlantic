@@ -30,8 +30,8 @@ $root = $_SERVER['DOCUMENT_ROOT'];
     <link rel="stylesheet" href="../assets/font.css">
     <link rel="stylesheet" href="../assets/custom.css">
 
-  <!-- Google Fonts Icons -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <!-- Google Fonts Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 
 <body>
@@ -123,10 +123,8 @@ $root = $_SERVER['DOCUMENT_ROOT'];
                 </div>
             </nav>
         </div>
-      </nav>
-    </div>
-  </header>
-      
+    </header>
+
     <!-- Modal -->
     <div class="modal fade" id="search-modal" tabindex="-1" aria-labelledby="searchModal" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
@@ -139,9 +137,7 @@ $root = $_SERVER['DOCUMENT_ROOT'];
                 </div>
             </div>
         </div>
-      </div>
     </div>
-  </div>
 
-  <!-- MAIN CONTENT -->
-  <main id="main">
+    <!-- MAIN CONTENT -->
+    <main id="main">

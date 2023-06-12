@@ -86,7 +86,7 @@ body {
   h1 {
     color: var(--text-dark);
   }
-  
+
   header:first-child {
     background-color: #051129;
     .taxa {
@@ -307,51 +307,51 @@ body {
         font-weight: bold;
         opacity: 20%;
       }
+    }
 
-      #foco {
-        background-color: #517794;
+    #foco {
+      background-color: #517794;
 
-        figure {
-          margin-top: -5rem;
-        }
-
-        .card {
-          border-radius: 30px;
-          box-shadow: 1px 2px 20px rgba(33, 33, 33, 0.783);
-          h3 {
-            color: #2699fb;
-          }
-          background-color: #e3f3ff;
-        }
+      figure {
+        margin-top: -5rem;
       }
 
-      #cta {
-        background-color: #e1e5ec;
-
-        h2 {
-          color: #2583e2;
+      .card {
+        border-radius: 30px;
+        box-shadow: 1px 2px 20px rgba(33, 33, 33, 0.783);
+        h3 {
+          color: #2699fb;
         }
+        background-color: #e3f3ff;
       }
     }
 
-    footer {
-      background-color: var(--bg-dark);
+    #cta {
+      background-color: #e1e5ec;
 
-      .text-white-footer {
-        color: #dfe1e4;
+      h2 {
+        color: #2583e2;
       }
+    }
+  }
 
-      .space {
-        margin-bottom: 2rem;
-      }
+  footer {
+    background-color: var(--bg-dark);
 
-      .patrocineo {
-        background-color: #ffffff;
-      }
+    .text-white-footer {
+      color: #dfe1e4;
+    }
 
-      .letter {
-        letter-spacing: 1px;
-      }
+    .space {
+      margin-bottom: 2rem;
+    }
+
+    .patrocineo {
+      background-color: #ffffff;
+    }
+
+    .letter {
+      letter-spacing: 1px;
     }
   }
 }
