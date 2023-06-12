@@ -63,7 +63,7 @@ $root = $_SERVER['DOCUMENT_ROOT'];
             <nav class="navbar navbar-light navbar-expand-lg bg-white py-0" aria-label="First navbar example">
                 <div class="container-fluid px-lg-5 px-2">
                     <div class="row justify-content-between align-items-center w-100 mx-0">
-                        <a class="navbar-brand col-lg-1 px-lg-0 col-5" href="#">
+                        <a class="navbar-brand col-lg-1 px-lg-0 col-5" href="/">
                             <img class="d-block w-100" src="../assets/images/atlantic_logo.png" alt="Logo Atlantic Hub">
                         </a>
                         <button class="navbar-toggler border-0 col-3" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
@@ -80,13 +80,13 @@ $root = $_SERVER['DOCUMENT_ROOT'];
                                     </span>
                                 </button>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Home</a>
+                                    <a class="nav-link" href="/">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Quem somos</a>
+                                    <a class="nav-link" href="/pages/quem-somos.php">Quem somos</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Estudo de Mercado</a>
+                                    <a class="nav-link" href="/pages/atlantic-marketfit.php">Estudo de Mercado</a>
                                 </li>
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Momento</a>

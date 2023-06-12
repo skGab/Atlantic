@@ -4,7 +4,7 @@ require $root . '/partials/header.php';
 ?>
 
 <!-- QUEM SOMOS -->
-<section id="quem-somos" class="py-5">
+<section id="megaheader" class="py-5">
     <div class="container px-4 py-5">
         <div class="row">
             <div class="col-12 text-white">
@@ -38,10 +38,10 @@ require $root . '/partials/header.php';
                 <img loading="lazy" class="img-fluid" src="../assets/images/video-quem-somos.png" alt="Video Quem Somos">
             </figure>
 
-            <div class="col-12 text-center text-white mb-4">
-                <h2 class="h1 fw-bold mb-3">O foco da nossa <br>
+            <div class="title col-12 text-center text-white mb-4">
+                <h2 class="h1 fw-normal mb-3">O foco da nossa <br>
                     caminhada <br>
-                    <span class="fw-light"># PROPÓSITO</span>
+                    <span class="fw-light small"># PROPÓSITO</span>
                 </h2>
 
                 <p>A Atlantic Hub nasceu para sanar uma dor do mercado na qual os empresários enfrentam no processo de internacionalização de suas empresas, e muitas vezes desistem retornando para o seu país de origem. A Atlantic Hub nasce para derrubar as barreiras da expansão de negócios para a Europa, via Portugal.</p>

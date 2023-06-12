@@ -3,15 +3,16 @@ $root = $_SERVER['DOCUMENT_ROOT'];
 require $root . '/partials/header.php';
 ?>
 
-<!-- BANNER INTRO -->
-<section id="banner-intro">
+<!-- INTRO MARKETFIT -->
+<section id="megaheader" class="py-5 intro-marketfit">
     <div class="container px-4 py-5">
         <div class="row">
-            <div class="col">
-                <h1>ATLANTIC <br> MARKETFIT</h1>
-                <p>O estudo detalhado sobre o mercado e relatório de aderência, elaborado por profissionais experientes e especializados.
+            <div class="col-12 text-white py-4">
+                <h1 class="display-1 mb-2 text-white">ATLANTIC MARKETFIT
+                </h1>
+                <p class="mb-4">O estudo detalhado sobre o mercado e <br> relatório de aderência, elaborado por <br> profissionais experientes e <br> especializados.
                 </p>
-                <a class="btn btn-primary" href="">ADQUIRA AGORA</a>
+                <a class="text-white border px-3 py-2" href="">ADQUIRA AGORA</a>
             </div>
         </div>
     </div>

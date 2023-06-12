@@ -1,6 +1,6 @@
 <?php
 $current_page =  $_SERVER['REQUEST_URI'];
-if ($current_page == "/index.php" or $current_page == "/pages/quero-conhecer.php") : ?>
+if ($current_page == "/index.php" or $current_page == '/' or $current_page == "/pages/quero-conhecer.php") : ?>
     <!-- CONTATO -->
     <section id="contato" class="py-5">
         <div class="container px-4 py-5">
