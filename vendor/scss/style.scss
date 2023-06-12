@@ -1,11 +1,12 @@
-@import '/assets/font.css';
-
 :root {
   --background: #f5f5f5;
   --text-dark: #020c15;
   --text-white: #ffffff;
   --text-portal: #0eb0ee;
-  --title-blue: #006db6;
+  --bg-blue: #e1e5ec;
+  --bg-dark: #051129;
+  --title-blue: #2583e2;
+  --title-blue-2: #517794;
   --title-form: #003365;
 }
 
@@ -66,7 +67,7 @@ body {
   @media screen and (min-width: 1200px) {
     .container {
       max-width: 1260px;
-      width: 90%;
+      width: 80%;
     }
   }
 }
@@ -85,40 +86,272 @@ body {
   h1 {
     color: var(--text-dark);
   }
-
-  #quem-somos {
-    background-image: url(../../images/banner_quem-somos.webp);
-
-    .title > h2 {
-      left: 30px;
-      top: 20px;
-      font-weight: bold;
-      opacity: 20%;
-    }
-  }
-
-  #foco {
-    background-color: #517794;
-
-    figure {
-      margin-top: -5rem;
+  
+  header:first-child {
+    background-color: #051129;
+    .taxa {
+      color: #99ccee;
     }
 
-    .card {
-      border-radius: 30px;
-      box-shadow: 1px 2px 20px rgba(33, 33, 33, 0.783);
-      h3 {
-        color: #2699fb;
+    .horario {
+      background-color: #2583e2;
+      strong {
+        font-size: 12px;
+        letter-spacing: 0.8px;
       }
-      background-color: #e3f3ff;
     }
   }
 
-  #cta{
-    background-color: #e1e5ec;
+  main {
+    #intro {
+      .carousel-item {
+        button {
+          border: 1px solid white;
+          border-radius: 20px;
 
-    h2{
-      color: #2583E2;
+          a {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+
+    #momento_empresa {
+      background-color: var(--bg-blue);
+      h2 {
+        color: var(--title-blue-2);
+      }
+      .h5 {
+        color: var(--title-blue-2);
+      }
+
+      .card {
+        max-width: 246px;
+        border-radius: 10px;
+        background: none;
+        border: none;
+        box-shadow: 1px 2px 4px rgba(128, 128, 128, 0.308);
+
+        .box {
+          top: -20px;
+          left: -20px;
+          width: 100px;
+          height: 100px;
+          background-color: var(--title-blue);
+        }
+
+        figure {
+          z-index: 0;
+          img {
+            filter: grayscale(100%);
+          }
+          h3 {
+            top: 30px;
+            z-index: 2;
+          }
+        }
+
+        .card-body {
+          color: var(--title-blue-2);
+          width: 100%;
+          border-radius: 10px;
+          z-index: 2;
+          margin-top: -30px;
+          background-color: var(--background);
+        }
+
+        .ajuste {
+          margin-top: -50px;
+        }
+
+        button {
+          border-radius: 20px;
+          border-color: var(--title-blue);
+          color: var(--title-blue);
+          font-size: 13px;
+          letter-spacing: 0.8px;
+          width: 85%;
+        }
+      }
+    }
+
+    #falar_especialistas {
+      background-color: var(--bg-dark);
+      .bg {
+        background-color: var(--bg-blue);
+        .card {
+          background-color: var(--title-blue);
+          border-radius: 0;
+          left: 0;
+          top: -60px;
+          width: 80%;
+
+          button {
+            border-radius: 20px;
+            font-size: 13px;
+          }
+        }
+      }
+
+      .noticias {
+        .card {
+          border-radius: 0;
+          background-color: #051129;
+          p {
+            font-size: 14px;
+            letter-spacing: 0.5px;
+            color: var(--text-white);
+            border-radius: 20px;
+            padding: 0.2rem 0.5rem;
+            width: fit-content;
+            background-color: #517794;
+          }
+
+          h3 {
+            color: var(--title-blue);
+          }
+        }
+      }
+    }
+
+    #blog_home {
+      background-color: var(--bg-blue);
+      color: var(--title-blue-2);
+
+      .card {
+        .box {
+          top: -10px;
+          right: 0;
+          background-color: #2583e2;
+          width: 50px;
+          height: 50px;
+          z-index: 2;
+        }
+
+        img {
+          z-index: 0;
+          filter: grayscale(100%);
+        }
+
+        p {
+          width: fit-content;
+          background-color: var(--title-blue-2);
+          border-radius: 20px;
+          letter-spacing: 0.5px;
+        }
+
+        h4 {
+          color: var(--title-blue);
+        }
+      }
+    }
+
+    #depoimentos {
+      background-color: var(--bg-dark);
+
+      h2 {
+        color: var(--title-blue-2);
+      }
+    }
+
+    #videos {
+      h2 {
+        color: var(--title-blue-2);
+      }
+
+      #splide_videos {
+        img {
+          filter: grayscale(80%);
+        }
+      }
+    }
+
+    #contato {
+      background-color: var(--bg-blue);
+
+      h2 {
+        color: #2583e2;
+      }
+
+      form {
+        input::placeholder,
+        textarea::placeholder {
+          color: var(--title-blue-2);
+          font-style: italic;
+        }
+
+        input,
+        textarea {
+          border: none;
+          border-bottom: 1px solid var(--title-blue-2);
+        }
+
+        select {
+          font-size: 13px;
+          font-style: italic;
+        }
+
+        button {
+          color: var(--title-blue-2);
+        }
+      }
+    }
+
+    // PAGINA QUEM SOMOS
+    #quem-somos {
+      background-image: url(../../images/banner_quem-somos.webp);
+
+      .title > h2 {
+        left: 30px;
+        top: 20px;
+        font-weight: bold;
+        opacity: 20%;
+      }
+
+      #foco {
+        background-color: #517794;
+
+        figure {
+          margin-top: -5rem;
+        }
+
+        .card {
+          border-radius: 30px;
+          box-shadow: 1px 2px 20px rgba(33, 33, 33, 0.783);
+          h3 {
+            color: #2699fb;
+          }
+          background-color: #e3f3ff;
+        }
+      }
+
+      #cta {
+        background-color: #e1e5ec;
+
+        h2 {
+          color: #2583e2;
+        }
+      }
+    }
+
+    footer {
+      background-color: var(--bg-dark);
+
+      .text-white-footer {
+        color: #dfe1e4;
+      }
+
+      .space {
+        margin-bottom: 2rem;
+      }
+
+      .patrocineo {
+        background-color: #ffffff;
+      }
+
+      .letter {
+        letter-spacing: 1px;
+      }
     }
   }
 }
