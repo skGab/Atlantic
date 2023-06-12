@@ -11,14 +11,14 @@ $root = $_SERVER['DOCUMENT_ROOT'];
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- <meta name="description" content=""> -->
-    <link rel="shortcut icon" href="assets/icons/fav-icon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../assets/icons/fav-icon.png" type="image/x-icon">
     <title>Atlantic Hub</title>
 
     <!-- Bootstrap CSS -->
-    <link href="assets/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Bootstrap JS -->
-    <script src="assets/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
     <!-- SPLINE -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" integrity="sha256-5uKiXEwbaQh9cgd2/5Vp6WmMnsUr3VZZw0a8rKnOKNU=" crossorigin="anonymous">
@@ -26,9 +26,9 @@ $root = $_SERVER['DOCUMENT_ROOT'];
     <script defer src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js" integrity="sha256-FZsW7H2V5X9TGinSjjwYJ419Xka27I8XPDmWryGlWtw=" crossorigin="anonymous"></script>
 
     <!-- STYLE -->
-    <link rel="stylesheet" href="assets/css/compressed/style.min.css">
-    <link rel="stylesheet" href="assets/font.css">
-    <link rel="stylesheet" href="assets/custom.css">
+    <link rel="stylesheet" href="../assets/css/compressed/style.min.css">
+    <link rel="stylesheet" href="../assets/font.css">
+    <link rel="stylesheet" href="../assets/custom.css">
 
     <!-- Google Fonts Icons -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
@@ -64,7 +64,7 @@ $root = $_SERVER['DOCUMENT_ROOT'];
                 <div class="container-fluid px-lg-5 px-2">
                     <div class="row justify-content-between align-items-center w-100 mx-0">
                         <a class="navbar-brand col-lg-1 px-lg-0 col-5" href="#">
-                            <img class="d-block w-100" src="assets/images/atlantic_logo.png" alt="Logo Atlantic Hub">
+                            <img class="d-block w-100" src="../assets/images/atlantic_logo.png" alt="Logo Atlantic Hub">
                         </a>
                         <button class="navbar-toggler border-0 col-3" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="material-symbols-outlined" style="font-size: 40px; font-weight: 300;">
@@ -110,13 +110,13 @@ $root = $_SERVER['DOCUMENT_ROOT'];
                                 </li>
                                 <li class="nav-item d-lg-block d-none">
                                     <a class="nav-link" type="button" data-bs-toggle="modal" data-bs-target="#search-modal">
-                                        <img src="assets/icons/icon-search-blue.svg" alt="">
+                                        <img src="../assets/icons/icon-search-blue.svg" alt="">
                                     </a>
                                 </li>
                             </ul>
                             <form class="search-form mb-5 pb-5 col-lg-2 d-lg-none d-flex">
                                 <input class="form-control search-form-input" type="text" placeholder="Pesquisar" aria-label="Pesquisar">
-                                <img src="assets/icons/icon-search-white.svg" alt="">
+                                <img src="../assets/icons/icon-search-white.svg" alt="">
                             </form>
                         </div>
                     </div>
@@ -132,7 +132,7 @@ $root = $_SERVER['DOCUMENT_ROOT'];
                 <div class="modal-body">
                     <form class="search-form-modal mb-5 pb-5 d-flex">
                         <input class="form-control search-form-input-modal" type="text" placeholder="Escreva aqui..." aria-label="Pesquisar">
-                        <img src="assets/icons/icon-search-blue.svg" alt="">
+                        <img src="../assets/icons/icon-search-blue.svg" alt="">
                     </form>
                 </div>
             </div>
