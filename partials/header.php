@@ -91,7 +91,7 @@ $root = $_SERVER['DOCUMENT_ROOT'];
                                     <a class="nav-link" href="/pages/atlantic-marketfit.php">Estudo de Mercado</a>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link pe-3 me-lg-4 dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Momento</a>
+                                    <a class="nav-link pe-3 me-lg-4 dropdown-toggle" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Momento</a>
                                     <ul class="dropdown-menu" aria-labelledby="dropdown01">
                                         <li><a class="dropdown-item pe-lg-2 pe-3" href="#">Quero conhecer</a></li>
                                         <li><a class="dropdown-item pe-lg-2 pe-3" href="#">Já decidi e quero avançar</a></li>
@@ -99,16 +99,16 @@ $root = $_SERVER['DOCUMENT_ROOT'];
                                     </ul>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link pe-3 me-lg-4" href="#">Ecossistema</a>
+                                    <a class="nav-link pe-3 me-lg-4" href="/pages/ecossistema.php">Ecossistema</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link pe-3 me-lg-4" href="#">Blog</a>
+                                    <a class="nav-link pe-3 me-lg-4" href="/pages/blog.php">Blog</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link pe-3 me-lg-4" href="#">Contato</a>
+                                    <a class="nav-link pe-3 me-lg-4" href="/pages/contato.php">Contato</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link pe-3 me-lg-4" href="#">Vagas</a>
+                                    <a class="nav-link pe-3 me-lg-4" href="/pages/vagas.php">Vagas</a>
                                 </li>
                                 <li class="nav-item d-lg-block d-none">
                                     <a class="nav-link" type="button" data-bs-toggle="modal" data-bs-target="#search-modal">
