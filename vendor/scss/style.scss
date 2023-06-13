@@ -91,13 +91,43 @@ body {
     background-color: #051129;
     .taxa {
       color: #99ccee;
+
+      @media screen and (min-width: 768px) {
+        strong {
+          letter-spacing: 1.5px;
+        }
+      }
     }
 
     .horario {
+      @media screen and (min-width: 768px) {
+        width: fit-content;
+      }
+
       background-color: var(--title-blue);
       strong {
         font-size: 12px;
         letter-spacing: 0.8px;
+      }
+    }
+
+    @media screen and (min-width: 768px) {
+      .col-6 {
+        width: fit-content;
+      }
+    }
+  }
+
+  header:nth-child(2) {
+    @media screen and (min-width: 768px) {
+      a {
+        font-size: 12px;
+      }
+    }
+
+    .navbar-brand {
+      img {
+        max-width: 130px;
       }
     }
   }
@@ -113,6 +143,13 @@ body {
     // PAGINA INICIAL
     #intro {
       .carousel-item {
+        .desk,
+        .mob {
+          min-height: 600px;
+          max-height: 600px;
+          object-fit: cover;
+        }
+
         h1 {
           strong {
             font-family: 'Futura PT' !important;
@@ -126,6 +163,10 @@ body {
           a {
             font-size: 14px;
           }
+        }
+
+        .carousel-caption {
+          left: 8%;
         }
       }
     }

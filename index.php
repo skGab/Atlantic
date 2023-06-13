@@ -5,25 +5,26 @@ require $root . '/partials/header.php';
 
 <!-- intro -->
 <section id="intro">
-    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="false">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img loading="lazy" src="./assets/images/banner_home1.png" class="d-block w-100" alt="Banner Home 1">
+                <img loading="lazy" src="./assets/images/banner_home_mob.png" class="mob d-block w-100 d-sm-none" alt="Banner Home Mobile">
+                <img loading="lazy" src="./assets/images/banner_home_desk.png" class="desk w-100 d-none d-sm-block" alt="Banner Home Desktop">
 
                 <div class="text-white carousel-caption text-start mb-5 pb-5">
                     <div class="mb-3">
                         <button class="px-0 py-0 border-0 bg-transparent me-3" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-                            <img loading="lazy" class="img-fluid" src="./assets/icons/seta_sem_preenchida.svg" alt="Seta esquerda">
+                            <img loading="lazy" class="w-100" src="./assets/icons/seta_sem_preenchida.svg" alt="Seta esquerda">
                         </button>
 
                         <button class="px-0 py-0 border-0 bg-transparent" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-                            <img loading="lazy" class="img-fluid" src="./assets/icons/seta_preenchida.svg" alt="Seta direita">
+                            <img loading="lazy" class="w-100" src="./assets/icons/seta_preenchida.svg" alt="Seta direita">
                         </button>
                     </div>
 
-                    <p class="small mb-2">Acesse e conquiste o mercado Português e Europeu com todo o nosso suporte em todas as etapas de</p>
+                    <p class="small mb-2">Acesse e conquiste o mercado Português e Europeu <br class="d-none d-lg-block"> com todo o nosso suporte em todas as etapas de</p>
 
-                    <h1 class="h2 text-white mb-3">
+                    <h1 class="h3 text-white mb-3">
                         <strong>
                             INTERNACIONALIZAÇÃO
                         </strong> <br>
@@ -39,7 +40,8 @@ require $root . '/partials/header.php';
             </div>
 
             <div class="carousel-item">
-                <img loading="lazy" src="./assets/images/banner_home2.png" class="d-block w-100" alt="Banner Home 1">
+                <img loading="lazy" src="./assets/images/banner_home_mob2.png" class="mob d-block w-100 d-sm-none" alt="Banner Home Mobile">
+                <img loading="lazy" src="./assets/images/banner_home_desk2.png" class="desk d-block w-100 d-none d-sm-block" alt="Banner Home Desktop">
 
                 <div class="text-white carousel-caption text-start mb-5 pb-5">
                     <div class="mb-3">
@@ -70,7 +72,8 @@ require $root . '/partials/header.php';
             </div>
 
             <div class="carousel-item">
-                <img loading="lazy" src="./assets/images/banner_home3.png" class="d-block w-100" alt="Banner Home 3">
+                <img loading="lazy" src="./assets/images/banner_home_mob3.png" class="mob d-block w-100 d-sm-none" alt="Banner Home 3">
+                <img loading="lazy" src="./assets/images/banner_home_desk3.png" class="desk d-block w-100 d-none d-sm-block" alt="Banner Home 3">
 
                 <div class="text-white carousel-caption text-start mb-5 pb-5">
                     <div class="mb-3">

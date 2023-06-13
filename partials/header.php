@@ -37,17 +37,17 @@ $root = $_SERVER['DOCUMENT_ROOT'];
 <body>
     <!-- HEADER -->
     <header id="cotacao">
-        <div class="container px-4 py-2">
-            <div class="row align-items-center justify-content-between">
-                <div class="taxa col-6">
-                    <strong class="small text-white me-1">
+        <div class="container px-4 px-md-0 py-2">
+            <div class="row align-items-center justify-content-between justify-content-md-end">
+                <div class="taxa col-6 col-md-3 text-md-end">
+                    <strong class="small text-white me-1 fw-bold">
                         € Cotação
                     </strong>
                     R$5,56489
                 </div>
 
-                <div class="col-6 px-1">
-                    <div class="horario text-center text-white py-1 rounded">
+                <div class="col-6 col-md-3 px-1">
+                    <div class="horario text-center text-white px-md-3 py-1 rounded ms-md-auto">
                         <strong class="small">
                             HORÁRIO DE LISBOA
                         </strong>
@@ -58,22 +58,24 @@ $root = $_SERVER['DOCUMENT_ROOT'];
         </div>
     </header>
 
-    <header id="header" class="position-fixed w-100" style="top:55; left:0;">
+    <header id="header" class="position-fixed w-100" style="top:55px; left:0;">
         <div class="px-lg-5 px-3 mt-2">
             <nav class="navbar navbar-light navbar-expand-lg bg-white py-0" aria-label="First navbar example">
-                <div class="container-fluid px-lg-5 px-2">
+                <div class="container-fluid px-2 px-md-4 px-lg-3">
                     <div class="row justify-content-between align-items-center w-100 mx-0">
                         <a class="navbar-brand col-lg-1 px-lg-0 col-5" href="/">
-                            <img class="d-block w-100" src="../assets/images/atlantic_logo.png" alt="Logo Atlantic Hub">
+                            <img class="d-block img-fluid" src="../assets/images/atlantic_logo.png" alt="Logo Atlantic Hub">
                         </a>
-                        <button class="navbar-toggler border-0 col-3" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
+
+                        <button class="navbar-toggler border-0 col-3 text-end" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="material-symbols-outlined" style="font-size: 40px; font-weight: 300;">
                                 menu
                             </span>
                         </button>
 
-                        <div class="collapse navbar-collapse px-4 col-lg-5" id="menu">
-                            <ul class="navbar-nav ms-lg-auto me-lg-0 ms-0 me-auto text-end mb-lg-0 mb-2">
+                        <div class="collapse navbar-collapse px-4 px-md-0 col-lg-5" id="menu">
+                            <ul class="navbar-nav ms-lg-auto me-lg-0 ms-0 me-auto text-end mb-lg-0 mb-2 gap-xl-2 gap-xxl-3 gap-md-1 align-items-lg-center">
+
                                 <button class="navbar-toggler border-0 text-end pe-1 my-4 w-25 ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
                                     <span class="material-symbols-outlined text-white" style="font-size: 42px; font-weight: 200;">
                                         close
