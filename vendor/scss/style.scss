@@ -1,11 +1,12 @@
-@import '/assets/font.css';
-
 :root {
   --background: #f5f5f5;
   --text-dark: #020c15;
   --text-white: #ffffff;
   --text-portal: #0eb0ee;
-  --title-blue: #006db6;
+  --bg-blue: #e1e5ec;
+  --bg-dark: #051129;
+  --title-blue: #2583e2;
+  --title-blue-2: #517794;
   --title-form: #003365;
 }
 
@@ -66,7 +67,7 @@ body {
   @media screen and (min-width: 1200px) {
     .container {
       max-width: 1260px;
-      width: 90%;
+      width: 80%;
     }
   }
 }
@@ -84,5 +85,558 @@ body {
 
   h1 {
     color: var(--text-dark);
+  }
+
+  header:first-child {
+    background-color: #051129;
+    .taxa {
+      color: #99ccee;
+
+      @media screen and (min-width: 768px) {
+        strong {
+          letter-spacing: 1.5px;
+        }
+      }
+    }
+
+    .horario {
+      @media screen and (min-width: 768px) {
+        width: fit-content;
+      }
+
+      background-color: var(--title-blue);
+      strong {
+        font-size: 12px;
+        letter-spacing: 0.8px;
+      }
+    }
+
+    @media screen and (min-width: 768px) {
+      .col-6 {
+        width: fit-content;
+      }
+    }
+  }
+
+  header:nth-child(2) {
+    @media screen and (min-width: 768px) {
+      a {
+        font-size: 12px;
+      }
+    }
+
+    .navbar-brand {
+      img {
+        max-width: 130px;
+      }
+    }
+  }
+
+  .detail-2 {
+    color: var(--text-white);
+    font-family: 'Futura PT';
+    background-color: #2583e2;
+    border-radius: 20px;
+  }
+
+  main {
+    // PAGINA INICIAL
+    #intro {
+      .carousel-item {
+        .desk,
+        .mob {
+          min-height: 600px;
+          max-height: 600px;
+          object-fit: cover;
+        }
+
+        h1 {
+          strong {
+            font-family: 'Futura PT' !important;
+          }
+        }
+
+        button {
+          border: 1px solid white;
+          border-radius: 20px;
+
+          a {
+            font-size: 14px;
+          }
+        }
+
+        .carousel-caption {
+          left: 8%;
+        }
+      }
+    }
+
+    #momento_empresa {
+      background-color: var(--bg-blue);
+      h2 {
+        color: var(--title-blue-2);
+      }
+      .h5 {
+        color: var(--title-blue-2);
+      }
+
+      .card {
+        max-width: 246px;
+        border-radius: 10px;
+        background: none;
+        border: none;
+        box-shadow: 1px 2px 4px rgba(128, 128, 128, 0.308);
+
+        .box {
+          top: -20px;
+          left: -20px;
+          width: 100px;
+          height: 100px;
+          background-color: var(--title-blue);
+        }
+
+        figure {
+          z-index: 0;
+          img {
+            filter: grayscale(100%);
+          }
+          h3 {
+            top: 30px;
+            z-index: 2;
+          }
+        }
+
+        .card-body {
+          color: var(--title-blue-2);
+          width: 100%;
+          border-radius: 10px;
+          z-index: 2;
+          margin-top: -30px;
+          background-color: var(--background);
+        }
+
+        .ajuste {
+          margin-top: -50px;
+        }
+
+        button {
+          border-radius: 20px;
+          border-color: var(--title-blue);
+          color: var(--title-blue);
+          font-size: 13px;
+          letter-spacing: 0.8px;
+          width: 85%;
+        }
+      }
+    }
+
+    #falar_especialistas {
+      background-color: var(--bg-dark);
+      .bg {
+        background-color: var(--bg-blue);
+        .card {
+          background-color: var(--title-blue);
+          border-radius: 0;
+          left: 0;
+          top: -60px;
+          width: 80%;
+
+          button {
+            border-radius: 20px;
+            font-size: 13px;
+          }
+        }
+      }
+
+      .noticias {
+        .card {
+          border-radius: 0;
+          background-color: #051129;
+          p {
+            font-size: 14px;
+            letter-spacing: 0.5px;
+            color: var(--text-white);
+            border-radius: 20px;
+            padding: 0.2rem 0.5rem;
+            width: fit-content;
+            background-color: #517794;
+          }
+
+          h3 {
+            color: var(--title-blue);
+          }
+        }
+      }
+    }
+
+    #blog_home {
+      background-color: var(--bg-blue);
+      color: var(--title-blue-2);
+
+      .card {
+        .box {
+          top: -10px;
+          right: 0;
+          background-color: var(--title-blue);
+          width: 50px;
+          height: 50px;
+          z-index: 2;
+        }
+
+        h3,
+        a {
+          color: var(--title-blue);
+        }
+
+        img {
+          z-index: 0;
+          filter: grayscale(100%);
+        }
+
+        p {
+          width: fit-content;
+          background-color: var(--title-blue-2);
+          border-radius: 20px;
+          letter-spacing: 0.5px;
+        }
+      }
+    }
+
+    #depoimentos {
+      background-color: var(--bg-dark);
+
+      h2 {
+        color: var(--title-blue-2);
+      }
+    }
+
+    #videos {
+      h2 {
+        color: var(--title-blue-2);
+      }
+
+      #splide_videos {
+        img {
+          filter: grayscale(80%);
+        }
+      }
+    }
+
+    #contato {
+      background-color: var(--bg-blue);
+
+      h2 {
+        color: var(--title-blue);
+      }
+
+      form {
+        input::placeholder,
+        textarea::placeholder {
+          color: var(--title-blue-2);
+          font-style: italic;
+        }
+
+        input,
+        textarea {
+          border: none;
+          border-bottom: 1px solid var(--title-blue-2);
+        }
+
+        select {
+          font-size: 13px;
+          font-style: italic;
+        }
+
+        button {
+          color: var(--title-blue-2);
+        }
+      }
+    }
+
+    // PAGINA QUEM SOMOS
+    #megaheader {
+      background-image: url(../../images/banner_quem-somos.webp);
+
+      h1 > strong {
+        font-family: 'Futura PT' !important;
+      }
+
+      .title > h2 {
+        font-family: 'Futura PT' !important;
+        font-weight: bold;
+        left: 30px;
+        top: 20px;
+        opacity: 20%;
+      }
+    }
+
+    #foco {
+      h2 > span {
+        font-family: 'Futura PT';
+        letter-spacing: 3px;
+        font-size: 20px;
+      }
+
+      background-color: #517794;
+
+      figure {
+        margin-top: -5rem;
+      }
+
+      .card {
+        border-radius: 30px;
+        box-shadow: 1px 2px 8px rgba(65, 65, 65, 0.783);
+        h3 {
+          color: #2699fb;
+          letter-spacing: 1px;
+        }
+        background-color: #e3f3ff;
+      }
+    }
+
+    #cta {
+      background-color: #e1e5ec;
+
+      h2 {
+        color: var(--title-blue);
+      }
+    }
+
+    #nossa-equipe {
+      background-color: #051129;
+      color: var(--title-blue);
+
+      h2 {
+        color: var(--title-blue-2);
+      }
+
+      .desc {
+        max-width: 300px;
+      }
+
+      .col-5 {
+        z-index: 1;
+      }
+
+      .detail {
+        z-index: 0;
+        left: -8px;
+        top: 25px;
+      }
+    }
+
+    #dados {
+      background-color: #e1e5ec;
+
+      h3 {
+        color: var(--title-blue-2);
+      }
+
+      strong {
+        color: var(--title-blue);
+        font-family: 'Futura PT' !important;
+      }
+
+      figure {
+        z-index: 0;
+        img {
+          z-index: 0;
+        }
+      }
+
+      .col-6 {
+        z-index: 2;
+      }
+    }
+
+    #cases {
+      background-color: var(--text-white);
+      color: #517794;
+      .info {
+        p {
+          max-width: 300px;
+        }
+      }
+    }
+
+    #nossos-parceiros {
+      background-color: var(--text-white);
+      color: var(--title-blue-2);
+    }
+
+    #nossos-parceiros {
+      .gap-bottom {
+        gap: 1rem 0;
+      }
+    }
+
+    // PAGINA ATLANTIC MARKETFIT
+    .intro-marketfit {
+      background-image: url(../../images/banner_marketfit.png) !important;
+      background-size: cover;
+      background-repeat: no-repeat;
+      min-height: 701px;
+      h1 {
+        font-family: 'Futura PT' !important;
+        font-weight: bold;
+      }
+
+      a {
+        border-radius: 30px;
+      }
+
+      .title > h2 {
+        left: 80px !important;
+        top: 100px;
+      }
+    }
+
+    #potencial {
+      padding-bottom: 14rem;
+      padding-top: 5rem;
+
+      h2 {
+        color: var(--title-blue);
+      }
+
+      figure {
+        top: -150px;
+      }
+    }
+
+    #estudo {
+      background-color: #e3f3ff;
+      color: var(--title-blue);
+
+      figure {
+        top: -300px;
+        h2 {
+          color: var(--title-blue);
+        }
+      }
+
+      a {
+        width: fit-content;
+        font-size: 14px;
+        letter-spacing: 0.9px;
+        color: var(--title-blue);
+        border-radius: 20px;
+        border: var(--title-blue) 1px solid !important;
+      }
+    }
+
+    #thumb-secao {
+      background-color: var(--title-blue);
+
+      figure:first-child {
+        background-color: var(--text-white);
+        height: 180px;
+
+        img {
+          top: 120px;
+          margin-top: -2.5rem;
+        }
+      }
+    }
+
+    #motivos {
+      background-color: var(--text-white);
+
+      h2 {
+        color: var(--title-blue);
+      }
+
+      a {
+        color: var(--title-blue);
+        border: 1px solid var(--title-blue);
+        font-size: 14px;
+        border-radius: 20px;
+        letter-spacing: 0.5px;
+      }
+    }
+
+    #cases {
+      color: var(--title-blue-2);
+      background-color: var(--bg-dark);
+
+      div > strong {
+        color: var(--title-blue);
+        font-family: 'Futura PT';
+      }
+
+      h2:first-child {
+        opacity: 20%;
+      }
+
+      h2:nth-child(2) {
+        color: var(--title-blue);
+      }
+
+      h2:nth-child(3) {
+        opacity: 10%;
+        z-index: 0;
+        font-size: 7rem;
+        bottom: -75px;
+        left: -55px;
+      }
+
+      figure > img {
+        z-index: 2;
+      }
+    }
+
+    #cronograma {
+      background-image: url(../../images/cronograma.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+
+    #investimento {
+      color: var(--title-blue-2);
+      .container:first-child {
+        background-color: var(--text-white);
+        figure {
+          min-height: 232px !important;
+
+          img {
+            left: 0px;
+          }
+
+          h2 {
+            color: var(--title-blue-2);
+            top: 70px;
+            right: 70px;
+          }
+        }
+      }
+
+      a {
+        border: 1px solid var(--title-blue);
+        border-radius: 20px;
+        letter-spacing: 1px;
+        font-size: 14px;
+      }
+    }
+  }
+
+  footer {
+    background-color: var(--bg-dark);
+
+    .text-white-footer {
+      color: #dfe1e4;
+    }
+
+    .space {
+      margin-bottom: 2rem;
+    }
+
+    .patrocineo {
+      background-color: #ffffff;
+    }
+
+    .letter {
+      letter-spacing: 1px;
+    }
   }
 }
