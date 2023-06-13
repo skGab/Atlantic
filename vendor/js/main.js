@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function () {
       pagination: false,
       focus: 'center',
       autoWidth: true,
-      gap: 40,
+      gap: 20,
     });
     splide_parceiros.mount();
   }
@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', function () {
       pagination: false,
       focus: 'center',
       autoWidth: true,
-      gap: 40,
+      gap: 20,
     });
     splide_potencial.mount();
   }

@@ -17,7 +17,8 @@ require $root . '/partials/header.php';
                         ATLANTIC MARKETFIT
                     </h2>
                 </div>
-                <p class="mb-4">O estudo detalhado sobre o mercado e <br> relatório de aderência, elaborado por <br> profissionais experientes e <br> especializados.
+                <p class="mb-4">O estudo detalhado sobre o mercado e <br> relatório de aderência, elaborado por <br>
+                    profissionais experientes e <br> especializados.
                 </p>
                 <a class="text-white border px-3 py-2" href="">ADQUIRA AGORA</a>
             </div>
@@ -28,19 +29,22 @@ require $root . '/partials/header.php';
 <!-- POTENCIAL -->
 <section id="potencial">
     <div class="container px-4 py-5">
-        <div class="row ">
+        <div class="row">
             <figure class="col mb-0 position-relative">
                 <img loading="lazy" class="img-fluid position-absolute start-50 translate-middle" src="../assets/images/potencial_thumb.png" alt="Thumb seção">
             </figure>
 
             <div class="col-12 pt-5 mb-5">
-                <h2 class="display-5 fw-bold mt-4 mb-3">Qual é o potencial da sua empresa para a internacionalização?</h2>
-                <p>O diagnóstico é o primeiro passo da internacionalização. Você precisa de informações específicas relacionadas aos seus produtos ou serviços, em relação ao mercado português.
+                <h2 class="display-5 fw-bold mt-4 mb-3">Qual é o potencial da sua empresa para a internacionalização?
+                </h2>
+                <p>O diagnóstico é o primeiro passo da internacionalização. Você precisa de informações específicas
+                    relacionadas aos seus produtos ou serviços, em relação ao mercado português.
                     <span>
                         <strong>
                             O MarketFit
                         </strong>
-                        foi criado para coletar informações, analisar dados e fornecer um relatório de viabilidade para os seus negócios internacionais, de forma precisa e personalizada.
+                        foi criado para coletar informações, analisar dados e fornecer um relatório de viabilidade para
+                        os seus negócios internacionais, de forma precisa e personalizada.
                     </span>
                 </p>
             </div>
@@ -71,30 +75,33 @@ require $root . '/partials/header.php';
 <!-- ESTUDO -->
 <section id="estudo">
     <div class="container px-4 py-5">
-        <div class="row">
-            <div class="col-12">
-                <figure class="mb-0 d-flex">
-                    <img loading="lazy" class="img-fluid" src="" alt="Thumb">
-                    <h2>Por que devo realizar este estudo?</h2>
+        <div class="row pt-5">
+            <div class="col-12 position-relative">
+                <figure class="mb-0 d-flex position-absolute">
+                    <img loading="lazy" class="img-fluid" src="../assets/images/porque_estudo.png" alt="Thumb">
+                    <h2 class="display-5">Por que devo realizar este estudo?</h2>
                 </figure>
             </div>
 
-            <div class="col-12">
-                <figure class="d-flex mb-0">
-                    <img loading="lazy" class="img-fluid" src="" alt="O marketfit">
-                    <p>O <strong> MarketFit</strong> está preparado para apresentar as melhores soluções e possibilidades para empresários brasileiros que desejam abrir seus negócios em Portugal.</p>
-                </figure>
-            </div>
-            <div class="col-12">
-                <figure class="d-flex mb-0">
-                    <img loading="lazy" class="img-fluid" src="" alt="Equipe">
-                    <p>Uma equipe de especialistas, com larga experiência no mercado português vai oferecer um elenco de caminhos para a sua jornada de internacionalização e conduzi-lo para o próximo estágio do processo: o <strong>Atlantic Scale-out.</strong></p>
+            <div class="topicos col-12 pt-5">
+                <figure class="d-flex align-items-start gap-3 mb-0">
+                    <img loading="lazy" class="img-fluid" src="../assets/icons/plane_icon.png" alt="O marketfit">
+                    <p>O <strong class="detail-2 px-2 py-1"> MarketFit</strong> está preparado para apresentar as
+                        melhores soluções e possibilidades para empresários brasileiros que desejam abrir seus negócios
+                        em Portugal.</p>
                 </figure>
             </div>
 
-            <div class="col-12">
-                <a href="" target="_blank">CONTRATE AGORA</a>
+            <div class="topicos col-12 mb-4">
+                <figure class="d-flex mb-0 align-items-start gap-3">
+                    <img loading="lazy" class="img-fluid" src="../assets/icons/group_icon.png" alt="Equipe">
+                    <p>Uma equipe de especialistas, com larga experiência no mercado português vai oferecer um elenco de
+                        caminhos para a sua jornada de internacionalização e conduzi-lo para o próximo estágio do
+                        processo: o <strong class="detail-2 px-2 py-1">Atlantic Scale-out.</strong></p>
+                </figure>
             </div>
+
+            <a href="" class="px-3 py-2 fw-bold border" target="_blank">CONTRATE AGORA</a>
         </div>
     </div>
 </section>
@@ -118,10 +125,13 @@ require $root . '/partials/header.php';
             <div class="col">
                 <h2>Por que escolher a Atlantic Hub?</h2>
 
-                <p>Temos experiência, uma equipe especializada e metodologias para prospectar oportunidades e identificar riscos. A Atlantic Hub acompanha as empresas em todas as etapas de internacionalização.
+                <p>Temos experiência, uma equipe especializada e metodologias para prospectar oportunidades e
+                    identificar riscos. A Atlantic Hub acompanha as empresas em todas as etapas de internacionalização.
                 </p>
 
-                <p>Com um relatório completo sobre o seu segmento de atuação em Portugal,que envolve dados técnicos do mercado, comportamento da concorrência e informações relevantes da cultura empresarial do país, a decisão de internacionalizar os seus negócios será muito mais segura.</p>
+                <p>Com um relatório completo sobre o seu segmento de atuação em Portugal,que envolve dados técnicos do
+                    mercado, comportamento da concorrência e informações relevantes da cultura empresarial do país, a
+                    decisão de internacionalizar os seus negócios será muito mais segura.</p>
             </div>
 
             <div class="col-12">
@@ -189,12 +199,14 @@ require $root . '/partials/header.php';
 
             <div class="col-12">
                 <img loading="lazy" class="img-fluid" src="" alt="Icone investimento">
-                <p>Para você, empresário brasileiro, quer iniciar a jornada de internacionalização, o relatório Atlantic MarketFit requer um investimento inicial de € 1.750,00 </p>
+                <p>Para você, empresário brasileiro, quer iniciar a jornada de internacionalização, o relatório Atlantic
+                    MarketFit requer um investimento inicial de € 1.750,00 </p>
             </div>
 
             <div class="col-12">
                 <img loading="lazy" class="img-fluid" src="" alt="Icone Prazo">
-                <p>O prazo de resposta da Atlantic Hub é de 15 dias úteis, após o recebimento de todas as informações obrigatórias.</p>
+                <p>O prazo de resposta da Atlantic Hub é de 15 dias úteis, após o recebimento de todas as informações
+                    obrigatórias.</p>
             </div>
 
             <div class="col-12">
