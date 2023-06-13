@@ -1,13 +1,25 @@
 <?php
-$root = $_SERVER['DOCUMENT_ROOT'];
-require $root . '/partials/header.php';
+require('../partials/header.php');
 ?>
+
+<!-- BANNER INTRO -->
+<section id="banner-momento" class="banner justify-content-center pt-5">
+    <div class="mask-banner-dark"></div>
+    <div class="container">
+        <div class="row w-100 mx-0">
+            <div class="title-banner col-lg-1 col-12 ms-lg-5 ms-3">
+                <h1 class="text-white text-uppercase">Quero conhecer portugal para os meus negócios</h1>
+                <span class="px-5" style="line-height: 50px;">Quero conhecer portugal<br> para os <br>meus<br> negócios</span>
+            </div>
+        </div>
+    </div>
+</section>
 
 <!-- INTRO -->
 <section id="intro">
-    <div class="container px-4 py-5">
-        <div class="row">
-            <div class="col">
+    <div class="container px-4 py-4 my-2">
+        <div class="row mx-0">
+            <div class="col-12 text-primary">
                 <h3>Portugal tem sido um dos destaques da União Europeia em termos de crescimento econômico nos últimos anos.</h3>
 
                 <p>O país tem se beneficiado de políticas fiscais e monetárias prudentes, bem como de reformas estruturais que visam melhorar a competitividade e atrair investimentos estrangeiros.</p>
@@ -18,11 +30,11 @@ require $root . '/partials/header.php';
 
                 <p>Outra vantagem é que Portugal tem uma população qualificada e educada, com profissionais de diversas áreas e um sistema educacional de alta qualidade. Isso significa que é possível encontrar talentos locais para trabalhar em sua empresa e, ao mesmo tempo, contribuir para a economia local.</p>
 
-                <h2>Fale conosco e conheça as oportunidades
+                <h2 class="text-secondary fw-normal">Fale conosco e conheça as oportunidades
                     de negócios.</h2>
 
                 <figure class="mb-0">
-                    <img loading="lazy" class="img-fluid" src="" alt="Bandeira Portugal">
+                    <img loading="lazy" class="img-fluid" src="../assets/images/bandeira-portugal.png" alt="Bandeira Portugal">
                 </figure>
             </div>
         </div>
@@ -30,33 +42,51 @@ require $root . '/partials/header.php';
 </section>
 
 <!-- RELACIONADOS -->
-<section id="relacionados">
-    <div class="container px-4 py-5">
+<section id="relacionados" class="d-block bg-dark py-5">
+    <div class="container px-4 pt-5">
         <div class="row">
-            <div class="col-12">
-                <div class="card">
-                    <a href=""><img loading="lazy" src="/assets/icons/seta-direita-azul.svg" alt="Seta direita azul"></a>
-                    <div class="card-body">
-                        <h3 class="card-title">Atlantic Connection</h3>
-                        <p class="card-text">O maior evento global sobre o ecossistema Brasil e Portugal</p>
+            <div class="col-12 mb-4 pb-3">
+                <div class="card bg-transparent border-0">
+                    <div class="card-body d-flex align-items-start">
+                        <div class="pt-1">
+                            <h3 class="card-title h1 text-secondary">Atlantic Connection</h3>
+                            <p class="card-text text-white pe-5">O maior evento global sobre o ecossistema Brasil e Portugal</p>
+                        </div>
+                        <a href="#" class="d-flex align-items-center justify-content-center ms-auto">
+                            <span class="material-symbols-outlined border border-primary text-secondary rounded-pill p-1">
+                                east
+                            </span>
+                        </a>
                     </div>
                 </div>
             </div>
-            <div class="col-12">
-                <div class="card">
-                    <a href=""><img loading="lazy" src="/assets/icons/seta-direita-azul.svg" alt="Seta direita azul"></a>
-                    <div class="card-body">
-                        <h3 class="card-title">Missões empresariais</h3>
-                        <p class="card-text">A oportunidade mais efetiva de network para seus negóciose Portugal</p>
+            <div class="col-12 mb-4 pb-3">
+                <div class="card bg-transparent border-0">
+                    <div class="card-body d-flex align-items-start">
+                        <div class="pt-1">
+                            <h3 class="card-title h1 text-secondary">Missões empresariais</h3>
+                            <p class="card-text text-white pe-5">A oportunidade mais efetiva de network para seus negóciose Portugal</p>
+                        </div>
+                        <a href="#" class="d-flex align-items-center justify-content-center ms-auto">
+                            <span class="material-symbols-outlined border border-primary text-secondary rounded-pill p-1">
+                                east
+                            </span>
+                        </a>
                     </div>
                 </div>
             </div>
-            <div class="col-12">
-                <div class="card">
-                    <a href=""><img loading="lazy" src="/assets/icons/seta-direita-azul.svg" alt="Seta direita azul"></a>
-                    <div class="card-body">
-                        <h3 class="card-title">MarketFit</h3>
-                        <p class="card-text">Um diagnóstico preliminar e seguro sobre a aderência ao mercado</p>
+            <div class="col-12 mb-4 pb-3">
+                <div class="card bg-transparent border-0">
+                    <div class="card-body d-flex align-items-start">
+                        <div class="pt-1">
+                            <h3 class="card-title h1 text-secondary">MarketFit</h3>
+                            <p class="card-text text-white pe-5">Um diagnóstico preliminar e seguro sobre a aderência ao mercado</p>
+                        </div>
+                        <a href="#" class="d-flex align-items-center justify-content-center ms-auto">
+                            <span class="material-symbols-outlined border border-primary text-secondary rounded-pill p-1">
+                                east
+                            </span>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -65,17 +95,19 @@ require $root . '/partials/header.php';
 </section>
 
 <!-- CONTATO -->
-<section id="contato">
+<section id="contato" class="d-block bg-light py-4">
     <div class="container px-4 py-5">
-        <div class="row">
+        <div class="row px-3">
             <div class="col-12">
-                <h2>QUER FALAR COM ESPECIALISTA PARA A INTERNACIONALIZAÇÃO?</h2>
-                <figure class="mb-0">
-                    <img loading="lazy" class="img-fluid" src="" alt="Thumb contato">
+                <h2 class="text-secondary">QUER FALAR COM ESPECIALISTA PARA A INTERNACIONALIZAÇÃO?</h2>
+                <figure class="position-relative mb-0">
+                    <img loading="lazy" class="img-cover" src="../assets/images/thumb-contato.jpg" alt="Thumb contato">
+                    <div class="mask-contato"></div>
+                    <div class="box"></div>
                 </figure>
             </div>
 
-            <div class="col-12">
+            <div id="form-candidatura" class="col-12 mt-5">
                 <form>
                     <div class="mb-3">
                         <input placeholder="Nome Completo*" type="text" class="form-control" id="name" aria-describedby="nameHelp">
@@ -100,7 +132,12 @@ require $root . '/partials/header.php';
                         <textarea class="form-control" placeholder="Mensagem*" id="mensagem" style="height: 100px"></textarea>
                     </div>
 
-                    <button type="submit" class="bg-transparent border-0 btn">ENVIAR <img src="" alt="Seta Direita"></button>
+                    <button type="submit" class="btn text-primary d-flex justify-content-lg-end align-items-center bg-transparent text-uppercase me-auto px-0 pt-0">
+                        Enviar
+                        <span class="material-symbols-outlined ms-2" style="font-size: 35px;">
+                            arrow_right_alt
+                        </span>
+                    </button>
                 </form>
             </div>
         </div>
@@ -108,6 +145,5 @@ require $root . '/partials/header.php';
 </section>
 
 <?php
-$root = $_SERVER['DOCUMENT_ROOT'];
-require $root . '/partials/footer.php';
+require('../partials/footer.php');
 ?>

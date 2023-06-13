@@ -2,9 +2,12 @@
   z-index: 10 !important;
 }
 
-h1, a.nav-link, input{
-  font-family: 'Futura PT Book' !important;
+a.nav-link, input{
+  font-family: 'Futura PT Book';
+}
 
+main h1{
+  font-family: 'Futura PT';
 }
 
 

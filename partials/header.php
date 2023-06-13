@@ -72,7 +72,7 @@ $root = $_SERVER['DOCUMENT_ROOT'];
                                 menu
                             </span>
                         </button>
-
+						
                         <div class="collapse navbar-collapse px-4 px-md-0 col-lg-5" id="menu">
                             <ul class="navbar-nav ms-lg-auto me-lg-0 ms-0 me-auto text-end mb-lg-0 mb-2 gap-xl-2 gap-xxl-3 gap-md-1 align-items-lg-center">
 
@@ -91,24 +91,24 @@ $root = $_SERVER['DOCUMENT_ROOT'];
                                     <a class="nav-link" href="/pages/atlantic-marketfit.php">Estudo de Mercado</a>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Momento</a>
+                                    <a class="nav-link pe-3 me-lg-4 dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Momento</a>
                                     <ul class="dropdown-menu" aria-labelledby="dropdown01">
-                                        <li><a class="dropdown-item" href="#">Já estou em portugal e quero tracionar</a></li>
-                                        <li><a class="dropdown-item" href="#">Quero conhecer</a></li>
-                                        <li><a class="dropdown-item" href="#">Já decidi e quero avançar</a></li>
+                                        <li><a class="dropdown-item pe-lg-2 pe-3" href="#">Quero conhecer</a></li>
+                                        <li><a class="dropdown-item pe-lg-2 pe-3" href="#">Já decidi e quero avançar</a></li>
+                                        <li><a class="dropdown-item pe-lg-2 pe-3" href="#">Já estou em portugal e quero tracionar</a></li>
                                     </ul>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Ecossistema</a>
+                                    <a class="nav-link pe-3 me-lg-4" href="#">Ecossistema</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Blog</a>
+                                    <a class="nav-link pe-3 me-lg-4" href="#">Blog</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Contato</a>
+                                    <a class="nav-link pe-3 me-lg-4" href="#">Contato</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Vagas</a>
+                                    <a class="nav-link pe-3 me-lg-4" href="#">Vagas</a>
                                 </li>
                                 <li class="nav-item d-lg-block d-none">
                                     <a class="nav-link" type="button" data-bs-toggle="modal" data-bs-target="#search-modal">
