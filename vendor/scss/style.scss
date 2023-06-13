@@ -102,6 +102,13 @@ body {
     }
   }
 
+  .detail-2 {
+    color: var(--text-white);
+    font-family: 'Futura PT';
+    background-color: #2583e2;
+    border-radius: 20px;
+  }
+
   main {
     // PAGINA INICIAL
     #intro {
@@ -444,44 +451,132 @@ body {
     }
 
     #potencial {
-      padding-bottom: 18rem;
+      padding-bottom: 14rem;
+      padding-top: 5rem;
+
       h2 {
         color: var(--title-blue);
       }
-      padding-top: 5rem;
+
       figure {
         top: -150px;
       }
     }
 
-    #estudo{
-      background-color: #E3F3FF;
-      
-      figure{
+    #estudo {
+      background-color: #e3f3ff;
+      color: var(--title-blue);
+
+      figure {
         top: -300px;
-        h2{
+        h2 {
           color: var(--title-blue);
         }
       }
 
-      .topicos{
-        .detail-2{
-          color: var(--text-white);
-          font-family: "Futura PT";
-          background-color: #2583e2;
-          border-radius: 20px
+      a {
+        width: fit-content;
+        font-size: 14px;
+        letter-spacing: 0.9px;
+        color: var(--title-blue);
+        border-radius: 20px;
+        border: var(--title-blue) 1px solid !important;
+      }
+    }
+
+    #thumb-secao {
+      background-color: var(--title-blue);
+
+      figure:first-child {
+        background-color: var(--text-white);
+        height: 180px;
+
+        img {
+          top: 120px;
+          margin-top: -2.5rem;
+        }
+      }
+    }
+
+    #motivos {
+      background-color: var(--text-white);
+
+      h2 {
+        color: var(--title-blue);
+      }
+
+      a {
+        color: var(--title-blue);
+        border: 1px solid var(--title-blue);
+        font-size: 14px;
+        border-radius: 20px;
+        letter-spacing: 0.5px;
+      }
+    }
+
+    #cases {
+      color: var(--title-blue-2);
+      background-color: var(--bg-dark);
+
+      div > strong {
+        color: var(--title-blue);
+        font-family: 'Futura PT';
+      }
+
+      h2:first-child {
+        opacity: 20%;
+      }
+
+      h2:nth-child(2) {
+        color: var(--title-blue);
+      }
+
+      h2:nth-child(3) {
+        opacity: 10%;
+        z-index: 0;
+        font-size: 7rem;
+        bottom: -75px;
+        left: -55px;
+      }
+
+      figure > img {
+        z-index: 2;
+      }
+    }
+
+    #cronograma {
+      background-image: url(../../images/cronograma.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+
+    #investimento {
+      color: var(--title-blue-2);
+      .container:first-child {
+        background-color: var(--text-white);
+        figure {
+          min-height: 232px !important;
+
+          img {
+            left: 0px;
+          }
+
+          h2 {
+            color: var(--title-blue-2);
+            top: 70px;
+            right: 70px;
+          }
         }
       }
 
-      a{
-        width: fit-content;
-        font-size: 14px;
-        letter-spacing: .9px;
-        color: var(--title-blue);
+      a {
+        border: 1px solid var(--title-blue);
         border-radius: 20px;
-        border: var(--title-blue) 1px solid!important;
+        letter-spacing: 1px;
+        font-size: 14px;
       }
-    } 
+    }
   }
 
   footer {

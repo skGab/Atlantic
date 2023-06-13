@@ -35,7 +35,7 @@ require $root . '/partials/header.php';
             </figure>
 
             <div class="col-12 pt-5 mb-5">
-                <h2 class="display-5 fw-bold mt-4 mb-3">Qual é o potencial da sua empresa para a internacionalização?
+                <h2 class="display-5 fw-bold mt-4 mb-3 lh-base">Qual é o potencial da sua empresa para a internacionalização?
                 </h2>
                 <p>O diagnóstico é o primeiro passo da internacionalização. Você precisa de informações específicas
                     relacionadas aos seus produtos ou serviços, em relação ao mercado português.
@@ -50,7 +50,7 @@ require $root . '/partials/header.php';
             </div>
 
             <div class="col-12">
-                <h2 class="display-5 fw-bold mb-5">Junte-se às empresas que usam e confiam no Atlantic Marketfit</h2>
+                <h2 class="display-5 fw-bold mb-5 lh-base">Junte-se às empresas que usam e confiam no Atlantic Marketfit</h2>
 
                 <section id="splide_potencial" class="splide" aria-label="Splide Potencial">
                     <div class="splide__track">
@@ -73,7 +73,7 @@ require $root . '/partials/header.php';
 </section>
 
 <!-- ESTUDO -->
-<section id="estudo">
+<section id="estudo" class="pb-5">
     <div class="container px-4 py-5">
         <div class="row pt-5">
             <div class="col-12 position-relative">
@@ -108,11 +108,13 @@ require $root . '/partials/header.php';
 
 <!-- THUMB SECAO -->
 <section id="thumb-secao">
-    <div class="container px-4">
-        <div class="row">
-            <figure class="col mb-0">
-                <img loading="lazy" class="img-fluid" src="" alt="LAPTOP">
-                <img loading="lazy" class="img-fluid" src="" alt="Dados tecnicos">
+    <div class="container">
+        <div class="row text-center">
+            <figure class="col-12 mb-0 position-relative">
+                <img loading="lazy" class="img-fluid translate-middle position-absolute" src="../assets/images/laptop.png" alt="LAPTOP">
+            </figure>
+            <figure class="col-12 mb-0 pt-4 pb-5 mb-4 px-0">
+                <img loading="lazy" class="w-100" src="../assets/images/dados_tecnicos.png" alt="Dados tecnicos">
             </figure>
         </div>
     </div>
@@ -122,8 +124,8 @@ require $root . '/partials/header.php';
 <section id="motivos">
     <div class="container px-4 py-5">
         <div class="row">
-            <div class="col">
-                <h2>Por que escolher a Atlantic Hub?</h2>
+            <div class="col-12 mb-4">
+                <h2 class="display-3 fw-bold">Por que escolher a Atlantic Hub?</h2>
 
                 <p>Temos experiência, uma equipe especializada e metodologias para prospectar oportunidades e
                     identificar riscos. A Atlantic Hub acompanha as empresas em todas as etapas de internacionalização.
@@ -135,54 +137,58 @@ require $root . '/partials/header.php';
             </div>
 
             <div class="col-12">
-                <h3>A QUEM SE DESTINA:</h3>
+                <h3 class="mb-4 text-secondary">A QUEM SE DESTINA:</h3>
 
-                <ul class="p-0">
-                    <li>→ Empresários que buscam a internacionalização;</li>
-                    <li>→ Início do processo PT2020;</li>
-                    <li>→ Elaboração de Business Plan (VISTOD2).</li>
+                <ul class="p-0 mb-4 text-secondary">
+                    <li class="fw-bold">→ Empresários que buscam a internacionalização;</li>
+                    <li class="my-2 fw-bold">→ Início do processo PT2020;</li>
+                    <li class="fw-bold">→ Elaboração de Business Plan (VISTOD2).</li>
                 </ul>
 
-                <a href="" target="_blank">ADQUIRA AGORA</a>
+                <a href="" class="fw-bold px-3 py-2" target="_blank">ADQUIRA AGORA</a>
             </div>
         </div>
     </div>
 </section>
 
 <!-- CASES -->
-<section id="cases">
+<section id="cases" class="pb-5">
+
+    <div class="container px-0 text-center">
+        <h2 class="display-1">NOSSOS NUMEROS</h2>
+    </div>
+
     <div class="container px-4 py-5">
         <div class="row">
-            <div class="col">
-                <span>
+            <div class="col mb-4 position-relative">
+                <div class="display-6 mb-5">
                     São + de
-                    <strong>
-                        100
-                    </strong>
+                    <strong class="display-3 fw-bold">100</strong> <br>
                     Empresas que já fizeram o Atlantic MarketFit
-                </span>
+                </div>
 
-                <h2>cases</h2>
+                <h2 class="display-3 fw-bold">Cases</h2>
+                <h2 class="display-1 position-absolute">CASES</h2>
             </div>
 
-            <figure class="col-12 mb-0">
-                <img loading="lazy" class="img-fluid" src="" alt="Video Cases">
-                <img loading="lazy" class="img-fluid" src="" alt="Video Cases">
+            <figure class="col-12 mb-0 text-center">
+                <img loading="lazy" class="img-fluid mb-4" src="../assets/images/cases_1.png" alt="Video Cases">
+                <img loading="lazy" class="img-fluid" src="../assets/images/cases_2.png" alt="Video Cases">
             </figure>
         </div>
     </div>
 </section>
 
 <!-- CRONOGRAMA -->
-<section id="cronograma">
+<section id="cronograma" class="py-5">
     <div class="container px-4 py-5">
         <div class="row">
-            <div class="col">
-                <h2>CRONOGRAMA</h2>
-                <p>Etapa 1: Recebimento dos dados e informações da empresa.</p>
-                <p>Etapa 2: Levantamento dos dados em Portugal.</p>
-                <p>Etapa 3: Elaboração do relatório.</p>
-                <p>Etapa 4: Envio e apresentação do relatório.</p>
+            <div class="col text-white text-center">
+                <h2 class="h1">CRONOGRAMA</h2>
+                <p><strong>Etapa 1:</strong> Recebimento dos dados e informações da empresa.</p>
+                <p><strong>Etapa 2:</strong> Levantamento dos dados em Portugal.</p>
+                <p><strong>Etapa 3:</strong> Elaboração do relatório.</p>
+                <p><strong>Etapa 4:</strong> Envio e apresentação do relatório.</p>
             </div>
         </div>
     </div>
@@ -190,27 +196,31 @@ require $root . '/partials/header.php';
 
 <!-- INVESTIMENTO -->
 <section id="investimento">
-    <div class="container px-4 py-5">
+    <div class="container">
         <div class="row">
-            <div class="col">
-                <h2>Quanto você
-                    vai investir inicialmente?</h2>
-            </div>
+            <figure class="col mb-0 position-relative">
+                <img loading="lazy" class="img-fluid position-absolute" src="../assets/images/pesquisa_mercado.png" alt="Thumb Quanto vai investir?">
+                <h2 class="position-absolute lh-base">QUANTO VOCÊ <br> VAIO INVESTIR <br> INICIALMENTE?</h2>
+            </figure>
+        </div>
+    </div>
 
-            <div class="col-12">
-                <img loading="lazy" class="img-fluid" src="" alt="Icone investimento">
+    <div class="container px-4 py-5">
+        <div class="row py-5">
+            <div class="col-9 mb-4">
+                <img loading="lazy" class="img-fluid mb-3" src="../assets/icons/dolar_icon.png" alt="Icone investimento">
                 <p>Para você, empresário brasileiro, quer iniciar a jornada de internacionalização, o relatório Atlantic
-                    MarketFit requer um investimento inicial de € 1.750,00 </p>
+                    MarketFit requer um investimento inicial de <strong class="detail-2 px-2 h4 fw-bold">€ 1.750,00</strong></p>
             </div>
 
-            <div class="col-12">
-                <img loading="lazy" class="img-fluid" src="" alt="Icone Prazo">
+            <div class="col-9 mb-4">
+                <img loading="lazy" class="img-fluid mb-3" src="../assets/icons/calender_icon.svg" alt="Icone Prazo">
                 <p>O prazo de resposta da Atlantic Hub é de 15 dias úteis, após o recebimento de todas as informações
                     obrigatórias.</p>
             </div>
 
             <div class="col-12">
-                <a href="" target="_blank">CONTRATE AGORA</a>
+                <a href="" target="_blank" class="px-3 py-2 fw-bold">CONTRATE AGORA</a>
             </div>
         </div>
     </div>
