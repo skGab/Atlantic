@@ -88,7 +88,14 @@ body {
   }
 
   header:first-child {
+    top: 55px;
+    left: 0;
     background-color: #051129;
+
+    @media screen and (min-width: 521px) {
+      top: 60px;
+    }
+
     .taxa {
       color: #99ccee;
 
@@ -101,8 +108,10 @@ body {
 
     .horario {
       @media screen and (min-width: 768px) {
-        width: fit-content;
+        width: fit-content !important;
       }
+
+      width: fit-content;
 
       background-color: var(--title-blue);
       strong {
@@ -112,7 +121,7 @@ body {
     }
 
     @media screen and (min-width: 768px) {
-      .col-6 {
+      .col-sm-6 {
         width: fit-content;
       }
     }
