@@ -5,8 +5,9 @@ document.addEventListener('DOMContentLoaded', function () {
   if (pageName === '/' || pageName === '/index.php') {
     var splide_eventos = new Splide('#splide_eventos', {
       type: 'loop',
-      perPage: 2,
-      gap: -60,
+      perPage: 4,
+      gap: 40,
+      autoWidth: true,
       pagination: false,
       focus: 'center',
     });
@@ -14,19 +15,30 @@ document.addEventListener('DOMContentLoaded', function () {
 
     var splide_videos = new Splide('#splide_videos', {
       type: 'loop',
-      perPage: 1,
+      perPage: 2,
       pagination: false,
-      focus: 'center',
+      gap: 20,
+      // focus: 'center',
+      breakpoints: {
+        768: {
+          perPage: 1,
+        },
+      },
     });
     splide_videos.mount();
 
     var splide_parceiros = new Splide('#splide_parceiros', {
       type: 'loop',
-      perPage: 3,
       pagination: false,
-      focus: 'center',
       autoWidth: true,
-      gap: 20,
+      gap: 50,
+      breakpoints: {
+        768: {
+          autoWidth:true,
+          gap: 30,
+          perPage: 4,
+        },
+      },
     });
     splide_parceiros.mount();
   }
