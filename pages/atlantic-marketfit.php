@@ -152,7 +152,7 @@ require $root . '/partials/header.php';
 </section>
 
 <!-- CASES -->
-<section id="cases" class="pb-5">
+<section id="cases_marketfit" class="pb-5">
 
     <div class="container px-0 text-center">
         <h2 class="display-1">NOSSOS NUMEROS</h2>

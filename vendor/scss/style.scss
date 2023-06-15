@@ -464,6 +464,10 @@ body {
     #cta {
       background-color: #e1e5ec;
 
+      span {
+        opacity: 5%;
+      }
+
       h2 {
         color: var(--title-blue);
       }
@@ -534,6 +538,10 @@ body {
     #nossos-parceiros {
       .gap-bottom {
         gap: 1rem 0;
+
+        @media screen and (min-width: 992px){
+          gap: 4rem 2rem;
+        };
       }
     }
 
@@ -622,7 +630,7 @@ body {
       }
     }
 
-    #cases {
+    #cases_marketfit {
       color: var(--title-blue-2);
       background-color: var(--bg-dark);
 
@@ -698,8 +706,8 @@ body {
       margin-bottom: 2rem;
     }
 
-    .bg_desk{
-      background-color: var(--text-white)!important;
+    .bg_desk {
+      background-color: var(--text-white) !important;
     }
 
     .patrocineo {

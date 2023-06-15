@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function () {
       gap: 50,
       breakpoints: {
         768: {
-          autoWidth:true,
+          autoWidth: true,
           gap: 30,
           perPage: 4,
         },
@@ -47,21 +47,37 @@ document.addEventListener('DOMContentLoaded', function () {
   if (pageName === '/pages/quem-somos.php') {
     var splide_equipe = new Splide('#splide_equipe', {
       // type: 'loop',
-      perPage: 1,
+      perPage: 3,
       pagination: false,
-      focus: 'center',
-      autoWidth: true,
-      // gap: 40,
+      // focus: 'center',
+      // autoWidth: true,
+      gap: 30,
+      breakpoints: {
+        992: {
+          perPage: 2,
+        },
+        768: {
+          perPage: 1,
+        },
+      },
     });
     splide_equipe.mount();
 
     var splide_cases = new Splide('#splide_cases', {
-      // type: 'loop',
-      perPage: 1,
+      type: 'loop',
+      perPage: 4,
       pagination: false,
-      focus: 'center',
-      autoWidth: true,
+      // focus: 'center',
+      // autoWidth: true,
       // gap: 40,
+      breakpoints: {
+        992: {
+          perPage: 3,
+        },
+        768: {
+          perPage: 1,
+        },
+      },
     });
     splide_cases.mount();
   }
