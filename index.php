@@ -1,6 +1,6 @@
 <?php
-$root = $_SERVER['DOCUMENT_ROOT'];
-require $root . '/partials/header.php';
+get_template_part('partials/header');
+$home = get_stylesheet_directory_uri();
 ?>
 
 <!-- intro -->
@@ -8,17 +8,17 @@ require $root . '/partials/header.php';
     <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="false">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img loading="lazy" src="./assets/images/banner_home_mob.png" class="mob d-block w-100 d-sm-none" alt="Banner Home Mobile">
-                <img loading="lazy" src="./assets/images/banner_home_desk.png" class="desk w-100 d-none d-sm-block" alt="Banner Home Desktop">
+                <img loading="lazy" src="<?php echo $home ?> /assets/images/banner_home_mob.png" class="mob d-block w-100 d-sm-none" alt="Banner Home Mobile">
+                <img loading="lazy" src="<?php echo $home ?>/assets/images/banner_home_desk.png" class="desk w-100 d-none d-sm-block" alt="Banner Home Desktop">
 
                 <div class="text-white carousel-caption text-start mb-5 pb-5">
                     <div class="mb-3">
                         <button class="px-0 py-0 border-0 bg-transparent me-3" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-                            <img loading="lazy" class="w-100" src="./assets/icons/seta_sem_preenchida.svg" alt="Seta esquerda">
+                            <img loading="lazy" class="w-100" src="<?php echo $home ?>/assets/icons/seta_sem_preenchida.svg" alt="Seta esquerda">
                         </button>
 
                         <button class="px-0 py-0 border-0 bg-transparent" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-                            <img loading="lazy" class="w-100" src="./assets/icons/seta_preenchida.svg" alt="Seta direita">
+                            <img loading="lazy" class="w-100" src="<?php echo $home ?>/assets/icons/seta_preenchida.svg" alt="Seta direita">
                         </button>
                     </div>
 
@@ -40,17 +40,17 @@ require $root . '/partials/header.php';
             </div>
 
             <div class="carousel-item">
-                <img loading="lazy" src="./assets/images/banner_home_mob2.png" class="mob d-block w-100 d-sm-none" alt="Banner Home Mobile">
-                <img loading="lazy" src="./assets/images/banner_home_desk2.png" class="desk d-block w-100 d-none d-sm-block" alt="Banner Home Desktop">
+                <img loading="lazy" src="<?php echo $home ?>/assets/images/banner_home_mob2.png" class="mob d-block w-100 d-sm-none" alt="Banner Home Mobile">
+                <img loading="lazy" src="<?php echo $home ?>/assets/images/banner_home_desk2.png" class="desk d-block w-100 d-none d-sm-block" alt="Banner Home Desktop">
 
                 <div class="text-white carousel-caption text-start mb-5 pb-5">
                     <div class="mb-3">
                         <button class="px-0 py-0 border-0 bg-transparent me-3" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-                            <img loading="lazy" class="img-fluid" src="./assets/icons/seta_sem_preenchida.svg" alt="Seta esquerda">
+                            <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/icons/seta_sem_preenchida.svg" alt="Seta esquerda">
                         </button>
 
                         <button class="px-0 py-0 border-0 bg-transparent" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-                            <img loading="lazy" class="img-fluid" src="./assets/icons/seta_preenchida.svg" alt="Seta direita">
+                            <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/icons/seta_preenchida.svg" alt="Seta direita">
                         </button>
                     </div>
 
@@ -74,17 +74,17 @@ require $root . '/partials/header.php';
             </div>
 
             <div class="carousel-item">
-                <img loading="lazy" src="./assets/images/banner_home_mob3.png" class="mob d-block w-100 d-sm-none" alt="Banner Home 3">
-                <img loading="lazy" src="./assets/images/banner_home_desk3.png" class="desk d-block w-100 d-none d-sm-block" alt="Banner Home 3">
+                <img loading="lazy" src="<?php echo $home ?>/assets/images/banner_home_mob3.png" class="mob d-block w-100 d-sm-none" alt="Banner Home 3">
+                <img loading="lazy" src="<?php echo $home ?>/assets/images/banner_home_desk3.png" class="desk d-block w-100 d-none d-sm-block" alt="Banner Home 3">
 
                 <div class="text-white carousel-caption text-start mb-5 pb-5">
                     <div class="mb-3">
                         <button class="px-0 py-0 border-0 bg-transparent me-3" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-                            <img loading="lazy" class="img-fluid" src="./assets/icons/seta_sem_preenchida.svg" alt="Seta esquerda">
+                            <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/icons/seta_sem_preenchida.svg" alt="Seta esquerda">
                         </button>
 
                         <button class="px-0 py-0 border-0 bg-transparent" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-                            <img loading="lazy" class="img-fluid" src="./assets/icons/seta_preenchida.svg" alt="Seta direita">
+                            <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/icons/seta_preenchida.svg" alt="Seta direita">
                         </button>
                     </div>
 
@@ -284,12 +284,12 @@ require $root . '/partials/header.php';
                     <h2 class="me-5">BLOG</h2>
                     <a href="" class="small align-items-center d-flex d-md-none">
                         Ver Todos
-                        <img loading="lazy" src="./assets/icons/seta_direita_azul_blog.svg" class="img-fluid ms-3" alt="Seta direita azul Blog">
+                        <img loading="lazy" src="<?php echo $home ?>/assets/icons/seta_direita_azul_blog.svg" class="img-fluid ms-3" alt="Seta direita azul Blog">
                     </a>
 
                     <a href="" class="align-items-center d-flex d-none d-md-flex">
                         Ver Todos
-                        <img loading="lazy" src="./assets/icons/seta_direita_azul_blog.svg" class="img-fluid ms-3" alt="Seta direita azul Blog">
+                        <img loading="lazy" src="<?php echo $home ?>/assets/icons/seta_direita_azul_blog.svg" class="img-fluid ms-3" alt="Seta direita azul Blog">
                     </a>
                 </div>
             </div>
@@ -313,7 +313,7 @@ require $root . '/partials/header.php';
 
                         <a href="" class="d-flex align-items-center">
                             Ler mais
-                            <img loading="lazy" class="img-fluid ms-4" src="./assets/icons/seta_direita_azul_blog.svg" alt="Seta direita azul Blog">
+                            <img loading="lazy" class="img-fluid ms-4" src="<?php echo $home ?>/assets/icons/seta_direita_azul_blog.svg" alt="Seta direita azul Blog">
                         </a>
                     </div>
                 </div>
@@ -338,7 +338,7 @@ require $root . '/partials/header.php';
 
                         <a href="" class="d-flex align-items-center">
                             Ler mais
-                            <img loading="lazy" class="img-fluid ms-4" src="./assets/icons/seta_direita_azul_blog.svg" alt="Seta direita azul Blog">
+                            <img loading="lazy" class="img-fluid ms-4" src="<?php echo $home ?>/assets/icons/seta_direita_azul_blog.svg" alt="Seta direita azul Blog">
                         </a>
                     </div>
                 </div>
@@ -363,7 +363,7 @@ require $root . '/partials/header.php';
 
                         <a href="" class="d-flex align-items-center">
                             Ler mais
-                            <img loading="lazy" class="img-fluid ms-4" src="./assets/icons/seta_direita_azul_blog.svg" alt="Seta direita azul Blog">
+                            <img loading="lazy" class="img-fluid ms-4" src="<?php echo $home ?>/assets/icons/seta_direita_azul_blog.svg" alt="Seta direita azul Blog">
                         </a>
                     </div>
                 </div>
@@ -385,23 +385,23 @@ require $root . '/partials/header.php';
             <ul class="splide__list">
                 <li class="splide__slide">
                     <a href="">
-                        <img loading="lazy" src="./assets/images/evento_thumb.webp" class="img-fluid d-md-none" alt="Thumb Evento">
+                        <img loading="lazy" src="<?php echo $home ?>/assets/images/evento_thumb.webp" class="img-fluid d-md-none" alt="Thumb Evento">
 
-                        <img loading="lazy" src="./assets/images/eventos/thumb_evento_desk1.png" class="img-fluid d-none d-md-block" alt="Thumb Evento">
+                        <img loading="lazy" src="<?php echo $home ?>/assets/images/eventos/thumb_evento_desk1.png" class="img-fluid d-none d-md-block" alt="Thumb Evento">
                     </a>
                 </li>
 
                 <li class="splide__slide">
                     <a href="">
                         <img loading="lazy" src="/assets/images/evento_thumb3.png" class="img-fluid d-md-none" alt="Thumb Evento">
-                        <img loading="lazy" src="./assets/images/eventos/thumb_evento_desk2.png" class="img-fluid d-none d-md-block" alt="Thumb Evento">
+                        <img loading="lazy" src="<?php echo $home ?>/assets/images/eventos/thumb_evento_desk2.png" class="img-fluid d-none d-md-block" alt="Thumb Evento">
                     </a>
                 </li>
 
                 <li class="splide__slide">
                     <a href="">
                         <img loading="lazy" src="/assets/images/evento_thumb2.png" class="img-fluid d-md-none" alt="Thumb Evento">
-                        <img loading="lazy" src="./assets/images/eventos/thumb_evento_desk3.png" class="img-fluid d-none d-md-block" alt="Thumb Evento">
+                        <img loading="lazy" src="<?php echo $home ?>/assets/images/eventos/thumb_evento_desk3.png" class="img-fluid d-none d-md-block" alt="Thumb Evento">
                     </a>
                 </li>
             </ul>
@@ -443,15 +443,15 @@ require $root . '/partials/header.php';
                     <ul class="splide__list">
                         <li class="splide__slide text-center">
                             <a href="">
-                                <img loading="lazy" class="img-fluid d-md-none" src="./assets/images/conheca_atlantic.png" alt="Video Conheça Atlantic">
-                                <img loading="lazy" class="img-fluid d-none d-md-block h-100" src="./assets/images/conheca_atlantic.png" alt="Video Conheça Atlantic">
+                                <img loading="lazy" class="img-fluid d-md-none" src="<?php echo $home ?>/assets/images/conheca_atlantic.png" alt="Video Conheça Atlantic">
+                                <img loading="lazy" class="img-fluid d-none d-md-block h-100" src="<?php echo $home ?>/assets/images/conheca_atlantic.png" alt="Video Conheça Atlantic">
                             </a>
                         </li>
 
                         <li class="splide__slide text-center">
                             <a href="">
-                                <img loading="lazy" class="img-fluid d-md-none" src="./assets/images/mkt_digital.png" alt="Video Marketing Digital">
-                                <img loading="lazy" class="img-fluid d-none d-md-block h-100" src="./assets/images/mkt_digital.png" alt="Video Marketing Digital">
+                                <img loading="lazy" class="img-fluid d-md-none" src="<?php echo $home ?>/assets/images/mkt_digital.png" alt="Video Marketing Digital">
+                                <img loading="lazy" class="img-fluid d-none d-md-block h-100" src="<?php echo $home ?>/assets/images/mkt_digital.png" alt="Video Marketing Digital">
                             </a>
                         </li>
                     </ul>
@@ -468,33 +468,33 @@ require $root . '/partials/header.php';
                 <div class="splide__track">
                     <ul class="splide__list align-items-center">
                         <li class="splide__slide">
-                            <img loading="lazy" src="./assets/images/logo_footer3.png" class="img-fluid d-md-none" alt="Logo Conexão Mobile">
+                            <img loading="lazy" src="<?php echo $home ?>/assets/images/logo_footer3.png" class="img-fluid d-md-none" alt="Logo Conexão Mobile">
 
-                            <img loading="lazy" src="./assets/images/parceiros/conexao_logo.png" class="img-fluid d-none d-md-block" alt="Logo Conexão Desktop">
+                            <img loading="lazy" src="<?php echo $home ?>/assets/images/parceiros/conexao_logo.png" class="img-fluid d-none d-md-block" alt="Logo Conexão Desktop">
                         </li>
 
                         <li class="splide__slide">
-                            <img loading="lazy" src="./assets/images/logo-vertical-blackbeans.png" class="img-fluid d-md-none" alt="Logo BlackBeans Mobile">
+                            <img loading="lazy" src="<?php echo $home ?>/assets/images/logo-vertical-blackbeans.png" class="img-fluid d-md-none" alt="Logo BlackBeans Mobile">
 
-                            <img loading="lazy" src="./assets/images/parceiros/blackbeans_logo.png" class="img-fluid d-none d-md-block" alt="Logo BlackBeans Desktop">
+                            <img loading="lazy" src="<?php echo $home ?>/assets/images/parceiros/blackbeans_logo.png" class="img-fluid d-none d-md-block" alt="Logo BlackBeans Desktop">
                         </li>
 
                         <li class="splide__slide">
-                            <img loading="lazy" width="120" src="./assets/images/parceiros/bossanova_logo_desk.png" class="img-fluid d-md-none" alt="Logo Bossanova Mob">
+                            <img loading="lazy" width="120" src="<?php echo $home ?>/assets/images/parceiros/bossanova_logo_desk.png" class="img-fluid d-md-none" alt="Logo Bossanova Mob">
 
-                            <img loading="lazy" src="./assets/images/parceiros/bossanova_logo_desk.png" class="img-fluid d-none d-md-block" alt="Logo Bossanova Desktop">
+                            <img loading="lazy" src="<?php echo $home ?>/assets/images/parceiros/bossanova_logo_desk.png" class="img-fluid d-none d-md-block" alt="Logo Bossanova Desktop">
                         </li>
 
                         <li class="splide__slide ">
-                            <img loading="lazy" width="100px" src="./assets/images/parceiros/euro_logo_desk.png" class="img-fluid d-md-none " alt="Logo Euro Dicas Mob">
+                            <img loading="lazy" width="100px" src="<?php echo $home ?>/assets/images/parceiros/euro_logo_desk.png" class="img-fluid d-md-none " alt="Logo Euro Dicas Mob">
 
-                            <img loading="lazy" src="./assets/images/parceiros/euro_logo_desk.png" class="img-fluid d-none d-md-block" alt="Logo Euro Dicas Mob">
+                            <img loading="lazy" src="<?php echo $home ?>/assets/images/parceiros/euro_logo_desk.png" class="img-fluid d-none d-md-block" alt="Logo Euro Dicas Mob">
                         </li>
 
                         <li class="splide__slide">
-                            <img loading="lazy" width="120px" src="./assets/images/parceiros/salomao_logo_desk.png" class="img-fluid d-md-none" alt="Logo Brasil Salomão Mob">
+                            <img loading="lazy" width="120px" src="<?php echo $home ?>/assets/images/parceiros/salomao_logo_desk.png" class="img-fluid d-md-none" alt="Logo Brasil Salomão Mob">
 
-                            <img loading="lazy" src="./assets/images/parceiros/salomao_logo_desk.png" class="img-fluid d-none d-md-block" alt="Logo Brasil Salomão Desktop">
+                            <img loading="lazy" src="<?php echo $home ?>/assets/images/parceiros/salomao_logo_desk.png" class="img-fluid d-none d-md-block" alt="Logo Brasil Salomão Desktop">
                         </li>
                     </ul>
                 </div>
@@ -504,6 +504,5 @@ require $root . '/partials/header.php';
 </section>
 
 <?php
-$root = $_SERVER['DOCUMENT_ROOT'];
-require $root . '/partials/footer.php';
+get_template_part('partials/footer');
 ?>

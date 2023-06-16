@@ -180,7 +180,7 @@ if ($current_page == "/index.php" or $current_page == '/' or $current_page == "/
     </div>
 </footer>
 
-<script src="../vendor/js/main.js"></script>
+<script src="https://webapp355388.ip-192-155-89-190.cloudezapp.io/wp-content/themes/atlantichub/vendor/js/main.js"></script>
 </body>
 
 </html>

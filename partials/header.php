@@ -15,10 +15,10 @@ $root = $_SERVER['DOCUMENT_ROOT'];
     <title>Atlantic Hub</title>
 
     <!-- Bootstrap CSS -->
-    <link href="../assets/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://webapp355388.ip-192-155-89-190.cloudezapp.io/wp-content/themes/atlantichub/assets/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Bootstrap JS -->
-    <script src="../assets/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script defer src="https://webapp355388.ip-192-155-89-190.cloudezapp.io/wp-content/themes/atlantichub/assets/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
     <!-- SPLINE -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" integrity="sha256-5uKiXEwbaQh9cgd2/5Vp6WmMnsUr3VZZw0a8rKnOKNU=" crossorigin="anonymous">
@@ -26,9 +26,9 @@ $root = $_SERVER['DOCUMENT_ROOT'];
     <script defer src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js" integrity="sha256-FZsW7H2V5X9TGinSjjwYJ419Xka27I8XPDmWryGlWtw=" crossorigin="anonymous"></script>
 
     <!-- STYLE -->
-    <link rel="stylesheet" href="../assets/css/compressed/style.min.css">
-    <link rel="stylesheet" href="../assets/font.css">
-    <link rel="stylesheet" href="../assets/custom.css">
+    <link rel="stylesheet" href="https://webapp355388.ip-192-155-89-190.cloudezapp.io/wp-content/themes/atlantichub/assets/css/compressed/style.min.css">
+    <link rel="stylesheet" href="https://webapp355388.ip-192-155-89-190.cloudezapp.io/wp-content/themes/atlantichub/assets/font.css">
+    <link rel="stylesheet" href="https://webapp355388.ip-192-155-89-190.cloudezapp.io/wp-content/themes/atlantichub/assets/custom.css">
 
     <!-- Google Fonts Icons -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
