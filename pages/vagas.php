@@ -1,9 +1,15 @@
 <?php
-require("../partials/header.php");
-?>
 
+/**
+ * Template Name: Vagas
+ */
+
+get_template_part('partials/header');
+$home = get_stylesheet_directory_uri();
+
+?>
 <!-- BANNER INTRO -->
-<section id="banner-vagas" class="banner pt-5">
+<section id="banner-vagas" class="banner pt-5" style="background: url('<?= $home; ?>/assets/images/banner-vagas.jpg') no-repeat center center;">
     <div class="mask-banner"></div>
     <div class="container ps-lg-5">
         <div class="row w-100 ps-lg-5">
@@ -223,7 +229,7 @@ require("../partials/header.php");
 
             <div class="col-lg-6 col-12 ps-lg-5 px-0 position-relative mt-lg-0 mt-5">
                 <div class="box"></div>
-                <img class="img-cover" src="../assets/images/img-form-candidatura.jpg" alt="Sala de trabalho">
+                <img class="img-cover" src="<?= $home; ?>/assets/images/img-form-candidatura.jpg" alt="Sala de trabalho">
             </div>
         </div>
     </div>
@@ -269,5 +275,5 @@ require("../partials/header.php");
 </div>
 
 <?php
-require("../partials/footer.php");
+get_template_part('partials/footer');
 ?>

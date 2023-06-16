@@ -1,9 +1,16 @@
 <?php
-require('../partials/header.php');
+
+/**
+ * Template Name: Momentos
+ */
+
+get_template_part('partials/header');
+$home = get_stylesheet_directory_uri();
+
 ?>
 
 <!-- BANNER INTRO -->
-<section id="banner-momento" class="banner justify-content-center pt-5">
+<section id="banner-momento" class="banner justify-content-center pt-5" style="background: url('<?= $home; ?>/assets/images/banner-momento.jpg') no-repeat center center;">
     <div class="mask-banner-dark"></div>
     <div class="container">
         <div class="row w-100 mx-0">
@@ -35,7 +42,7 @@ require('../partials/header.php');
                     de negócios.</h2>
 
                 <figure class="mb-0">
-                    <img loading="lazy" class="img-fluid" src="../assets/images/bandeira-portugal.png" alt="Bandeira Portugal">
+                    <img loading="lazy" class="img-fluid" src="<?= $home; ?>/assets/images/bandeira-portugal.png" alt="Bandeira Portugal">
                 </figure>
             </div>
         </div>
@@ -48,7 +55,7 @@ require('../partials/header.php');
                 <div class="container-fluid px-0">
                     <div class="row w-100 mx-0">
                         <figure class="mb-0 col-6">
-                            <img loading="lazy" class="img-fluid" src="../assets/images/bandeira-portugal.png" alt="Bandeira Portugal">
+                            <img loading="lazy" class="img-fluid" src="<?= $home; ?>/assets/images/bandeira-portugal.png" alt="Bandeira Portugal">
                         </figure>
                         <div class="col-6">
                             <p>Para os empreendedores brasileiros, Portugal oferece um ecossistema empresarial vibrante e próspero, com muitas oportunidades de negócios em diversos setores.</p>
@@ -131,7 +138,7 @@ require('../partials/header.php');
             <div class="col-12">
                 <h2 class="text-secondary">QUER FALAR COM ESPECIALISTA PARA A INTERNACIONALIZAÇÃO?</h2>
                 <figure class="position-relative mb-0">
-                    <img loading="lazy" class="img-cover" src="../assets/images/thumb-contato.jpg" alt="Thumb contato">
+                    <img loading="lazy" class="img-cover" src="<?= $home; ?>/assets/images/thumb-contato.jpg" alt="Thumb contato">
                     <div class="mask-contato"></div>
                     <div class="box"></div>
                 </figure>
@@ -179,7 +186,7 @@ require('../partials/header.php');
         <div class="row align-items-center w-100 mx-0 px-0">
             <div class="col-4 px-0">
                 <figure class="position-relative mb-0">
-                    <img loading="lazy" class="img-cover" src="../assets/images/thumb-contato.jpg" alt="Thumb contato">
+                    <img loading="lazy" class="img-cover" src="<?= $home; ?>/assets/images/thumb-contato.jpg" alt="Thumb contato">
                     <div class="mask-contato"></div>
                     <div class="box" style="width: 62px; height: 62px; right: -1.75rem; bottom: 5rem;"></div>
                 </figure>
@@ -230,5 +237,5 @@ require('../partials/header.php');
 </section>
 
 <?php
-require('../partials/footer.php');
+get_template_part('partials/footer');
 ?>

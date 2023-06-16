@@ -1,9 +1,16 @@
 <?php
-require('../partials/header.php');
+
+/**
+ * Template Name: Ecossistema
+ */
+
+get_template_part('partials/header');
+$home = get_stylesheet_directory_uri();
+
 ?>
 
 <!-- BANNER INTRO -->
-<section id="banner-ecossistema" class="banner justify-content-center pt-5">
+<section id="banner-ecossistema" class="banner justify-content-center pt-5" style="background: url('<?= $home; ?>/assets/images/banner-ecossistema.jpg') no-repeat center center;">
     <!-- <div class="mask-banner"></div> -->
     <div class="container">
         <div class="row w-100">
@@ -28,7 +35,7 @@ require('../partials/header.php');
             </div>
 
             <figure class="col-lg-5 col-12 mb-0 mt-3">
-                <img loading="lazy" class="d-block w-100" src="../assets/images/thumb-ecossistema.png" alt="Thumb ecossistema">
+                <img loading="lazy" class="d-block w-100" src="<?= $home; ?>/assets/images/thumb-ecossistema.png" alt="Thumb ecossistema">
             </figure>
         </div>
     </div>
@@ -46,7 +53,7 @@ require('../partials/header.php');
                 <div class="container-fluid px-0">
                     <div class="row w-100 mx-0">
                         <div class="col-lg-2 col-5">
-                            <img loading="lazy" class="d-block w-100" src="../assets/images/parceiros/atlanticStation_logo.png" alt="Card Logo">
+                            <img loading="lazy" class="d-block w-100" src="<?= $home; ?>/assets/images/parceiros/atlanticStation_logo.png" alt="Card Logo">
                         </div>
                         <div class="col-lg-9 col-7 pe-lg-3 px-0 pt-2">
                             <h4 class="text-secondary">Atlantic Station</h4>
@@ -61,7 +68,7 @@ require('../partials/header.php');
                 <div class="container-fluid px-0">
                     <div class="row w-100 mx-0">
                         <div class="col-lg-2 col-5">
-                            <img loading="lazy" class="d-block w-75 mx-auto" src="../assets/images/parceiros/conexao_logo_white.png" alt="Card Logo">
+                            <img loading="lazy" class="d-block w-75 mx-auto" src="<?= $home; ?>/assets/images/parceiros/conexao_logo_white.png" alt="Card Logo">
                         </div>
                         <div class="col-lg-9 col-7 pe-lg-3 px-0 pt-1">
                             <h4 class="text-secondary">Conexão Europa Imóveis</h4>
@@ -76,7 +83,7 @@ require('../partials/header.php');
                 <div class="container-fluid px-0">
                     <div class="row w-100 mx-0">
                         <div class="col-lg-2 col-5">
-                            <img loading="lazy" class="d-block w-75 mx-auto" src="../assets/images/parceiros/fcj_logo.png" alt="Card Logo">
+                            <img loading="lazy" class="d-block w-75 mx-auto" src="<?= $home; ?>/assets/images/parceiros/fcj_logo.png" alt="Card Logo">
                         </div>
                         <div class="col-lg-9 col-7 pe-lg-3 px-0 pt-1">
                             <h4 class="text-secondary">FCJ Portugal</h4>
@@ -91,7 +98,7 @@ require('../partials/header.php');
                 <div class="container-fluid px-0">
                     <div class="row w-100 mx-0">
                         <div class="col-lg-2 col-5">
-                            <img loading="lazy" class="d-block w-75 mx-auto" src="../assets/images/parceiros/webSummit_logo.png" alt="Card Logo">
+                            <img loading="lazy" class="d-block w-75 mx-auto" src="<?= $home; ?>/assets/images/parceiros/webSummit_logo.png" alt="Card Logo">
                         </div>
                         <div class="col-lg-9 col-7 pe-lg-3 px-0 pt-1">
                             <h4 class="text-secondary">Missão Web Summit</h4>
@@ -106,7 +113,7 @@ require('../partials/header.php');
                 <div class="container-fluid px-0">
                     <div class="row w-100 mx-0">
                         <div class="col-lg-2 col-5">
-                            <img loading="lazy" class="d-block w-75 mx-auto" src="../assets/images/parceiros/portugalVentures_logo.png" alt="Card Logo">
+                            <img loading="lazy" class="d-block w-75 mx-auto" src="<?= $home; ?>/assets/images/parceiros/portugalVentures_logo.png" alt="Card Logo">
                         </div>
                         <div class="col-lg-9 col-7 pe-lg-3 px-0 pt-0">
                             <h4 class="text-secondary">Portugal Ventures</h4>
@@ -133,7 +140,7 @@ require('../partials/header.php');
             <div class="col-12">
                 <h2 class="text-secondary display-4">RECEBA NOSSAS NOVIDADES</h2>
                 <figure class="position-relative mb-0">
-                    <img loading="lazy" class="img-cover" src="../assets/images/thumb-contato.jpg" alt="Thumb contato">
+                    <img loading="lazy" class="img-cover" src="<?= $home; ?>/assets/images/thumb-contato.jpg" alt="Thumb contato">
                     <div class="mask-contato"></div>
                     <div class="box"></div>
                 </figure>
@@ -166,7 +173,7 @@ require('../partials/header.php');
         <div class="row align-items-center w-100 mx-0 px-0">
             <div class="col-4 px-0">
                 <figure class="position-relative mb-0">
-                    <img loading="lazy" class="d-block w-100" src="../assets/images/thumb-contato.jpg" alt="Thumb contato">
+                    <img loading="lazy" class="d-block w-100" src="<?= $home; ?>/assets/images/thumb-contato.jpg" alt="Thumb contato">
                     <div class="mask-contato"></div>
                     <div class="box" style="width: 82px; height: 82px; right: -2.5rem; bottom: 4rem;"></div>
                 </figure>
@@ -205,5 +212,5 @@ require('../partials/header.php');
 </section>
 
 <?php
-require('../partials/footer.php');
+get_template_part('partials/footer');
 ?>

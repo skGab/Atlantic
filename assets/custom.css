@@ -91,23 +91,19 @@ main {
 }
 
 #banner-contato {
-    background: url('../assets/images/banner-contato.jpg') no-repeat center center;
-    background-size: cover;
+    background-size: cover !important;
 }
 
 #banner-vagas {
-    background: url('../assets/images/banner-vagas.jpg') no-repeat center center;
-    background-size: cover;
+    background-size: cover !important;
 }
 
 #banner-momento {
-    background: url('../assets/images/banner-momento.jpg') no-repeat center center;
-    background-size: cover;
+    background-size: cover !important;
 }
 
 #banner-ecossistema {
-    background: url('../assets/images/banner-ecossistema.jpg') no-repeat center center;
-    background-size: cover;
+    background-size: cover !important;
 }
 
 .banner {

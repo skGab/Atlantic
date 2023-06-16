@@ -1,5 +1,12 @@
 <?php
-require("../partials/header.php");
+
+/**
+ * Template Name: Blog
+ */
+
+get_template_part('partials/header');
+$home = get_stylesheet_directory_uri();
+
 ?>
 
 <!-- ARTIGOS EM DESTAQUE -->
@@ -17,7 +24,7 @@ require("../partials/header.php");
         <div class="col-lg-4 col-12 mb-4">
             <div class="card bg-light w-100 rounded-0 border-0">
                 <div class="position-relative">
-                    <img src="../assets/images/img-post1.jpg" class="card-img-top rounded-0" alt="Capa do Post">
+                    <img src="<?= $home; ?>/assets/images/img-post1.jpg" class="card-img-top rounded-0" alt="Capa do Post">
                     <div class="info-post">
                         <a href="#" class="small text-secondary bg-secondary text-light fw-light rounded-pill px-3 py-1 me-2">Nome da tag</a>
                         <time datetime="2021-12-13" class="small text-secondary bg-light rounded-pill px-3 py-1 me-2">13 de dez. 2021</time>
@@ -43,7 +50,7 @@ require("../partials/header.php");
             <div class="card bg-light w-100 rounded-0 border-0 position-relative mb-4 pb-lg-3">
                 <div class="row g-0">
                     <div class="col-6">
-                        <img src="../assets/images/img-post2.jpg" class="d-block w-100 h-100 rounded-0" alt="Capa do Post">
+                        <img src="<?= $home; ?>/assets/images/img-post2.jpg" class="d-block w-100 h-100 rounded-0" alt="Capa do Post">
                     </div>
                     <div class="col-6">
                         <div class="card-body">
@@ -64,7 +71,7 @@ require("../partials/header.php");
             <div class="card bg-light w-100 rounded-0 border-0 position-relative">
                 <div class="row g-0">
                     <div class="col-6">
-                        <img src="../assets/images/img-post2.jpg" class="d-block w-100 h-100 rounded-0" alt="Capa do Post">
+                        <img src="<?= $home; ?>/assets/images/img-post2.jpg" class="d-block w-100 h-100 rounded-0" alt="Capa do Post">
                     </div>
                     <div class="col-6">
                         <div class="card-body">
@@ -87,7 +94,7 @@ require("../partials/header.php");
             <div class="card bg-light w-100 h-100 align-items-strech rounded-0 border-0 position-relative">
                 <div class="row flex-column g-0">
                     <div class="col-12">
-                        <img src="../assets/images/img-post2.jpg" class="d-block w-100 h-100 rounded-0" alt="Capa do Post">
+                        <img src="<?= $home; ?>/assets/images/img-post2.jpg" class="d-block w-100 h-100 rounded-0" alt="Capa do Post">
                     </div>
                     <div class="col-12">
                         <div class="card-body">
@@ -119,16 +126,16 @@ require("../partials/header.php");
         </div>
         <div class="col-12 d-lg-none d-flex align-items-center w-100 mb-4 pb-2">
             <a href="#" class="me-2">
-                <img src="../assets/icons/facebook.svg" alt="ícone do Facebook">
+                <img src="<?= $home; ?>/assets/icons/facebook.svg" alt="ícone do Facebook">
             </a>
             <a href="#" class="me-2">
-                <img src="../assets/icons/instagram.svg" alt="Ícone do Instagram">
+                <img src="<?= $home; ?>/assets/icons/instagram.svg" alt="Ícone do Instagram">
             </a>
             <a href="#" class="me-2">
-                <img src="../assets/icons/youtube.svg" alt="Ícone do Youtube">
+                <img src="<?= $home; ?>/assets/icons/youtube.svg" alt="Ícone do Youtube">
             </a>
             <a href="#" class="me-2">
-                <img src="../assets/icons/twitter.svg" alt="Ícone do Twitter">
+                <img src="<?= $home; ?>/assets/icons/twitter.svg" alt="Ícone do Twitter">
             </a>
         </div>
 
@@ -136,7 +143,7 @@ require("../partials/header.php");
             <div class="card bg-transparent w-100 rounded-0 border-0 position-relative mb-lg-4 mb-5">
                 <div class="row align-items-lg-center g-0">
                     <div class="col-6">
-                        <img src="../assets/images/img-post3.jpg" class="img-cover rounded-0" alt="Capa do Post">
+                        <img src="<?= $home; ?>/assets/images/img-post3.jpg" class="img-cover rounded-0" alt="Capa do Post">
                     </div>
                     <div class="col-6">
                         <div class="card-body py-0">
@@ -161,7 +168,7 @@ require("../partials/header.php");
             <div class="card bg-transparent w-100 rounded-0 border-0 position-relative mb-lg-4 mb-5">
                 <div class="row align-items-lg-center g-0">
                     <div class="col-6">
-                        <img src="../assets/images/img-post3.jpg" class="img-cover rounded-0" alt="Capa do Post">
+                        <img src="<?= $home; ?>/assets/images/img-post3.jpg" class="img-cover rounded-0" alt="Capa do Post">
                     </div>
                     <div class="col-6">
                         <div class="card-body py-0">
@@ -186,7 +193,7 @@ require("../partials/header.php");
             <div class="card bg-transparent w-100 rounded-0 border-0 position-relative mb-lg-4 mb-5">
                 <div class="row align-items-lg-center g-0">
                     <div class="col-6">
-                        <img src="../assets/images/img-post3.jpg" class="img-cover rounded-0" alt="Capa do Post">
+                        <img src="<?= $home; ?>/assets/images/img-post3.jpg" class="img-cover rounded-0" alt="Capa do Post">
                     </div>
                     <div class="col-6">
                         <div class="card-body py-0">
@@ -211,7 +218,7 @@ require("../partials/header.php");
             <div class="card bg-transparent w-100 rounded-0 border-0 position-relative mb-lg-4 mb-5">
                 <div class="row align-items-lg-center g-0">
                     <div class="col-6">
-                        <img src="../assets/images/img-post3.jpg" class="img-cover rounded-0" alt="Capa do Post">
+                        <img src="<?= $home; ?>/assets/images/img-post3.jpg" class="img-cover rounded-0" alt="Capa do Post">
                     </div>
                     <div class="col-6">
                         <div class="card-body py-0">
@@ -236,7 +243,7 @@ require("../partials/header.php");
             <div class="card bg-transparent w-100 rounded-0 border-0 position-relative mb-lg-4 mb-5">
                 <div class="row align-items-lg-center g-0">
                     <div class="col-6">
-                        <img src="../assets/images/img-post3.jpg" class="img-cover rounded-0" alt="Capa do Post">
+                        <img src="<?= $home; ?>/assets/images/img-post3.jpg" class="img-cover rounded-0" alt="Capa do Post">
                     </div>
                     <div class="col-6">
                         <div class="card-body py-0">
@@ -261,7 +268,7 @@ require("../partials/header.php");
             <div class="card bg-transparent w-100 rounded-0 border-0 position-relative mb-lg-4 mb-5">
                 <div class="row align-items-lg-center g-0">
                     <div class="col-6">
-                        <img src="../assets/images/img-post3.jpg" class="img-cover rounded-0" alt="Capa do Post">
+                        <img src="<?= $home; ?>/assets/images/img-post3.jpg" class="img-cover rounded-0" alt="Capa do Post">
                     </div>
                     <div class="col-6">
                         <div class="card-body py-0">
@@ -287,12 +294,12 @@ require("../partials/header.php");
                 <ul class="pagination justify-content-lg-start justify-content-center align-items-center pt-lg-5 mt-2 mb-0">
                     <li class="page-item">
                         <a class="px-3" href="#">
-                            <img src="../assets/icons/double-arrow-left.svg" alt="Ícone de link para a primeira página de posts">
+                            <img src="<?= $home; ?>/assets/icons/double-arrow-left.svg" alt="Ícone de link para a primeira página de posts">
                         </a>
                     </li>
                     <li class="page-item">
                         <a class="px-3" href="#">
-                            <img src="../assets/icons/arrow-left.svg" alt="Ícone de link para a página de posts anterior">
+                            <img src="<?= $home; ?>/assets/icons/arrow-left.svg" alt="Ícone de link para a página de posts anterior">
                         </a>
                     </li>
                     <li class="page-item active">
@@ -312,12 +319,12 @@ require("../partials/header.php");
                     </li>
                     <li class="page-item">
                         <a class="px-3" href="#">
-                            <img src="../assets/icons/arrow-right.svg" alt="Ícone de link para a próxima página de posts">
+                            <img src="<?= $home; ?>/assets/icons/arrow-right.svg" alt="Ícone de link para a próxima página de posts">
                         </a>
                     </li>
                     <li class="page-item">
                         <a class="px-3" href="#">
-                            <img src="../assets/icons/double-arrow-right.svg" alt="Ícone de link para a última página de posts">
+                            <img src="<?= $home; ?>/assets/icons/double-arrow-right.svg" alt="Ícone de link para a última página de posts">
                         </a>
                     </li>
                 </ul>
@@ -329,7 +336,7 @@ require("../partials/header.php");
                 <h2 class="h5 card-title text-secondary pt-3">Pesquisar</h2>
                 <form class="search-form position-relative mb-5 pb-3 d-flex">
                     <input class="form-control search-form-input" type="text" aria-label="Pesquisar">
-                    <img src="../assets/icons/icon-search-blue.svg" alt="">
+                    <img src="<?= $home; ?>/assets/icons/icon-search-blue.svg" alt="">
                 </form>
             </div>
 
@@ -400,16 +407,16 @@ require("../partials/header.php");
                 <div class="row w-100 mx-0">
                     <div class="col-12 d-lg-flex d-none justify-content-center align-items-center w-100 mb-4 pb-2">
                         <a href="#" class="mx-2">
-                            <img src="../assets/icons/facebook.svg" alt="ícone do Facebook">
+                            <img src="<?= $home; ?>/assets/icons/facebook.svg" alt="ícone do Facebook">
                         </a>
                         <a href="#" class="mx-2">
-                            <img src="../assets/icons/instagram.svg" alt="Ícone do Instagram">
+                            <img src="<?= $home; ?>/assets/icons/instagram.svg" alt="Ícone do Instagram">
                         </a>
                         <a href="#" class="mx-2">
-                            <img src="../assets/icons/youtube.svg" alt="Ícone do Youtube">
+                            <img src="<?= $home; ?>/assets/icons/youtube.svg" alt="Ícone do Youtube">
                         </a>
                         <a href="#" class="mx-2">
-                            <img src="../assets/icons/twitter.svg" alt="Ícone do Twitter">
+                            <img src="<?= $home; ?>/assets/icons/twitter.svg" alt="Ícone do Twitter">
                         </a>
                     </div>
                 </div>
@@ -420,5 +427,5 @@ require("../partials/header.php");
 </section>
 
 <?php
-require("../partials/footer.php");
+get_template_part('partials/footer');
 ?>

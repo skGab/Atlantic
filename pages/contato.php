@@ -1,9 +1,16 @@
 <?php
-require("../partials/header.php");
+
+/**
+ * Template Name: Contato
+ */
+
+get_template_part('partials/header');
+$home = get_stylesheet_directory_uri();
+
 ?>
 
 <!-- BANNER INTRO -->
-<section id="banner-contato" class="banner justify-content-center pt-5">
+<section id="banner-contato" class="banner justify-content-center pt-5" style="background: url('<?= $home; ?>/assets/images/banner-contato.jpg') no-repeat center center;">
     <div class="mask-banner"></div>
     <div class="container">
         <div class="row w-100">
@@ -68,11 +75,11 @@ require("../partials/header.php");
                     <p class="text-primary">Av. Mar. Gomes da Costa 19, 1800-255 Lisboa, Portugal</p>
                 </address>
                 <a href="mailto:info@atlantichub.com" class="d-flex w-100 align-items-center mb-1">
-                    <img class="me-2" src="../assets/icons/icon-envelop.svg" alt="Ícone de e-mail">
+                    <img class="me-2" src="<?= $home; ?>/assets/icons/icon-envelop.svg" alt="Ícone de e-mail">
                     info@atlantichub.com
                 </a>
                 <a href="tel:+351910297331" class="d-flex w-100 align-items-center mb-1">
-                    <img class="me-2" src="../assets/icons/icon-phone.svg" alt="Ícone de telefone">
+                    <img class="me-2" src="<?= $home; ?>/assets/icons/icon-phone.svg" alt="Ícone de telefone">
                     +351 910 297 331
                 </a>
             </div>
@@ -83,11 +90,11 @@ require("../partials/header.php");
                     <p class="text-primary">Alameda Terracota, 185 - Cerâmica, São Caetano do Sul - SP, 09531-190</p>
                 </address>
                 <a href="mailto:info@atlantichub.com" class="d-flex w-100 align-items-center mb-1">
-                    <img class="me-2" src="../assets/icons/icon-envelop.svg" alt="Ícone de e-mail">
+                    <img class="me-2" src="<?= $home; ?>/assets/icons/icon-envelop.svg" alt="Ícone de e-mail">
                     info@atlantichub.com
                 </a>
                 <a href="tel:+351910297331" class="d-flex w-100 align-items-center mb-1">
-                    <img class="me-2" src="../assets/icons/icon-phone.svg" alt="Ícone de telefone">
+                    <img class="me-2" src="<?= $home; ?>/assets/icons/icon-phone.svg" alt="Ícone de telefone">
                     +351 910 297 331
                 </a>
             </div>
@@ -96,13 +103,6 @@ require("../partials/header.php");
     </div>
 </section>
 
-<!-- ONDE ESTAMOS -->
-<section id="onde-estamos" class="container pb-5">
-    <div class="row w-100 mx-0 px-3">
-
-    </div>
-</section>
-
 <?php
-require("../partials/footer.php");
+get_template_part('partials/footer');
 ?>
