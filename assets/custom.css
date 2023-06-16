@@ -89,17 +89,17 @@ main {
 }
 
 #banner-contato {
-    background: url('../assets/images/banner-contato.jpg') no-repeat;
+    background: url('../assets/images/banner-contato.jpg') no-repeat center center;
     background-size: cover;
 }
 
 #banner-vagas {
-    background: url('../assets/images/banner-vagas.jpg') no-repeat;
+    background: url('../assets/images/banner-vagas.jpg') no-repeat center center;
     background-size: cover;
 }
 
 #banner-momento {
-    background: url('../assets/images/banner-momento.jpg') no-repeat;
+    background: url('../assets/images/banner-momento.jpg') no-repeat center center;
     background-size: cover;
 }
 
@@ -491,5 +491,13 @@ main {
     #destaque-artigos time {
         font-size: 80% !important;
         white-space: nowrap !important;
+    }
+
+    #banner-momento .title-banner span {
+        left: 2rem !important;
+    }
+
+    #relacionados .h1 {
+        font-size: 1.75rem !important;
     }
 }
