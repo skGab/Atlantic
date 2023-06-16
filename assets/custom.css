@@ -20,7 +20,7 @@ main {
     position: relative;
     max-width: 50%;
     margin-left: auto;
-    margin-right: .5rem;
+    margin-right: .5rem
 }
 
 .search-form img {
@@ -69,6 +69,8 @@ main {
 
 .navbar a.nav-link {
     color: #2583E2 !important;
+    letter-spacing: 1px;
+    font-weight: normal;
 }
 
 @media screen and (max-width: 756px) {

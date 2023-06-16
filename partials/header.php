@@ -37,17 +37,17 @@ $root = $_SERVER['DOCUMENT_ROOT'];
 <body>
     <!-- HEADER -->
     <header id="cotacao">
-        <div class="container px-4 px-md-0 py-2">
-            <div class="row align-items-center justify-content-between justify-content-md-end">
-                <div class="taxa col-6 col-md-3 text-md-end">
-                    <strong class="small text-white me-1 fw-bold">
-                        € Cotação
-                    </strong>
-                    R$5,56489
-                </div>
+        <div class="container px-4 px-sm-0 px-md-3 px-lg-4 py-2">
+            <div class="row">
+                <div class="col-12 d-flex align-items-center justify-content-between justify-content-lg-end gap-4 px-lg-0">
+                    <div class="taxa">
+                        <strong class="small text-white me-1 fw-bold">
+                            € Cotação
+                        </strong>
+                        R$5,56489
+                    </div>
 
-                <div class="col-6 col-md-3 px-1">
-                    <div class="horario text-center text-white px-md-3 py-1 rounded ms-md-auto">
+                    <div class="horario text-center text-white px-md-3 px-3 py-1 rounded">
                         <strong class="small">
                             HORÁRIO DE LISBOA
                         </strong>
@@ -58,12 +58,12 @@ $root = $_SERVER['DOCUMENT_ROOT'];
         </div>
     </header>
 
-    <header id="header" class="position-fixed w-100" style="top:55px; left:0;">
+    <header id="header" class="position-fixed w-100">
         <div class="px-lg-5 px-3 mt-2">
             <nav class="navbar navbar-light navbar-expand-lg bg-white py-0" aria-label="First navbar example">
-                <div class="container-fluid px-2 px-md-4 px-lg-3">
+                <div class="container-fluid px-3 px-md-3 px-lg-4 px-xl-5">
                     <div class="row justify-content-between align-items-center w-100 mx-0">
-                        <a class="navbar-brand col-lg-1 px-lg-0 col-5" href="/">
+                        <a class="navbar-brand col-lg-2 px-lg-0 col-5 me-0" href="/">
                             <img class="d-block img-fluid" src="../assets/images/atlantic_logo.png" alt="Logo Atlantic Hub">
                         </a>
 
@@ -72,8 +72,8 @@ $root = $_SERVER['DOCUMENT_ROOT'];
                                 menu
                             </span>
                         </button>
-						
-                        <div class="collapse navbar-collapse px-4 px-md-0 col-lg-5" id="menu">
+
+                        <div class="collapse navbar-collapse px-4 px-md-0 col-6" id="menu">
                             <ul class="navbar-nav ms-lg-auto me-lg-0 ms-0 me-auto text-end mb-lg-0 mb-2 gap-xl-2 gap-xxl-3 gap-md-1 align-items-lg-center">
 
                                 <button class="navbar-toggler border-0 text-end pe-1 my-4 w-25 ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
@@ -91,7 +91,7 @@ $root = $_SERVER['DOCUMENT_ROOT'];
                                     <a class="nav-link" href="/pages/atlantic-marketfit.php">Estudo de Mercado</a>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link pe-3 me-lg-4 dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Momento</a>
+                                    <a class="nav-link pe-3 dropdown-toggle" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Momento</a>
                                     <ul class="dropdown-menu" aria-labelledby="dropdown01">
                                         <li><a class="dropdown-item pe-lg-2 pe-3" href="#">Quero conhecer</a></li>
                                         <li><a class="dropdown-item pe-lg-2 pe-3" href="#">Já decidi e quero avançar</a></li>
@@ -99,16 +99,16 @@ $root = $_SERVER['DOCUMENT_ROOT'];
                                     </ul>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link pe-3 me-lg-4" href="#">Ecossistema</a>
+                                    <a class="nav-link pe-3" href="/pages/ecossistema.php">Ecossistema</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link pe-3 me-lg-4" href="#">Blog</a>
+                                    <a class="nav-link pe-3" href="/pages/blog.php">Blog</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link pe-3 me-lg-4" href="#">Contato</a>
+                                    <a class="nav-link pe-3" href="/pages/contato.php">Contato</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link pe-3 me-lg-4" href="#">Vagas</a>
+                                    <a class="nav-link pe-3" href="/pages/vagas.php">Vagas</a>
                                 </li>
                                 <li class="nav-item d-lg-block d-none">
                                     <a class="nav-link" type="button" data-bs-toggle="modal" data-bs-target="#search-modal">
