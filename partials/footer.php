@@ -8,10 +8,10 @@ if ($current_page == "/index.php" or $current_page == '/' or $current_page == "/
     <section id="contato" class="py-5 py-md-0 position-relative d-flex align-items-center">
         <figure class="mb-0 d-none d-md-block">
             <img loading="lazy" class="img-fluid d-none d-md-block position-absolute thumb_desk" src="<?php echo $home?>/assets/images/banner_contato_desk.png" alt="Thumb contato">
-            <div class="box"></div>
+            <div class="box d-md-none"></div>
         </figure>
 
-        <h2 class="h1 d-none d-md-block position-absolute translate-middle-x start-50 top-0">QUER FALAR COM <br class="d-md-none"> ESPECIALISTA <br class="d-none d-md-block"> PARA A INTERNACIONALIZAÇÃO?</h2>
+        <h2 class="h1 d-none position-absolute translate-middle-x start-50 top-0">QUER FALAR COM <br class="d-md-none"> ESPECIALISTA <br class="d-none d-md-block"> PARA A INTERNACIONALIZAÇÃO?</h2>
 
         <div class="container px-4 py-5 py-md-0">
             <div class="row align-items-md-center justify-content-end">

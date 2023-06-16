@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function () {
       type: 'loop',
       perPage: 4,
       gap: 40,
-      autoWidth: true,
+      // autoWidth: true,
       pagination: false,
       focus: 'center',
     });
