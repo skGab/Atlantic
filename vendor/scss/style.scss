@@ -108,22 +108,10 @@ body {
     }
 
     .horario {
-      @media screen and (min-width: 768px) {
-        width: fit-content !important;
-      }
-
-      width: fit-content;
-
       background-color: var(--title-blue);
       strong {
         font-size: 12px;
         letter-spacing: 0.8px;
-      }
-    }
-
-    @media screen and (min-width: 768px) {
-      .col-sm-6 {
-        width: fit-content;
       }
     }
   }
@@ -423,6 +411,9 @@ body {
     // PAGINA QUEM SOMOS
     #megaheader {
       background-image: url(../../images/banner_quem-somos.webp);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
 
       h1 > strong {
         font-family: 'Futura PT' !important;
@@ -434,6 +425,10 @@ body {
         left: 30px;
         top: 20px;
         opacity: 20%;
+      }
+
+      @media screen and (min-width: 768px) {
+        background-image: url(../../images/banner_quem-somos_desk.png);
       }
     }
 
@@ -539,9 +534,9 @@ body {
       .gap-bottom {
         gap: 1rem 0;
 
-        @media screen and (min-width: 992px){
+        @media screen and (min-width: 992px) {
           gap: 4rem 2rem;
-        };
+        }
       }
     }
 
@@ -562,11 +557,22 @@ body {
 
       .title > h2 {
         left: 80px !important;
-        top: 100px;
+
+        @media screen and (min-width: 768px) {
+          top: 0px !important;
+        }
+      }
+
+      @media screen and (min-width: 768px) {
+        background-image: url(../../images/banner_marketfit_desk.png) !important;
+        display: flex;
+        align-items: center;
+        min-height: 523px;
       }
     }
 
     #potencial {
+      background-color: var(--text-white);
       padding-bottom: 14rem;
       padding-top: 5rem;
 
@@ -574,8 +580,34 @@ body {
         color: var(--title-blue);
       }
 
+      .figure_desk {
+        img {
+          @media screen and (min-width: 992px) {
+            margin-top: -12rem;
+          }
+        }
+      }
+
       figure {
         top: -150px;
+
+        @media screen and (min-width: 768px) {
+          top: -250px;
+        }
+      }
+
+      @media screen and (min-width: 768px) {
+        padding-bottom: 3rem;
+      }
+
+      #splide_potencial {
+        ul {
+          max-width: 950px;
+        }
+
+        img {
+          max-width: 150px;
+        }
       }
     }
 
@@ -598,6 +630,23 @@ body {
         border-radius: 20px;
         border: var(--title-blue) 1px solid !important;
       }
+
+      .thumb_estudo {
+        bottom: 0;
+
+        @media screen and (max-width: 1566px) {
+          max-width: 350px;
+          left: 0;
+        }
+      }
+    }
+
+    #pilares {
+      background-color: var(--text-white);
+
+      img {
+        max-width: 120px;
+      }
     }
 
     #thumb-secao {
@@ -616,6 +665,14 @@ body {
 
     #motivos {
       background-color: var(--text-white);
+
+      @media screen and (min-width: 992px) {
+        background-image: linear-gradient(
+          to right,
+          var(--title-blue) 40%,
+          white 40%
+        );
+      }
 
       h2 {
         color: var(--title-blue);
@@ -639,20 +696,20 @@ body {
         font-family: 'Futura PT';
       }
 
-      h2:first-child {
+      .nossos_numeros {
+        opacity: 20% !important;
+      }
+
+      .cases_bg {
+        bottom: -25%;
+        left: -5%;
+        font-size: 5rem;
         opacity: 20%;
-      }
 
-      h2:nth-child(2) {
-        color: var(--title-blue);
-      }
-
-      h2:nth-child(3) {
-        opacity: 10%;
-        z-index: 0;
-        font-size: 7rem;
-        bottom: -75px;
-        left: -55px;
+        @media screen and (min-width: 992px) {
+          top: 0px;
+          left: -30px;
+        }
       }
 
       figure > img {
@@ -665,10 +722,20 @@ body {
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
+
+      p > strong {
+        letter-spacing: 1.5px;
+      }
+
+      @media screen and (min-width: 768px) {
+        background-image: url(../../images/banner_cronograma_desk.png);
+      }
     }
 
     #investimento {
+      min-height: 557px;
       color: var(--title-blue-2);
+
       .container:first-child {
         background-color: var(--text-white);
         figure {
@@ -691,6 +758,14 @@ body {
         border-radius: 20px;
         letter-spacing: 1px;
         font-size: 14px;
+
+        @media screen and (min-width: 768px) {
+          width: fit-content;
+        }
+      }
+
+      .size {
+        max-width: 650px;
       }
     }
   }

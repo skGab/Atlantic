@@ -86,11 +86,20 @@ document.addEventListener('DOMContentLoaded', function () {
   if (pageName === '/pages/atlantic-marketfit.php') {
     var splide_potencial = new Splide('#splide_potencial', {
       type: 'loop',
-      perPage: 3,
+      perPage: 4,
       pagination: false,
-      focus: 'center',
-      autoWidth: true,
+      // focus: 'center',
+      // autoWidth: true,
       gap: 20,
+      breakpoints: {
+        992: {
+          perPage: 3,
+        },
+        768: {
+          perPage: 1,
+          // gap: 50,;
+        },
+      },
     });
     splide_potencial.mount();
   }

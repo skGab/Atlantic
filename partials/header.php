@@ -37,18 +37,18 @@ $root = $_SERVER['DOCUMENT_ROOT'];
 <body>
     <!-- HEADER -->
     <header id="cotacao">
-        <div class="container px-4 px-md-0 py-2">
-            <div class="row align-items-center justify-content-between justify-content-md-end">
-                <div class="col-4 col-sm-6 taxa text-md-end">
-                    <strong class="small text-white me-1 fw-bold">
-                        € Cotação
-                    </strong>
-                    R$5,56489
-                </div>
+        <div class="container px-4 px-sm-0 px-md-3 px-lg-4 py-2">
+            <div class="row">
+                <div class="col-12 d-flex align-items-center justify-content-between justify-content-lg-end gap-4 px-lg-0">
+                    <div class="taxa">
+                        <strong class="small text-white me-1 fw-bold">
+                            € Cotação
+                        </strong>
+                        R$5,56489
+                    </div>
 
-                <div class="col-8 col-sm-6">
-                    <div class="horario text-center text-white px-md-3 px-3 py-1 rounded ms-md-auto ms-auto">
-                        <strong class="small ">
+                    <div class="horario text-center text-white px-md-3 px-3 py-1 rounded">
+                        <strong class="small">
                             HORÁRIO DE LISBOA
                         </strong>
                         14:50
@@ -61,7 +61,7 @@ $root = $_SERVER['DOCUMENT_ROOT'];
     <header id="header" class="position-fixed w-100">
         <div class="px-lg-5 px-3 mt-2">
             <nav class="navbar navbar-light navbar-expand-lg bg-white py-0" aria-label="First navbar example">
-                <div class="container-fluid px-2 px-md-4 px-lg-3">
+                <div class="container-fluid px-3 px-md-3 px-lg-4 px-xl-5">
                     <div class="row justify-content-between align-items-center w-100 mx-0">
                         <a class="navbar-brand col-lg-2 px-lg-0 col-5 me-0" href="/">
                             <img class="d-block img-fluid" src="../assets/images/atlantic_logo.png" alt="Logo Atlantic Hub">
@@ -72,7 +72,7 @@ $root = $_SERVER['DOCUMENT_ROOT'];
                                 menu
                             </span>
                         </button>
-						
+
                         <div class="collapse navbar-collapse px-4 px-md-0 col-6" id="menu">
                             <ul class="navbar-nav ms-lg-auto me-lg-0 ms-0 me-auto text-end mb-lg-0 mb-2 gap-xl-2 gap-xxl-3 gap-md-1 align-items-lg-center">
 

@@ -2,19 +2,23 @@
   z-index: 10 !important;
 }
 
-a.nav-link, input{
+input {
   font-family: 'Futura PT Book';
 }
 
-main h1{
+a.nav-link {
   font-family: 'Futura PT';
 }
 
+main h1 {
+  font-family: 'Futura PT';
+}
 
 @font-face {
   font-family: 'Futura PT';
   src: url('../assets/fonts/FuturaPT-Bold.eot');
-  src: url('../assets/fonts/FuturaPT-Bold.eot?#iefix') format('embedded-opentype'),
+  src: url('../assets/fonts/FuturaPT-Bold.eot?#iefix')
+      format('embedded-opentype'),
     url('../assets/fonts/FuturaPT-Bold.woff2') format('woff2'),
     url('../assets/fonts/FuturaPT-Bold.woff') format('woff'),
     url('../assets/fonts/FuturaPT-Bold.ttf') format('truetype');
@@ -26,7 +30,8 @@ main h1{
 @font-face {
   font-family: 'Futura PT Book';
   src: url('../assets/fonts/FuturaPT-Book.eot');
-  src: url('../assets/fonts/FuturaPT-Book.eot?#iefix') format('embedded-opentype'),
+  src: url('../assets/fonts/FuturaPT-Book.eot?#iefix')
+      format('embedded-opentype'),
     url('../assets/fonts/FuturaPT-Book.woff2') format('woff2'),
     url('../assets/fonts/FuturaPT-Book.woff') format('woff'),
     url('../assets/fonts/FuturaPT-Book.ttf') format('truetype');
@@ -38,7 +43,8 @@ main h1{
 @font-face {
   font-family: 'Futura PT';
   src: url('../assets/fonts/FuturaPT-BoldObl.eot');
-  src: url('../assets/fonts/FuturaPT-BoldObl.eot?#iefix') format('embedded-opentype'),
+  src: url('../assets/fonts/FuturaPT-BoldObl.eot?#iefix')
+      format('embedded-opentype'),
     url('../assets/fonts/FuturaPT-BoldObl.woff2') format('woff2'),
     url('../assets/fonts/FuturaPT-BoldObl.woff') format('woff'),
     url('../assets/fonts/FuturaPT-BoldObl.ttf') format('truetype');
@@ -50,7 +56,8 @@ main h1{
 @font-face {
   font-family: 'Futura PT Cond';
   src: url('../assets/fonts/FuturaPTCond-BoldObl.eot');
-  src: url('../assets/fonts/FuturaPTCond-BoldObl.eot?#iefix') format('embedded-opentype'),
+  src: url('../assets/fonts/FuturaPTCond-BoldObl.eot?#iefix')
+      format('embedded-opentype'),
     url('../assets/fonts/FuturaPTCond-BoldObl.woff2') format('woff2'),
     url('../assets/fonts/FuturaPTCond-BoldObl.woff') format('woff'),
     url('../assets/fonts/FuturaPTCond-BoldObl.ttf') format('truetype');
@@ -75,7 +82,8 @@ main h1{
 @font-face {
   font-family: 'Futura PT Book';
   src: url('../assets/fonts/FuturaPT-BookObl.eot');
-  src: url('../assets/fonts/FuturaPT-BookObl.eot?#iefix') format('embedded-opentype'),
+  src: url('../assets/fonts/FuturaPT-BookObl.eot?#iefix')
+      format('embedded-opentype'),
     url('../assets/fonts/FuturaPT-BookObl.woff2') format('woff2'),
     url('../assets/fonts/FuturaPT-BookObl.woff') format('woff'),
     url('../assets/fonts/FuturaPT-BookObl.ttf') format('truetype');
@@ -87,7 +95,8 @@ main h1{
 @font-face {
   font-family: 'Futura PT Cond';
   src: url('../assets/fonts/FuturaPTCond-Bold.eot');
-  src: url('../assets/fonts/FuturaPTCond-Bold.eot?#iefix') format('embedded-opentype'),
+  src: url('../assets/fonts/FuturaPTCond-Bold.eot?#iefix')
+      format('embedded-opentype'),
     url('../assets/fonts/FuturaPTCond-Bold.woff2') format('woff2'),
     url('../assets/fonts/FuturaPTCond-Bold.woff') format('woff'),
     url('../assets/fonts/FuturaPTCond-Bold.ttf') format('truetype');
@@ -99,7 +108,8 @@ main h1{
 @font-face {
   font-family: 'Futura PT Cond Book';
   src: url('../assets/fonts/FuturaPTCond-BookObl.eot');
-  src: url('../assets/fonts/FuturaPTCond-BookObl.eot?#iefix') format('embedded-opentype'),
+  src: url('../assets/fonts/FuturaPTCond-BookObl.eot?#iefix')
+      format('embedded-opentype'),
     url('../assets/fonts/FuturaPTCond-BookObl.woff2') format('woff2'),
     url('../assets/fonts/FuturaPTCond-BookObl.woff') format('woff'),
     url('../assets/fonts/FuturaPTCond-BookObl.ttf') format('truetype');
@@ -111,7 +121,8 @@ main h1{
 @font-face {
   font-family: 'Futura PT Cond Book';
   src: url('../assets/fonts/FuturaPTCond-Book.eot');
-  src: url('../assets/fonts/FuturaPTCond-Book.eot?#iefix') format('embedded-opentype'),
+  src: url('../assets/fonts/FuturaPTCond-Book.eot?#iefix')
+      format('embedded-opentype'),
     url('../assets/fonts/FuturaPTCond-Book.woff2') format('woff2'),
     url('../assets/fonts/FuturaPTCond-Book.woff') format('woff'),
     url('../assets/fonts/FuturaPTCond-Book.ttf') format('truetype');
@@ -123,7 +134,8 @@ main h1{
 @font-face {
   font-family: 'Futura PT Demi';
   src: url('../assets/fonts/FuturaPT-Demi.eot');
-  src: url('../assets/fonts/FuturaPT-Demi.eot?#iefix') format('embedded-opentype'),
+  src: url('../assets/fonts/FuturaPT-Demi.eot?#iefix')
+      format('embedded-opentype'),
     url('../assets/fonts/FuturaPT-Demi.woff2') format('woff2'),
     url('../assets/fonts/FuturaPT-Demi.woff') format('woff'),
     url('../assets/fonts/FuturaPT-Demi.ttf') format('truetype');
@@ -135,7 +147,8 @@ main h1{
 @font-face {
   font-family: 'Futura PT Demi';
   src: url('../assets/fonts/FuturaPT-DemiObl.eot');
-  src: url('../assets/fonts/FuturaPT-DemiObl.eot?#iefix') format('embedded-opentype'),
+  src: url('../assets/fonts/FuturaPT-DemiObl.eot?#iefix')
+      format('embedded-opentype'),
     url('../assets/fonts/FuturaPT-DemiObl.woff2') format('woff2'),
     url('../assets/fonts/FuturaPT-DemiObl.woff') format('woff'),
     url('../assets/fonts/FuturaPT-DemiObl.ttf') format('truetype');
@@ -160,7 +173,8 @@ main h1{
 @font-face {
   font-family: 'Futura PT Extra';
   src: url('../assets/fonts/FuturaPT-ExtraBold.eot');
-  src: url('../assets/fonts/FuturaPT-ExtraBold.eot?#iefix') format('embedded-opentype'),
+  src: url('../assets/fonts/FuturaPT-ExtraBold.eot?#iefix')
+      format('embedded-opentype'),
     url('../assets/fonts/FuturaPT-ExtraBold.woff2') format('woff2'),
     url('../assets/fonts/FuturaPT-ExtraBold.woff') format('woff'),
     url('../assets/fonts/FuturaPT-ExtraBold.ttf') format('truetype');
@@ -185,7 +199,8 @@ main h1{
 @font-face {
   font-family: 'Futura PT Cond';
   src: url('../assets/fonts/FuturaPTCond-Medium.eot');
-  src: url('../assets/fonts/FuturaPTCond-Medium.eot?#iefix') format('embedded-opentype'),
+  src: url('../assets/fonts/FuturaPTCond-Medium.eot?#iefix')
+      format('embedded-opentype'),
     url('../assets/fonts/FuturaPTCond-Medium.woff2') format('woff2'),
     url('../assets/fonts/FuturaPTCond-Medium.woff') format('woff'),
     url('../assets/fonts/FuturaPTCond-Medium.ttf') format('truetype');
@@ -197,7 +212,8 @@ main h1{
 @font-face {
   font-family: 'Futura PT';
   src: url('../assets/fonts/FuturaPT-LightObl.eot');
-  src: url('../assets/fonts/FuturaPT-LightObl.eot?#iefix') format('embedded-opentype'),
+  src: url('../assets/fonts/FuturaPT-LightObl.eot?#iefix')
+      format('embedded-opentype'),
     url('../assets/fonts/FuturaPT-LightObl.woff2') format('woff2'),
     url('../assets/fonts/FuturaPT-LightObl.woff') format('woff'),
     url('../assets/fonts/FuturaPT-LightObl.ttf') format('truetype');
@@ -209,7 +225,8 @@ main h1{
 @font-face {
   font-family: 'Futura PT';
   src: url('../assets/fonts/FuturaPT-Heavy.eot');
-  src: url('../assets/fonts/FuturaPT-Heavy.eot?#iefix') format('embedded-opentype'),
+  src: url('../assets/fonts/FuturaPT-Heavy.eot?#iefix')
+      format('embedded-opentype'),
     url('../assets/fonts/FuturaPT-Heavy.woff2') format('woff2'),
     url('../assets/fonts/FuturaPT-Heavy.woff') format('woff'),
     url('../assets/fonts/FuturaPT-Heavy.ttf') format('truetype');
@@ -221,7 +238,8 @@ main h1{
 @font-face {
   font-family: 'Futura PT';
   src: url('../assets/fonts/FuturaPT-Light.eot');
-  src: url('../assets/fonts/FuturaPT-Light.eot?#iefix') format('embedded-opentype'),
+  src: url('../assets/fonts/FuturaPT-Light.eot?#iefix')
+      format('embedded-opentype'),
     url('../assets/fonts/FuturaPT-Light.woff2') format('woff2'),
     url('../assets/fonts/FuturaPT-Light.woff') format('woff'),
     url('../assets/fonts/FuturaPT-Light.ttf') format('truetype');
@@ -233,7 +251,8 @@ main h1{
 @font-face {
   font-family: 'Futura PT';
   src: url('../assets/fonts/FuturaPT-HeavyObl.eot');
-  src: url('../assets/fonts/FuturaPT-HeavyObl.eot?#iefix') format('embedded-opentype'),
+  src: url('../assets/fonts/FuturaPT-HeavyObl.eot?#iefix')
+      format('embedded-opentype'),
     url('../assets/fonts/FuturaPT-HeavyObl.woff2') format('woff2'),
     url('../assets/fonts/FuturaPT-HeavyObl.woff') format('woff'),
     url('../assets/fonts/FuturaPT-HeavyObl.ttf') format('truetype');
@@ -245,7 +264,8 @@ main h1{
 @font-face {
   font-family: 'Futura PT Extra';
   src: url('../assets/fonts/FuturaPT-ExtraBoldObl.eot');
-  src: url('../assets/fonts/FuturaPT-ExtraBoldObl.eot?#iefix') format('embedded-opentype'),
+  src: url('../assets/fonts/FuturaPT-ExtraBoldObl.eot?#iefix')
+      format('embedded-opentype'),
     url('../assets/fonts/FuturaPT-ExtraBoldObl.woff2') format('woff2'),
     url('../assets/fonts/FuturaPT-ExtraBoldObl.woff') format('woff'),
     url('../assets/fonts/FuturaPT-ExtraBoldObl.ttf') format('truetype');
@@ -257,7 +277,8 @@ main h1{
 @font-face {
   font-family: 'Futura PT';
   src: url('../assets/fonts/FuturaPT-Medium.eot');
-  src: url('../assets/fonts/FuturaPT-Medium.eot?#iefix') format('embedded-opentype'),
+  src: url('../assets/fonts/FuturaPT-Medium.eot?#iefix')
+      format('embedded-opentype'),
     url('../assets/fonts/FuturaPT-Medium.woff2') format('woff2'),
     url('../assets/fonts/FuturaPT-Medium.woff') format('woff'),
     url('../assets/fonts/FuturaPT-Medium.ttf') format('truetype');
@@ -269,7 +290,8 @@ main h1{
 @font-face {
   font-family: 'Futura PT';
   src: url('../assets/fonts/FuturaPT-MediumObl.eot');
-  src: url('../assets/fonts/FuturaPT-MediumObl.eot?#iefix') format('embedded-opentype'),
+  src: url('../assets/fonts/FuturaPT-MediumObl.eot?#iefix')
+      format('embedded-opentype'),
     url('../assets/fonts/FuturaPT-MediumObl.woff2') format('woff2'),
     url('../assets/fonts/FuturaPT-MediumObl.woff') format('woff'),
     url('../assets/fonts/FuturaPT-MediumObl.ttf') format('truetype');

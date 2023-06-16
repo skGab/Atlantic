@@ -4,10 +4,10 @@ require $root . '/partials/header.php';
 ?>
 
 <!-- QUEM SOMOS -->
-<section id="megaheader" class="py-5">
-    <div class="container px-4 py-5">
+<section id="megaheader" class="py-5 py-md-0">
+    <div class="container px-4 py-5 py-md-5">
         <div class="row pt-md-5 align-items-md-center">
-            <div class="col-12 col-lg-5 text-white mb-md-4">
+            <div class="col-12 col-lg-5 col-xxl-4 text-white mb-md-4 mb-xl-0">
                 <div class="title position-relative">
                     <!-- MOBILE -->
                     <h1 class="display-3 mb-4 text-white d-md-none">QUEM <br>
@@ -35,10 +35,10 @@ require $root . '/partials/header.php';
 
                 <p>Apoiamos empresários brasileiros, no processo de internacionalização de empresas a partir de Portugal. Nosso foco é oferecer todo o suporte necessário, através de serviços e realização de eventos, que direcionam, escalam e preparam empresas para um resultado positivo e duradouro.</p>
 
-                <p>Contamos com uma equipe de especialistas altamente preparada e qualificada para auxiliar a sua empresa a alcançar suas metas e objetivos.</p>
+                <p class="mb-0">Contamos com uma equipe de especialistas altamente preparada e qualificada para auxiliar a sua empresa a alcançar suas metas e objetivos.</p>
             </div>
 
-            <figure class="col-lg-7 mb-0 d-none d-md-block">
+            <figure class="col-lg-7 col-xxl-8 mb-0 d-none d-md-block">
                 <img loading="lazy" src="../assets/images/video_quem-somos_deks.png" class="img-fluid" alt="Video Quem Somos Desktop">
             </figure>
         </div>
@@ -255,23 +255,29 @@ require $root . '/partials/header.php';
                 <img loading="lazy" class="w-100 d-none d-md-block" src="../assets/images/team_atlantic_desk.png" alt="Atlantic Team">
             </div>
 
-            <div class="col-5 col-md-3 col-lg-2 text-md-center text-end">
-                <img loading="lazy" class="img-fluid" src="../assets/images/equipe/equipe1.png" alt="Foto equipe">
+            <div class="col-5 col-md-4 col-lg-2 text-md-center text-end">
+                <img loading="lazy" class="img-fluid d-md-none" src="../assets/images/equipe/equipe1.png" alt="Foto equipe Mob">
+                <img loading="lazy" class="img-fluid d-none d-md-block" src="../assets/images/equipe/equipe1_desk.png" alt="Foto equipe Desk">
             </div>
-            <div class="col-5 col-md-3 col-lg-2 text-md-center text-start mb-md-3 mb-lg-0">
-                <img loading="lazy" class="img-fluid" src="../assets/images/equipe/equipe2.png" alt="Foto equipe">
+            <div class="col-5 col-md-4 col-lg-2 text-md-center text-start mb-md-3 mb-lg-0">
+                <img loading="lazy" class="img-fluid d-md-none" src="../assets/images/equipe/equipe2.png" alt="Foto equipe">
+                <img loading="lazy" class="img-fluid d-none d-md-block" src="../assets/images/equipe/equipe2_desk.png" alt="Foto equipe">
             </div>
-            <div class="col-5 col-md-3 col-lg-2 text-md-center text-end my-4 my-md-0 mb-md-3 mb-lg-0">
-                <img loading="lazy" class="img-fluid" src="../assets/images/equipe/equipe3.png" alt="Foto equipe">
+            <div class="col-5 col-md-4 col-lg-2 text-md-center text-end my-4 my-md-0">
+                <img loading="lazy" class="img-fluid d-md-none" src="../assets/images/equipe/equipe3.png" alt="Foto equipe">
+                <img loading="lazy" class="img-fluid d-none d-md-block" src="../assets/images/equipe/equipe3_desk.png" alt="Foto equipe">
             </div>
-            <div class="col-5 col-md-3 col-lg-2 text-md-center text-start my-4 my-md-0">
-                <img loading="lazy" class="img-fluid" src="../assets/images/equipe/equipe4.png" alt="Foto equipe">
+            <div class="col-5 col-md-4 col-lg-2 text-md-center text-start my-4 my-md-0">
+                <img loading="lazy" class="img-fluid d-md-none" src="../assets/images/equipe/equipe4.png" alt="Foto equipe">
+                <img loading="lazy" class="img-fluid d-none d-md-block" src="../assets/images/equipe/equipe4_desk.png" alt="Foto equipe">
             </div>
-            <div class="col-5 col-md-3 col-lg-2 text-md-center text-end">
-                <img loading="lazy" class="img-fluid" src="../assets/images/equipe/equipe5.png" alt="Foto equipe">
+            <div class="col-5 col-md-4 col-lg-2 text-md-center text-end">
+                <img loading="lazy" class="img-fluid d-md-none" src="../assets/images/equipe/equipe5.png" alt="Foto equipe">
+                <img loading="lazy" class="img-fluid d-none d-md-block" src="../assets/images/equipe/equipe5_desk.png" alt="Foto equipe">
             </div>
-            <div class="col-5 col-md-3 col-lg-2 text-md-center text-start">
-                <img loading="lazy" class="img-fluid" src="../assets/images/equipe/equipe6.png" alt="Foto equipe">
+            <div class="col-5 col-md-4 col-lg-2 text-md-center text-start d-md-none">
+                <img loading="lazy" class="img-fluid d-md-none" src="../assets/images/equipe/equipe6.png" alt="Foto equipe">
+                <img loading="lazy" class="img-fluid d-none d-md-block" src="../assets/images/equipe/equipe6_desk.png" alt="Foto equipe">
             </div>
         </div>
     </div>
