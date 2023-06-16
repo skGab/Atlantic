@@ -1,6 +1,8 @@
 <?php
 $current_page =  $_SERVER['REQUEST_URI'];
 $root = $_SERVER['DOCUMENT_ROOT'];
+
+$home = get_stylesheet_directory_uri();
 ?>
 
 <!DOCTYPE html>
@@ -11,7 +13,7 @@ $root = $_SERVER['DOCUMENT_ROOT'];
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- <meta name="description" content=""> -->
-    <link rel="shortcut icon" href="../assets/icons/fav-icon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="<?php echo $home ?>/assets/icons/fav-icon.png" type="image/x-icon">
     <title>Atlantic Hub</title>
 
     <!-- Bootstrap CSS -->
@@ -64,7 +66,7 @@ $root = $_SERVER['DOCUMENT_ROOT'];
                 <div class="container-fluid px-3 px-md-3 px-lg-4 px-xl-5">
                     <div class="row justify-content-between align-items-center w-100 mx-0">
                         <a class="navbar-brand col-lg-2 px-lg-0 col-5 me-0" href="/">
-                            <img class="d-block img-fluid" src="../assets/images/atlantic_logo.png" alt="Logo Atlantic Hub">
+                            <img class="d-block img-fluid" src="<?php echo $home ?>/assets/images/atlantic_logo.png" alt="Logo Atlantic Hub">
                         </a>
 
                         <button class="navbar-toggler border-0 col-3 text-end" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
@@ -85,10 +87,10 @@ $root = $_SERVER['DOCUMENT_ROOT'];
                                     <a class="nav-link" href="/">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="/pages/quem-somos.php">Quem somos</a>
+                                    <a class="nav-link" href="/quem-somos/">Quem somos</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="/pages/atlantic-marketfit.php">Estudo de Mercado</a>
+                                    <a class="nav-link" href="/atlantic-marketfit/">Estudo de Mercado</a>
                                 </li>
                                 <li class="nav-item dropdown">
                                     <a class="nav-link pe-3 dropdown-toggle" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Momento</a>
@@ -99,26 +101,26 @@ $root = $_SERVER['DOCUMENT_ROOT'];
                                     </ul>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link pe-3" href="/pages/ecossistema.php">Ecossistema</a>
+                                    <a class="nav-link pe-3" href="/ecossistema/">Ecossistema</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link pe-3" href="/pages/blog.php">Blog</a>
+                                    <a class="nav-link pe-3" href="/blog/">Blog</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link pe-3" href="/pages/contato.php">Contato</a>
+                                    <a class="nav-link pe-3" href="/contato/">Contato</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link pe-3" href="/pages/vagas.php">Vagas</a>
+                                    <a class="nav-link pe-3" href="/vagas/">Vagas</a>
                                 </li>
                                 <li class="nav-item d-lg-block d-none">
                                     <a class="nav-link" type="button" data-bs-toggle="modal" data-bs-target="#search-modal">
-                                        <img src="../assets/icons/icon-search-blue.svg" alt="">
+                                        <img src="<?php echo $home ?>/assets/icons/icon-search-blue.svg" alt="">
                                     </a>
                                 </li>
                             </ul>
                             <form class="search-form mb-5 pb-5 col-lg-2 d-lg-none d-flex">
                                 <input class="form-control search-form-input" type="text" placeholder="Pesquisar" aria-label="Pesquisar">
-                                <img src="../assets/icons/icon-search-white.svg" alt="">
+                                <img src="<?php echo $home ?>/assets/icons/icon-search-white.svg" alt="">
                             </form>
                         </div>
                     </div>
@@ -134,7 +136,7 @@ $root = $_SERVER['DOCUMENT_ROOT'];
                 <div class="modal-body">
                     <form class="search-form-modal mb-5 pb-5 d-flex">
                         <input class="form-control search-form-input-modal" type="text" placeholder="Escreva aqui..." aria-label="Pesquisar">
-                        <img src="../assets/icons/icon-search-blue.svg" alt="">
+                        <img src="<?php echo $home ?>/assets/icons/icon-search-blue.svg" alt="">
                     </form>
                 </div>
             </div>

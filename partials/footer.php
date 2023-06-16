@@ -1,10 +1,13 @@
 <?php
 $current_page =  $_SERVER['REQUEST_URI'];
+
+$home = get_stylesheet_directory_uri();
+
 if ($current_page == "/index.php" or $current_page == '/' or $current_page == "/pages/quero-conhecer.php") : ?>
     <!-- CONTATO -->
     <section id="contato" class="py-5 py-md-0 position-relative d-flex align-items-center">
         <figure class="mb-0 d-none d-md-block">
-            <img loading="lazy" class="img-fluid d-none d-md-block position-absolute thumb_desk" src="../assets/images/banner_contato_desk.png" alt="Thumb contato">
+            <img loading="lazy" class="img-fluid d-none d-md-block position-absolute thumb_desk" src="<?php echo $home?>/assets/images/banner_contato_desk.png" alt="Thumb contato">
             <div class="box"></div>
         </figure>
 
@@ -15,7 +18,7 @@ if ($current_page == "/index.php" or $current_page == '/' or $current_page == "/
                 <div class="col-12 col-md-6 mb-5 mb-md-0">
                     <h2 class="h1 d-md-none">QUER FALAR COM <br> ESPECIALISTA PARA A INTERNACIONALIZAÇÃO?</h2>
                     <figure class="h-md-100 w-md-100 m-md-0 ">
-                        <img loading="lazy" class="img-fluid d-md-none" src="../assets/images/banner_contato.png" alt="Thumb contato">
+                        <img loading="lazy" class="img-fluid d-md-none" src="<?php echo $home?>/assets/images/banner_contato.png" alt="Thumb contato">
                     </figure>
                 </div>
 
@@ -46,7 +49,7 @@ if ($current_page == "/index.php" or $current_page == '/' or $current_page == "/
 
                         <button type="submit" class="bg-transparent border-0 btn d-flex align-items-center">
                             ENVIAR
-                            <img loading="lazy" class="img-fluid ms-3" src="../assets/icons/seta-direita-contato.svg" alt="Seta Direita">
+                            <img loading="lazy" class="img-fluid ms-3" src="<?php echo $home?>/assets/icons/seta-direita-contato.svg" alt="Seta Direita">
                         </button>
                     </form>
                 </div>
@@ -63,7 +66,7 @@ if ($current_page == "/index.php" or $current_page == '/' or $current_page == "/
         <div class="row space d-md-none">
             <div class="col">
                 <figure class="logo space">
-                    <img loading="lazy" class="img-fluid" width="170px" src="../assets/images/logo-atlantic-footer.png" alt="Logo Atlantic">
+                    <img loading="lazy" class="img-fluid" width="170px" src="<?php echo $home?>/assets/images/logo-atlantic-footer.png" alt="Logo Atlantic">
                 </figure>
 
                 <div class="endereco space lh-1 small text-white-footer">
@@ -74,16 +77,16 @@ if ($current_page == "/index.php" or $current_page == '/' or $current_page == "/
 
                 <figure class="social d-flex gap-3 mb-0">
                     <a href="" target="_blank">
-                        <img loading="lazy" class="img-fluid" src="../assets/icons/facebook-footer.svg" alt="Logo facebook">
+                        <img loading="lazy" class="img-fluid" src="<?php echo $home?>/assets/icons/facebook-footer.svg" alt="Logo facebook">
                     </a>
                     <a href="" target="_blank">
-                        <img loading="lazy" class="img-fluid" src="../assets/icons/instagram-footer.svg" alt="Logo Instagram">
+                        <img loading="lazy" class="img-fluid" src="<?php echo $home?>/assets/icons/instagram-footer.svg" alt="Logo Instagram">
                     </a>
                     <a href="" target="_blank">
-                        <img loading="lazy" class="img-fluid" src="../assets/icons/youtube-footer.svg" alt="Logo Youtube">
+                        <img loading="lazy" class="img-fluid" src="<?php echo $home?>/assets/icons/youtube-footer.svg" alt="Logo Youtube">
                     </a>
                     <a href="" target="_blank">
-                        <img loading="lazy" class="img-fluid" src="../assets/icons/twitter-footer.svg" alt="Logo Twitter">
+                        <img loading="lazy" class="img-fluid" src="<?php echo $home?>/assets/icons/twitter-footer.svg" alt="Logo Twitter">
                     </a>
                 </figure>
             </div>
@@ -107,7 +110,7 @@ if ($current_page == "/index.php" or $current_page == '/' or $current_page == "/
             <div class="col-6">
                 <div class="d-flex gap-3">
                     <figure class="logo space">
-                        <img loading="lazy" class="img-fluid" width="180px" src="../assets/images/logo-atlantic-footer.png" alt="Logo Atlantic">
+                        <img loading="lazy" class="img-fluid" width="180px" src="<?php echo $home?>/assets/images/logo-atlantic-footer.png" alt="Logo Atlantic">
                     </figure>
 
                     <div class="endereco space lh-1 small text-white-footer">
@@ -119,16 +122,16 @@ if ($current_page == "/index.php" or $current_page == '/' or $current_page == "/
 
                 <figure class="social d-flex gap-3 mb-0">
                     <a href="" target="_blank">
-                        <img loading="lazy" class="img-fluid" src="../assets/icons/facebook-footer.svg" alt="Logo facebook">
+                        <img loading="lazy" class="img-fluid" src="<?php echo $home?>/assets/icons/facebook-footer.svg" alt="Logo facebook">
                     </a>
                     <a href="" target="_blank">
-                        <img loading="lazy" class="img-fluid" src="../assets/icons/instagram-footer.svg" alt="Logo Instagram">
+                        <img loading="lazy" class="img-fluid" src="<?php echo $home?>/assets/icons/instagram-footer.svg" alt="Logo Instagram">
                     </a>
                     <a href="" target="_blank">
-                        <img loading="lazy" class="img-fluid" src="../assets/icons/youtube-footer.svg" alt="Logo Youtube">
+                        <img loading="lazy" class="img-fluid" src="<?php echo $home?>/assets/icons/youtube-footer.svg" alt="Logo Youtube">
                     </a>
                     <a href="" target="_blank">
-                        <img loading="lazy" class="img-fluid" src="../assets/icons/twitter-footer.svg" alt="Logo Twitter">
+                        <img loading="lazy" class="img-fluid" src="<?php echo $home?>/assets/icons/twitter-footer.svg" alt="Logo Twitter">
                     </a>
                 </figure>
             </div>
@@ -151,7 +154,7 @@ if ($current_page == "/index.php" or $current_page == '/' or $current_page == "/
                 <p class="text-white-footer"><strong class="text-white letter">Atlantic Hub |</strong> © Copyright 2022 - Todos Os Direitos Reservados</p>
                 <div class="d-flex align-items-center">
                     <strong class="text-white me-2 letter">Desenvolvido por</strong>
-                    <a href="https://blackbeans.com.br/" target="_blank"><img class="mb-1" loading="lazy" src="../assets/icons/logo-blackbeans.png" alt="Logo Black Beans"></a>
+                    <a href="https://blackbeans.com.br/" target="_blank"><img class="mb-1" loading="lazy" src="<?php echo $home?>/assets/icons/logo-blackbeans.png" alt="Logo Black Beans"></a>
                 </div>
             </div>
         </div>
@@ -165,15 +168,15 @@ if ($current_page == "/index.php" or $current_page == '/' or $current_page == "/
                     <p class="me-3 mb-0">
                         Certificação:
                     </p>
-                    <img loading="lazy" class="img-fluid" src="../assets/images/logo_iapmei.png" alt="Logo IAPMEI">
+                    <img loading="lazy" class="img-fluid" src="<?php echo $home?>/assets/images/logo_iapmei.png" alt="Logo IAPMEI">
                 </div>
                 <div class="d-flex align-items-center gap-3">
                     <p class="mb-0">
                         Membro:
                     </p>
-                    <img loading="lazy" class="img-fluid" src="../assets/images/logo_camara.png" alt="Logo Câmara">
-                    <img loading="lazy" class="img-fluid" src="../assets/images/logo_footer1.png" alt="Logo Câmara Municipal">
-                    <img loading="lazy" class="img-fluid" src="../assets/images/logo_footer2.png" alt="Logo Rio Grande">
+                    <img loading="lazy" class="img-fluid" src="<?php echo $home?>/assets/images/logo_camara.png" alt="Logo Câmara">
+                    <img loading="lazy" class="img-fluid" src="<?php echo $home?>/assets/images/logo_footer1.png" alt="Logo Câmara Municipal">
+                    <img loading="lazy" class="img-fluid" src="<?php echo $home?>/assets/images/logo_footer2.png" alt="Logo Rio Grande">
                 </div>
             </figure>
         </div>
