@@ -82,6 +82,12 @@ main {
     top: .75rem !important;
 }
 
+#banner-ecossistema .title-banner span {
+    right: -14rem !important;
+    top: .75rem !important;
+    opacity: .4;
+}
+
 #banner-contato {
     background: url('../assets/images/banner-contato.jpg') no-repeat;
     background-size: cover;
@@ -94,6 +100,11 @@ main {
 
 #banner-momento {
     background: url('../assets/images/banner-momento.jpg') no-repeat;
+    background-size: cover;
+}
+
+#banner-ecossistema {
+    background: url('../assets/images/banner-ecossistema.jpg') no-repeat center center;
     background-size: cover;
 }
 
