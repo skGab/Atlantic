@@ -516,4 +516,14 @@ main {
         font-size: 3rem;
         border: 2px solid !important;
     }
+
+    #relacionados a:hover span{
+        margin-left: 1rem !important;
+        transition: .4s ease-in !important; 
+    }
+
+    #relacionados a:hover h3 {
+        color: #fff !important;
+        transition: .4s ease-in;
+    }
 }

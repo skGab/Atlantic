@@ -68,46 +68,52 @@ $home = get_stylesheet_directory_uri();
         <div class="row">
             <div class="col-lg-4 col-12 mb-4 pb-3">
                 <div class="card bg-transparent border-0">
-                    <div class="card-body d-flex align-items-start">
-                        <div class="pt-1">
-                            <h3 class="card-title h1 text-secondary">Atlantic Connection</h3>
-                            <p class="card-text text-white pe-5">O maior evento global sobre o ecossistema Brasil e Portugal</p>
+                    <div class="card-body">
+                        <div class="row w-100 mx-0">
+                            <div class="col-9 pt-1">
+                                <h3 class="card-title h1 text-secondary">Atlantic Connection</h3>
+                                <p class="card-text text-white">O maior evento global sobre o ecossistema Brasil e Portugal</p>
+                            </div>
+                            <a href="#" class="col-3">
+                                <span class="material-symbols-outlined border border-primary text-secondary rounded-pill p-1 me-auto">
+                                    east
+                                </span>
+                            </a>
                         </div>
-                        <a href="#" class="d-flex align-items-center justify-content-center ms-auto">
-                            <span class="material-symbols-outlined border border-primary text-secondary rounded-pill p-1">
-                                east
-                            </span>
-                        </a>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 col-12 mb-4 pb-3">
                 <div class="card bg-transparent border-0">
-                    <div class="card-body d-flex align-items-start">
-                        <div class="pt-1">
-                            <h3 class="card-title h1 text-secondary">Missões empresariais</h3>
-                            <p class="card-text text-white pe-5">A oportunidade mais efetiva de network para seus negóciose Portugal</p>
+                    <div class="card-body">
+                        <div class="row w-100 mx-0">
+                            <div class="col-9 pt-1">
+                                <h3 class="card-title h1 text-secondary">Missões empresariais</h3>
+                                <p class="card-text text-white">A oportunidade mais efetiva de network para seus negóciose Portugal</p>
+                            </div>
+                            <a href="#" class="col-3">
+                                <span class="material-symbols-outlined border border-primary text-secondary rounded-pill p-1 me-auto">
+                                    east
+                                </span>
+                            </a>
                         </div>
-                        <a href="#" class="d-flex align-items-center justify-content-center ms-auto">
-                            <span class="material-symbols-outlined border border-primary text-secondary rounded-pill p-1">
-                                east
-                            </span>
-                        </a>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 col-12 mb-4 pb-3">
                 <div class="card bg-transparent border-0">
-                    <div class="card-body d-flex align-items-start">
-                        <div class="pt-1">
-                            <h3 class="card-title h1 text-secondary">MarketFit</h3>
-                            <p class="card-text text-white pe-5">Um diagnóstico preliminar e seguro sobre a aderência ao mercado</p>
+                    <div class="card-body">
+                        <div class="row w-100 mx-0">
+                            <div class="col-9 pt-1">
+                                <h3 class="card-title h1 text-secondary">MarketFit</h3>
+                                <p class="card-text text-white">Um diagnóstico preliminar e seguro sobre a aderência ao mercado</p>
+                            </div>
+                            <a href="#" class="col-3">
+                                <span class="material-symbols-outlined border border-primary text-secondary rounded-pill p-1 me-auto">
+                                    east
+                                </span>
+                            </a>
                         </div>
-                        <a href="#" class="d-flex align-items-center justify-content-center ms-auto">
-                            <span class="material-symbols-outlined border border-primary text-secondary rounded-pill p-1">
-                                east
-                            </span>
-                        </a>
                     </div>
                 </div>
             </div>
@@ -172,7 +178,7 @@ $home = get_stylesheet_directory_uri();
                 <figure class="position-relative mb-0">
                     <img loading="lazy" class="img-cover" src="<?= $home; ?>/assets/images/thumb-contato.jpg" alt="Thumb contato">
                     <div class="mask-contato"></div>
-                    <div class="box" style="width: 62px; height: 62px; right: -1.75rem; bottom: 5rem;"></div>
+                    <div class="box" style="width: 62px; height: 62px; right: -1.75rem !important; left: auto !important; bottom: 5rem;"></div>
                 </figure>
             </div>
             <div class="col-6 ms-3" style="z-index: 10;">
