@@ -4572,7 +4572,7 @@ fieldset:disabled .btn {
 }
 
 
-@media screen and (max-width: 756px) {
+@media screen and (max-width: 992px) {
     .navbar-collapse {
         background-color: #517794;
         position: fixed;
@@ -4587,12 +4587,14 @@ fieldset:disabled .btn {
     }
 
     .navbar-collapse:not(.show) {
-        transition: transform .3s ease-out;
+        transition: .3s ease-out;
+        opacity: 0;
     }
 
     .navbar-collapse.show {
         transform: translateX(0%);
-        transition: transform .2s ease-in-out;
+        opacity: 1;
+        transition: transform .4s ease-in;
     }
 }
 
