@@ -175,11 +175,11 @@ $home = get_stylesheet_directory_uri();
                 <figure class="position-relative mb-0">
                     <img loading="lazy" class="d-block w-100" src="<?= $home; ?>/assets/images/thumb-contato.jpg" alt="Thumb contato">
                     <div class="mask-contato"></div>
-                    <div class="box" style="width: 82px; height: 82px; right: -2.5rem; bottom: 4rem;"></div>
+                    <div class="box" style="width: 82px; height: 82px; right: -2.5rem !important; left: auto !important; bottom: 4rem;"></div>
                 </figure>
             </div>
             <div class="col-6 ms-3" style="z-index: 10;">
-                <h2 class="text-secondary d-flex display-4 mb-4" style="margin-left: -5rem;">RECEBA NOSSAS NOVIDADES</h2>
+                <h2 class="text-secondary d-flex h1 mb-4" style="margin-left: -5rem;">RECEBA NOSSAS NOVIDADES</h2>
                 <div id="form-candidatura" class="col-8">
                     <form>
                         <div class="row align-items-end">

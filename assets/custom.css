@@ -511,4 +511,9 @@ main {
     #relacionados .h1 {
         font-size: 1.75rem !important;
     }
+
+    #relacionados .material-symbols-outlined {
+        font-size: 3rem;
+        border: 2px solid !important;
+    }
 }
