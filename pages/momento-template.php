@@ -1,9 +1,16 @@
 <?php
-require('../partials/header.php');
+
+/**
+ * Template Name: Momentos
+ */
+
+get_template_part('partials/header');
+$home = get_stylesheet_directory_uri();
+
 ?>
 
 <!-- BANNER INTRO -->
-<section id="banner-momento" class="banner justify-content-center pt-5">
+<section id="banner-momento" class="banner justify-content-center pt-5" style="background: url('<?= $home; ?>/assets/images/banner-momento.jpg') no-repeat center center;">
     <div class="mask-banner-dark"></div>
     <div class="container">
         <div class="row w-100 mx-0">
@@ -17,40 +24,20 @@ require('../partials/header.php');
 </section>
 
 <!-- INTRO -->
-<section id="intro">
-    <div class="container px-4 py-4 my-2">
-        <div class="row d-lg-none d-flex mx-0">
-            <div class="col-12 text-primary">
-                <h3>Portugal tem sido um dos destaques da União Europeia em termos de crescimento econômico nos últimos anos.</h3>
+<section id="intro" class="d-block position-relative">
+    <figure class="mb-0 col-3 position-absolute left-0 bottom-0 ms-5 pe-lg-5 d-lg-block d-none">
+        <img loading="lazy" class="img-fluid pe-lg-4" src="<?= $home; ?>/assets/images/bandeira-portugal.png" alt="Bandeira Portugal">
+    </figure>
+    <div class="container px-4 pt-4">
+        <div class="row justify-content-lg-between mx-0 pt-5 pb-lg-5">
+            <div class="col-lg-5 col-12 text-primary pe-lg-4">
+                <h3 class="mb-4">Portugal tem sido um dos destaques da União Europeia em termos de crescimento econômico nos últimos anos.</h3>
 
-                <p>O país tem se beneficiado de políticas fiscais e monetárias prudentes, bem como de reformas estruturais que visam melhorar a competitividade e atrair investimentos estrangeiros.</p>
-
-                <p>Para os empreendedores brasileiros, Portugal oferece um ecossistema empresarial vibrante e próspero, com muitas oportunidades de negócios em diversos setores.</p>
-
-                <p>Uma das principais vantagens de expandir os negócios para Portugal é a posição estratégica do país, que funciona como uma porta de entrada para o mercado europeu e africano.</p>
-
-                <p>Outra vantagem é que Portugal tem uma população qualificada e educada, com profissionais de diversas áreas e um sistema educacional de alta qualidade. Isso significa que é possível encontrar talentos locais para trabalhar em sua empresa e, ao mesmo tempo, contribuir para a economia local.</p>
-
-                <h2 class="text-secondary fw-normal">Fale conosco e conheça as oportunidades
-                    de negócios.</h2>
-
-                <figure class="mb-0">
-                    <img loading="lazy" class="img-fluid" src="../assets/images/bandeira-portugal.png" alt="Bandeira Portugal">
-                </figure>
-            </div>
-        </div>
-        <div class="row d-lg-flex d-none mx-0 py-5">
-            <div class="col-6 text-primary">
-                <h3>Portugal tem sido um dos destaques da União Europeia em termos de crescimento econômico nos últimos anos.</h3>
-
-                <p>O país tem se beneficiado de políticas fiscais e monetárias prudentes, bem como de reformas estruturais que visam melhorar a competitividade e atrair investimentos estrangeiros.</p>
+                <p class="mb-4">O país tem se beneficiado de políticas fiscais e monetárias prudentes, bem como de reformas estruturais que visam melhorar a competitividade e atrair investimentos estrangeiros.</p>
 
                 <div class="container-fluid px-0">
-                    <div class="row w-100 mx-0">
-                        <figure class="mb-0 col-6">
-                            <img loading="lazy" class="img-fluid" src="../assets/images/bandeira-portugal.png" alt="Bandeira Portugal">
-                        </figure>
-                        <div class="col-6">
+                    <div class="row justify-content-lg-end w-100 mx-0">
+                        <div class="col-lg-7 col-12 px-lg-2 px-0">
                             <p>Para os empreendedores brasileiros, Portugal oferece um ecossistema empresarial vibrante e próspero, com muitas oportunidades de negócios em diversos setores.</p>
 
                         </div>
@@ -59,7 +46,7 @@ require('../partials/header.php');
 
             </div>
 
-            <div class="col-6 text-primary">
+            <div class="col-lg-6 col-12 text-primary">
                 <p>Uma das principais vantagens de expandir os negócios para Portugal é a posição estratégica do país, que funciona como uma porta de entrada para o mercado europeu e africano.</p>
 
                 <p>Outra vantagem é que Portugal tem uma população qualificada e educada, com profissionais de diversas áreas e um sistema educacional de alta qualidade. Isso significa que é possível encontrar talentos locais para trabalhar em sua empresa e, ao mesmo tempo, contribuir para a economia local.</p>
@@ -67,6 +54,10 @@ require('../partials/header.php');
                 <h2 class="text-secondary fw-normal h4">Fale conosco e conheça as oportunidades<br>
                     de negócios.</h2>
             </div>
+
+            <figure class="mb-0 col-12 px-0 d-lg-none d-block" style="margin-left: -1rem;">
+                <img loading="lazy" class="img-fluid" src="<?= $home; ?>/assets/images/bandeira-portugal.png" alt="Bandeira Portugal">
+            </figure>
         </div>
     </div>
 </section>
@@ -77,46 +68,52 @@ require('../partials/header.php');
         <div class="row">
             <div class="col-lg-4 col-12 mb-4 pb-3">
                 <div class="card bg-transparent border-0">
-                    <div class="card-body d-flex align-items-start">
-                        <div class="pt-1">
-                            <h3 class="card-title h1 text-secondary">Atlantic Connection</h3>
-                            <p class="card-text text-white pe-5">O maior evento global sobre o ecossistema Brasil e Portugal</p>
+                    <div class="card-body">
+                        <div class="row w-100 mx-0">
+                            <div class="col-9 pt-1">
+                                <h3 class="card-title h1 text-secondary">Atlantic Connection</h3>
+                                <p class="card-text text-white">O maior evento global sobre o ecossistema Brasil e Portugal</p>
+                            </div>
+                            <a href="#" class="col-3">
+                                <span class="material-symbols-outlined border border-primary text-secondary rounded-pill p-1 me-auto">
+                                    east
+                                </span>
+                            </a>
                         </div>
-                        <a href="#" class="d-flex align-items-center justify-content-center ms-auto">
-                            <span class="material-symbols-outlined border border-primary text-secondary rounded-pill p-1">
-                                east
-                            </span>
-                        </a>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 col-12 mb-4 pb-3">
                 <div class="card bg-transparent border-0">
-                    <div class="card-body d-flex align-items-start">
-                        <div class="pt-1">
-                            <h3 class="card-title h1 text-secondary">Missões empresariais</h3>
-                            <p class="card-text text-white pe-5">A oportunidade mais efetiva de network para seus negóciose Portugal</p>
+                    <div class="card-body">
+                        <div class="row w-100 mx-0">
+                            <div class="col-9 pt-1">
+                                <h3 class="card-title h1 text-secondary">Missões empresariais</h3>
+                                <p class="card-text text-white">A oportunidade mais efetiva de network para seus negóciose Portugal</p>
+                            </div>
+                            <a href="#" class="col-3">
+                                <span class="material-symbols-outlined border border-primary text-secondary rounded-pill p-1 me-auto">
+                                    east
+                                </span>
+                            </a>
                         </div>
-                        <a href="#" class="d-flex align-items-center justify-content-center ms-auto">
-                            <span class="material-symbols-outlined border border-primary text-secondary rounded-pill p-1">
-                                east
-                            </span>
-                        </a>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 col-12 mb-4 pb-3">
                 <div class="card bg-transparent border-0">
-                    <div class="card-body d-flex align-items-start">
-                        <div class="pt-1">
-                            <h3 class="card-title h1 text-secondary">MarketFit</h3>
-                            <p class="card-text text-white pe-5">Um diagnóstico preliminar e seguro sobre a aderência ao mercado</p>
+                    <div class="card-body">
+                        <div class="row w-100 mx-0">
+                            <div class="col-9 pt-1">
+                                <h3 class="card-title h1 text-secondary">MarketFit</h3>
+                                <p class="card-text text-white">Um diagnóstico preliminar e seguro sobre a aderência ao mercado</p>
+                            </div>
+                            <a href="#" class="col-3">
+                                <span class="material-symbols-outlined border border-primary text-secondary rounded-pill p-1 me-auto">
+                                    east
+                                </span>
+                            </a>
                         </div>
-                        <a href="#" class="d-flex align-items-center justify-content-center ms-auto">
-                            <span class="material-symbols-outlined border border-primary text-secondary rounded-pill p-1">
-                                east
-                            </span>
-                        </a>
                     </div>
                 </div>
             </div>
@@ -131,7 +128,7 @@ require('../partials/header.php');
             <div class="col-12">
                 <h2 class="text-secondary">QUER FALAR COM ESPECIALISTA PARA A INTERNACIONALIZAÇÃO?</h2>
                 <figure class="position-relative mb-0">
-                    <img loading="lazy" class="img-cover" src="../assets/images/thumb-contato.jpg" alt="Thumb contato">
+                    <img loading="lazy" class="img-cover" src="<?= $home; ?>/assets/images/thumb-contato.jpg" alt="Thumb contato">
                     <div class="mask-contato"></div>
                     <div class="box"></div>
                 </figure>
@@ -179,9 +176,9 @@ require('../partials/header.php');
         <div class="row align-items-center w-100 mx-0 px-0">
             <div class="col-4 px-0">
                 <figure class="position-relative mb-0">
-                    <img loading="lazy" class="img-cover" src="../assets/images/thumb-contato.jpg" alt="Thumb contato">
+                    <img loading="lazy" class="img-cover" src="<?= $home; ?>/assets/images/thumb-contato.jpg" alt="Thumb contato">
                     <div class="mask-contato"></div>
-                    <div class="box" style="width: 62px; height: 62px; right: -1.75rem; bottom: 5rem;"></div>
+                    <div class="box" style="width: 62px; height: 62px; right: -1.75rem !important; left: auto !important; bottom: 5rem;"></div>
                 </figure>
             </div>
             <div class="col-6 ms-3" style="z-index: 10;">
@@ -230,5 +227,5 @@ require('../partials/header.php');
 </section>
 
 <?php
-require('../partials/footer.php');
+get_template_part('partials/footer');
 ?>

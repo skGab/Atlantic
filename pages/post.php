@@ -1,6 +1,14 @@
 <?php
-require("../partials/header.php");
+
+/**
+ * Template Name: Post
+ */
+
+get_template_part('partials/header');
+$home = get_stylesheet_directory_uri();
+
 ?>
+
 
 <style>
     main {
@@ -10,7 +18,7 @@ require("../partials/header.php");
 
 <!-- CONTEÚDO DO POST -->
 <section id="conteudo" class="container py-5 mt-5">
-    <div class="row justify-content-lg-between w-100 mx-0 px-lg-5">
+    <div class="row justify-content-lg-between w-100 mx-0 mt-lg-5">
         <div class="col-12 d-lg-none d-flex align-items-center w-100 mb-4">
             <a href="#" class="text-secondary bg-light rounded-pill px-4 py-1 me-2">Categorias</a>
             <a href="#" class="text-secondary bg-light rounded-pill px-4 py-1 me-2">Tags</a>
@@ -19,7 +27,7 @@ require("../partials/header.php");
             <h1 class="text-primary fw-normal mb-lg-4 mb-3">
                 Portugal, um dos países queridinhos para congressos e convenções
             </h1>
-            <img src="../assets/images/img-post1.jpg" class="d-block w-100 mb-lg-4 mb-3" alt="Capa do Post">
+            <img src="<?= $home; ?>/assets/images/img-post1.jpg" class="d-block w-100 mb-lg-4 mb-3" alt="Capa do Post">
             <h2 class="h5 card-title text-secondary">
                 Tempo estimado de Leitura: 7min
 
@@ -28,22 +36,22 @@ require("../partials/header.php");
             <h5 class="text-secondary small my-3">Compartilhe:</h5>
             <div class="d-flex align-items-center w-100 mb-4 pb-2">
                 <a href="#" class="me-3">
-                    <img src="../assets/icons/facebook-gray.svg" alt="ícone do Facebook">
+                    <img src="<?= $home; ?>/assets/icons/facebook-gray.svg" alt="ícone do Facebook">
                 </a>
                 <a href="#" class="me-3">
-                    <img src="../assets/icons/instagram-gray.svg" alt="Ícone do Instagram">
+                    <img src="<?= $home; ?>/assets/icons/instagram-gray.svg" alt="Ícone do Instagram">
                 </a>
                 <a href="#" class="me-3">
-                    <img src="../assets/icons/twitter-gray.svg" alt="Ícone do Twitter">
+                    <img src="<?= $home; ?>/assets/icons/twitter-gray.svg" alt="Ícone do Twitter">
                 </a>
                 <a href="#" class="me-3">
-                    <img src="../assets/icons/whatsapp-gray.svg" alt="Ícone do Youtube">
+                    <img src="<?= $home; ?>/assets/icons/whatsapp-gray.svg" alt="Ícone do Youtube">
                 </a>
                 <a href="#" class="me-3">
-                    <img src="../assets/icons/linkedin-gray.svg" alt="Ícone do Youtube">
+                    <img src="<?= $home; ?>/assets/icons/linkedin-gray.svg" alt="Ícone do Youtube">
                 </a>
                 <a href="#" class="me-3">
-                    <img src="../assets/icons/envelop-gray.svg" alt="Ícone do Youtube">
+                    <img src="<?= $home; ?>/assets/icons/envelop-gray.svg" alt="Ícone do Youtube">
                 </a>
             </div>
 
@@ -145,7 +153,7 @@ require("../partials/header.php");
             <section id="especialitas" class="container-fluid d-lg-block d-none px-0 mt-5 pt-5">
                 <div class="row position-relative w-100 mx-0">
                     <div class="col-12 px-0">
-                        <img class="img-cover" src="../assets/images/img-contact-post.jpg" alt="Vista de Portugal" style="max-height: 150px !important;">
+                        <img class="img-cover" src="<?= $home; ?>/assets/images/img-contact-post.jpg" alt="Vista de Portugal" style="max-height: 150px !important;">
                     </div>
                     <div class="col-4 bg-primary py-5 ps-4 position-absolute bottom-0 ms-4" style="top: -3rem;">
                         <div class="ps-2 pe-4">
@@ -168,7 +176,7 @@ require("../partials/header.php");
                                 <div class="col-4 position-relative">
                                     <div class="box"></div>
                                     <div class="img-autor">
-                                        <img class="img-cover" src="../assets/images/img-autor.jpg" alt="Autor - Benício Filho">
+                                        <img class="img-cover" src="<?= $home; ?>/assets/images/img-autor.jpg" alt="Autor - Benício Filho">
                                     </div>
                                 </div>
                                 <div class="col-7">
@@ -220,7 +228,7 @@ require("../partials/header.php");
                         <div class="container-fluid px-0">
                             <div class="row w-100 mx-0">
                                 <div class="col-2 px-0">
-                                    <img src="../assets/images/img-comment-autor.jpg" alt="Foto de Perfil do Autor do comentário" class="img-comentario-autor">
+                                    <img src="<?= $home; ?>/assets/images/img-comment-autor.jpg" alt="Foto de Perfil do Autor do comentário" class="img-comentario-autor">
                                 </div>
                                 <div class="col-10">
                                     <form class="mb-3">
@@ -239,7 +247,7 @@ require("../partials/header.php");
 
             <!-- POSTS RELACIONADOS -->
             <section id="destaque-artigos" class="container-fluid px-0 d-lg-block d-none py-5 mt-5">
-                <div class="row justify-content-lg-center align-items-lg-center w-100 mx-0 px-4">
+                <div class="row justify-content-lg-between align-items-lg-center w-100 mx-0 px-4">
                     <div class="col-12">
                         <h1 class="text-secondary fw-normal mb-4">Posts relacionados</h1>
                     </div>
@@ -248,10 +256,10 @@ require("../partials/header.php");
                         <a href="#" class="text-secondary bg-light rounded-pill px-4 py-1 me-2">Tags</a>
                     </div>
 
-                    <div class="col-5 mx-4 px-0 mb-5 pb-4">
+                    <div class="col-5 me-3 px-0 mb-5 pb-4">
                         <div class="card bg-light w-100 rounded-0 border-0">
                             <div class="position-relative">
-                                <img src="../assets/images/img-post1.jpg" class="card-img-top rounded-0" alt="Capa do Post" style="height: 200px !important;">
+                                <img src="<?= $home; ?>/assets/images/img-post1.jpg" class="card-img-top rounded-0" alt="Capa do Post" style="height: 200px !important;">
                             </div>
                             <div class="box1"></div>
                             <div class="card-body px-4 pb-4">
@@ -272,10 +280,10 @@ require("../partials/header.php");
                             </div>
                         </div>
                     </div>
-                    <div class="col-5 mx-4 px-0 mb-5 pb-4">
+                    <div class="col-5 me-3 px-0 mb-5 pb-4">
                         <div class="card bg-light w-100 rounded-0 border-0">
                             <div class="position-relative">
-                                <img src="../assets/images/img-post1.jpg" class="card-img-top rounded-0" alt="Capa do Post" style="height: 200px !important;">
+                                <img src="<?= $home; ?>/assets/images/img-post1.jpg" class="card-img-top rounded-0" alt="Capa do Post" style="height: 200px !important;">
                             </div>
                             <div class="box1"></div>
                             <div class="card-body px-4 pb-4">
@@ -296,10 +304,10 @@ require("../partials/header.php");
                             </div>
                         </div>
                     </div>
-                    <div class="col-5 mx-4 px-0 mb-5 pb-4">
+                    <div class="col-5 me-3 px-0 mb-5 pb-4">
                         <div class="card bg-light w-100 rounded-0 border-0">
                             <div class="position-relative">
-                                <img src="../assets/images/img-post1.jpg" class="card-img-top rounded-0" alt="Capa do Post" style="height: 200px !important;">
+                                <img src="<?= $home; ?>/assets/images/img-post1.jpg" class="card-img-top rounded-0" alt="Capa do Post" style="height: 200px !important;">
                             </div>
                             <div class="box1"></div>
                             <div class="card-body px-4 pb-4">
@@ -320,10 +328,10 @@ require("../partials/header.php");
                             </div>
                         </div>
                     </div>
-                    <div class="col-5 mx-4 px-0 mb-5 pb-4">
+                    <div class="col-5 me-3 px-0 mb-5 pb-4">
                         <div class="card bg-light w-100 rounded-0 border-0">
                             <div class="position-relative">
-                                <img src="../assets/images/img-post1.jpg" class="card-img-top rounded-0" alt="Capa do Post" style="height: 200px !important;">
+                                <img src="<?= $home; ?>/assets/images/img-post1.jpg" class="card-img-top rounded-0" alt="Capa do Post" style="height: 200px !important;">
                             </div>
                             <div class="box1"></div>
                             <div class="card-body px-4 pb-4">
@@ -348,12 +356,12 @@ require("../partials/header.php");
             </section>
         </div>
 
-        <div class="pesquisa col-3 d-lg-inline d-none me-3">
+        <div class="pesquisa col-3 d-lg-inline d-none">
             <div class="bg-light w-100 rounded-0 border-0 px-4 py-4 mb-5">
                 <h2 class="h5 card-title text-secondary pt-3">Pesquisar</h2>
                 <form class="search-form position-relative mb-5 pb-3 d-flex">
                     <input class="form-control search-form-input" type="text" aria-label="Pesquisar">
-                    <img src="../assets/icons/icon-search-blue.svg" alt="">
+                    <img src="<?= $home; ?>/assets/icons/icon-search-blue.svg" alt="">
                 </form>
             </div>
 
@@ -424,16 +432,16 @@ require("../partials/header.php");
                 <div class="row w-100 mx-0">
                     <div class="col-12 d-lg-flex d-none justify-content-center align-items-center w-100 mb-4 pb-2">
                         <a href="#" class="mx-2">
-                            <img src="../assets/icons/facebook.svg" alt="ícone do Facebook">
+                            <img src="<?= $home; ?>/assets/icons/facebook.svg" alt="ícone do Facebook">
                         </a>
                         <a href="#" class="mx-2">
-                            <img src="../assets/icons/instagram.svg" alt="Ícone do Instagram">
+                            <img src="<?= $home; ?>/assets/icons/instagram.svg" alt="Ícone do Instagram">
                         </a>
                         <a href="#" class="mx-2">
-                            <img src="../assets/icons/youtube.svg" alt="Ícone do Youtube">
+                            <img src="<?= $home; ?>/assets/icons/youtube.svg" alt="Ícone do Youtube">
                         </a>
                         <a href="#" class="mx-2">
-                            <img src="../assets/icons/twitter.svg" alt="Ícone do Twitter">
+                            <img src="<?= $home; ?>/assets/icons/twitter.svg" alt="Ícone do Twitter">
                         </a>
                     </div>
                 </div>
@@ -446,7 +454,7 @@ require("../partials/header.php");
 <section id="especialitas" class="container-fluid d-lg-none d-block px-0 mt-5">
     <div class="row position-relative w-100 mx-0">
         <div class="col-12 px-0">
-            <img class="img-cover" src="../assets/images/img-contact-post.jpg" alt="Vista de Portugal">
+            <img class="img-cover" src="<?= $home; ?>/assets/images/img-contact-post.jpg" alt="Vista de Portugal">
         </div>
         <div class="col-7 bg-primary py-5 ps-4 position-absolute bottom-0 ms-4">
             <div class=" ps-2 pe-4">
@@ -469,7 +477,7 @@ require("../partials/header.php");
                         <div class="col-5 position-relative">
                             <div class="box"></div>
                             <div class="img-autor">
-                                <img class="img-cover" src="../assets/images/img-autor.jpg" alt="Autor - Benício Filho">
+                                <img class="img-cover" src="<?= $home; ?>/assets/images/img-autor.jpg" alt="Autor - Benício Filho">
                             </div>
                         </div>
                         <div class="col-7">
@@ -525,7 +533,7 @@ require("../partials/header.php");
                 <div class="container-fluid px-0">
                     <div class="row w-100 mx-0">
                         <div class="col-2 px-0">
-                            <img src="../assets/images/img-comment-autor.jpg" alt="Foto de Perfil do Autor do comentário" class="img-comentario-autor">
+                            <img src="<?= $home; ?>/assets/images/img-comment-autor.jpg" alt="Foto de Perfil do Autor do comentário" class="img-comentario-autor">
                         </div>
                         <div class="col-10">
                             <form class="mb-2">
@@ -550,11 +558,11 @@ require("../partials/header.php");
             <h1 class="text-secondary fw-normal mb-4">Posts relacionados</h1>
         </div>
 
-        <div class="col-12 mb-4">
+        <div class="col-lg-4 col-12 mb-4">
             <div class="card bg-light w-100 rounded-0 border-0 position-relative">
                 <div class="row g-0">
                     <div class="col-6">
-                        <img src="../assets/images/img-post2.jpg" class="d-block w-100 h-100 rounded-0" alt="Capa do Post">
+                        <img src="<?= $home; ?>/assets/images/img-post2.jpg" class="d-block w-100 h-100 rounded-0" alt="Capa do Post">
                     </div>
                     <div class="col-6">
                         <div class="card-body">
@@ -573,11 +581,11 @@ require("../partials/header.php");
             </div>
         </div>
 
-        <div class="col-12 mb-4">
+        <div class="col-lg-4 col-12 mb-4">
             <div class="card bg-light w-100 rounded-0 border-0 position-relative">
                 <div class="row g-0">
                     <div class="col-6">
-                        <img src="../assets/images/img-post2.jpg" class="d-block w-100 h-100 rounded-0" alt="Capa do Post">
+                        <img src="<?= $home; ?>/assets/images/img-post2.jpg" class="d-block w-100 h-100 rounded-0" alt="Capa do Post">
                     </div>
                     <div class="col-6">
                         <div class="card-body">
@@ -596,11 +604,11 @@ require("../partials/header.php");
             </div>
         </div>
 
-        <div class="col-12 mb-4">
+        <div class="col-lg-4 col-12 mb-4">
             <div class="card bg-light w-100 rounded-0 border-0 position-relative">
                 <div class="row g-0">
                     <div class="col-6">
-                        <img src="../assets/images/img-post2.jpg" class="d-block w-100 h-100 rounded-0" alt="Capa do Post">
+                        <img src="<?= $home; ?>/assets/images/img-post2.jpg" class="d-block w-100 h-100 rounded-0" alt="Capa do Post">
                     </div>
                     <div class="col-6">
                         <div class="card-body">
@@ -622,5 +630,5 @@ require("../partials/header.php");
 </section>
 
 <?php
-require("../partials/footer.php");
+get_template_part('partials/footer');
 ?>

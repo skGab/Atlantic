@@ -73,7 +73,7 @@ main {
     font-weight: normal;
 }
 
-@media screen and (max-width: 756px) {
+@media screen and (max-width: 992px) {
     .navbar a.nav-link {
         color: #fff !important;
     }
@@ -91,23 +91,19 @@ main {
 }
 
 #banner-contato {
-    background: url('../assets/images/banner-contato.jpg') no-repeat center center;
-    background-size: cover;
+    background-size: cover !important;
 }
 
 #banner-vagas {
-    background: url('../assets/images/banner-vagas.jpg') no-repeat center center;
-    background-size: cover;
+    background-size: cover !important;
 }
 
 #banner-momento {
-    background: url('../assets/images/banner-momento.jpg') no-repeat center center;
-    background-size: cover;
+    background-size: cover !important;
 }
 
 #banner-ecossistema {
-    background: url('../assets/images/banner-ecossistema.jpg') no-repeat center center;
-    background-size: cover;
+    background-size: cover !important;
 }
 
 .banner {
@@ -405,6 +401,19 @@ main {
     background-color: rgba(37, 131, 226, 1);
 }
 
+#tags a:hover, #categorias a:hover {
+    text-decoration: underline;
+    transition: .3s ease-in;
+}
+
+/* MOBILE */
+
+@media screen and (max-width: 756px) {
+    #noticias .pesquisa {
+        margin-top: 0 !important;
+    }
+}
+
 
 /* DESKTOP */
 
@@ -501,5 +510,20 @@ main {
 
     #relacionados .h1 {
         font-size: 1.75rem !important;
+    }
+
+    #relacionados .material-symbols-outlined {
+        font-size: 3rem;
+        border: 2px solid !important;
+    }
+
+    #relacionados a:hover span{
+        margin-left: 1rem !important;
+        transition: .4s ease-in !important; 
+    }
+
+    #relacionados a:hover h3 {
+        color: #fff !important;
+        transition: .4s ease-in;
     }
 }
