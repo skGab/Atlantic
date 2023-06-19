@@ -18,7 +18,7 @@ $home = get_stylesheet_directory_uri();
 
 <!-- CONTEÚDO DO POST -->
 <section id="conteudo" class="container py-5 mt-5">
-    <div class="row justify-content-lg-between w-100 mx-0 px-lg-5">
+    <div class="row justify-content-lg-between w-100 mx-0 mt-lg-5">
         <div class="col-12 d-lg-none d-flex align-items-center w-100 mb-4">
             <a href="#" class="text-secondary bg-light rounded-pill px-4 py-1 me-2">Categorias</a>
             <a href="#" class="text-secondary bg-light rounded-pill px-4 py-1 me-2">Tags</a>
@@ -356,7 +356,7 @@ $home = get_stylesheet_directory_uri();
             </section>
         </div>
 
-        <div class="pesquisa col-3 d-lg-inline d-none me-3">
+        <div class="pesquisa col-3 d-lg-inline d-none">
             <div class="bg-light w-100 rounded-0 border-0 px-4 py-4 mb-5">
                 <h2 class="h5 card-title text-secondary pt-3">Pesquisar</h2>
                 <form class="search-form position-relative mb-5 pb-3 d-flex">

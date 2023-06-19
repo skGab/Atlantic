@@ -11,7 +11,7 @@ $home = get_stylesheet_directory_uri();
 
 <!-- ARTIGOS EM DESTAQUE -->
 <section id="destaque-artigos" class="container py-5 mt-5">
-    <div class="row justify-content-lg-center align-items-lg-center w-100 mx-0 px-lg-4">
+    <div class="row justify-content-lg-between w-100 mx-0 mt-lg-5">
         <div class="col-lg-10 col-12">
             <h1 class="text-primary d-lg-block d-none fw-normal text-uppercase mb-4">Blog</h1>
             <h1 class="text-primary d-lg-none d-block fw-normal text-uppercase display-4 mb-3">Blog</h1>
@@ -21,7 +21,7 @@ $home = get_stylesheet_directory_uri();
             <a href="#" class="text-secondary bg-light rounded-pill px-4 py-1 me-2">Tags</a>
         </div>
 
-        <div class="col-lg-4 col-12 mb-4">
+        <div class="col-lg-5 col-12 mb-4">
             <div class="card bg-light w-100 rounded-0 border-0">
                 <div class="position-relative">
                     <img src="<?= $home; ?>/assets/images/img-post1.jpg" class="card-img-top rounded-0" alt="Capa do Post">
@@ -36,7 +36,7 @@ $home = get_stylesheet_directory_uri();
                     <p class="card-text small text-primary">
                         De acordo com o relatório da Associação Internacional de Congressos...
                     </p>
-                    <a href="#" class="text-secondary d-flex w-100 align-items-center">
+                    <a href="/post" class="text-secondary d-flex w-100 align-items-center">
                         Ler mais
                         <span class="material-symbols-outlined ms-3" style="font-size: 30px;">
                             arrow_right_alt
@@ -46,17 +46,17 @@ $home = get_stylesheet_directory_uri();
             </div>
         </div>
 
-        <div class="col-lg-4 col-12 d-flex flex-column align-items-strech mb-4">
-            <div class="card bg-light w-100 rounded-0 border-0 position-relative mb-4 pb-lg-3">
+        <div class="col-lg-5 col-12 d-flex flex-column mb-lg-0 mb-4">
+            <div class="card bg-light w-100 rounded-0 border-0 position-relative mb-lg-5 mb-4">
                 <div class="row g-0">
                     <div class="col-6">
-                        <img src="<?= $home; ?>/assets/images/img-post2.jpg" class="d-block w-100 h-100 rounded-0" alt="Capa do Post">
+                        <img src="<?= $home; ?>/assets/images/img-post2.jpg" class="img-cover rounded-0" alt="Capa do Post" style="height: 198px !important;">
                     </div>
                     <div class="col-6">
                         <div class="card-body">
-                            <h2 class="h5 card-title text-secondary mb-0">Atlantic Connection</h2>
+                            <h2 class="h5 card-title text-secondary mb-0 mt-lg-2">Atlantic Connection</h2>
                             <time datetime="2021-12-13" class="card-text small text-primary">13 de dez. 2021</time>
-                            <a href="#" class="text-secondary d-flex w-100 align-items-center mt-lg-5 mt-2 pt-lg-4">
+                            <a href="/post" class="text-secondary d-flex w-100 align-items-center mt-lg-5 mt-2 pt-lg-3">
                                 Ler mais
                                 <span class="material-symbols-outlined ms-1" style="font-size: 30px;">
                                     arrow_right_alt
@@ -68,16 +68,16 @@ $home = get_stylesheet_directory_uri();
                 <div class="box2"></div>
             </div>
 
-            <div class="card bg-light w-100 rounded-0 border-0 position-relative">
+            <div class="card bg-light w-100 rounded-0 border-0 position-relative mb-lg-3">
                 <div class="row g-0">
                     <div class="col-6">
-                        <img src="<?= $home; ?>/assets/images/img-post2.jpg" class="d-block w-100 h-100 rounded-0" alt="Capa do Post">
+                        <img src="<?= $home; ?>/assets/images/img-post2.jpg" class="d-block w-100 h-100 rounded-0" alt="Capa do Post" style="height: 198px !important;">
                     </div>
                     <div class="col-6">
                         <div class="card-body">
-                            <h2 class="h5 card-title text-secondary mb-0">Atlantic Connection</h2>
+                            <h2 class="h5 card-title text-secondary mb-0 mt-lg-2">Atlantic Connection</h2>
                             <time datetime="2021-12-13" class="card-text small text-primary">13 de dez. 2021</time>
-                            <a href="#" class="text-secondary d-flex w-100 align-items-center mt-lg-5 mt-2 pt-lg-4">
+                            <a href="/post" class="text-secondary d-flex w-100 align-items-center mt-lg-5 mt-2 pt-lg-3">
                                 Ler mais
                                 <span class="material-symbols-outlined ms-1" style="font-size: 30px;">
                                     arrow_right_alt
@@ -90,7 +90,7 @@ $home = get_stylesheet_directory_uri();
             </div>
         </div>
 
-        <div class="col-2 d-lg-inline d-none pb-4 px-0 ms-2">
+        <div class="col-2 d-lg-inline d-none pb-4 px-0">
             <div class="card bg-light w-100 h-100 align-items-strech rounded-0 border-0 position-relative">
                 <div class="row flex-column g-0">
                     <div class="col-12">
@@ -102,7 +102,7 @@ $home = get_stylesheet_directory_uri();
                                 Conquest One – Um case Market Fit de sucesso!
                             </h2>
                             <time datetime="2021-12-13" class="card-text small text-primary pt-5 mt-4">13 de dez. 2021</time>
-                            <a href="#" class="text-secondary d-flex w-100 align-items-center mt-3">
+                            <a href="/post" class="text-secondary d-flex w-100 align-items-center mt-lg-4 mt-3">
                                 Ler mais
                                 <span class="material-symbols-outlined ms-1" style="font-size: 30px;">
                                     arrow_right_alt
@@ -118,8 +118,8 @@ $home = get_stylesheet_directory_uri();
 </section>
 
 <!-- NOTÍCIAS -->
-<section id="noticias" class="container py-5 px-lg-5">
-    <div class="row justify-content-lg-between w-100 mx-0 px-lg-5 mx-lg-5">
+<section id="noticias" class="container py-5">
+    <div class="row justify-content-lg-between w-100 mx-0">
         <div class="col-lg-10 col-12 pe-5">
             <h1 class="d-lg-none d-block text-primary fw-normal text-uppercase display-4 mb-3 pe-5">Acompanhe as noticias</h1>
             <h1 class="d-lg-block d-none text-primary fw-normal text-uppercase mb-4">Acompanhe as noticias</h1>
@@ -143,7 +143,7 @@ $home = get_stylesheet_directory_uri();
             <div class="card bg-transparent w-100 rounded-0 border-0 position-relative mb-lg-4 mb-5">
                 <div class="row align-items-lg-center g-0">
                     <div class="col-6">
-                        <img src="<?= $home; ?>/assets/images/img-post3.jpg" class="img-cover rounded-0" alt="Capa do Post">
+                        <img src="<?= $home; ?>/assets/images/img-post1.jpg" class="img-cover rounded-0" alt="Capa do Post">
                     </div>
                     <div class="col-6">
                         <div class="card-body py-0">
@@ -154,7 +154,7 @@ $home = get_stylesheet_directory_uri();
                                 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
                                 officia deserunt mollit anim id est laborum...
                             </p>
-                            <a href="#" class="text-secondary d-flex w-100 align-items-center">
+                            <a href="/post" class="text-secondary d-flex w-100 align-items-center">
                                 Ler mais
                                 <span class="material-symbols-outlined ms-4" style="font-size: 40px;">
                                     arrow_right_alt
@@ -168,7 +168,7 @@ $home = get_stylesheet_directory_uri();
             <div class="card bg-transparent w-100 rounded-0 border-0 position-relative mb-lg-4 mb-5">
                 <div class="row align-items-lg-center g-0">
                     <div class="col-6">
-                        <img src="<?= $home; ?>/assets/images/img-post3.jpg" class="img-cover rounded-0" alt="Capa do Post">
+                        <img src="<?= $home; ?>/assets/images/img-post1.jpg" class="img-cover rounded-0" alt="Capa do Post">
                     </div>
                     <div class="col-6">
                         <div class="card-body py-0">
@@ -179,7 +179,7 @@ $home = get_stylesheet_directory_uri();
                                 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
                                 officia deserunt mollit anim id est laborum...
                             </p>
-                            <a href="#" class="text-secondary d-flex w-100 align-items-center">
+                            <a href="/post" class="text-secondary d-flex w-100 align-items-center">
                                 Ler mais
                                 <span class="material-symbols-outlined ms-4" style="font-size: 40px;">
                                     arrow_right_alt
@@ -193,7 +193,7 @@ $home = get_stylesheet_directory_uri();
             <div class="card bg-transparent w-100 rounded-0 border-0 position-relative mb-lg-4 mb-5">
                 <div class="row align-items-lg-center g-0">
                     <div class="col-6">
-                        <img src="<?= $home; ?>/assets/images/img-post3.jpg" class="img-cover rounded-0" alt="Capa do Post">
+                        <img src="<?= $home; ?>/assets/images/img-post1.jpg" class="img-cover rounded-0" alt="Capa do Post">
                     </div>
                     <div class="col-6">
                         <div class="card-body py-0">
@@ -204,7 +204,7 @@ $home = get_stylesheet_directory_uri();
                                 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
                                 officia deserunt mollit anim id est laborum...
                             </p>
-                            <a href="#" class="text-secondary d-flex w-100 align-items-center">
+                            <a href="/post" class="text-secondary d-flex w-100 align-items-center">
                                 Ler mais
                                 <span class="material-symbols-outlined ms-4" style="font-size: 40px;">
                                     arrow_right_alt
@@ -218,7 +218,7 @@ $home = get_stylesheet_directory_uri();
             <div class="card bg-transparent w-100 rounded-0 border-0 position-relative mb-lg-4 mb-5">
                 <div class="row align-items-lg-center g-0">
                     <div class="col-6">
-                        <img src="<?= $home; ?>/assets/images/img-post3.jpg" class="img-cover rounded-0" alt="Capa do Post">
+                        <img src="<?= $home; ?>/assets/images/img-post1.jpg" class="img-cover rounded-0" alt="Capa do Post">
                     </div>
                     <div class="col-6">
                         <div class="card-body py-0">
@@ -229,7 +229,7 @@ $home = get_stylesheet_directory_uri();
                                 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
                                 officia deserunt mollit anim id est laborum...
                             </p>
-                            <a href="#" class="text-secondary d-flex w-100 align-items-center">
+                            <a href="/post" class="text-secondary d-flex w-100 align-items-center">
                                 Ler mais
                                 <span class="material-symbols-outlined ms-4" style="font-size: 40px;">
                                     arrow_right_alt
@@ -243,7 +243,7 @@ $home = get_stylesheet_directory_uri();
             <div class="card bg-transparent w-100 rounded-0 border-0 position-relative mb-lg-4 mb-5">
                 <div class="row align-items-lg-center g-0">
                     <div class="col-6">
-                        <img src="<?= $home; ?>/assets/images/img-post3.jpg" class="img-cover rounded-0" alt="Capa do Post">
+                        <img src="<?= $home; ?>/assets/images/img-post1.jpg" class="img-cover rounded-0" alt="Capa do Post">
                     </div>
                     <div class="col-6">
                         <div class="card-body py-0">
@@ -254,7 +254,7 @@ $home = get_stylesheet_directory_uri();
                                 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
                                 officia deserunt mollit anim id est laborum...
                             </p>
-                            <a href="#" class="text-secondary d-flex w-100 align-items-center">
+                            <a href="/post" class="text-secondary d-flex w-100 align-items-center">
                                 Ler mais
                                 <span class="material-symbols-outlined ms-4" style="font-size: 40px;">
                                     arrow_right_alt
@@ -268,7 +268,7 @@ $home = get_stylesheet_directory_uri();
             <div class="card bg-transparent w-100 rounded-0 border-0 position-relative mb-lg-4 mb-5">
                 <div class="row align-items-lg-center g-0">
                     <div class="col-6">
-                        <img src="<?= $home; ?>/assets/images/img-post3.jpg" class="img-cover rounded-0" alt="Capa do Post">
+                        <img src="<?= $home; ?>/assets/images/img-post1.jpg" class="img-cover rounded-0" alt="Capa do Post">
                     </div>
                     <div class="col-6">
                         <div class="card-body py-0">
@@ -279,7 +279,7 @@ $home = get_stylesheet_directory_uri();
                                 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
                                 officia deserunt mollit anim id est laborum...
                             </p>
-                            <a href="#" class="text-secondary d-flex w-100 align-items-center">
+                            <a href="/post" class="text-secondary d-flex w-100 align-items-center">
                                 Ler mais
                                 <span class="material-symbols-outlined ms-4" style="font-size: 40px;">
                                     arrow_right_alt
@@ -331,7 +331,7 @@ $home = get_stylesheet_directory_uri();
             </nav>
         </div>
 
-        <div class="pesquisa col-3 d-lg-inline d-none me-3">
+        <div class="pesquisa col-3 d-lg-inline d-none">
             <div class="bg-light w-100 rounded-0 border-0 px-4 py-4 mb-5">
                 <h2 class="h5 card-title text-secondary pt-3">Pesquisar</h2>
                 <form class="search-form position-relative mb-5 pb-3 d-flex">

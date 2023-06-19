@@ -24,40 +24,20 @@ $home = get_stylesheet_directory_uri();
 </section>
 
 <!-- INTRO -->
-<section id="intro">
-    <div class="container px-4 py-4 my-2">
-        <div class="row d-lg-none d-flex mx-0">
-            <div class="col-12 text-primary">
-                <h3>Portugal tem sido um dos destaques da União Europeia em termos de crescimento econômico nos últimos anos.</h3>
+<section id="intro" class="d-block position-relative">
+    <figure class="mb-0 col-3 position-absolute left-0 bottom-0 ms-5 pe-lg-5 d-lg-block d-none">
+        <img loading="lazy" class="img-fluid pe-lg-4" src="<?= $home; ?>/assets/images/bandeira-portugal.png" alt="Bandeira Portugal">
+    </figure>
+    <div class="container px-4 pt-4">
+        <div class="row justify-content-lg-between mx-0 pt-5 pb-lg-5">
+            <div class="col-lg-5 col-12 text-primary pe-lg-4">
+                <h3 class="mb-4">Portugal tem sido um dos destaques da União Europeia em termos de crescimento econômico nos últimos anos.</h3>
 
-                <p>O país tem se beneficiado de políticas fiscais e monetárias prudentes, bem como de reformas estruturais que visam melhorar a competitividade e atrair investimentos estrangeiros.</p>
-
-                <p>Para os empreendedores brasileiros, Portugal oferece um ecossistema empresarial vibrante e próspero, com muitas oportunidades de negócios em diversos setores.</p>
-
-                <p>Uma das principais vantagens de expandir os negócios para Portugal é a posição estratégica do país, que funciona como uma porta de entrada para o mercado europeu e africano.</p>
-
-                <p>Outra vantagem é que Portugal tem uma população qualificada e educada, com profissionais de diversas áreas e um sistema educacional de alta qualidade. Isso significa que é possível encontrar talentos locais para trabalhar em sua empresa e, ao mesmo tempo, contribuir para a economia local.</p>
-
-                <h2 class="text-secondary fw-normal">Fale conosco e conheça as oportunidades
-                    de negócios.</h2>
-
-                <figure class="mb-0">
-                    <img loading="lazy" class="img-fluid" src="<?= $home; ?>/assets/images/bandeira-portugal.png" alt="Bandeira Portugal">
-                </figure>
-            </div>
-        </div>
-        <div class="row d-lg-flex d-none mx-0 py-5">
-            <div class="col-6 text-primary">
-                <h3>Portugal tem sido um dos destaques da União Europeia em termos de crescimento econômico nos últimos anos.</h3>
-
-                <p>O país tem se beneficiado de políticas fiscais e monetárias prudentes, bem como de reformas estruturais que visam melhorar a competitividade e atrair investimentos estrangeiros.</p>
+                <p class="mb-4">O país tem se beneficiado de políticas fiscais e monetárias prudentes, bem como de reformas estruturais que visam melhorar a competitividade e atrair investimentos estrangeiros.</p>
 
                 <div class="container-fluid px-0">
-                    <div class="row w-100 mx-0">
-                        <figure class="mb-0 col-6">
-                            <img loading="lazy" class="img-fluid" src="<?= $home; ?>/assets/images/bandeira-portugal.png" alt="Bandeira Portugal">
-                        </figure>
-                        <div class="col-6">
+                    <div class="row justify-content-lg-end w-100 mx-0">
+                        <div class="col-lg-7 col-12 px-lg-2 px-0">
                             <p>Para os empreendedores brasileiros, Portugal oferece um ecossistema empresarial vibrante e próspero, com muitas oportunidades de negócios em diversos setores.</p>
 
                         </div>
@@ -66,7 +46,7 @@ $home = get_stylesheet_directory_uri();
 
             </div>
 
-            <div class="col-6 text-primary">
+            <div class="col-lg-6 col-12 text-primary">
                 <p>Uma das principais vantagens de expandir os negócios para Portugal é a posição estratégica do país, que funciona como uma porta de entrada para o mercado europeu e africano.</p>
 
                 <p>Outra vantagem é que Portugal tem uma população qualificada e educada, com profissionais de diversas áreas e um sistema educacional de alta qualidade. Isso significa que é possível encontrar talentos locais para trabalhar em sua empresa e, ao mesmo tempo, contribuir para a economia local.</p>
@@ -74,6 +54,10 @@ $home = get_stylesheet_directory_uri();
                 <h2 class="text-secondary fw-normal h4">Fale conosco e conheça as oportunidades<br>
                     de negócios.</h2>
             </div>
+
+            <figure class="mb-0 col-12 px-0 d-lg-none d-block" style="margin-left: -1rem;">
+                <img loading="lazy" class="img-fluid" src="<?= $home; ?>/assets/images/bandeira-portugal.png" alt="Bandeira Portugal">
+            </figure>
         </div>
     </div>
 </section>
