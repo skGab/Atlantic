@@ -8,10 +8,10 @@ $home = get_stylesheet_directory_uri();
     <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="false">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img loading="lazy" src="<?php echo $home ?> /assets/images/banner_home_mob.png" class="mob d-block w-100 d-sm-none" alt="Banner Home Mobile">
-                <img loading="lazy" src="<?php echo $home ?>/assets/images/banner_home_desk.png" class="desk w-100 d-none d-sm-block" alt="Banner Home Desktop">
+                <img src="<?php echo $home ?>/assets/images/banner_home_mob.png" class="mob d-block w-100 d-sm-none" alt="Banner Home Mobile">
+                <img src="<?php echo $home ?>/assets/images/banner_home_desk.png" class="desk w-100 d-none d-sm-block" alt="Banner Home Desktop">
 
-                <div class="text-white carousel-caption text-start mb-5 pb-5">
+                <div class="text-white carousel-caption mx-auto text-start mb-5 pb-5">
                     <div class="mb-3">
                         <button class="px-0 py-0 border-0 bg-transparent me-3" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
                             <img loading="lazy" class="w-100" src="<?php echo $home ?>/assets/icons/seta_sem_preenchida.svg" alt="Seta esquerda">
@@ -40,10 +40,10 @@ $home = get_stylesheet_directory_uri();
             </div>
 
             <div class="carousel-item">
-                <img loading="lazy" src="<?php echo $home ?>/assets/images/banner_home_mob2.png" class="mob d-block w-100 d-sm-none" alt="Banner Home Mobile">
-                <img loading="lazy" src="<?php echo $home ?>/assets/images/banner_home_desk2.png" class="desk d-block w-100 d-none d-sm-block" alt="Banner Home Desktop">
+                <img src="<?php echo $home ?>/assets/images/banner_home_mob2.png" class="mob d-block w-100 d-sm-none" alt="Banner Home Mobile">
+                <img src="<?php echo $home ?>/assets/images/banner_home_desk2.png" class="desk d-block w-100 d-none d-sm-block" alt="Banner Home Desktop">
 
-                <div class="text-white carousel-caption text-start mb-5 pb-5">
+                <div class="text-white carousel-caption mx-auto text-start mb-5 pb-5">
                     <div class="mb-3">
                         <button class="px-0 py-0 border-0 bg-transparent me-3" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
                             <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/icons/seta_sem_preenchida.svg" alt="Seta esquerda">
@@ -54,12 +54,12 @@ $home = get_stylesheet_directory_uri();
                         </button>
                     </div>
 
-                    <h1 class="h2 text-white mb-2">
+                    <h2 class="text-white mb-2">
                         SEU ENDEREÇO FISCAL <br>
                         <strong>
                             EM PORTUGAL
                         </strong>
-                    </h1>
+                    </h2>
 
                     <p class="small mb-3 d-md-none">E o seu escritório virtual para sua empresa em uma localização privilegiada e estratégica.</p>
 
@@ -74,10 +74,10 @@ $home = get_stylesheet_directory_uri();
             </div>
 
             <div class="carousel-item">
-                <img loading="lazy" src="<?php echo $home ?>/assets/images/banner_home_mob3.png" class="mob d-block w-100 d-sm-none" alt="Banner Home 3">
-                <img loading="lazy" src="<?php echo $home ?>/assets/images/banner_home_desk3.png" class="desk d-block w-100 d-none d-sm-block" alt="Banner Home 3">
+                <img src="<?php echo $home ?>/assets/images/banner_home_mob3.png" class="mob d-block w-100 d-md-none" alt="Banner Home 3">
+                <img src="<?php echo $home ?>/assets/images/banner_home_desk3.png" class="desk d-block w-100 d-none d-md-block" alt="Banner Home 3">
 
-                <div class="text-white carousel-caption text-start mb-5 pb-5">
+                <div class="text-white carousel-caption mx-auto text-start mb-5 pb-5">
                     <div class="mb-3">
                         <button class="px-0 py-0 border-0 bg-transparent me-3" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
                             <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/icons/seta_sem_preenchida.svg" alt="Seta esquerda">
@@ -88,7 +88,7 @@ $home = get_stylesheet_directory_uri();
                         </button>
                     </div>
 
-                    <h1 class="h2 text-white mb-3 mb-md-2"><strong>PORTUGAL 2030</strong></h1>
+                    <h2 class="text-white mb-3 mb-md-2"><strong>PORTUGAL 2030</strong></h2>
 
                     <p class="small mb-3 d-md-none">Um Acordo de Parceria que vai gerar grandes oportunidades.</p>
                     <p class="mb-5 d-none d-md-block">Um Acordo de Parceria que vai gerar grandes oportunidades.</p>
@@ -118,7 +118,7 @@ $home = get_stylesheet_directory_uri();
                     <div class="box position-absolute d-md-none"></div>
 
                     <figure class="mb-0 p-0 position-relative d-flex align-items-center justify-content-center">
-                        <img loading="lazy" src="/assets/images/banner_quero-conhecer.webp" class="img-fluid" alt="Banner quero conhecer">
+                        <img loading="lazy" src="<?php echo $home ?>/assets/images/banner_quero-conhecer.webp" class="img-fluid" alt="Banner quero conhecer">
 
                         <h3 class="position-absolute text-white mb-0 p-0 h4">Quero <br> conhecer</h3>
                     </figure>
@@ -156,7 +156,7 @@ $home = get_stylesheet_directory_uri();
                     <div class="box box-desk position-absolute"></div>
 
                     <figure class="mb-0 p-0 position-relative d-flex align-items-center justify-content-center">
-                        <img loading="lazy" src="/assets/images/banner_ja-decidi.webp" class="img-fluid" alt="Thumb Já decidi">
+                        <img loading="lazy" src="<?php echo $home ?>/assets/images/banner_ja-decidi.webp" class="img-fluid" alt="Thumb Já decidi">
                         <h3 class="h5 position-absolute text-white mb-0 p-0">Já decidi e <br> quero avançar</h3>
                     </figure>
 
@@ -187,7 +187,7 @@ $home = get_stylesheet_directory_uri();
                     <div class="box position-absolute d-md-none"></div>
 
                     <figure class="mb-0 p-0 position-relative d-flex align-items-center justify-content-center">
-                        <img loading="lazy" src="/assets/images/banner_ja-em-portugal.webp" class="img-fluid" alt="Thumb já em Portugal">
+                        <img loading="lazy" src="<?php echo $home ?>/assets/images/banner_ja-em-portugal.webp" class="img-fluid" alt="Thumb já em Portugal">
                         <h3 class="position-absolute text-white mb-0 px-4 h5">Já estou em Portugal e quero tracionar</h3>
                     </figure>
 
@@ -229,9 +229,9 @@ $home = get_stylesheet_directory_uri();
             </div>
         </div>
 
-        <img loading="lazy" src="/assets/images/banner_falar-especialistas.png" class="img-fluid d-sm-none" alt="Banner Falar com Especialistas">
+        <img loading="lazy" src="<?php echo $home ?>/assets/images/banner_falar-especialistas.png" class="img-fluid d-sm-none" alt="Banner Falar com Especialistas">
 
-        <img loading="lazy" src="/assets/images/banner_especialistas.png" class="w-100 d-none d-sm-block" alt="Banner Falar com Especialistas">
+        <img loading="lazy" src="<?php echo $home ?>/assets/images/banner_especialistas.png" class="w-100 d-none d-sm-block" alt="Banner Falar com Especialistas">
 
     </div>
 
@@ -246,9 +246,9 @@ $home = get_stylesheet_directory_uri();
                         <div class="d-flex align-items-center">
                             <h3 class="card-title me-3 mb-0">Como abrir uma empresa <br> em Portugal?</h3>
 
-                            <a href=""><img loading="lazy" class="d-md-none" src="/assets/icons/seta-direita-azul.svg" alt="Seta direita azul"></a>
+                            <a href=""><img loading="lazy" class="d-md-none" src="<?php echo $home ?>/assets/icons/seta-direita-azul.svg" alt="Seta direita azul"></a>
 
-                            <a href=""><img loading="lazy" class="d-none  d-md-block" width="50px" src="/assets/icons/seta-direita-azul.svg" alt="Seta direita azul"></a>
+                            <a href=""><img loading="lazy" class="d-none  d-md-block" width="50px" src="<?php echo $home ?>/assets/icons/seta-direita-azul.svg" alt="Seta direita azul"></a>
                         </div>
                     </div>
                 </div>
@@ -262,9 +262,9 @@ $home = get_stylesheet_directory_uri();
                         <div class="d-flex align-items-center">
                             <h3 class="card-title me-3 mb-0">Somos especializados na internacionalização de empresas brasileiras – Conheça a Atlantic Hub</h3>
 
-                            <a href=""><img loading="lazy" class="d-md-none" src="/assets/icons/seta-direita-azul.svg" alt="Seta direita azul"></a>
+                            <a href=""><img loading="lazy" class="d-md-none" src="<?php echo $home ?>/assets/icons/seta-direita-azul.svg" alt="Seta direita azul"></a>
 
-                            <a href=""><img loading="lazy" class="d-none  d-md-block" width="50px" src="/assets/icons/seta-direita-azul.svg" alt="Seta direita azul"></a>
+                            <a href=""><img loading="lazy" class="d-none  d-md-block" width="50px" src="<?php echo $home ?>/assets/icons/seta-direita-azul.svg" alt="Seta direita azul"></a>
                         </div>
                     </div>
                 </div>
@@ -298,7 +298,7 @@ $home = get_stylesheet_directory_uri();
                 <div class="card mx-auto border-0 bg-transparent position-relative">
                     <div class="box position-absolute"></div>
 
-                    <img loading="lazy" src="/assets/images/post_thumb1.webp" width="350" class="img-fluid" alt="">
+                    <img loading="lazy" src="<?php echo $home ?>/assets/images/post_thumb1.webp" width="350" class="img-fluid" alt="">
 
                     <div class="card-body px-md-0">
                         <p class="text-white small px-2 py-1 mb-3">Nome da tag</p>
@@ -323,7 +323,7 @@ $home = get_stylesheet_directory_uri();
                 <div class="card mx-auto border-0 bg-transparent position-relative">
                     <div class="box position-absolute"></div>
 
-                    <img loading="lazy" src="/assets/images/post_thumb1.webp" width="350" class="img-fluid" alt="">
+                    <img loading="lazy" src="<?php echo $home ?>/assets/images/post_thumb1.webp" width="350" class="img-fluid" alt="">
 
                     <div class="card-body px-md-0">
                         <p class="text-white small px-2 py-1 mb-3">Nome da tag</p>
@@ -348,7 +348,7 @@ $home = get_stylesheet_directory_uri();
                 <div class="card mx-auto border-0 bg-transparent position-relative">
                     <div class="box position-absolute"></div>
 
-                    <img loading="lazy" src="/assets/images/post_thumb1.webp" width="350" class="img-fluid" alt="">
+                    <img loading="lazy" src="<?php echo $home ?>/assets/images/post_thumb1.webp" width="350" class="img-fluid" alt="">
 
                     <div class="card-body px-md-0">
                         <p class="text-white small px-2 py-1 mb-3">Nome da tag</p>
@@ -373,8 +373,8 @@ $home = get_stylesheet_directory_uri();
         <div class="row">
             <div class="col-12 mb-4">
                 <div class="d-flex align-items-center">
-                    <h2 class="h1 me-5">EVENTOS</h2>
-                    <a href="" class="d-flex align-items-center">Ver todos <img loading="lazy" src="/assets/icons/seta_direita_azul_blog.svg" class="img-fluid ms-4" alt=""></a>
+                    <h2 class="me-5">EVENTOS</h2>
+                    <a href="" class="d-flex align-items-center">Ver todos <img loading="lazy" src="<?php echo $home ?>/assets/icons/seta_direita_azul_blog.svg" class="img-fluid ms-4" alt=""></a>
                 </div>
             </div>
         </div>
@@ -393,14 +393,14 @@ $home = get_stylesheet_directory_uri();
 
                 <li class="splide__slide">
                     <a href="">
-                        <img loading="lazy" src="/assets/images/evento_thumb3.png" class="img-fluid d-md-none" alt="Thumb Evento">
+                        <img loading="lazy" src="<?php echo $home ?>/assets/images/evento_thumb3.png" class="img-fluid d-md-none" alt="Thumb Evento">
                         <img loading="lazy" src="<?php echo $home ?>/assets/images/eventos/thumb_evento_desk2.png" class="img-fluid d-none d-md-block" alt="Thumb Evento">
                     </a>
                 </li>
 
                 <li class="splide__slide">
                     <a href="">
-                        <img loading="lazy" src="/assets/images/evento_thumb2.png" class="img-fluid d-md-none" alt="Thumb Evento">
+                        <img loading="lazy" src="<?php echo $home ?>/assets/images/evento_thumb2.png" class="img-fluid d-md-none" alt="Thumb Evento">
                         <img loading="lazy" src="<?php echo $home ?>/assets/images/eventos/thumb_evento_desk3.png" class="img-fluid d-none d-md-block" alt="Thumb Evento">
                     </a>
                 </li>
@@ -418,13 +418,13 @@ $home = get_stylesheet_directory_uri();
             </div>
 
             <figure class="col-12 col-md-6 mb-4 text-center">
-                <img loading="lazy" src="/assets/images/depoimento1.webp" class="img-fluid d-md-none mx-auto" alt="Thumb Depoimento 1">
-                <img loading="lazy" src="/assets/images/depoimento1_desk.png" class="img-fluid d-none d-md-block ms-auto" alt="Thumb Depoimento 1">
+                <img loading="lazy" src="<?php echo $home ?>/assets/images/depoimento1.webp" class="img-fluid d-md-none mx-auto" alt="Thumb Depoimento 1">
+                <img loading="lazy" src="<?php echo $home ?>/assets/images/depoimento1_desk.png" class="img-fluid d-none d-md-block ms-auto" alt="Thumb Depoimento 1">
             </figure>
 
             <figure class="col-12 col-md-6 mb-0 text-center">
-                <img loading="lazy" src="/assets/images/depoimento2.webp" class="img-fluid d-md-none mx-auto" alt="Thumb Depoimento 2">
-                <img loading="lazy" src="/assets/images/depoimento2_desk.png" class="img-fluid d-none d-md-block me-auto" alt="Thumb Depoimento 2">
+                <img loading="lazy" src="<?php echo $home ?>/assets/images/depoimento2.webp" class="img-fluid d-md-none mx-auto" alt="Thumb Depoimento 2">
+                <img loading="lazy" src="<?php echo $home ?>/assets/images/depoimento2_desk.png" class="img-fluid d-none d-md-block me-auto" alt="Thumb Depoimento 2">
             </figure>
         </div>
     </div>
@@ -435,7 +435,7 @@ $home = get_stylesheet_directory_uri();
     <div class="container px-4 pt-3 pb-5 pt-md-5">
         <div class="row mb-5">
             <div class="col-12 mb-5">
-                <h2 class="h1">ATLANTIC <br class="d-md-none"> VÍDEOS</h2>
+                <h2>ATLANTIC <br class="d-md-none"> VÍDEOS</h2>
             </div>
 
             <section id="splide_videos" class="splide" aria-label="Splide Videos">
@@ -461,7 +461,7 @@ $home = get_stylesheet_directory_uri();
 
         <div class="row pt-5">
             <div class="col-12 mb-4">
-                <h2 class="h1">NOSSOS <br class="d-md-none"> PARCEIROS</h2>
+                <h2>NOSSOS <br class="d-md-none"> PARCEIROS</h2>
             </div>
 
             <section id="splide_parceiros" class="splide" aria-label="Splide Parceiros">

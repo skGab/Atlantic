@@ -1,6 +1,12 @@
 <?php
-$root = $_SERVER['DOCUMENT_ROOT'];
-require $root . '/partials/header.php';
+
+/**
+ * Template Name: Atlantic Marketfit
+ * Author: Black Beans
+ */
+
+get_template_part('partials/header');
+$home = get_stylesheet_directory_uri();
 ?>
 
 <!-- INTRO MARKETFIT -->
@@ -32,8 +38,8 @@ require $root . '/partials/header.php';
 <section id="potencial">
     <div class="container px-4 py-5 pt-md-0">
         <div class="row align-items-md-center">
-            <figure class="colmb-0 position-relative d-md-none">
-                <img loading="lazy" class="img-fluid position-absolute start-50 translate-middle " src="../assets/images/potencial_thumb_mob.png" alt="Thumb seção">
+            <figure class="col mb-0 position-relative d-md-none">
+                <img loading="lazy" class="img-fluid position-absolute start-50 translate-middle " src="<?php echo $home ?>/assets/images/potencial_thumb_mob.png" alt="Thumb seção">
             </figure>
 
             <div class="col-12 col-md-6 pt-5 pt-md-0 mb-5 mb-md-0">
@@ -54,7 +60,7 @@ require $root . '/partials/header.php';
             </div>
 
             <figure class="figure_desk col-md-6 d-none d-md-block mb-0">
-                <img loading="lazy" class="img-fluid d-none d-md-block mx-auto" src="../assets/images/potencial_thumb.png" alt="Thumb seção">
+                <img loading="lazy" class="img-fluid d-none d-md-block mx-auto" src="<?php echo $home ?>/assets/images/potencial_thumb.png" alt="Thumb seção">
             </figure>
 
             <div class="col-12 mt-md-5 pt-md-5">
@@ -65,22 +71,22 @@ require $root . '/partials/header.php';
                     <div class="splide__track">
                         <ul class="splide__list align-items-center text-center">
                             <li class="splide__slide">
-                                <img loading="lazy" src="../assets/images/parceiros/conexao_logo.png" class="img-fluid mx-auto" alt="Logo Conexão">
+                                <img loading="lazy" src="<?php echo $home ?>/assets/images/parceiros/conexao_logo.png" class="img-fluid mx-auto" alt="Logo Conexão">
                             </li>
 
                             <li class="splide__slide">
-                                <img loading="lazy" src="../assets/images/parceiros/bossanova_logo_desk.png" class="img-fluid mx-auto" alt="Logo Bossanova">
+                                <img loading="lazy" src="<?php echo $home ?>/assets/images/parceiros/bossanova_logo_desk.png" class="img-fluid mx-auto" alt="Logo Bossanova">
                             </li>
 
                             <li class="splide__slide">
-                                <img loading="lazy" src="../assets/images/parceiros/euro_logo_desk.png" class="img-fluid mx-auto" alt="Logo Euro Dicas">
+                                <img loading="lazy" src="<?php echo $home ?>/assets/images/parceiros/euro_logo_desk.png" class="img-fluid mx-auto" alt="Logo Euro Dicas">
                             </li>
 
                             <li class="splide__slide">
-                                <img loading="lazy" src="../assets/images/parceiros/salomao_logo.png" class="img-fluid mx-auto" alt="Logo Brasil Salomão">
+                                <img loading="lazy" src="<?php echo $home ?>/assets/images/parceiros/salomao_logo.png" class="img-fluid mx-auto" alt="Logo Brasil Salomão">
                             </li>
                             <li class="splide__slide">
-                                <img loading="lazy" src="../assets/images/parceiros/blackbeans_logo.png" class="img-fluid mx-auto" alt="Logo BlackBeans">
+                                <img loading="lazy" src="<?php echo $home ?>/assets/images/parceiros/blackbeans_logo.png" class="img-fluid mx-auto" alt="Logo BlackBeans">
                             </li>
                         </ul>
                     </div>
@@ -96,14 +102,14 @@ require $root . '/partials/header.php';
         <div class="row pt-5">
             <div class="col-12 position-relative d-md-none">
                 <figure class="mb-0 d-flex position-absolute">
-                    <img loading="lazy" class="img-fluid" src="../assets/images/porque_estudo.png" alt="Thumb">
-                    <h2 class="display-5">Por que devo realizar este estudo?</h2>
+                    <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/images/porque_estudo.png" alt="Thumb">
+                    <h2 class="display-6">Por que devo realizar este estudo?</h2>
                 </figure>
             </div>
 
             <div class="topicos col-12 d-md-none pt-5">
                 <figure class="d-flex align-items-start gap-3 mb-0">
-                    <img loading="lazy" class="img-fluid" src="../assets/icons/plane_icon.png" alt="O marketfit">
+                    <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/icons/plane_icon.png" alt="O marketfit">
                     <p>O <strong class="detail-2 px-2 py-1"> MarketFit</strong> está preparado para apresentar as
                         melhores soluções e possibilidades para empresários brasileiros que desejam abrir seus negócios
                         em Portugal.</p>
@@ -112,7 +118,7 @@ require $root . '/partials/header.php';
 
             <div class="topicos col-12 d-md-none mb-4">
                 <figure class="d-flex mb-0 align-items-start gap-3">
-                    <img loading="lazy" class="img-fluid" src="../assets/icons/group_icon.png" alt="Equipe">
+                    <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/icons/group_icon.png" alt="Equipe">
                     <p>Uma equipe de especialistas, com larga experiência no mercado português vai oferecer um elenco de
                         caminhos para a sua jornada de internacionalização e conduzi-lo para o próximo estágio do
                         processo: o <strong class="detail-2 px-2 py-1">Atlantic Scale-out.</strong></p>
@@ -127,14 +133,14 @@ require $root . '/partials/header.php';
                 <h2 class="display-5 mb-5">Por que devo realizar este estudo?</h2>
 
                 <figure class="d-flex align-items-start gap-3 mb-4">
-                    <img loading="lazy" class="img-fluid" src="../assets/icons/plane_icon.png" alt="O marketfit">
+                    <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/icons/plane_icon.png" alt="O marketfit">
                     <p>O <strong class="detail-2 px-2 py-1"> MarketFit</strong> está preparado para apresentar as
                         melhores soluções e possibilidades para empresários brasileiros que desejam abrir seus negócios
                         em Portugal.</p>
                 </figure>
 
                 <figure class="d-flex mb-4 align-items-start gap-3">
-                    <img loading="lazy" class="img-fluid" src="../assets/icons/group_icon.png" alt="Equipe">
+                    <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/icons/group_icon.png" alt="Equipe">
                     <p>Uma equipe de especialistas, com larga experiência no mercado português vai oferecer um elenco de
                         caminhos para a sua jornada de internacionalização e conduzi-lo para o próximo estágio do
                         processo: o <strong class="detail-2 px-2 py-1">Atlantic Scale-out.</strong></p>
@@ -146,7 +152,7 @@ require $root . '/partials/header.php';
         </div>
     </div>
 
-    <img loading="lazy" class="thumb_estudo img-fluid position-absolute d-none d-xl-block" src="../assets/images/porque_estudo_desk.png" alt="Thumb Por que estudo">
+    <img loading="lazy" class="thumb_estudo img-fluid position-absolute d-none d-xl-block" src="<?php echo $home ?>/assets/images/porque_estudo_desk.png" alt="Thumb Por que estudo">
 </section>
 
 <!-- PILARES -->
@@ -155,42 +161,42 @@ require $root . '/partials/header.php';
         <div class="row py-5 justify-content-center">
             <div class="col-3 col-lg-2">
                 <figure class="mb-0 text-center">
-                    <img loading="lazy" class="img-fluid mb-4" src="../assets/images/pilares/analise.png" alt="Thumb Pilar">
+                    <img loading="lazy" class="img-fluid mb-4" src="<?php echo $home ?>/assets/images/pilares/analise.png" alt="Thumb Pilar">
                     <h5>Avaliação
                         de Ecossistema</h5>
                 </figure>
             </div>
             <div class="col-3 col-lg-2">
                 <figure class="mb-0 text-center">
-                    <img loading="lazy" class="img-fluid mb-4" src="../assets/images/pilares/analise.png" alt="Thumb Pilar">
+                    <img loading="lazy" class="img-fluid mb-4" src="<?php echo $home ?>/assets/images/pilares/analise.png" alt="Thumb Pilar">
                     <h5>Análise
                         da concorrência</h5>
                 </figure>
             </div>
             <div class="col-3 col-lg-2">
                 <figure class="mb-0 text-center">
-                    <img loading="lazy" class="img-fluid mb-4" src="../assets/images/pilares/analise.png" alt="Thumb Pilar">
+                    <img loading="lazy" class="img-fluid mb-4" src="<?php echo $home ?>/assets/images/pilares/analise.png" alt="Thumb Pilar">
                     <h5>Avaliaçao <br>
                         de Mercado</h5>
                 </figure>
             </div>
             <div class="col-3 col-lg-2">
                 <figure class="mb-0 text-center">
-                    <img loading="lazy" class="img-fluid mb-4" src="../assets/images/pilares/analise.png" alt="Thumb Pilar">
+                    <img loading="lazy" class="img-fluid mb-4" src="<?php echo $home ?>/assets/images/pilares/analise.png" alt="Thumb Pilar">
                     <h5>Análise <br>
                         do Setor</h5>
                 </figure>
             </div>
             <div class="col-3 col-lg-2 mt-md-4 mt-lg-0">
                 <figure class="mb-0 text-center">
-                    <img loading="lazy" class="img-fluid mb-4" src="../assets/images/pilares/analise.png" alt="Thumb Pilar">
+                    <img loading="lazy" class="img-fluid mb-4" src="<?php echo $home ?>/assets/images/pilares/analise.png" alt="Thumb Pilar">
                     <h5>Análise <br>
                         SWOT</h5>
                 </figure>
             </div>
             <div class="col-3 col-lg-2 mt-md-4 mt-lg-0">
                 <figure class="mb-0 text-center">
-                    <img loading="lazy" class="img-fluid mb-4" src="../assets/images/pilares/analise.png" alt="Thumb Pilar">
+                    <img loading="lazy" class="img-fluid mb-4" src="<?php echo $home ?>/assets/images/pilares/analise.png" alt="Thumb Pilar">
                     <h5>Linhas de Financiamento</h5>
                 </figure>
             </div>
@@ -203,10 +209,10 @@ require $root . '/partials/header.php';
     <div class="container">
         <div class="row text-center">
             <figure class="col-12 mb-0 position-relative">
-                <img loading="lazy" class="img-fluid translate-middle position-absolute" src="../assets/images/laptop.png" alt="LAPTOP">
+                <img loading="lazy" class="img-fluid translate-middle position-absolute" src="<?php echo $home ?>/assets/images/laptop.png" alt="LAPTOP">
             </figure>
             <figure class="col-12 mb-0 pt-4 pb-5 mb-4 px-0">
-                <img loading="lazy" class="w-100" src="../assets/images/dados_tecnicos.png" alt="Dados tecnicos">
+                <img loading="lazy" class="w-100" src="<?php echo $home ?>/assets/images/dados_tecnicos.png" alt="Dados tecnicos">
             </figure>
         </div>
     </div>
@@ -217,13 +223,13 @@ require $root . '/partials/header.php';
     <div class="container px-4 py-5">
         <div class="row align-items-center">
             <figure class="col-lg-7 d-none d-md-block mb-0 position-relative">
-                <img loading="lazy" class="img-fluid" src="../assets/images/laptop_desk.png" alt="Laptop Desktop">
+                <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/images/laptop_desk.png" alt="Laptop Desktop">
 
             </figure>
 
             <div class="col-12 col-lg-5 mb-4 mb-md-0">
                 <h2 class="display-3 fw-bold d-md-none">Por que escolher a Atlantic Hub?</h2>
-                <h2 class="display-5 fw-bold d-none d-md-block">Por que escolher <br> a Atlantic Hub?</h2>
+                <h2 class="display-6 fw-bold d-none d-md-block">Por que escolher <br> a Atlantic Hub?</h2>
 
                 <p>Temos experiência, uma equipe especializada e metodologias para prospectar oportunidades e
                     identificar riscos. A Atlantic Hub acompanha as empresas em todas as etapas de internacionalização.
@@ -247,7 +253,7 @@ require $root . '/partials/header.php';
         </div>
     </div>
 
-    <img loading="lazy" class="img-fluid position-absolute start-0 top-0 d-none d-md-block" src="../assets/images/dados_desk.png" alt="Dados tecnicos">
+    <img loading="lazy" class="img-fluid position-absolute start-0 top-0 d-none d-md-block" src="<?php echo $home ?>/assets/images/dados_desk.png" alt="Dados tecnicos">
 </section>
 
 <!-- CASES -->
@@ -283,23 +289,23 @@ require $root . '/partials/header.php';
             <div class="col-12 col-lg-2 d-none d-md-flex align-items-md-center position-relative">
                 <h2 class="cases_bg display-1 position-absolute">Cases</h2>
                 <h2 class="display-6 me-2 mb-0">CASES</h2>
-                <img loading="lazy" class="img-fluid" src="../assets/icons/seta_direita_azul_blog.svg" alt="Seta Direita">
+                <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/icons/seta_direita_azul_blog.svg" alt="Seta Direita">
             </div>
 
             <!-- IMAGES -->
             <figure class="col-12 col-lg-5 mb-4 mb-lg-0 text-center d-md-flex justify-content-md-center">
                 <!-- MOB -->
-                <img loading="lazy" class="img-fluid d-md-none" src="../assets/images/cases_1.png" alt="Video Cases">
+                <img loading="lazy" class="img-fluid d-md-none" src="<?php echo $home ?>/assets/images/cases_1.png" alt="Video Cases">
 
                 <!-- DESK -->
-                <img loading="lazy" class="img-fluid d-none d-md-block" src="../assets/images/cases_1_desk.png" alt="Video Cases">
+                <img loading="lazy" class="img-fluid d-none d-md-block" src="<?php echo $home ?>/assets/images/cases_1_desk.png" alt="Video Cases">
             </figure>
 
             <figure class="col-12 col-lg-5 mb-0 d-flex d-md-flex justify-content-md-center">
                 <!-- MOB -->
-                <img loading="lazy" class="img-fluid d-md-none mx-auto" src="../assets/images/cases_2.png" alt="Video Cases">
+                <img loading="lazy" class="img-fluid d-md-none mx-auto" src="<?php echo $home ?>/assets/images/cases_2.png" alt="Video Cases">
                 <!-- DESK -->
-                <img loading="lazy" class="img-fluid d-none d-md-block" src="../assets/images/cases_2_desk.png" alt="Video Cases">
+                <img loading="lazy" class="img-fluid d-none d-md-block" src="<?php echo $home ?>/assets/images/cases_2_desk.png" alt="Video Cases">
             </figure>
         </div>
     </div>
@@ -327,7 +333,7 @@ require $root . '/partials/header.php';
     <div class="container d-sm-none">
         <div class="row">
             <figure class="col-12 mb-0 position-relative">
-                <img loading="lazy" class="img-fluid position-absolute" src="../assets/images/pesquisa_mercado.png" alt="Thumb Quanto vai investir?">
+                <img loading="lazy" class="img-fluid position-absolute" src="<?php echo $home ?>/assets/images/pesquisa_mercado.png" alt="Thumb Quanto vai investir?">
                 <h2 class="position-absolute lh-base">QUANTO VOCÊ <br> VAIO INVESTIR <br> INICIALMENTE?</h2>
             </figure>
         </div>
@@ -337,11 +343,11 @@ require $root . '/partials/header.php';
         <div class="row py-5 justify-content-sm-center justify-content-lg-center ms-xxl-5">
 
             <div class="col-12 mb-4 d-sm-block">
-                <h2 class="size display-6 mb-0 mx-auto">QUANTO VOCÊ <br> VAI INVESTIR INICIALMENTE?</h2>
+                <h2 class="size mb-0 mx-auto">QUANTO VOCÊ <br> VAI INVESTIR INICIALMENTE?</h2>
             </div>
 
             <div class="col-9 col-md-4 col-xxl-3 mb-4">
-                <img loading="lazy" class="img-fluid mb-3" src="../assets/icons/dolar_icon.png" alt="Icone investimento">
+                <img loading="lazy" class="img-fluid mb-3" src="<?php echo $home ?>/assets/icons/dolar_icon.png" alt="Icone investimento">
                 <p class="mb-md-5">Para você, empresário brasileiro, quer iniciar a jornada de internacionalização, o relatório Atlantic
                     MarketFit requer um investimento inicial de <strong class="detail-2 px-2 h4 fw-bold">€ 1.750,00</strong>
                 </p>
@@ -350,7 +356,7 @@ require $root . '/partials/header.php';
             </div>
 
             <div class="col-9 col-md-4 col-xxl-3 mb-4">
-                <img loading="lazy" class="img-fluid mb-3" src="../assets/icons/calender_icon.svg" alt="Icone Prazo">
+                <img loading="lazy" class="img-fluid mb-3" src="<?php echo $home ?>/assets/icons/calender_icon.svg" alt="Icone Prazo">
                 <p>O prazo de resposta da Atlantic Hub é de 15 dias úteis, após o recebimento de todas as informações
                     obrigatórias.</p>
             </div>
@@ -361,10 +367,10 @@ require $root . '/partials/header.php';
         </div>
     </div>
 
-    <img loading="lazy" src="../assets/images/bg_investir.png" class="img-fluid d-none d-xxl-block position-absolute bottom-0" alt="Background Quanto Investir">
+    <img loading="lazy" src="<?php echo $home ?>/assets/images/bg_investir.png" class="img-fluid d-none d-xxl-block position-absolute bottom-0" alt="Background Quanto Investir">
 </section>
 
 <?php
-$root = $_SERVER['DOCUMENT_ROOT'];
-require $root . '/partials/footer.php';
+get_template_part('partials/footer');
+$home = get_stylesheet_directory_uri();
 ?>

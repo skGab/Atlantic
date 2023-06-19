@@ -2,12 +2,12 @@ document.addEventListener('DOMContentLoaded', function () {
   const pageName = window.location.pathname;
 
   // SLIDES HOME
-  if (pageName === '/' || pageName === '/index.php') {
+  if (pageName === '/' || pageName === '/index') {
     var splide_eventos = new Splide('#splide_eventos', {
       type: 'loop',
       perPage: 4,
       gap: 40,
-      autoWidth: true,
+      // autoWidth: true,
       pagination: false,
       focus: 'center',
     });
@@ -18,10 +18,12 @@ document.addEventListener('DOMContentLoaded', function () {
       perPage: 2,
       pagination: false,
       gap: 20,
+      autoWidth: true,
       // focus: 'center',
       breakpoints: {
         768: {
           perPage: 1,
+          autoWidth: false,
         },
       },
     });
@@ -44,7 +46,7 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   // SLIDES QUEM SOMOS
-  if (pageName === '/pages/quem-somos.php') {
+  if (pageName === '/quem-somos/') {
     var splide_equipe = new Splide('#splide_equipe', {
       // type: 'loop',
       perPage: 3,
@@ -83,7 +85,7 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   // SLIDES MARKETFIT
-  if (pageName === '/pages/atlantic-marketfit.php') {
+  if (pageName === '/atlantic-marketfit/') {
     var splide_potencial = new Splide('#splide_potencial', {
       type: 'loop',
       perPage: 4,
