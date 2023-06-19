@@ -401,6 +401,19 @@ main {
     background-color: rgba(37, 131, 226, 1);
 }
 
+#tags a:hover, #categorias a:hover {
+    text-decoration: underline;
+    transition: .3s ease-in;
+}
+
+/* MOBILE */
+
+@media screen and (max-width: 756px) {
+    #noticias .pesquisa {
+        margin-top: 0 !important;
+    }
+}
+
 
 /* DESKTOP */
 
