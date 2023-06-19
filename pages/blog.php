@@ -26,7 +26,7 @@ $home = get_stylesheet_directory_uri();
                 <div class="position-relative">
                     <img src="<?= $home; ?>/assets/images/img-post1.jpg" class="card-img-top rounded-0" alt="Capa do Post">
                     <div class="info-post">
-                        <a href="#" class="small text-secondary bg-secondary text-light fw-light rounded-pill px-3 py-1 me-2">Nome da tag</a>
+                        <a href="/tags" class="small text-secondary bg-secondary text-light fw-light rounded-pill px-3 py-1 me-2">Nome da tag</a>
                         <time datetime="2021-12-13" class="small text-secondary bg-light rounded-pill px-3 py-1 me-2">13 de dez. 2021</time>
                     </div>
                 </div>
@@ -343,64 +343,64 @@ $home = get_stylesheet_directory_uri();
             <div id="categorias" class="bg-light w-100 rounded-0 border-0 px-4 pt-4 pb-5 mb-5">
                 <h2 class="h5 card-title text-secondary pt-3 mb-4">Categorias</h2>
 
-                <a href="#" class="text-primary small d-block mb-0">Blog</a>
-                <a href="#" class="text-primary small d-block mb-0">Business</a>
-                <a href="#" class="text-primary small d-block mb-0">Europa</a>
-                <a href="#" class="text-primary small d-block mb-0">Eventos</a>
-                <a href="#" class="text-primary small d-block mb-0">Investimentos</a>
-                <a href="#" class="text-primary small d-block mb-0">Marketing</a>
-                <a href="#" class="text-primary small d-block mb-0">Pesquisa</a>
-                <a href="#" class="text-primary small d-block mb-0">Portugal Além Mar</a>
-                <a href="#" class="text-primary small d-block mb-0">Portugal Além Mar</a>
-                <a href="#" class="text-primary small d-block mb-0">Portugal para minha empresa</a>
-                <a href="#" class="text-primary small d-block mb-0">Ressignificando Portugal</a>
-                <a href="#" class="text-primary small d-block mb-0">Tendências</a>
+                <a href="/categorias" class="text-primary small d-block mb-0">Blog</a>
+                <a href="/categorias" class="text-primary small d-block mb-0">Business</a>
+                <a href="/categorias" class="text-primary small d-block mb-0">Europa</a>
+                <a href="/categorias" class="text-primary small d-block mb-0">Eventos</a>
+                <a href="/categorias" class="text-primary small d-block mb-0">Investimentos</a>
+                <a href="/categorias" class="text-primary small d-block mb-0">Marketing</a>
+                <a href="/categorias" class="text-primary small d-block mb-0">Pesquisa</a>
+                <a href="/categorias" class="text-primary small d-block mb-0">Portugal Além Mar</a>
+                <a href="/categorias" class="text-primary small d-block mb-0">Portugal Além Mar</a>
+                <a href="/categorias" class="text-primary small d-block mb-0">Portugal para minha empresa</a>
+                <a href="/categorias" class="text-primary small d-block mb-0">Ressignificando Portugal</a>
+                <a href="/categorias" class="text-primary small d-block mb-0">Tendências</a>
             </div>
 
             <div id="tags" class="bg-light w-100 rounded-0 border-0 px-4 pt-4 pb-5 mb-5">
                 <h2 class="h5 card-title text-secondary pt-3 mb-4">Tags</h2>
 
-                <a href="#" class="text-primary small d-block mb-0">2022 abrir empresa em Portugal</a>
-                <a href="#" class="text-primary small d-block mb-0">Atlantic Connection</a>
-                <a href="#" class="text-primary small d-block mb-0">Atlantic Hub</a>
-                <a href="#" class="text-primary small d-block mb-0">Atlantic Ignition</a>
-                <a href="#" class="text-primary small d-block mb-0">Atlantic MarketFit</a>
-                <a href="#" class="text-primary small d-block mb-0">Atlantic Station</a>
-                <a href="#" class="text-primary small d-block mb-0">Brasileiros em Portugal</a>
-                <a href="#" class="text-primary small d-block mb-0">Business</a>
-                <a href="#" class="text-primary small d-block mb-0">Conexão COREangels</a>
-                <a href="#" class="text-primary small d-block mb-0">Atlantic covid-19</a>
-                <a href="#" class="text-primary small d-block mb-0">Empreendedorismo</a>
-                <a href="#" class="text-primary small d-block mb-0">Empreender</a>
-                <a href="#" class="text-primary small d-block mb-0">Empreender em portugal</a>
-                <a href="#" class="text-primary small d-block mb-0">Empresa</a>
-                <a href="#" class="text-primary small d-block mb-0">Empresa em portugal</a>
-                <a href="#" class="text-primary small d-block mb-0">Europa</a>
-                <a href="#" class="text-primary small d-block mb-0">Inovação</a>
-                <a href="#" class="text-primary small d-block mb-0">Internacionalizar</a>
-                <a href="#" class="text-primary small d-block mb-0">Internacionalização</a>
-                <a href="#" class="text-primary small d-block mb-0">Internacionalização de empresas</a>
-                <a href="#" class="text-primary small d-block mb-0">Internacionalização de negócios</a>
-                <a href="#" class="text-primary small d-block mb-0">Investidor Anjo</a>
-                <a href="#" class="text-primary small d-block mb-0">Investimento</a>
-                <a href="#" class="text-primary small d-block mb-0">Investimento em Portugal</a>
-                <a href="#" class="text-primary small d-block mb-0">Investimento em startups</a>
-                <a href="#" class="text-primary small d-block mb-0">Investimentos</a>
-                <a href="#" class="text-primary small d-block mb-0">Lisboa MarketFit</a>
-                <a href="#" class="text-primary small d-block mb-0">Market fit</a>
-                <a href="#" class="text-primary small d-block mb-0">Marketing</a>
-                <a href="#" class="text-primary small d-block mb-0">Marketing digital</a>
-                <a href="#" class="text-primary small d-block mb-0">Morar em portugal</a>
-                <a href="#" class="text-primary small d-block mb-0">Negócios em portugal</a>
-                <a href="#" class="text-primary small d-block mb-0">Negócios</a>
-                <a href="#" class="text-primary small d-block mb-0">Networking</a>
-                <a href="#" class="text-primary small d-block mb-0">Pandemia</a>
-                <a href="#" class="text-primary small d-block mb-0">Portugal</a>
-                <a href="#" class="text-primary small d-block mb-0">Reabertura de Portugal</a>
-                <a href="#" class="text-primary small d-block mb-0">Rotina Startup</a>
-                <a href="#" class="text-primary small d-block mb-0">Startups</a>
-                <a href="#" class="text-primary small d-block mb-0">Transformação Digital</a>
-                <a href="#" class="text-primary small d-block mb-0">Web Summit</a>
+                <a href="/tags" class="text-primary small d-block mb-0">2022 abrir empresa em Portugal</a>
+                <a href="/tags" class="text-primary small d-block mb-0">Atlantic Connection</a>
+                <a href="/tags" class="text-primary small d-block mb-0">Atlantic Hub</a>
+                <a href="/tags" class="text-primary small d-block mb-0">Atlantic Ignition</a>
+                <a href="/tags" class="text-primary small d-block mb-0">Atlantic MarketFit</a>
+                <a href="/tags" class="text-primary small d-block mb-0">Atlantic Station</a>
+                <a href="/tags" class="text-primary small d-block mb-0">Brasileiros em Portugal</a>
+                <a href="/tags" class="text-primary small d-block mb-0">Business</a>
+                <a href="/tags" class="text-primary small d-block mb-0">Conexão COREangels</a>
+                <a href="/tags" class="text-primary small d-block mb-0">Atlantic covid-19</a>
+                <a href="/tags" class="text-primary small d-block mb-0">Empreendedorismo</a>
+                <a href="/tags" class="text-primary small d-block mb-0">Empreender</a>
+                <a href="/tags" class="text-primary small d-block mb-0">Empreender em portugal</a>
+                <a href="/tags" class="text-primary small d-block mb-0">Empresa</a>
+                <a href="/tags" class="text-primary small d-block mb-0">Empresa em portugal</a>
+                <a href="/tags" class="text-primary small d-block mb-0">Europa</a>
+                <a href="/tags" class="text-primary small d-block mb-0">Inovação</a>
+                <a href="/tags" class="text-primary small d-block mb-0">Internacionalizar</a>
+                <a href="/tags" class="text-primary small d-block mb-0">Internacionalização</a>
+                <a href="/tags" class="text-primary small d-block mb-0">Internacionalização de empresas</a>
+                <a href="/tags" class="text-primary small d-block mb-0">Internacionalização de negócios</a>
+                <a href="/tags" class="text-primary small d-block mb-0">Investidor Anjo</a>
+                <a href="/tags" class="text-primary small d-block mb-0">Investimento</a>
+                <a href="/tags" class="text-primary small d-block mb-0">Investimento em Portugal</a>
+                <a href="/tags" class="text-primary small d-block mb-0">Investimento em startups</a>
+                <a href="/tags" class="text-primary small d-block mb-0">Investimentos</a>
+                <a href="/tags" class="text-primary small d-block mb-0">Lisboa MarketFit</a>
+                <a href="/tags" class="text-primary small d-block mb-0">Market fit</a>
+                <a href="/tags" class="text-primary small d-block mb-0">Marketing</a>
+                <a href="/tags" class="text-primary small d-block mb-0">Marketing digital</a>
+                <a href="/tags" class="text-primary small d-block mb-0">Morar em portugal</a>
+                <a href="/tags" class="text-primary small d-block mb-0">Negócios em portugal</a>
+                <a href="/tags" class="text-primary small d-block mb-0">Negócios</a>
+                <a href="/tags" class="text-primary small d-block mb-0">Networking</a>
+                <a href="/tags" class="text-primary small d-block mb-0">Pandemia</a>
+                <a href="/tags" class="text-primary small d-block mb-0">Portugal</a>
+                <a href="/tags" class="text-primary small d-block mb-0">Reabertura de Portugal</a>
+                <a href="/tags" class="text-primary small d-block mb-0">Rotina Startup</a>
+                <a href="/tags" class="text-primary small d-block mb-0">Startups</a>
+                <a href="/tags" class="text-primary small d-block mb-0">Transformação Digital</a>
+                <a href="/tags" class="text-primary small d-block mb-0">Web Summit</a>
             </div>
 
             <div class="container-fluid px-0 mt-5">

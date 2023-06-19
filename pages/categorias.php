@@ -231,18 +231,18 @@ $home = get_stylesheet_directory_uri();
             <div id="categorias" class="bg-light w-100 rounded-0 border-0 px-4 pt-4 pb-5 mb-5">
                 <h2 class="h5 card-title text-secondary pt-3 mb-4">Categorias</h2>
 
-                <a href="#" class="text-primary small d-block mb-0">Blog</a>
-                <a href="#" class="text-primary small d-block mb-0">Business</a>
-                <a href="#" class="text-primary small d-block mb-0">Europa</a>
-                <a href="#" class="text-primary small d-block mb-0">Eventos</a>
-                <a href="#" class="text-primary small d-block mb-0">Investimentos</a>
-                <a href="#" class="text-primary small d-block mb-0">Marketing</a>
-                <a href="#" class="text-primary small d-block mb-0">Pesquisa</a>
-                <a href="#" class="text-primary small d-block mb-0">Portugal Além Mar</a>
-                <a href="#" class="text-primary small d-block mb-0">Portugal Além Mar</a>
-                <a href="#" class="text-primary small d-block mb-0">Portugal para minha empresa</a>
-                <a href="#" class="text-primary small d-block mb-0">Ressignificando Portugal</a>
-                <a href="#" class="text-primary small d-block mb-0">Tendências</a>
+                <a href="/categorias" class="text-primary small d-block mb-0">Blog</a>
+                <a href="/categorias" class="text-primary small d-block mb-0">Business</a>
+                <a href="/categorias" class="text-primary small d-block mb-0">Europa</a>
+                <a href="/categorias" class="text-primary small d-block mb-0">Eventos</a>
+                <a href="/categorias" class="text-primary small d-block mb-0">Investimentos</a>
+                <a href="/categorias" class="text-primary small d-block mb-0">Marketing</a>
+                <a href="/categorias" class="text-primary small d-block mb-0">Pesquisa</a>
+                <a href="/categorias" class="text-primary small d-block mb-0">Portugal Além Mar</a>
+                <a href="/categorias" class="text-primary small d-block mb-0">Portugal Além Mar</a>
+                <a href="/categorias" class="text-primary small d-block mb-0">Portugal para minha empresa</a>
+                <a href="/categorias" class="text-primary small d-block mb-0">Ressignificando Portugal</a>
+                <a href="/categorias" class="text-primary small d-block mb-0">Tendências</a>
             </div>
         </div>
 
