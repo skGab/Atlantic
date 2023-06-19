@@ -18,10 +18,12 @@ document.addEventListener('DOMContentLoaded', function () {
       perPage: 2,
       pagination: false,
       gap: 20,
+      autoWidth: true,
       // focus: 'center',
       breakpoints: {
         768: {
           perPage: 1,
+          autoWidth: false,
         },
       },
     });

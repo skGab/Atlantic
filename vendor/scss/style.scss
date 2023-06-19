@@ -341,7 +341,7 @@ body {
       }
 
       .splide__slide {
-        max-width: 250px;
+        max-width: 200px;
       }
     }
 
@@ -350,6 +350,12 @@ body {
 
       h2 {
         color: var(--title-blue-2);
+      }
+
+      @media screen and (min-width: 1299px) {
+        figure > img {
+          max-width: 480px;
+        }
       }
     }
 
@@ -362,6 +368,7 @@ body {
       #splide_videos {
         img {
           filter: grayscale(80%);
+          max-width: 480px;
         }
       }
     }

@@ -8,8 +8,8 @@ $home = get_stylesheet_directory_uri();
     <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="false">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img loading="lazy" src="<?php echo $home ?>/assets/images/banner_home_mob.png" class="mob d-block w-100 d-sm-none" alt="Banner Home Mobile">
-                <img loading="lazy" src="<?php echo $home ?>/assets/images/banner_home_desk.png" class="desk w-100 d-none d-sm-block" alt="Banner Home Desktop">
+                <img src="<?php echo $home ?>/assets/images/banner_home_mob.png" class="mob d-block w-100 d-sm-none" alt="Banner Home Mobile">
+                <img src="<?php echo $home ?>/assets/images/banner_home_desk.png" class="desk w-100 d-none d-sm-block" alt="Banner Home Desktop">
 
                 <div class="text-white carousel-caption text-start mb-5 pb-5">
                     <div class="mb-3">
@@ -40,8 +40,8 @@ $home = get_stylesheet_directory_uri();
             </div>
 
             <div class="carousel-item">
-                <img loading="lazy" src="<?php echo $home ?>/assets/images/banner_home_mob2.png" class="mob d-block w-100 d-sm-none" alt="Banner Home Mobile">
-                <img loading="lazy" src="<?php echo $home ?>/assets/images/banner_home_desk2.png" class="desk d-block w-100 d-none d-sm-block" alt="Banner Home Desktop">
+                <img src="<?php echo $home ?>/assets/images/banner_home_mob2.png" class="mob d-block w-100 d-sm-none" alt="Banner Home Mobile">
+                <img src="<?php echo $home ?>/assets/images/banner_home_desk2.png" class="desk d-block w-100 d-none d-sm-block" alt="Banner Home Desktop">
 
                 <div class="text-white carousel-caption text-start mb-5 pb-5">
                     <div class="mb-3">
@@ -54,12 +54,12 @@ $home = get_stylesheet_directory_uri();
                         </button>
                     </div>
 
-                    <h1 class="h2 text-white mb-2">
+                    <h2 class="text-white mb-2">
                         SEU ENDEREÇO FISCAL <br>
                         <strong>
                             EM PORTUGAL
                         </strong>
-                    </h1>
+                    </h2>
 
                     <p class="small mb-3 d-md-none">E o seu escritório virtual para sua empresa em uma localização privilegiada e estratégica.</p>
 
@@ -74,8 +74,8 @@ $home = get_stylesheet_directory_uri();
             </div>
 
             <div class="carousel-item">
-                <img loading="lazy" src="<?php echo $home ?>/assets/images/banner_home_mob3.png" class="mob d-block w-100 d-sm-none" alt="Banner Home 3">
-                <img loading="lazy" src="<?php echo $home ?>/assets/images/banner_home_desk3.png" class="desk d-block w-100 d-none d-sm-block" alt="Banner Home 3">
+                <img src="<?php echo $home ?>/assets/images/banner_home_mob3.png" class="mob d-block w-100 d-md-none" alt="Banner Home 3">
+                <img src="<?php echo $home ?>/assets/images/banner_home_desk3.png" class="desk d-block w-100 d-none d-md-block" alt="Banner Home 3">
 
                 <div class="text-white carousel-caption text-start mb-5 pb-5">
                     <div class="mb-3">
@@ -88,7 +88,7 @@ $home = get_stylesheet_directory_uri();
                         </button>
                     </div>
 
-                    <h1 class="h2 text-white mb-3 mb-md-2"><strong>PORTUGAL 2030</strong></h1>
+                    <h2 class="text-white mb-3 mb-md-2"><strong>PORTUGAL 2030</strong></h2>
 
                     <p class="small mb-3 d-md-none">Um Acordo de Parceria que vai gerar grandes oportunidades.</p>
                     <p class="mb-5 d-none d-md-block">Um Acordo de Parceria que vai gerar grandes oportunidades.</p>
@@ -373,7 +373,7 @@ $home = get_stylesheet_directory_uri();
         <div class="row">
             <div class="col-12 mb-4">
                 <div class="d-flex align-items-center">
-                    <h2 class="h1 me-5">EVENTOS</h2>
+                    <h2 class="me-5">EVENTOS</h2>
                     <a href="" class="d-flex align-items-center">Ver todos <img loading="lazy" src="<?php echo $home ?>/assets/icons/seta_direita_azul_blog.svg" class="img-fluid ms-4" alt=""></a>
                 </div>
             </div>
@@ -435,7 +435,7 @@ $home = get_stylesheet_directory_uri();
     <div class="container px-4 pt-3 pb-5 pt-md-5">
         <div class="row mb-5">
             <div class="col-12 mb-5">
-                <h2 class="h1">ATLANTIC <br class="d-md-none"> VÍDEOS</h2>
+                <h2>ATLANTIC <br class="d-md-none"> VÍDEOS</h2>
             </div>
 
             <section id="splide_videos" class="splide" aria-label="Splide Videos">
@@ -461,7 +461,7 @@ $home = get_stylesheet_directory_uri();
 
         <div class="row pt-5">
             <div class="col-12 mb-4">
-                <h2 class="h1">NOSSOS <br class="d-md-none"> PARCEIROS</h2>
+                <h2>NOSSOS <br class="d-md-none"> PARCEIROS</h2>
             </div>
 
             <section id="splide_parceiros" class="splide" aria-label="Splide Parceiros">
