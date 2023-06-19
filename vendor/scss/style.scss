@@ -98,6 +98,7 @@ body {
     }
 
     .taxa {
+      font-size: 13px;
       color: #99ccee;
 
       @media screen and (min-width: 768px) {
@@ -108,7 +109,9 @@ body {
     }
 
     .horario {
+      font-size: 13px;
       background-color: var(--title-blue);
+
       strong {
         font-size: 12px;
         letter-spacing: 0.8px;
@@ -117,15 +120,23 @@ body {
   }
 
   header:nth-child(2) {
-    @media screen and (min-width: 768px) {
-      a {
-        font-size: 12px;
+    nav {
+      max-width: 1504px;
+
+      .navbar-brand {
+        img {
+          max-width: 130px;
+        }
+      }
+
+      .navbar-toggler:focus {
+        box-shadow: none;
       }
     }
 
-    .navbar-brand {
-      img {
-        max-width: 130px;
+    @media screen and (min-width: 768px) {
+      a {
+        font-size: 12px;
       }
     }
   }
@@ -165,6 +176,7 @@ body {
 
         .carousel-caption {
           left: 8%;
+          max-width: 1160px;
         }
       }
     }
@@ -570,7 +582,7 @@ body {
         }
       }
 
-      @media screen and (min-width: 576px) {
+      @media screen and (min-width: 768px) {
         background-image: url(../../images/banner_marketfit_desk.png) !important;
         display: flex;
         align-items: center;

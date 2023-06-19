@@ -38,7 +38,7 @@ $home = get_stylesheet_directory_uri();
 <section id="potencial">
     <div class="container px-4 py-5 pt-md-0">
         <div class="row align-items-md-center">
-            <figure class="colmb-0 position-relative d-md-none">
+            <figure class="col mb-0 position-relative d-md-none">
                 <img loading="lazy" class="img-fluid position-absolute start-50 translate-middle " src="<?php echo $home ?>/assets/images/potencial_thumb_mob.png" alt="Thumb seção">
             </figure>
 

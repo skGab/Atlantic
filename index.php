@@ -11,7 +11,7 @@ $home = get_stylesheet_directory_uri();
                 <img src="<?php echo $home ?>/assets/images/banner_home_mob.png" class="mob d-block w-100 d-sm-none" alt="Banner Home Mobile">
                 <img src="<?php echo $home ?>/assets/images/banner_home_desk.png" class="desk w-100 d-none d-sm-block" alt="Banner Home Desktop">
 
-                <div class="text-white carousel-caption text-start mb-5 pb-5">
+                <div class="text-white carousel-caption mx-auto text-start mb-5 pb-5">
                     <div class="mb-3">
                         <button class="px-0 py-0 border-0 bg-transparent me-3" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
                             <img loading="lazy" class="w-100" src="<?php echo $home ?>/assets/icons/seta_sem_preenchida.svg" alt="Seta esquerda">
@@ -43,7 +43,7 @@ $home = get_stylesheet_directory_uri();
                 <img src="<?php echo $home ?>/assets/images/banner_home_mob2.png" class="mob d-block w-100 d-sm-none" alt="Banner Home Mobile">
                 <img src="<?php echo $home ?>/assets/images/banner_home_desk2.png" class="desk d-block w-100 d-none d-sm-block" alt="Banner Home Desktop">
 
-                <div class="text-white carousel-caption text-start mb-5 pb-5">
+                <div class="text-white carousel-caption mx-auto text-start mb-5 pb-5">
                     <div class="mb-3">
                         <button class="px-0 py-0 border-0 bg-transparent me-3" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
                             <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/icons/seta_sem_preenchida.svg" alt="Seta esquerda">
@@ -77,7 +77,7 @@ $home = get_stylesheet_directory_uri();
                 <img src="<?php echo $home ?>/assets/images/banner_home_mob3.png" class="mob d-block w-100 d-md-none" alt="Banner Home 3">
                 <img src="<?php echo $home ?>/assets/images/banner_home_desk3.png" class="desk d-block w-100 d-none d-md-block" alt="Banner Home 3">
 
-                <div class="text-white carousel-caption text-start mb-5 pb-5">
+                <div class="text-white carousel-caption mx-auto text-start mb-5 pb-5">
                     <div class="mb-3">
                         <button class="px-0 py-0 border-0 bg-transparent me-3" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
                             <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/icons/seta_sem_preenchida.svg" alt="Seta esquerda">

@@ -62,7 +62,7 @@ $home = get_stylesheet_directory_uri();
 
     <header id="header" class="position-fixed w-100">
         <div class="px-lg-5 px-3 mt-2">
-            <nav class="navbar navbar-light navbar-expand-lg bg-white py-0" aria-label="First navbar example">
+            <nav class="navbar navbar-light navbar-expand-lg bg-white py-0 mx-auto" aria-label="First navbar example">
                 <div class="container-fluid px-3 px-md-3 px-lg-4 px-xl-5">
                     <div class="row justify-content-between align-items-center w-100 mx-0">
                         <a class="navbar-brand col-lg-2 px-lg-0 col-5 me-0" href="/">
@@ -75,7 +75,7 @@ $home = get_stylesheet_directory_uri();
                             </span>
                         </button>
 
-                        <div class="collapse navbar-collapse px-4 px-md-0 col-6" id="menu">
+                        <div class="collapse navbar-collapse px-4 px-lg-0 pe-md-5 col-6" id="menu">
                             <ul class="navbar-nav ms-lg-auto me-lg-0 ms-0 me-auto text-end mb-lg-0 mb-2 gap-xl-2 gap-xxl-3 gap-md-1 align-items-lg-center">
 
                                 <button class="navbar-toggler border-0 text-end pe-1 my-4 w-25 ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
@@ -93,7 +93,7 @@ $home = get_stylesheet_directory_uri();
                                     <a class="nav-link" href="/atlantic-marketfit/">Estudo de Mercado</a>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link pe-3 dropdown-toggle" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Momento</a>
+                                    <a class="nav-link pe-lg-3 pe-md-0 pe-3 dropdown-toggle" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Momento</a>
                                     <ul class="dropdown-menu" aria-labelledby="dropdown01">
                                         <li><a class="dropdown-item pe-lg-2 pe-3" href="#">Quero conhecer</a></li>
                                         <li><a class="dropdown-item pe-lg-2 pe-3" href="#">Já decidi e quero avançar</a></li>
@@ -101,16 +101,16 @@ $home = get_stylesheet_directory_uri();
                                     </ul>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link pe-3" href="/ecossistema/">Ecossistema</a>
+                                    <a class="nav-link pe-lg-3 pe-md-0 pe-3" href="/ecossistema/">Ecossistema</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link pe-3" href="/blog/">Blog</a>
+                                    <a class="nav-link pe-lg-3 pe-md-0 pe-3" href="/blog/">Blog</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link pe-3" href="/contato/">Contato</a>
+                                    <a class="nav-link pe-lg-3 pe-md-0 pe-3" href="/contato/">Contato</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link pe-3" href="/vagas/">Vagas</a>
+                                    <a class="nav-link pe-lg-3 pe-md-0 pe-3" href="/vagas/">Vagas</a>
                                 </li>
                                 <li class="nav-item d-lg-block d-none">
                                     <a class="nav-link" type="button" data-bs-toggle="modal" data-bs-target="#search-modal">
