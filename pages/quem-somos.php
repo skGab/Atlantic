@@ -168,7 +168,7 @@ $home = get_stylesheet_directory_uri();
     <div class="container px-4 py-5">
         <div class="row mb-5">
             <div class="col-12">
-                <h2 class="h1 mb-5">NOSSA EQUIPE</h2>
+                <h2 class="mb-5">NOSSA EQUIPE</h2>
             </div>
 
             <section id="splide_equipe" class="splide" aria-label="Splide Equipe">
@@ -337,7 +337,7 @@ $home = get_stylesheet_directory_uri();
     <div class="container px-4 py-4 py-md-5">
         <div class="row">
             <div class="col mb-5">
-                <h2 class="h1 mb-4">CASES <br class="d-md-none"> DE SUCESSO</h2>
+                <h2 class="mb-4">CASES <br class="d-md-none"> DE SUCESSO</h2>
                 <p class="mb-0 mb-md-4">Confiram abaixo as empresas que confiaram no nosso trabalho!
                 </p>
             </div>
@@ -416,7 +416,7 @@ $home = get_stylesheet_directory_uri();
     <div class="container px-4 py-5">
         <div class="row gap-bottom align-items-center justify-content-center">
             <div class="col-12">
-                <h2 class="h1 mb-4 mb-md-4">NOSSOS <br class="d-md-none"> PARCEIROS</h2>
+                <h2 class="mb-4 mb-md-4">NOSSOS <br class="d-md-none"> PARCEIROS</h2>
             </div>
 
             <figure class="col-6 col-md-4 col-lg-2 text-center">

@@ -434,7 +434,7 @@ body {
         opacity: 20%;
       }
 
-      @media screen and (min-width: 768px) {
+      @media screen and (min-width: 576px) {
         background-image: url(../../images/banner_quem-somos_desk.png);
       }
     }
@@ -570,7 +570,7 @@ body {
         }
       }
 
-      @media screen and (min-width: 768px) {
+      @media screen and (min-width: 576px) {
         background-image: url(../../images/banner_marketfit_desk.png) !important;
         display: flex;
         align-items: center;

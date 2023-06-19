@@ -103,7 +103,7 @@ $home = get_stylesheet_directory_uri();
             <div class="col-12 position-relative d-md-none">
                 <figure class="mb-0 d-flex position-absolute">
                     <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/images/porque_estudo.png" alt="Thumb">
-                    <h2 class="display-5">Por que devo realizar este estudo?</h2>
+                    <h2 class="display-6">Por que devo realizar este estudo?</h2>
                 </figure>
             </div>
 
@@ -229,7 +229,7 @@ $home = get_stylesheet_directory_uri();
 
             <div class="col-12 col-lg-5 mb-4 mb-md-0">
                 <h2 class="display-3 fw-bold d-md-none">Por que escolher a Atlantic Hub?</h2>
-                <h2 class="display-5 fw-bold d-none d-md-block">Por que escolher <br> a Atlantic Hub?</h2>
+                <h2 class="display-6 fw-bold d-none d-md-block">Por que escolher <br> a Atlantic Hub?</h2>
 
                 <p>Temos experiência, uma equipe especializada e metodologias para prospectar oportunidades e
                     identificar riscos. A Atlantic Hub acompanha as empresas em todas as etapas de internacionalização.
@@ -343,7 +343,7 @@ $home = get_stylesheet_directory_uri();
         <div class="row py-5 justify-content-sm-center justify-content-lg-center ms-xxl-5">
 
             <div class="col-12 mb-4 d-sm-block">
-                <h2 class="size display-6 mb-0 mx-auto">QUANTO VOCÊ <br> VAI INVESTIR INICIALMENTE?</h2>
+                <h2 class="size mb-0 mx-auto">QUANTO VOCÊ <br> VAI INVESTIR INICIALMENTE?</h2>
             </div>
 
             <div class="col-9 col-md-4 col-xxl-3 mb-4">
