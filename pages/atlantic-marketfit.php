@@ -349,7 +349,7 @@ $home = get_stylesheet_directory_uri();
             <div class="col-9 col-md-4 col-xxl-3 mb-4">
                 <img loading="lazy" class="img-fluid mb-3" src="<?php echo $home ?>/assets/icons/dolar_icon.png" alt="Icone investimento">
                 <p class="mb-md-5">Para você, empresário brasileiro, quer iniciar a jornada de internacionalização, o relatório Atlantic
-                    MarketFit requer um investimento inicial de <strong class="detail-2 px-2 h4 fw-bold">€ 1.750,00</strong>
+                    MarketFit requer um investimento inicial de <br> <strong class="detail-2 px-2 h4 fw-bold">€ 1.750,00</strong>
                 </p>
 
                 <a href="" target="_blank" class="px-3 py-2 fw-bold small d-none d-md-block">CONTRATE AGORA</a>

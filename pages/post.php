@@ -153,7 +153,7 @@ $home = get_stylesheet_directory_uri();
             <section id="especialitas" class="container-fluid d-lg-block d-none px-0 mt-5 pt-5">
                 <div class="row position-relative w-100 mx-0">
                     <div class="col-12 px-0">
-                        <img class="img-cover" src="<?= $home; ?>/assets/images/img-contact-post.jpg" alt="Vista de Portugal" style="max-height: 150px !important;">
+                        <img class="img-cover" src="<?= $home; ?>/assets/images/banner_especialistas.png" alt="Vista de Portugal" style="max-height: 150px !important;">
                     </div>
                     <div class="col-4 bg-primary py-5 ps-4 position-absolute bottom-0 ms-4" style="top: -3rem;">
                         <div class="ps-2 pe-4">

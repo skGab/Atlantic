@@ -95,9 +95,9 @@ $home = get_stylesheet_directory_uri();
                                 <li class="nav-item dropdown">
                                     <a class="nav-link pe-lg-3 pe-md-0 pe-3 dropdown-toggle" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Momento</a>
                                     <ul class="dropdown-menu" aria-labelledby="dropdown01">
-                                        <li><a class="dropdown-item pe-lg-2 pe-3" href="#">Quero conhecer</a></li>
-                                        <li><a class="dropdown-item pe-lg-2 pe-3" href="#">Já decidi e quero avançar</a></li>
-                                        <li><a class="dropdown-item pe-lg-2 pe-3" href="#">Já estou em portugal e quero tracionar</a></li>
+                                        <li><a class="dropdown-item pe-lg-2 pe-3" href="/quero-conhecer-portugal/">Quero conhecer</a></li>
+                                        <li><a class="dropdown-item pe-lg-2 pe-3" href="/ja-decidi-e-quero-avancar/">Já decidi e quero avançar</a></li>
+                                        <li><a class="dropdown-item pe-lg-2 pe-3" href="/ja-estou-em-portugal-e-quero-tracionar/">Já estou em portugal e quero tracionar</a></li>
                                     </ul>
                                 </li>
                                 <li class="nav-item">

@@ -7,20 +7,50 @@
 get_template_part('partials/header');
 $home = get_stylesheet_directory_uri();
 
+$current_page =  $_SERVER['REQUEST_URI'];
+
+if ($current_page === "/quero-conhecer-portugal/") {
+    $banner = $home . '/assets/images/banner-momento.jpg';
+}
+
+if ($current_page === "/ja-decidi-e-quero-avancar/") {
+    $banner = $home . '/assets/images/banner_ja_decidi.png';
+}
+
+if ($current_page === "/ja-estou-em-portugal-e-quero-tracionar/") {
+    $banner = $home . '/assets/images/banner_ja_estou.png';
+}
 ?>
 
 <!-- BANNER INTRO -->
-<section id="banner-momento" class="banner justify-content-center pt-5" style="background: url('<?= $home; ?>/assets/images/banner-momento.jpg') no-repeat center center;">
+<section id="banner-momento" class="banner justify-content-center pt-5">
     <div class="mask-banner-dark"></div>
     <div class="container">
         <div class="row w-100 mx-0">
             <div class="title-banner col-lg-8 col-12 ms-lg-5 ms-3">
-                <h1 class="text-white text-uppercase">Quero conhecer portugal<br> para os meus negócios</h1>
-                <span class="d-lg-none d-block px-5" style="line-height: 50px;">Quero conhecer portugal<br> para os meus negócios</span>
-                <span class="d-lg-block d-none px-0" style="line-height: 50px;">Quero conhecer portugal<br> para os meus negócios</span>
+                <?php if ($current_page === "/quero-conhecer-portugal/") : ?>
+                    <h1 class="text-white text-uppercase">Quero conhecer portugal<br> para os meus negócios</h1>
+                    <span class="d-lg-none d-block px-5" style="line-height: 50px;">Quero conhecer portugal<br> para os meus negócios</span>
+                    <span class="d-lg-block d-none px-0" style="line-height: 50px;">Quero conhecer portugal<br> para os meus negócios</span>
+                <?php elseif ($current_page === "/ja-decidi-e-quero-avancar/") : ?>
+                    <h1 class="text-white text-uppercase">JÁ DECIDI E QUERO AVANÇAR COM <br> MEUS NEGÓCIOS EM PORTUGAL</h1>
+                    <span class="d-lg-none d-block px-5" style="line-height: 50px;">JÁ DECIDI E QUERO AVANÇAR COM <br> MEUS NEGÓCIOS EM PORTUGAL</span>
+                    <span class="d-lg-block d-none px-0" style="line-height: 50px;">JÁ DECIDI E QUERO AVANÇAR COM <br> MEUS NEGÓCIOS EM PORTUGAL</span>
+                <?php else : ?>
+                    <h1 class="text-white text-uppercase">Já estou em Portugal e quero tracionar</h1>
+                    <span class="d-lg-none d-block px-5" style="line-height: 50px;">Já estou em Portugal <br> e quero tracionar</span>
+                    <span class="d-lg-block d-none px-0" style="line-height: 50px;">Já estou em Portugal <br> e quero tracionar</span>
+                <?php endif ?>
+
             </div>
         </div>
     </div>
+
+    <style>
+        #banner-momento {
+            background-image: url(<?php echo $banner ?>)
+        }
+    </style>
 </section>
 
 <!-- INTRO -->
@@ -117,111 +147,6 @@ $home = get_stylesheet_directory_uri();
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-</section>
-
-<!-- CONTATO -->
-<section id="contato" class="d-lg-none d-block bg-light py-4">
-    <div class="container px-4 py-5">
-        <div class="row px-3">
-            <div class="col-12">
-                <h2 class="text-secondary">QUER FALAR COM ESPECIALISTA PARA A INTERNACIONALIZAÇÃO?</h2>
-                <figure class="position-relative mb-0">
-                    <img loading="lazy" class="img-cover" src="<?= $home; ?>/assets/images/thumb-contato.jpg" alt="Thumb contato">
-                    <div class="mask-contato"></div>
-                    <div class="box"></div>
-                </figure>
-            </div>
-
-            <div id="form-candidatura" class="col-12 mt-5">
-                <form>
-                    <div class="mb-3">
-                        <input placeholder="Nome Completo*" type="text" class="form-control" id="name" aria-describedby="nameHelp">
-                    </div>
-
-                    <div class="mb-3">
-                        <input placeholder="Seu e-mail*" type="email" class="form-control" id="email" aria-describedby="emailHelp">
-                    </div>
-
-                    <div class="mb-3">
-                        <input placeholder="Telefone*" type="tel" class="form-control" id="tel" aria-describedby="nameHelp">
-                    </div>
-
-                    <select class="form-select mb-3" aria-label="Motivo do contato">
-                        <option selected>Motivo do contato</option>
-                        <option value="motivo1">motivo1</option>
-                        <option value="motivo2">motivo2</option>
-                        <option value="motivo3">motivo3</option>
-                    </select>
-
-                    <div class="mb-3">
-                        <textarea class="form-control" placeholder="Mensagem*" id="mensagem" style="height: 100px"></textarea>
-                    </div>
-
-                    <button type="submit" class="btn text-primary d-flex justify-content-lg-end align-items-center bg-transparent text-uppercase me-auto px-0 pt-0">
-                        Enviar
-                        <span class="material-symbols-outlined ms-2" style="font-size: 35px;">
-                            arrow_right_alt
-                        </span>
-                    </button>
-                </form>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section id="contato" class="d-lg-block d-none bg-light">
-    <div class="container-fluid p-0">
-        <div class="row align-items-center w-100 mx-0 px-0">
-            <div class="col-4 px-0">
-                <figure class="position-relative mb-0">
-                    <img loading="lazy" class="img-cover" src="<?= $home; ?>/assets/images/thumb-contato.jpg" alt="Thumb contato">
-                    <div class="mask-contato"></div>
-                    <div class="box" style="width: 62px; height: 62px; right: -1.75rem !important; left: auto !important; bottom: 5rem;"></div>
-                </figure>
-            </div>
-            <div class="col-6 ms-3" style="z-index: 10;">
-                <h2 class="text-secondary d-flex h2 mb-3" style="margin-left: -5rem;">QUER FALAR COM ESPECIALISTA<br> PARA A INTERNACIONALIZAÇÃO?</h2>
-                <div id="form-candidatura" class="col-10 mt-5 ms-4">
-                    <form>
-                        <div class="row">
-                            <div class="col mb-3">
-                                <input placeholder="Nome Completo*" type="text" class="form-control" id="name" aria-describedby="nameHelp">
-                            </div>
-
-                            <div class="col mb-3">
-                                <input placeholder="Seu e-mail*" type="email" class="form-control" id="email" aria-describedby="emailHelp">
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col mb-3">
-                                <input placeholder="Telefone*" type="tel" class="form-control" id="tel" aria-describedby="nameHelp">
-                            </div>
-
-                            <select class="col form-select mb-3" aria-label="Motivo do contato">
-                                <option selected>Motivo do contato</option>
-                                <option value="motivo1">motivo1</option>
-                                <option value="motivo2">motivo2</option>
-                                <option value="motivo3">motivo3</option>
-                            </select>
-                        </div>
-
-                        <div class="mb-2">
-                            <textarea class="form-control" placeholder="Mensagem*" id="mensagem" style="height: 100px"></textarea>
-                        </div>
-
-                        <button type="submit" class="btn text-primary d-flex justify-content-lg-end align-items-center bg-transparent text-uppercase ms-auto px-0 pt-0">
-                            Enviar
-                            <span class="material-symbols-outlined ms-2" style="font-size: 35px;">
-                                arrow_right_alt
-                            </span>
-                        </button>
-                    </form>
-                </div>
-            </div>
-
         </div>
     </div>
 </section>

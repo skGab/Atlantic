@@ -53,7 +53,7 @@ $home = get_stylesheet_directory_uri();
 <section id="vagas" class="container py-5 mt-5 px-0">
     <div class="row w-100 mx-0">
         <div class="col-lg-4 col vaga mb-lg-0 mb-5 pb-lg-5 px-lg-5 px-4 border-end border-secondary">
-            <div class="px-lg-4 px-3 mb-4">
+            <div class="mb-4">
                 <h2 class="text-center rounded-pill text-white text-uppercase fw-light bg-secondary h6 mb-0 py-2">Área de atuação | SP | Presencial</h2>
             </div>
             <h1 class="text-primary fw-bold mb-3">Título da Vaga</h1>
@@ -76,7 +76,7 @@ $home = get_stylesheet_directory_uri();
         <div class="col-12 d-lg-none d-block px-0 bg-light mb-5" style="height: 2px;"></div>
 
         <div class="col-lg-4 col vaga mb-lg-0 mb-5 pb-lg-5 px-lg-5 px-4 border-end border-secondary">
-            <div class="px-3 mb-4">
+            <div class="mb-4">
                 <h2 class="text-center rounded-pill text-white text-uppercase fw-light bg-secondary h6 mb-0 py-2">Área de atuação | SP | Presencial</h2>
             </div>
             <h1 class="text-primary fw-bold mb-3">Título da Vaga</h1>
@@ -99,7 +99,7 @@ $home = get_stylesheet_directory_uri();
         <div class="col-12 d-lg-none d-block px-0 bg-light mb-5" style="height: 2px;"></div>
 
         <div class="col-lg-4 col vaga mb-lg-0 mb-5 pb-lg-5 px-lg-5 px-4">
-            <div class="px-3 mb-4">
+            <div class="mb-4">
                 <h2 class="text-center rounded-pill text-white text-uppercase fw-light bg-secondary h6 mb-0 py-2">Área de atuação | SP | Presencial</h2>
             </div>
             <h1 class="text-primary fw-bold mb-3">Título da Vaga</h1>
@@ -122,7 +122,7 @@ $home = get_stylesheet_directory_uri();
         <div class="col-12 d-lg-none d-block px-0 bg-light mb-5" style="height: 2px;"></div>
         
         <div class="col-lg-4 col vaga mb-lg-0 mb-5 pb-lg-5 px-lg-5 px-4 border-end border-secondary">
-            <div class="px-lg-4 px-3 mb-4">
+            <div class="mb-4">
                 <h2 class="text-center rounded-pill text-white text-uppercase fw-light bg-secondary h6 mb-0 py-2">Área de atuação | SP | Presencial</h2>
             </div>
             <h1 class="text-primary fw-bold mb-3">Título da Vaga</h1>
@@ -145,7 +145,7 @@ $home = get_stylesheet_directory_uri();
         <div class="col-12 d-lg-none d-block px-0 bg-light mb-5" style="height: 2px;"></div>
 
         <div class="col-lg-4 col vaga mb-lg-0 mb-5 pb-lg-5 px-lg-5 px-4 border-end border-secondary">
-            <div class="px-3 mb-4">
+            <div class="mb-4">
                 <h2 class="text-center rounded-pill text-white text-uppercase fw-light bg-secondary h6 mb-0 py-2">Área de atuação | SP | Presencial</h2>
             </div>
             <h1 class="text-primary fw-bold mb-3">Título da Vaga</h1>
@@ -168,7 +168,7 @@ $home = get_stylesheet_directory_uri();
         <div class="col-12 d-lg-none d-block px-0 bg-light mb-5" style="height: 2px;"></div>
 
         <div class="col-lg-4 col vaga mb-lg-0 mb-5 pb-lg-5 px-lg-5 px-4">
-            <div class="px-3 mb-4">
+            <div class="mb-4">
                 <h2 class="text-center rounded-pill text-white text-uppercase fw-light bg-secondary h6 mb-0 py-2">Área de atuação | SP | Presencial</h2>
             </div>
             <h1 class="text-primary fw-bold mb-3">Título da Vaga</h1>
@@ -245,7 +245,7 @@ $home = get_stylesheet_directory_uri();
                         close
                     </span>
                 </button>
-                <div class="px-3 mb-4">
+                <div class="mb-4">
                     <h2 class="text-center rounded-pill text-white text-uppercase fw-light bg-secondary h6 mb-0 py-2">Área de atuação | SP | Presencial</h2>
                 </div>
                 <h1 class="text-start text-primary fw-bold mb-3 ps-2">Título da Vaga</h1>

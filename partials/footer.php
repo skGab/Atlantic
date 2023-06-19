@@ -3,11 +3,11 @@ $current_page =  $_SERVER['REQUEST_URI'];
 
 $home = get_stylesheet_directory_uri();
 
-if ($current_page == "/index.php" or $current_page == '/' or $current_page == "/pages/quero-conhecer.php") : ?>
+if ($current_page == "/index.php" or $current_page == '/' or $current_page == "/quero-conhecer-portugal/" or $current_page == "/ja-decidi-e-quero-avancar/" or $current_page == "/ja-estou-em-portugal-e-quero-tracionar/") : ?>
     <!-- CONTATO -->
-    <section id="contato" class="py-5 py-md-0 position-relative d-flex align-items-center">
+    <!-- <section id="contato" class="py-5 py-md-0 position-relative d-flex align-items-center">
         <figure class="mb-0 d-none d-md-block">
-            <img loading="lazy" class="img-fluid d-none d-md-block position-absolute thumb_desk" src="<?php echo $home?>/assets/images/banner_contato_desk.png" alt="Thumb contato">
+            <img loading="lazy" class="img-fluid d-none d-md-block position-absolute thumb_desk" src="<?php echo $home ?>/assets/images/banner_contato_desk.png" alt="Thumb contato">
             <div class="box d-md-none"></div>
         </figure>
 
@@ -18,7 +18,7 @@ if ($current_page == "/index.php" or $current_page == '/' or $current_page == "/
                 <div class="col-12 col-md-6 mb-5 mb-md-0">
                     <h2 class="h1 d-md-none">QUER FALAR COM <br> ESPECIALISTA PARA A INTERNACIONALIZAÇÃO?</h2>
                     <figure class="h-md-100 w-md-100 m-md-0 ">
-                        <img loading="lazy" class="img-fluid d-md-none" src="<?php echo $home?>/assets/images/banner_contato.png" alt="Thumb contato">
+                        <img loading="lazy" class="img-fluid d-md-none" src="<?php echo $home ?>/assets/images/banner_contato.png" alt="Thumb contato">
                     </figure>
                 </div>
 
@@ -49,10 +49,115 @@ if ($current_page == "/index.php" or $current_page == '/' or $current_page == "/
 
                         <button type="submit" class="bg-transparent border-0 btn d-flex align-items-center">
                             ENVIAR
-                            <img loading="lazy" class="img-fluid ms-3" src="<?php echo $home?>/assets/icons/seta-direita-contato.svg" alt="Seta Direita">
+                            <img loading="lazy" class="img-fluid ms-3" src="<?php echo $home ?>/assets/icons/seta-direita-contato.svg" alt="Seta Direita">
                         </button>
                     </form>
                 </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- CONTATO -->
+    <section id="contato" class="d-lg-none d-block bg-light py-4">
+        <div class="container px-4 py-5">
+            <div class="row px-3">
+                <div class="col-12">
+                    <h2 class="text-secondary">QUER FALAR COM ESPECIALISTA PARA A INTERNACIONALIZAÇÃO?</h2>
+                    <figure class="position-relative mb-0">
+                        <img loading="lazy" class="img-cover" src="<?= $home; ?>/assets/images/thumb-contato.jpg" alt="Thumb contato">
+                        <div class="mask-contato"></div>
+                        <div class="box"></div>
+                    </figure>
+                </div>
+
+                <div id="form-candidatura" class="col-12 mt-5">
+                    <form>
+                        <div class="mb-3">
+                            <input placeholder="Nome Completo*" type="text" class="form-control" id="name" aria-describedby="nameHelp">
+                        </div>
+
+                        <div class="mb-3">
+                            <input placeholder="Seu e-mail*" type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                        </div>
+
+                        <div class="mb-3">
+                            <input placeholder="Telefone*" type="tel" class="form-control" id="tel" aria-describedby="nameHelp">
+                        </div>
+
+                        <select class="form-select mb-3" aria-label="Motivo do contato">
+                            <option selected>Motivo do contato</option>
+                            <option value="motivo1">motivo1</option>
+                            <option value="motivo2">motivo2</option>
+                            <option value="motivo3">motivo3</option>
+                        </select>
+
+                        <div class="mb-3">
+                            <textarea class="form-control" placeholder="Mensagem*" id="mensagem" style="height: 100px"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn text-primary d-flex justify-content-lg-end align-items-center bg-transparent text-uppercase me-auto px-0 pt-0">
+                            Enviar
+                            <span class="material-symbols-outlined ms-2" style="font-size: 35px;">
+                                arrow_right_alt
+                            </span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="d-lg-block d-none bg-light">
+        <div class="container-fluid p-0">
+            <div class="row align-items-center w-100 mx-0 px-0">
+                <div class="col-4 px-0">
+                    <figure class="position-relative mb-0">
+                        <img loading="lazy" class="img-cover" src="<?= $home; ?>/assets/images/thumb-contato.jpg" alt="Thumb contato">
+                        <div class="mask-contato"></div>
+                        <div class="box" style="width: 62px; height: 62px; right: -1.75rem !important; left: auto !important; bottom: 5rem;"></div>
+                    </figure>
+                </div>
+                <div class="col-6 ms-3" style="z-index: 1;">
+                    <h2 class="text-secondary d-flex h2 mb-3" style="margin-left: -5rem;">QUER FALAR COM ESPECIALISTA<br> PARA A INTERNACIONALIZAÇÃO?</h2>
+                    <div id="form-candidatura" class="col-10 mt-5 ms-4">
+                        <form>
+                            <div class="row">
+                                <div class="col mb-3">
+                                    <input placeholder="Nome Completo*" type="text" class="form-control" id="name" aria-describedby="nameHelp">
+                                </div>
+
+                                <div class="col mb-3">
+                                    <input placeholder="Seu e-mail*" type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col mb-3">
+                                    <input placeholder="Telefone*" type="tel" class="form-control" id="tel" aria-describedby="nameHelp">
+                                </div>
+
+                                <select class="col form-select mb-3" aria-label="Motivo do contato">
+                                    <option selected>Motivo do contato</option>
+                                    <option value="motivo1">motivo1</option>
+                                    <option value="motivo2">motivo2</option>
+                                    <option value="motivo3">motivo3</option>
+                                </select>
+                            </div>
+
+                            <div class="mb-2">
+                                <textarea class="form-control" placeholder="Mensagem*" id="mensagem" style="height: 100px"></textarea>
+                            </div>
+
+                            <button type="submit" class="btn text-primary d-flex justify-content-lg-end align-items-center bg-transparent text-uppercase ms-auto px-0 pt-0">
+                                Enviar
+                                <span class="material-symbols-outlined ms-2" style="font-size: 35px;">
+                                    arrow_right_alt
+                                </span>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
@@ -66,7 +171,7 @@ if ($current_page == "/index.php" or $current_page == '/' or $current_page == "/
         <div class="row space d-md-none">
             <div class="col">
                 <figure class="logo space">
-                    <img loading="lazy" class="img-fluid" width="170px" src="<?php echo $home?>/assets/images/logo-atlantic-footer.png" alt="Logo Atlantic">
+                    <img loading="lazy" class="img-fluid" width="170px" src="<?php echo $home ?>/assets/images/logo-atlantic-footer.png" alt="Logo Atlantic">
                 </figure>
 
                 <div class="endereco space lh-1 small text-white-footer">
@@ -77,16 +182,16 @@ if ($current_page == "/index.php" or $current_page == '/' or $current_page == "/
 
                 <figure class="social d-flex gap-3 mb-0">
                     <a href="" target="_blank">
-                        <img loading="lazy" class="img-fluid" src="<?php echo $home?>/assets/icons/facebook-footer.svg" alt="Logo facebook">
+                        <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/icons/facebook-footer.svg" alt="Logo facebook">
                     </a>
                     <a href="" target="_blank">
-                        <img loading="lazy" class="img-fluid" src="<?php echo $home?>/assets/icons/instagram-footer.svg" alt="Logo Instagram">
+                        <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/icons/instagram-footer.svg" alt="Logo Instagram">
                     </a>
                     <a href="" target="_blank">
-                        <img loading="lazy" class="img-fluid" src="<?php echo $home?>/assets/icons/youtube-footer.svg" alt="Logo Youtube">
+                        <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/icons/youtube-footer.svg" alt="Logo Youtube">
                     </a>
                     <a href="" target="_blank">
-                        <img loading="lazy" class="img-fluid" src="<?php echo $home?>/assets/icons/twitter-footer.svg" alt="Logo Twitter">
+                        <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/icons/twitter-footer.svg" alt="Logo Twitter">
                     </a>
                 </figure>
             </div>
@@ -110,7 +215,7 @@ if ($current_page == "/index.php" or $current_page == '/' or $current_page == "/
             <div class="col-6">
                 <div class="d-flex gap-3">
                     <figure class="logo space">
-                        <img loading="lazy" class="img-fluid" width="180px" src="<?php echo $home?>/assets/images/logo-atlantic-footer.png" alt="Logo Atlantic">
+                        <img loading="lazy" class="img-fluid" width="180px" src="<?php echo $home ?>/assets/images/logo-atlantic-footer.png" alt="Logo Atlantic">
                     </figure>
 
                     <div class="endereco space lh-1 small text-white-footer">
@@ -122,16 +227,16 @@ if ($current_page == "/index.php" or $current_page == '/' or $current_page == "/
 
                 <figure class="social d-flex gap-3 mb-0">
                     <a href="" target="_blank">
-                        <img loading="lazy" class="img-fluid" src="<?php echo $home?>/assets/icons/facebook-footer.svg" alt="Logo facebook">
+                        <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/icons/facebook-footer.svg" alt="Logo facebook">
                     </a>
                     <a href="" target="_blank">
-                        <img loading="lazy" class="img-fluid" src="<?php echo $home?>/assets/icons/instagram-footer.svg" alt="Logo Instagram">
+                        <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/icons/instagram-footer.svg" alt="Logo Instagram">
                     </a>
                     <a href="" target="_blank">
-                        <img loading="lazy" class="img-fluid" src="<?php echo $home?>/assets/icons/youtube-footer.svg" alt="Logo Youtube">
+                        <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/icons/youtube-footer.svg" alt="Logo Youtube">
                     </a>
                     <a href="" target="_blank">
-                        <img loading="lazy" class="img-fluid" src="<?php echo $home?>/assets/icons/twitter-footer.svg" alt="Logo Twitter">
+                        <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/icons/twitter-footer.svg" alt="Logo Twitter">
                     </a>
                 </figure>
             </div>
@@ -154,7 +259,7 @@ if ($current_page == "/index.php" or $current_page == '/' or $current_page == "/
                 <p class="text-white-footer"><strong class="text-white letter">Atlantic Hub |</strong> © Copyright 2022 - Todos Os Direitos Reservados</p>
                 <div class="d-flex align-items-center">
                     <strong class="text-white me-2 letter">Desenvolvido por</strong>
-                    <a href="https://blackbeans.com.br/" target="_blank"><img class="mb-1" loading="lazy" src="<?php echo $home?>/assets/icons/logo-blackbeans.png" alt="Logo Black Beans"></a>
+                    <a href="https://blackbeans.com.br/" target="_blank"><img class="mb-1" loading="lazy" src="<?php echo $home ?>/assets/icons/logo-blackbeans.png" alt="Logo Black Beans"></a>
                 </div>
             </div>
         </div>
@@ -168,15 +273,15 @@ if ($current_page == "/index.php" or $current_page == '/' or $current_page == "/
                     <p class="me-3 mb-0">
                         Certificação:
                     </p>
-                    <img loading="lazy" class="img-fluid" src="<?php echo $home?>/assets/images/logo_iapmei.png" alt="Logo IAPMEI">
+                    <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/images/logo_iapmei.png" alt="Logo IAPMEI">
                 </div>
                 <div class="d-flex align-items-center gap-3">
                     <p class="mb-0">
                         Membro:
                     </p>
-                    <img loading="lazy" class="img-fluid" src="<?php echo $home?>/assets/images/logo_camara.png" alt="Logo Câmara">
-                    <img loading="lazy" class="img-fluid" src="<?php echo $home?>/assets/images/logo_footer1.png" alt="Logo Câmara Municipal">
-                    <img loading="lazy" class="img-fluid" src="<?php echo $home?>/assets/images/logo_footer2.png" alt="Logo Rio Grande">
+                    <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/images/logo_camara.png" alt="Logo Câmara">
+                    <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/images/logo_footer1.png" alt="Logo Câmara Municipal">
+                    <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/images/logo_footer2.png" alt="Logo Rio Grande">
                 </div>
             </figure>
         </div>
