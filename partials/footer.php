@@ -5,7 +5,7 @@ $home = get_stylesheet_directory_uri();
 
 if ($current_page == "/index.php" or $current_page == '/' or $current_page == "/quero-conhecer-portugal/" or $current_page == "/ja-decidi-e-quero-avancar/" or $current_page == "/ja-estou-em-portugal-e-quero-tracionar/") : ?>
     <!-- CONTATO -->
-    <section id="contato" class="d-lg-none d-block bg-light py-4">
+    <!-- <section id="contato" class="d-lg-none d-block bg-light py-4">
         <div class="container px-4 py-5">
             <div class="row px-3">
                 <div class="col-12">
@@ -52,14 +52,14 @@ if ($current_page == "/index.php" or $current_page == '/' or $current_page == "/
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <section id="contato" class="d-lg-block d-none bg-light">
         <div class="container-fluid p-0">
             <div class="row align-items-center w-100 mx-0 px-0">
                 <div class="col-4 px-0">
                     <figure class="position-relative mb-0">
-                        <img loading="lazy" class="img-cover" src="<?= $home; ?>/assets/images/thumb-contato.jpg" alt="Thumb contato">
+                        <img loading="lazy" class="img-cover" src="<?= $home; ?>/assets/images/thumb_contato.webp" alt="Thumb contato">
                         <div class="mask-contato"></div>
                         <div class="box" style="width: 62px; height: 62px; right: -1.75rem !important; left: auto !important; bottom: 5rem;"></div>
                     </figure>
@@ -147,12 +147,12 @@ if ($current_page == "/index.php" or $current_page == '/' or $current_page == "/
         <div class="row space d-md-none">
             <div class="col">
                 <nav class="d-flex flex-column lh-lg">
-                    <a href="" class="text-white-footer">Home</a>
-                    <a href="" class="text-white-footer">Quem Somos</a>
-                    <a href="" class="text-white-footer">Estudo de Mercado</a>
-                    <a href="" class="text-white-footer">Blog</a>
-                    <a href="" class="text-white-footer">Contato</a>
-                    <a href="" class="text-white-footer">Vagas</a>
+                    <a href="/" class="text-white-footer">Home</a>
+                    <a href="/quem-somos" class="text-white-footer">Quem Somos</a>
+                    <a href="/atlantic-marketfit" class="text-white-footer">Estudo de Mercado</a>
+                    <a href="/blog" class="text-white-footer">Blog</a>
+                    <a href="/contato" class="text-white-footer">Contato</a>
+                    <a href="/vagas" class="text-white-footer">Vagas</a>
                 </nav>
             </div>
         </div>
@@ -190,12 +190,12 @@ if ($current_page == "/index.php" or $current_page == '/' or $current_page == "/
 
             <div class="col-6">
                 <nav class="d-flex flex-column lh-lg ms-auto w-25">
-                    <a href="" class="text-white-footer">Home</a>
-                    <a href="" class="text-white-footer">Quem Somos</a>
-                    <a href="" class="text-white-footer">Estudo de Mercado</a>
-                    <a href="" class="text-white-footer">Blog</a>
-                    <a href="" class="text-white-footer">Contato</a>
-                    <a href="" class="text-white-footer">Vagas</a>
+                    <a href="/" class="text-white-footer">Home</a>
+                    <a href="/quem-somos" class="text-white-footer">Quem Somos</a>
+                    <a href="/atlantic-marketfit" class="text-white-footer">Estudo de Mercado</a>
+                    <a href="/blog" class="text-white-footer">Blog</a>
+                    <a href="/contato" class="text-white-footer">Contato</a>
+                    <a href="/vagas" class="text-white-footer">Vagas</a>
                 </nav>
             </div>
         </div>

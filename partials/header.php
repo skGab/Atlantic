@@ -48,7 +48,7 @@ $home = get_stylesheet_directory_uri();
                     </div>
 
                     <div class="horario text-center text-white px-md-3 px-3 py-1 rounded">
-                        <strong class="small">
+                        <strong>
                             HORÁRIO DE LISBOA
                         </strong>
                         <?php echo do_shortcode('[lisbon_time]') ?>

@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', function () {
   // SLIDES QUEM SOMOS
   if (pageName === '/quem-somos/') {
     var splide_equipe = new Splide('#splide_equipe', {
-      // type: 'loop',
+      type: 'loop',
       perPage: 3,
       pagination: false,
       // focus: 'center',

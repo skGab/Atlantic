@@ -225,7 +225,7 @@ $home = get_stylesheet_directory_uri();
             <div class="px-4 py-3 py-md-0 d-block flex-0">
                 <h4 class="h3 card-title text-white lh-md-base mb-md-4">Quer falar com nossos especialistas para a internacionalização?</h4>
 
-                <button class="btn text-white border py-2 py-md-1">FALE CONOSCO</button>
+                <button class="btn text-white border py-2 py-md-1"><a href="/contato" class="text-white">FALE CONOSCO</a></button>
             </div>
         </div>
 
