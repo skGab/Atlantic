@@ -1,7 +1,5 @@
 <?php
 $current_page =  $_SERVER['REQUEST_URI'];
-$root = $_SERVER['DOCUMENT_ROOT'];
-
 $home = get_stylesheet_directory_uri();
 ?>
 
@@ -46,14 +44,14 @@ $home = get_stylesheet_directory_uri();
                         <strong class="small text-white me-1 fw-bold">
                             € Cotação
                         </strong>
-                        R$5,56489
+                        R$ <?php echo do_shortcode('[euro_exchange_rate]') ?>
                     </div>
 
                     <div class="horario text-center text-white px-md-3 px-3 py-1 rounded">
                         <strong class="small">
                             HORÁRIO DE LISBOA
                         </strong>
-                        14:50
+                        <?php echo do_shortcode('[lisbon_time]') ?>
                     </div>
                 </div>
             </div>
@@ -63,7 +61,7 @@ $home = get_stylesheet_directory_uri();
     <header id="header" class="position-fixed w-100">
         <div class="px-lg-5 px-3 mt-2">
             <nav class="navbar navbar-light navbar-expand-lg bg-white py-0 mx-auto" aria-label="First navbar example">
-                <div class="container-fluid px-3 px-md-3 px-lg-4 px-xl-5">
+                <div class="container-fluid px-3 py-1 px-md-3 px-lg-4 px-xl-5">
                     <div class="row justify-content-between align-items-center w-100 mx-0">
                         <a class="navbar-brand col-lg-2 px-lg-0 col-5 me-0" href="/">
                             <img class="d-block img-fluid" src="<?php echo $home ?>/assets/images/atlantic_logo.png" alt="Logo Atlantic Hub">
