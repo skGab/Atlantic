@@ -1,14 +1,10 @@
 <?php
-
 /**
  * Template Name: Post
  */
-
 get_template_part('partials/header');
 $home = get_stylesheet_directory_uri();
-
 ?>
-
 
 <style>
     main {
@@ -628,7 +624,6 @@ $home = get_stylesheet_directory_uri();
         </div>
     </div>
 </section>
-
 <?php
 get_template_part('partials/footer');
 ?>

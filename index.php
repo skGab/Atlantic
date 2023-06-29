@@ -237,39 +237,36 @@ $home = get_stylesheet_directory_uri();
 
     <div class="container px-3 py-5">
         <div class="row noticias align-items-center">
+            <?php
+            $args = array(
+                'post_type' => 'post',
+                'posts_per_page' => 2,
+                'post__in' => array(3644, 1220),
+                'category_name'  => 'destaques'
+            );
+            $posts = new WP_Query($args);
+            if ($posts->have_posts()) : while ($posts->have_posts()) : $posts->the_post();
 
-            <div class="col-12 col-md-6">
-                <div class="card border-0">
-                    <div class="card-body">
-                        <p class="mb-3">Destaque</p>
+                    $categories = get_the_category();
+            ?>
 
-                        <div class="d-flex align-items-center">
-                            <h3 class="card-title me-3 mb-0">Como abrir uma empresa <br> em Portugal?</h3>
+                    <div class="col-12 col-md-6">
+                        <div class="card border-0">
+                            <div class="card-body">
+                                <p class="mb-3"><?php echo ucfirst($args['category_name']); ?></p>
 
-                            <a href=""><img loading="lazy" class="d-md-none" src="<?php echo $home ?>/assets/icons/seta-direita-azul.svg" alt="Seta direita azul"></a>
+                                <div class="d-flex align-items-center">
+                                    <h3 class="card-title me-3 mb-0"><?php echo get_the_title() ?></h3>
 
-                            <a href=""><img loading="lazy" class="d-none  d-md-block" width="50px" src="<?php echo $home ?>/assets/icons/seta-direita-azul.svg" alt="Seta direita azul"></a>
+                                    <a href="<?php the_permalink(); ?>"><img loading="lazy" class="d-md-none" src="<?php echo $home ?>/assets/icons/seta-direita-azul.svg" alt="Seta direita azul"></a>
+
+                                    <a href="<?php the_permalink(); ?>"><img loading="lazy" class="d-none  d-md-block" width="50px" src="<?php echo $home ?>/assets/icons/seta-direita-azul.svg" alt="Seta direita azul"></a>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </div>
-
-            <div class="col-12 col-md-6">
-                <div class="card border-0 pt-5">
-                    <div class="card-body">
-                        <p class="mb-3">Destaque</p>
-
-                        <div class="d-flex align-items-center">
-                            <h3 class="card-title me-3 mb-0">Somos especializados na internacionalização de empresas brasileiras – Conheça a Atlantic Hub</h3>
-
-                            <a href=""><img loading="lazy" class="d-md-none" src="<?php echo $home ?>/assets/icons/seta-direita-azul.svg" alt="Seta direita azul"></a>
-
-                            <a href=""><img loading="lazy" class="d-none  d-md-block" width="50px" src="<?php echo $home ?>/assets/icons/seta-direita-azul.svg" alt="Seta direita azul"></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
+            <?php endwhile;
+            endif; ?>
         </div>
     </div>
 </section>
@@ -282,92 +279,107 @@ $home = get_stylesheet_directory_uri();
             <div class="col-12 mb-5">
                 <div class="d-flex align-items-center">
                     <h2 class="me-5">BLOG</h2>
-                    <a href="" class="small align-items-center d-flex d-md-none">
+                    <a href="/blog" class="small align-items-center d-flex d-md-none">
                         Ver Todos
                         <img loading="lazy" src="<?php echo $home ?>/assets/icons/seta_direita_azul_blog.svg" class="img-fluid ms-3" alt="Seta direita azul Blog">
                     </a>
 
-                    <a href="" class="align-items-center d-flex d-none d-md-flex">
+                    <a href="/blog" class="align-items-center d-flex d-none d-md-flex">
                         Ver Todos
                         <img loading="lazy" src="<?php echo $home ?>/assets/icons/seta_direita_azul_blog.svg" class="img-fluid ms-3" alt="Seta direita azul Blog">
                     </a>
                 </div>
             </div>
 
-            <div class="col-12 col-md-6 col-lg-4 mb-5">
-                <div class="card mx-auto border-0 bg-transparent position-relative">
-                    <div class="box position-absolute"></div>
+            <?php
 
-                    <img loading="lazy" src="<?php echo $home ?>/assets/images/post_thumb1.webp" width="350" class="img-fluid" alt="">
+            $blog_args = array(
+                'post_type' => 'post',
+                'posts_per_page' => 3,
+            );
+            $blog_posts = new WP_Query($blog_args);
+            if ($blog_posts->have_posts()) : while ($blog_posts->have_posts()) : $blog_posts->the_post();
 
-                    <div class="card-body px-md-0">
-                        <p class="text-white small px-2 py-1 mb-3">Nome da tag</p>
+                    $blog_categories = get_the_category();
+            ?>
 
-                        <h3 class="card-title mb-3">
-                            Portugal, um dos países queridinhos para congressos e convenções
-                        </h3>
+                    <div class="col-12 col-md-6 col-lg-4 mb-5">
+                        <div class="card mx-auto border-0 bg-transparent position-relative">
+                            <div class="box position-absolute"></div>
 
-                        <div class="card-text mb-3">
-                            De acordo com o relatório da Associação Internacional de Congressos e Incentivos (ICCA) relativo a 2019...
+                            <img loading="lazy" src="<?php echo $home ?>/assets/images/post_thumb1.webp" width="350" class="img-fluid" alt="">
+
+                            <div class="card-body px-md-0">
+                                <p class="text-white small px-2 py-1 mb-3"><?php echo $categories[0]->name ?></p>
+
+                                <h3 class="card-title mb-3">
+                                    <?php echo get_the_title() ?>
+                                </h3>
+
+                                <div class="card-text mb-3">
+                                    <?php echo wp_trim_words(get_the_excerpt(), 20, '...'); ?>
+                                </div>
+
+                                <a href="<?php the_permalink() ?>" class="d-flex align-items-center">
+                                    Ler mais
+                                    <img loading="lazy" class="img-fluid ms-4" src="<?php echo $home ?>/assets/icons/seta_direita_azul_blog.svg" alt="Seta direita azul Blog">
+                                </a>
+                            </div>
                         </div>
-
-                        <a href="" class="d-flex align-items-center">
-                            Ler mais
-                            <img loading="lazy" class="img-fluid ms-4" src="<?php echo $home ?>/assets/icons/seta_direita_azul_blog.svg" alt="Seta direita azul Blog">
-                        </a>
                     </div>
-                </div>
-            </div>
 
-            <div class="col-12 col-md-6 col-lg-4 mb-5 ">
-                <div class="card mx-auto border-0 bg-transparent position-relative">
-                    <div class="box position-absolute"></div>
+                    <!-- <div class="col-12 col-md-6 col-lg-4 mb-5 ">
+                        <div class="card mx-auto border-0 bg-transparent position-relative">
+                            <div class="box position-absolute"></div>
 
-                    <img loading="lazy" src="<?php echo $home ?>/assets/images/post_thumb1.webp" width="350" class="img-fluid" alt="">
+                            <img loading="lazy" src="<?php echo $home ?>/assets/images/post_thumb1.webp" width="350" class="img-fluid" alt="">
 
-                    <div class="card-body px-md-0">
-                        <p class="text-white small px-2 py-1 mb-3">Nome da tag</p>
+                            <div class="card-body px-md-0">
+                                <p class="text-white small px-2 py-1 mb-3">Nome da tag</p>
 
-                        <h3 class="card-title mb-3">
-                            Portugal, um dos países queridinhos para congressos e convenções
-                        </h3>
+                                <h3 class="card-title mb-3">
+                                    Portugal, um dos países queridinhos para congressos e convenções
+                                </h3>
 
-                        <div class="card-text mb-3">
-                            De acordo com o relatório da Associação Internacional de Congressos e Incentivos (ICCA) relativo a 2019...
+                                <div class="card-text mb-3">
+                                    De acordo com o relatório da Associação Internacional de Congressos e Incentivos (ICCA) relativo a 2019...
+                                </div>
+
+                                <a href="" class="d-flex align-items-center">
+                                    Ler mais
+                                    <img loading="lazy" class="img-fluid ms-4" src="<?php echo $home ?>/assets/icons/seta_direita_azul_blog.svg" alt="Seta direita azul Blog">
+                                </a>
+                            </div>
                         </div>
-
-                        <a href="" class="d-flex align-items-center">
-                            Ler mais
-                            <img loading="lazy" class="img-fluid ms-4" src="<?php echo $home ?>/assets/icons/seta_direita_azul_blog.svg" alt="Seta direita azul Blog">
-                        </a>
                     </div>
-                </div>
-            </div>
 
-            <div class="col-12 col-md-6 col-lg-4 mb-5">
-                <div class="card mx-auto border-0 bg-transparent position-relative">
-                    <div class="box position-absolute"></div>
+                    <div class="col-12 col-md-6 col-lg-4 mb-5">
+                        <div class="card mx-auto border-0 bg-transparent position-relative">
+                            <div class="box position-absolute"></div>
 
-                    <img loading="lazy" src="<?php echo $home ?>/assets/images/post_thumb1.webp" width="350" class="img-fluid" alt="">
+                            <img loading="lazy" src="<?php echo $home ?>/assets/images/post_thumb1.webp" width="350" class="img-fluid" alt="">
 
-                    <div class="card-body px-md-0">
-                        <p class="text-white small px-2 py-1 mb-3">Nome da tag</p>
+                            <div class="card-body px-md-0">
+                                <p class="text-white small px-2 py-1 mb-3">Nome da tag</p>
 
-                        <h3 class="card-title mb-3">
-                            Portugal, um dos países queridinhos para congressos e convenções
-                        </h3>
+                                <h3 class="card-title mb-3">
+                                    Portugal, um dos países queridinhos para congressos e convenções
+                                </h3>
 
-                        <div class="card-text mb-3">
-                            De acordo com o relatório da Associação Internacional de Congressos e Incentivos (ICCA) relativo a 2019...
+                                <div class="card-text mb-3">
+                                    De acordo com o relatório da Associação Internacional de Congressos e Incentivos (ICCA) relativo a 2019...
+                                </div>
+
+                                <a href="" class="d-flex align-items-center">
+                                    Ler mais
+                                    <img loading="lazy" class="img-fluid ms-4" src="<?php echo $home ?>/assets/icons/seta_direita_azul_blog.svg" alt="Seta direita azul Blog">
+                                </a>
+                            </div>
                         </div>
+                    </div> -->
 
-                        <a href="" class="d-flex align-items-center">
-                            Ler mais
-                            <img loading="lazy" class="img-fluid ms-4" src="<?php echo $home ?>/assets/icons/seta_direita_azul_blog.svg" alt="Seta direita azul Blog">
-                        </a>
-                    </div>
-                </div>
-            </div>
+            <?php endwhile;
+            endif; ?>
         </div>
 
         <div class="row">
