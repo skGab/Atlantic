@@ -161,43 +161,43 @@ $home = get_stylesheet_directory_uri();
         <div class="row py-5 justify-content-center">
             <div class="col-3 col-lg-2">
                 <figure class="mb-0 text-center">
-                    <img loading="lazy" class="img-fluid mb-4" src="<?php echo $home ?>/assets/images/pilares/analise.png" alt="Thumb Pilar">
-                    <h5>Avaliação
+                    <img loading="lazy" class="img-fluid mb-4" src="<?php echo $home ?>/assets/images/pilares/avaliacao.png" alt="Thumb Pilar">
+                    <h5>Avaliação <br>
                         de Ecossistema</h5>
                 </figure>
             </div>
             <div class="col-3 col-lg-2">
                 <figure class="mb-0 text-center">
                     <img loading="lazy" class="img-fluid mb-4" src="<?php echo $home ?>/assets/images/pilares/analise.png" alt="Thumb Pilar">
-                    <h5>Análise
+                    <h5>Análise <br>
                         da concorrência</h5>
                 </figure>
             </div>
             <div class="col-3 col-lg-2">
                 <figure class="mb-0 text-center">
-                    <img loading="lazy" class="img-fluid mb-4" src="<?php echo $home ?>/assets/images/pilares/analise.png" alt="Thumb Pilar">
+                    <img loading="lazy" class="img-fluid mb-4" src="<?php echo $home ?>/assets/images/pilares/mercado.png" alt="Thumb Pilar">
                     <h5>Avaliaçao <br>
                         de Mercado</h5>
                 </figure>
             </div>
             <div class="col-3 col-lg-2">
                 <figure class="mb-0 text-center">
-                    <img loading="lazy" class="img-fluid mb-4" src="<?php echo $home ?>/assets/images/pilares/analise.png" alt="Thumb Pilar">
+                    <img loading="lazy" class="img-fluid mb-4" src="<?php echo $home ?>/assets/images/pilares/setor.png" alt="Thumb Pilar">
                     <h5>Análise <br>
                         do Setor</h5>
                 </figure>
             </div>
             <div class="col-3 col-lg-2 mt-md-4 mt-lg-0">
                 <figure class="mb-0 text-center">
-                    <img loading="lazy" class="img-fluid mb-4" src="<?php echo $home ?>/assets/images/pilares/analise.png" alt="Thumb Pilar">
+                    <img loading="lazy" class="img-fluid mb-4" src="<?php echo $home ?>/assets/images/pilares/swot.png" alt="Thumb Pilar">
                     <h5>Análise <br>
                         SWOT</h5>
                 </figure>
             </div>
             <div class="col-3 col-lg-2 mt-md-4 mt-lg-0">
                 <figure class="mb-0 text-center">
-                    <img loading="lazy" class="img-fluid mb-4" src="<?php echo $home ?>/assets/images/pilares/analise.png" alt="Thumb Pilar">
-                    <h5>Linhas de Financiamento</h5>
+                    <img loading="lazy" class="img-fluid mb-4" src="<?php echo $home ?>/assets/images/pilares/financiamento.png" alt="Thumb Pilar">
+                    <h5>Linhas de <br> Financiamento</h5>
                 </figure>
             </div>
         </div>
@@ -352,7 +352,7 @@ $home = get_stylesheet_directory_uri();
                     MarketFit requer um investimento inicial de <br> <strong class="detail-2 px-2 h4 fw-bold">€ 1.750,00</strong>
                 </p>
 
-                <a href="" target="_blank" class="px-3 py-2 fw-bold small d-none d-md-block">CONTRATE AGORA</a>
+                <a href="/contato" target="_blank" class="px-3 py-2 fw-bold small d-none d-md-block">CONTRATE AGORA</a>
             </div>
 
             <div class="col-9 col-md-4 col-xxl-3 mb-4">
@@ -362,7 +362,7 @@ $home = get_stylesheet_directory_uri();
             </div>
 
             <div class="col-12 d-md-none">
-                <a href="" target="_blank" class="px-3 py-2 fw-bold">CONTRATE AGORA</a>
+                <a href="/contato" target="_blank" class="px-3 py-2 fw-bold">CONTRATE AGORA</a>
             </div>
         </div>
     </div>

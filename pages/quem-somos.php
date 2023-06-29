@@ -166,7 +166,7 @@ $home = get_stylesheet_directory_uri();
 <!-- NOSSA EQUIPE -->
 <section id="nossa-equipe" class="py-md-5">
     <div class="container px-4 py-5">
-        <div class="row mb-5">
+        <div class="row mb-5 pb-md-5">
             <div class="col-12">
                 <h2 class="mb-5">NOSSA EQUIPE</h2>
             </div>
@@ -295,45 +295,44 @@ $home = get_stylesheet_directory_uri();
         </div>
 
         <div class="row text-center align-items-center justify-content-center py-5 position-relative">
-
-            <div class="detail position-absolute p-0">
+            <div class="detail position-absolute top-0 p-0">
                 <img loading="lazy" class="w-100 d-md-none" src="<?php echo $home ?>/assets/images/atlantic-detail.png" alt="Atlantic Team">
                 <img loading="lazy" class="w-100 d-none d-md-block" src="<?php echo $home ?>/assets/images/team_atlantic_desk.png" alt="Atlantic Team">
             </div>
 
-            <div class="col-5 col-md-4 col-lg-2 text-md-center text-end">
+            <div class="col-12 col-sm-5 col-md-4 col-lg-3 col-xxl-2 text-center">
                 <img loading="lazy" class="mb-3" width="170" height="171" src="<?php echo $home ?>/assets/images/equipe/feliciana_thumb.webp" alt="Foto equipe Mob">
-                <p class="mb-0 small">Feliciana Nogueira - Gestora de Relacionamento</p>
+                <p class="mb-0 small px-1">Feliciana Nogueira - <br class="d-md-none"> Gestora de Relacionamento</p>
             </div>
 
-            <div class="col-5 col-md-4 col-lg-2 text-md-center text-start ">
+            <div class="col-12 col-sm-5 col-md-4 col-lg-3 col-xxl-2 text-center">
                 <img loading="lazy" class="mb-3" width="170" height="171" src="<?php echo $home ?>/assets/images/equipe/carla_thumb.webp" alt="Foto equipe">
-                <p class="mb-0 small">Carla Rigolo - Executiva de Negócios e Relacionamento</p>
+                <p class="mb-0 small px-1">Carla Rigolo - <br class="d-md-none"> Executiva de Negócios e Relacionamento</p>
             </div>
 
-            <div class="col-5 col-md-4 col-lg-2 text-md-center text-end">
+            <div class="col-12 col-sm-5 col-md-4 col-lg-3 col-xxl-2 text-center">
                 <img loading="lazy" class="mb-3" width="170" height="171" src="<?php echo $home ?>/assets/images/equipe/luciana_thumb.webp" alt="Foto equipe">
-                <p class="mb-0 small">Luciana de Carvalho Viana - Gestora de Missões Empresariais</p>
+                <p class="mb-0 small px-1">Luciana de Carvalho Viana - <br class="d-md-none"> Gestora de Missões Empresariais</p>
             </div>
 
-            <div class="col-5 col-md-4 col-lg-2 text-md-center text-start">
+            <div class="col-12 col-sm-5 col-md-4 col-lg-3 col-xxl-2 text-center">
                 <img loading="lazy" class="mb-3" width="170" height="171" src="<?php echo $home ?>/assets/images/equipe/joao2_thumb.webp" alt="Foto equipe">
-                <p class="mb-0 small">João Paulo Fleury Teixeira - Financeiro</p>
+                <p class="mb-0 small px-1">João Paulo Fleury Teixeira - <br class="d-md-none"> Financeiro</p>
             </div>
 
-            <div class="col-5 col-md-4 col-lg-2 text-md-center text-end">
+            <div class="col-12 col-sm-5 col-md-4 col-lg-3 col-xxl-2 text-center">
                 <img loading="lazy" class="mb-3" width="170" height="171" src="<?php echo $home ?>/assets/images/equipe/paloma_thumb.webp" alt="Foto equipe">
-                <p class="mb-0 small">Paloma Braga Abreu - Analista de Marketing</p>
+                <p class="mb-0 small px-1">Paloma Braga Abreu - <br class="d-md-none"> Analista de Marketing</p>
             </div>
 
-            <div class="col-5 col-md-4 col-lg-2 text-md-center text-start">
+            <div class="col-12 col-sm-5 col-md-4 col-lg-3 col-xxl-2 text-center">
                 <img loading="lazy" class="mb-3" width="170" height="171" src="<?php echo $home ?>/assets/images/equipe/diego_thumb.webp" alt="Foto equipe">
-                <p class="mb-0 small">Diego Maia - Consultor de Projetos</p>
+                <p class="mb-0 small px-1">Diego Maia - <br class="d-md-none"> Consultor de Projetos</p>
             </div>
 
-            <div class="col-5 col-md-4 col-lg-2 text-md-center text-start">
+            <div class="col-12 col-sm-5 col-md-4 col-lg-3 col-xxl-2 text-center">
                 <img loading="lazy" class="mb-3" width="170" height="171" src="<?php echo $home ?>/assets/images/equipe/daniella_thumb.webp" alt="Foto equipe">
-                <p class="mb-0 small">Daniella Rabaçal - Head of Administration and Finance</p>
+                <p class="mb-0 small px-1">Daniella Rabaçal - <br class="d-md-none"> Head of Administration and Finance</p>
             </div>
         </div>
     </div>
@@ -383,8 +382,8 @@ $home = get_stylesheet_directory_uri();
 </section>
 
 <!-- CASES DE SUCESSO -->
-<section id="cases" class="py-md-5">
-    <div class="container px-4 py-4 py-md-5">
+<section id="cases" class="pt-md-5">
+    <div class="container px-4 py-4 pt-md-5">
         <div class="row">
             <div class="col mb-5">
                 <h2 class="mb-4">CASES <br class="d-md-none"> DE SUCESSO</h2>
@@ -392,7 +391,7 @@ $home = get_stylesheet_directory_uri();
                 </p>
             </div>
 
-            <section id="splide_cases" class="splide" aria-label="Splide Cases">
+            <section id="splide_cases" class="splide mb-5" aria-label="Splide Cases">
                 <div class="splide__track">
                     <ul class="splide__list">
                         <li class="splide__slide">
@@ -457,6 +456,14 @@ $home = get_stylesheet_directory_uri();
                     </ul>
                 </div>
             </section>
+
+            <div class="col-10 col-xxl-7 cases_desc mx-auto d-none d-md-block">
+                <div class="d-flex align-items-start justify-content-center">
+                    <h3 class="h1"></h3>
+                    <div class="line ms-5 me-4"></div>
+                    <p class="mb-0"></p>
+                </div>
+            </div>
         </div>
     </div>
 </section>

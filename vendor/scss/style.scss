@@ -553,10 +553,21 @@ body {
     #cases {
       background-color: var(--text-white);
       color: #517794;
+      
       .info {
         p {
           max-width: 300px;
         }
+      }
+
+      .line{
+        height: 4rem;
+        width: .5rem;
+        background-color: #2583E2;
+      }
+
+      .cases_desc{
+        min-height: 250px;
       }
     }
 

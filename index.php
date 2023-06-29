@@ -105,7 +105,7 @@ $home = get_stylesheet_directory_uri();
 </section>
 
 <!-- MOMENTO EMPRESA -->
-<section id="momento_empresa" class="py-md-5">
+<section id="momento_empresa" class="pb-md-5">
     <div class="container px-4 py-5">
         <div class="row justify-content-md-center pb-md-5">
             <div class="col-12 mb-5 text-md-center">

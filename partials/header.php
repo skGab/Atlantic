@@ -1,6 +1,12 @@
 <?php
 $current_page =  $_SERVER['REQUEST_URI'];
 $home = get_stylesheet_directory_uri();
+
+if ($current_page === "/quero-conhecer-portugal/" or $current_page === "/ja-decidi-e-quero-avancar/" or $current_page === "/ja-estou-em-portugal-e-quero-tracionar/") {
+    $momento = 'active';
+} else {
+    $momento = "";
+}
 ?>
 
 <!DOCTYPE html>
@@ -81,17 +87,20 @@ $home = get_stylesheet_directory_uri();
                                         close
                                     </span>
                                 </button>
+
                                 <li class="nav-item">
-                                    <a class="nav-link" href="/">Home</a>
+                                    <a class="nav-link <?php echo ($current_page === "/" ? 'active' : '') ?>" href="/">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="/quem-somos/">Quem somos</a>
+                                    <a class="nav-link <?php echo ($current_page === "/quem-somos/" ? 'active' : '') ?>" href="/quem-somos/">Quem somos</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="/atlantic-marketfit/">Estudo de Mercado</a>
+                                    <a class="nav-link <?php echo ($current_page === "/atlantic-marketfit/" ? 'active' : '') ?>" href="/atlantic-marketfit/">Estudo de Mercado</a>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link pe-lg-3 pe-md-0 pe-3 dropdown-toggle" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Momento</a>
+                                    <a class="nav-link pe-lg-3 pe-md-0 pe-3 dropdown-toggle 
+                                    <?php echo $momento ?>" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Momento</a>
+
                                     <ul class="dropdown-menu" aria-labelledby="dropdown01">
                                         <li><a class="dropdown-item pe-lg-2 pe-3" href="/quero-conhecer-portugal/">Quero conhecer</a></li>
                                         <li><a class="dropdown-item pe-lg-2 pe-3" href="/ja-decidi-e-quero-avancar/">Já decidi e quero avançar</a></li>
@@ -99,16 +108,16 @@ $home = get_stylesheet_directory_uri();
                                     </ul>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link pe-lg-3 pe-md-0 pe-3" href="/ecossistema/">Ecossistema</a>
+                                    <a class="nav-link pe-lg-3 pe-md-0 pe-3 <?php echo ($current_page === "/ecossistema/" ? 'active' : '') ?>" href="/ecossistema/">Ecossistema</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link pe-lg-3 pe-md-0 pe-3" href="/blog/">Blog</a>
+                                    <a class="nav-link pe-lg-3 pe-md-0 pe-3 <?php echo ($current_page === "/blog/" ? 'active' : '') ?>" href="/blog/">Blog</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link pe-lg-3 pe-md-0 pe-3" href="/contato/">Contato</a>
+                                    <a class="nav-link pe-lg-3 pe-md-0 pe-3 <?php echo ($current_page === "/contato/" ? 'active' : '') ?>" href="/contato/">Contato</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link pe-lg-3 pe-md-0 pe-3" href="/vagas/">Vagas</a>
+                                    <a class="nav-link pe-lg-3 pe-md-0 pe-3 <?php echo ($current_page === "/vagas/" ? 'active' : '') ?>" href="/vagas/">Vagas</a>
                                 </li>
                                 <li class="nav-item d-lg-block d-none">
                                     <a class="nav-link" type="button" data-bs-toggle="modal" data-bs-target="#search-modal">

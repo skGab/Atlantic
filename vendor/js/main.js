@@ -69,9 +69,7 @@ document.addEventListener('DOMContentLoaded', function () {
       type: 'loop',
       perPage: 4,
       pagination: false,
-      // focus: 'center',
-      // autoWidth: true,
-      // gap: 40,
+      focus: 'center',
       breakpoints: {
         992: {
           perPage: 3,
@@ -81,7 +79,35 @@ document.addEventListener('DOMContentLoaded', function () {
         },
       },
     });
+
+    // Function to update the title and description
+    function updateCaseInfo() {
+      var activeSlide = splide_cases.Components.Elements.list.querySelector(
+        '.splide__slide.is-active'
+      );
+
+      var h3 = activeSlide.querySelector('h3'); // get h3 from active slide
+      var p = activeSlide.querySelector('p'); // get p from active slide
+
+      if (h3 && p) {
+        var caseDescElement = document.querySelector('.cases_desc'); // select the description container
+        var titleElement = caseDescElement.querySelector('h3'); // select title element
+        var descriptionElement = caseDescElement.querySelector('p'); // select description element
+
+        // Change title and description
+        titleElement.textContent = h3.textContent;
+        descriptionElement.textContent = p.textContent;
+      }
+    }
+
+    // Call updateCaseInfo on the 'active' event
+    splide_cases.on('active', updateCaseInfo);
+
+    // Mount the carousel
     splide_cases.mount();
+
+    // Call updateCaseInfo immediately after the carousel is mounted
+    updateCaseInfo();
   }
 
   // SLIDES MARKETFIT
@@ -112,7 +138,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const scrollTop = window.scrollY || document.documentElement.scrollTop;
 
     // Adjust the top value based on scroll position
-    header.style.top = Math.max(55 - scrollTop, 0) + 'px';
+    header.style.top = Math.max(45 - scrollTop, 0) + 'px';
 
     // Transition for smooth animation
     header.style.transition = 'top 0.3s';
