@@ -1,9 +1,9 @@
 <?php
-$current_page =  $_SERVER['REQUEST_URI'];
+$current_page =  get_page_uri();
 
 $home = get_stylesheet_directory_uri();
 
-if ($current_page == "/index.php" or $current_page == '/' or $current_page == "/quero-conhecer-portugal/" or $current_page == "/ja-decidi-e-quero-avancar/" or $current_page == "/ja-estou-em-portugal-e-quero-tracionar/") : ?>
+if (is_front_page() or $current_page == "quero-conhecer-portugal" or $current_page == "ja-decidi-e-quero-avancar" or $current_page == "ja-estou-em-portugal-e-quero-tracionar") : ?>
     <!-- CONTATO -->
     <!-- <section id="contato" class="d-lg-none d-block bg-light py-4">
         <div class="container px-4 py-5">
@@ -53,7 +53,6 @@ if ($current_page == "/index.php" or $current_page == '/' or $current_page == "/
             </div>
         </div>
     </section> -->
-
     <section id="contato" class="d-lg-block d-none bg-light">
         <div class="container-fluid p-0">
             <div class="row align-items-center w-100 mx-0 px-0">

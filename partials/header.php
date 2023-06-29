@@ -1,8 +1,8 @@
 <?php
-$current_page =  $_SERVER['REQUEST_URI'];
+$current_page =  get_page_uri();
 $home = get_stylesheet_directory_uri();
 
-if ($current_page === "/quero-conhecer-portugal/" or $current_page === "/ja-decidi-e-quero-avancar/" or $current_page === "/ja-estou-em-portugal-e-quero-tracionar/") {
+if ($current_page === "quero-conhecer-portugal" or $current_page === "ja-decidi-e-quero-avancar" or $current_page === "ja-estou-em-portugal-e-quero-tracionar") {
     $momento = 'active';
 } else {
     $momento = "";
@@ -89,13 +89,13 @@ if ($current_page === "/quero-conhecer-portugal/" or $current_page === "/ja-deci
                                 </button>
 
                                 <li class="nav-item">
-                                    <a class="nav-link <?php echo ($current_page === "/" ? 'active' : '') ?>" href="/">Home</a>
+                                    <a class="nav-link <?php echo ($current_page === "home" ? 'active' : '') ?>" href="/">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link <?php echo ($current_page === "/quem-somos/" ? 'active' : '') ?>" href="/quem-somos/">Quem somos</a>
+                                    <a class="nav-link <?php echo ($current_page === "quem-somos" ? 'active' : '') ?>" href="/quem-somos/">Quem somos</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link <?php echo ($current_page === "/atlantic-marketfit/" ? 'active' : '') ?>" href="/atlantic-marketfit/">Estudo de Mercado</a>
+                                    <a class="nav-link <?php echo ($current_page === "atlantic-marketfit" ? 'active' : '') ?>" href="/atlantic-marketfit/">Estudo de Mercado</a>
                                 </li>
                                 <li class="nav-item dropdown">
                                     <a class="nav-link pe-lg-3 pe-md-0 pe-3 dropdown-toggle 
@@ -108,16 +108,16 @@ if ($current_page === "/quero-conhecer-portugal/" or $current_page === "/ja-deci
                                     </ul>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link pe-lg-3 pe-md-0 pe-3 <?php echo ($current_page === "/ecossistema/" ? 'active' : '') ?>" href="/ecossistema/">Ecossistema</a>
+                                    <a class="nav-link pe-lg-3 pe-md-0 pe-3 <?php echo ($current_page === "ecossistema" ? 'active' : '') ?>" href="/ecossistema/">Ecossistema</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link pe-lg-3 pe-md-0 pe-3 <?php echo ($current_page === "/blog/" ? 'active' : '') ?>" href="/blog/">Blog</a>
+                                    <a class="nav-link pe-lg-3 pe-md-0 pe-3 <?php echo ($current_page === "blog" ? 'active' : '') ?>" href="/blog/">Blog</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link pe-lg-3 pe-md-0 pe-3 <?php echo ($current_page === "/contato/" ? 'active' : '') ?>" href="/contato/">Contato</a>
+                                    <a class="nav-link pe-lg-3 pe-md-0 pe-3 <?php echo ($current_page === "contato" ? 'active' : '') ?>" href="/contato/">Contato</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link pe-lg-3 pe-md-0 pe-3 <?php echo ($current_page === "/vagas/" ? 'active' : '') ?>" href="/vagas/">Vagas</a>
+                                    <a class="nav-link pe-lg-3 pe-md-0 pe-3 <?php echo ($current_page === "vagas" ? 'active' : '') ?>" href="/vagas/">Vagas</a>
                                 </li>
                                 <li class="nav-item d-lg-block d-none">
                                     <a class="nav-link" type="button" data-bs-toggle="modal" data-bs-target="#search-modal">
