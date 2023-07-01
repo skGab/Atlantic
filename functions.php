@@ -50,3 +50,6 @@ function euro_exchange_rate_shortcode()
     }
 }
 add_shortcode('euro_exchange_rate', 'euro_exchange_rate_shortcode');
+
+// FOTO DESTAQUE NOS POSTS
+add_theme_support('post-thumbnails');
