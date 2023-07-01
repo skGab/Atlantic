@@ -32,7 +32,7 @@ $home = get_stylesheet_directory_uri();
                     </h1>
 
                     <button class="btn py-1 px-3">
-                        <a href="" class="text-white">
+                        <a href="https://materiais.atlantichub.com/quer-levar-sua-empresa-para-portugal" class="text-white" target="_blank">
                             SAIBA MAIS
                         </a>
                     </button>
@@ -66,7 +66,7 @@ $home = get_stylesheet_directory_uri();
                     <p class="mb-3 d-none d-md-block">E o seu escritório virtual para sua empresa em uma <br> localização privilegiada e estratégica.</p>
 
                     <button class="btn py-1 px-3">
-                        <a href="" class="text-white">
+                        <a href="https://materiais.atlantichub.com/bb-escritorio-avancado-internacional-em-portugal" class="text-white" target="_blank">
                             SAIBA MAIS
                         </a>
                     </button>
@@ -94,7 +94,7 @@ $home = get_stylesheet_directory_uri();
                     <p class="mb-5 d-none d-md-block">Um Acordo de Parceria que vai gerar grandes oportunidades.</p>
 
                     <button class="btn py-1 px-3">
-                        <a href="" class="text-white">
+                        <a href="https://www.atlantichub.com/2022/09/13/apoio-as-empresas-em-portugal" class="text-white" target="_blank">
                             SAIBA MAIS
                         </a>
                     </button>
@@ -144,7 +144,9 @@ $home = get_stylesheet_directory_uri();
                         </div>
 
                         <button class="mt-3 bg-transparent fw-bold py-1">
-                            SAIBA MAIS
+                            <a href="/quero-conhecer-portugal/">
+                                SAIBA MAIS
+                            </a>
                         </button>
                     </div>
                     <div class="box box-left d-none d-md-block position-absolute"></div>
@@ -176,7 +178,9 @@ $home = get_stylesheet_directory_uri();
                             <p class="card-text">3 fases para a internacionalização efetiva</p>
                         </div>
                         <button class="mt-3 bg-transparent fw-bold py-1">
-                            SAIBA MAIS
+                            <a href="/ja-decidi-e-quero-avancar/">
+                                SAIBA MAIS
+                            </a>
                         </button>
                     </div>
                 </div>
@@ -207,7 +211,9 @@ $home = get_stylesheet_directory_uri();
                             <p class="card-text">Um diagnóstico preliminar e seguro sobre a aderência ao mercado</p>
                         </div>
                         <button class="mt-3 bg-transparent fw-bold py-1">
-                            SAIBA MAIS
+                            <a href="/ja-estou-em-portugal-e-quero-tracionar/">
+                                SAIBA MAIS
+                            </a>
                         </button>
                     </div>
                     <div class="box box-right d-none d-md-block position-absolute"></div>
@@ -328,56 +334,6 @@ $home = get_stylesheet_directory_uri();
                         </div>
                     </div>
 
-                    <!-- <div class="col-12 col-md-6 col-lg-4 mb-5 ">
-                        <div class="card mx-auto border-0 bg-transparent position-relative">
-                            <div class="box position-absolute"></div>
-
-                            <img loading="lazy" src="<?php echo $home ?>/assets/images/post_thumb1.webp" width="350" class="img-fluid" alt="">
-
-                            <div class="card-body px-md-0">
-                                <p class="text-white small px-2 py-1 mb-3">Nome da tag</p>
-
-                                <h3 class="card-title mb-3">
-                                    Portugal, um dos países queridinhos para congressos e convenções
-                                </h3>
-
-                                <div class="card-text mb-3">
-                                    De acordo com o relatório da Associação Internacional de Congressos e Incentivos (ICCA) relativo a 2019...
-                                </div>
-
-                                <a href="" class="d-flex align-items-center">
-                                    Ler mais
-                                    <img loading="lazy" class="img-fluid ms-4" src="<?php echo $home ?>/assets/icons/seta_direita_azul_blog.svg" alt="Seta direita azul Blog">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-12 col-md-6 col-lg-4 mb-5">
-                        <div class="card mx-auto border-0 bg-transparent position-relative">
-                            <div class="box position-absolute"></div>
-
-                            <img loading="lazy" src="<?php echo $home ?>/assets/images/post_thumb1.webp" width="350" class="img-fluid" alt="">
-
-                            <div class="card-body px-md-0">
-                                <p class="text-white small px-2 py-1 mb-3">Nome da tag</p>
-
-                                <h3 class="card-title mb-3">
-                                    Portugal, um dos países queridinhos para congressos e convenções
-                                </h3>
-
-                                <div class="card-text mb-3">
-                                    De acordo com o relatório da Associação Internacional de Congressos e Incentivos (ICCA) relativo a 2019...
-                                </div>
-
-                                <a href="" class="d-flex align-items-center">
-                                    Ler mais
-                                    <img loading="lazy" class="img-fluid ms-4" src="<?php echo $home ?>/assets/icons/seta_direita_azul_blog.svg" alt="Seta direita azul Blog">
-                                </a>
-                            </div>
-                        </div>
-                    </div> -->
-
             <?php endwhile;
             endif; ?>
         </div>
@@ -396,24 +352,8 @@ $home = get_stylesheet_directory_uri();
         <div class="splide__track">
             <ul class="splide__list">
                 <li class="splide__slide">
-                    <a href="">
-                        <img loading="lazy" src="<?php echo $home ?>/assets/images/evento_thumb.webp" class="img-fluid d-md-none" alt="Thumb Evento">
-
-                        <img loading="lazy" src="<?php echo $home ?>/assets/images/eventos/thumb_evento_desk1.png" class="img-fluid d-none d-md-block" alt="Thumb Evento">
-                    </a>
-                </li>
-
-                <li class="splide__slide">
-                    <a href="">
-                        <img loading="lazy" src="<?php echo $home ?>/assets/images/evento_thumb3.png" class="img-fluid d-md-none" alt="Thumb Evento">
-                        <img loading="lazy" src="<?php echo $home ?>/assets/images/eventos/thumb_evento_desk2.png" class="img-fluid d-none d-md-block" alt="Thumb Evento">
-                    </a>
-                </li>
-
-                <li class="splide__slide">
-                    <a href="">
-                        <img loading="lazy" src="<?php echo $home ?>/assets/images/evento_thumb2.png" class="img-fluid d-md-none" alt="Thumb Evento">
-                        <img loading="lazy" src="<?php echo $home ?>/assets/images/eventos/thumb_evento_desk3.png" class="img-fluid d-none d-md-block" alt="Thumb Evento">
+                    <a href="https://materiais.atlantichub.com/atlantic-connection-2023?src=98ae1986600e4c29a707e3fc91dc2208&" target="_blank">
+                        <img loading="lazy" src="<?php echo $home ?>/assets/images/eventos/evento_1.webp" class="img-fluid d-none d-md-block" alt="Thumb Evento">
                     </a>
                 </li>
             </ul>
@@ -429,15 +369,19 @@ $home = get_stylesheet_directory_uri();
                 <h2 class="mb-4 mb-md-5">DEPOIMENTOS</h2>
             </div>
 
-            <figure class="col-12 col-md-6 mb-4 text-center">
-                <img loading="lazy" src="<?php echo $home ?>/assets/images/depoimento1.webp" class="img-fluid d-md-none mx-auto" alt="Thumb Depoimento 1">
-                <img loading="lazy" src="<?php echo $home ?>/assets/images/depoimento1_desk.png" class="img-fluid d-none d-md-block ms-auto" alt="Thumb Depoimento 1">
-            </figure>
+            <div class="col-12 col-md-6 mb-4 text-center">
+                <video id="myVideo1" width="480" loop muted controls preload="none">
+                    <source src="<?php echo $home ?>/assets/images/depoimentos/depoimento_1.mp4" type="video/mp4">
+                    Seu navegador não suporta este video
+                </video>
+            </div>
 
-            <figure class="col-12 col-md-6 mb-0 text-center">
-                <img loading="lazy" src="<?php echo $home ?>/assets/images/depoimento2.webp" class="img-fluid d-md-none mx-auto" alt="Thumb Depoimento 2">
-                <img loading="lazy" src="<?php echo $home ?>/assets/images/depoimento2_desk.png" class="img-fluid d-none d-md-block me-auto" alt="Thumb Depoimento 2">
-            </figure>
+            <div class="col-12 col-md-6 mb-0 text-center">
+                <video id="myVideo2" width="480" loop muted controls preload="none">
+                    <source src="<?php echo $home ?>/assets/images/depoimentos/depoimento_2.mp4" type="video/mp4">
+                    Seu navegador não suporta este video
+                </video>
+            </div>
         </div>
     </div>
 </section>

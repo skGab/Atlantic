@@ -53,3 +53,36 @@ add_shortcode('euro_exchange_rate', 'euro_exchange_rate_shortcode');
 
 // FOTO DESTAQUE NOS POSTS
 add_theme_support('post-thumbnails');
+
+//VIDEOS DEPOIMENTOS
+function video_banner()
+{
+    if (is_front_page()) :
+?>
+        <script>
+            const options = {
+                root: null, // setting root to null means the viewport will be used as the container
+                rootMargin: '0px',
+                threshold: 0.8 // this means that at least 80% of the target is visible
+            };
+
+            const observer = new IntersectionObserver(handleIntersect, options);
+
+            // set up an intersection observer for each video
+            observer.observe(document.querySelector('#myVideo1'));
+            observer.observe(document.querySelector('#myVideo2'));
+
+            function handleIntersect(entries, observer) {
+                entries.forEach((entry) => {
+                    if (entry.isIntersecting) {
+                        entry.target.play();
+                    } else {
+                        entry.target.pause();
+                    }
+                });
+            }
+        </script>
+<?php
+    endif;
+}
+add_action('wp_footer', 'video_banner');
