@@ -44,9 +44,9 @@ $home = get_stylesheet_directory_uri();
                 <p class="mb-0">Contamos com uma equipe de especialistas altamente preparada e qualificada para auxiliar a sua empresa a alcançar suas metas e objetivos.</p>
             </div>
 
-            <figure class="col-lg-7 col-xxl-8 mb-0 d-none d-md-block">
-                <img loading="lazy" src="<?php echo $home ?>/assets/images/video_quem-somos_deks.png" class="img-fluid" alt="Video Quem Somos Desktop">
-            </figure>
+            <div class="col-lg-7 col-xxl-8 d-none d-md-block">
+                <iframe height="410" class="w-100" src="https://www.youtube.com/embed/X52ovzfyx40?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
         </div>
     </div>
 </section>
@@ -157,7 +157,9 @@ $home = get_stylesheet_directory_uri();
                 </span>
                 <h2 class="display-3 mb-4 d-md-none">Pronto para internacionalizar sua empresa?</h2>
                 <h2 class="display-5 mb-5 d-none d-md-block">Pronto para internacionalizar sua empresa?</h2>
-                <a href=""><img loading="lazy" src="<?php echo $home ?>/assets/icons/seta_internacionalizar.png" alt="Seta para direita"></a>
+                <a href="https://materiais.atlantichub.com/quer-levar-sua-empresa-para-portugal" target="_blank" class="w-100 h-100" >
+                    <img loading="lazy" src="<?php echo $home ?>/assets/icons/seta_internacionalizar.png" alt="Seta para direita">
+                </a>
             </div>
         </div>
     </div>
