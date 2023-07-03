@@ -28,7 +28,7 @@ $home = get_stylesheet_directory_uri();
                 <p class="mb-4 mb-md-5">O estudo detalhado sobre o mercado e <br class="d-md-none"> relatório de <br class="d-none d-md-block"> aderência, elaborado por <br class="d-md-none">
                     profissionais experientes e <br> especializados.
                 </p>
-                <a class="text-white border px-3 py-2" href="">ADQUIRA AGORA</a>
+                <a class="text-white border px-3 py-2" href="https://materiais.atlantichub.com/quer-levar-sua-empresa-para-portugal" target="_blank">ADQUIRA AGORA</a>
             </div>
         </div>
     </div>
@@ -125,7 +125,7 @@ $home = get_stylesheet_directory_uri();
                 </figure>
             </div>
 
-            <a href="" class="px-3 py-2 fw-bold border d-md-none" target="_blank">CONTRATE AGORA</a>
+            <a href="https://materiais.atlantichub.com/quer-levar-sua-empresa-para-portugal" class="px-3 py-2 fw-bold border d-md-none" target="_blank">CONTRATE AGORA</a>
 
 
             <!-- DESKTOP -->
@@ -146,7 +146,7 @@ $home = get_stylesheet_directory_uri();
                         processo: o <strong class="detail-2 px-2 py-1">Atlantic Scale-out.</strong></p>
                 </figure>
 
-                <a href="" class="px-3 py-2 fw-bold border" target="_blank">CONTRATE AGORA</a>
+                <a href="https://materiais.atlantichub.com/quer-levar-sua-empresa-para-portugal" class="px-3 py-2 fw-bold border" target="_blank">CONTRATE AGORA</a>
             </div>
 
         </div>
@@ -248,7 +248,7 @@ $home = get_stylesheet_directory_uri();
                     <li class="fw-bold">→ Elaboração de Business Plan (VISTOD2).</li>
                 </ul>
 
-                <a href="" class="fw-bold px-3 py-2" target="_blank">ADQUIRA AGORA</a>
+                <a href="https://materiais.atlantichub.com/quer-levar-sua-empresa-para-portugal" class="fw-bold px-3 py-2" target="_blank">ADQUIRA AGORA</a>
             </div>
         </div>
     </div>
@@ -294,18 +294,11 @@ $home = get_stylesheet_directory_uri();
 
             <!-- IMAGES -->
             <figure class="col-12 col-lg-5 mb-4 mb-lg-0 text-center d-md-flex justify-content-md-center">
-                <!-- MOB -->
-                <img loading="lazy" class="img-fluid d-md-none" src="<?php echo $home ?>/assets/images/cases_1.png" alt="Video Cases">
-
-                <!-- DESK -->
-                <img loading="lazy" class="img-fluid d-none d-md-block" src="<?php echo $home ?>/assets/images/cases_1_desk.png" alt="Video Cases">
+                <iframe loading="lazy" height="235" class="w-100 rounded-3" src="https://www.youtube.com/embed/uXgpAMChxxc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </figure>
 
             <figure class="col-12 col-lg-5 mb-0 d-flex d-md-flex justify-content-md-center">
-                <!-- MOB -->
-                <img loading="lazy" class="img-fluid d-md-none mx-auto" src="<?php echo $home ?>/assets/images/cases_2.png" alt="Video Cases">
-                <!-- DESK -->
-                <img loading="lazy" class="img-fluid d-none d-md-block" src="<?php echo $home ?>/assets/images/cases_2_desk.png" alt="Video Cases">
+                <iframe loading="lazy" height="235" class="w-100 rounded-3" src="https://www.youtube.com/embed/YSEmxvLMezE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </figure>
         </div>
     </div>

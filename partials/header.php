@@ -102,16 +102,16 @@ if ($current_page === "quero-conhecer-portugal" or $current_page === "ja-decidi-
                                 <li class="nav-item">
                                     <a class="nav-link pe-lg-3 pe-md-0 pe-3 <?php echo ($current_page === "vagas" ? 'active' : '') ?>" href="/vagas/">Vagas</a>
                                 </li>
-                                <li class="nav-item d-lg-block d-none">
+                                <!-- <li class="nav-item d-lg-block d-none">
                                     <a class="nav-link" type="button" data-bs-toggle="modal" data-bs-target="#search-modal">
                                         <img src="<?php echo $home ?>/assets/icons/icon-search-blue.svg" alt="">
                                     </a>
-                                </li>
+                                </li> -->
                             </ul>
-                            <form class="search-form mb-5 pb-5 col-lg-2 d-lg-none d-flex">
+                            <!-- <form class="search-form mb-5 pb-5 col-lg-2 d-lg-none d-flex">
                                 <input class="form-control search-form-input" type="text" placeholder="Pesquisar" aria-label="Pesquisar">
                                 <img src="<?php echo $home ?>/assets/icons/icon-search-white.svg" alt="">
-                            </form>
+                            </form> -->
                         </div>
                     </div>
                 </div>

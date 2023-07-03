@@ -45,7 +45,7 @@ $home = get_stylesheet_directory_uri();
             </div>
 
             <div class="col-lg-7 col-xxl-8 d-none d-md-block">
-                <iframe height="410" class="w-100" src="https://www.youtube.com/embed/X52ovzfyx40?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe height="410" class="w-100 rounded-3" src="https://www.youtube.com/embed/X52ovzfyx40?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
         </div>
     </div>
