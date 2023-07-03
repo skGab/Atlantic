@@ -4,55 +4,6 @@ $current_page =  get_page_uri();
 $home = get_stylesheet_directory_uri();
 
 if (is_front_page() or $current_page == "quero-conhecer-portugal" or $current_page == "ja-decidi-e-quero-avancar" or $current_page == "ja-estou-em-portugal-e-quero-tracionar") : ?>
-    <!-- CONTATO -->
-    <!-- <section id="contato" class="d-lg-none d-block bg-light py-4">
-        <div class="container px-4 py-5">
-            <div class="row px-3">
-                <div class="col-12">
-                    <h2 class="text-secondary">QUER FALAR COM ESPECIALISTA PARA A INTERNACIONALIZAÇÃO?</h2>
-                    <figure class="position-relative mb-0">
-                        <img loading="lazy" class="img-cover" src="<?= $home; ?>/assets/images/thumb-contato.jpg" alt="Thumb contato">
-                        <div class="mask-contato"></div>
-                        <div class="box"></div>
-                    </figure>
-                </div>
-
-                <div id="form-candidatura" class="col-12 mt-5">
-                    <form>
-                        <div class="mb-3">
-                            <input placeholder="Nome Completo*" type="text" class="form-control" id="name" aria-describedby="nameHelp">
-                        </div>
-
-                        <div class="mb-3">
-                            <input placeholder="Seu e-mail*" type="email" class="form-control" id="email" aria-describedby="emailHelp">
-                        </div>
-
-                        <div class="mb-3">
-                            <input placeholder="Telefone*" type="tel" class="form-control" id="tel" aria-describedby="nameHelp">
-                        </div>
-
-                        <select class="form-select mb-3" aria-label="Motivo do contato">
-                            <option selected>Motivo do contato</option>
-                            <option value="motivo1">motivo1</option>
-                            <option value="motivo2">motivo2</option>
-                            <option value="motivo3">motivo3</option>
-                        </select>
-
-                        <div class="mb-3">
-                            <textarea class="form-control" placeholder="Mensagem*" id="mensagem" style="height: 100px"></textarea>
-                        </div>
-
-                        <button type="submit" class="btn text-primary d-flex justify-content-lg-end align-items-center bg-transparent text-uppercase me-auto px-0 pt-0">
-                            Enviar
-                            <span class="material-symbols-outlined ms-2" style="font-size: 35px;">
-                                arrow_right_alt
-                            </span>
-                        </button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section> -->
     <section id="contato" class="d-lg-block d-none bg-light">
         <div class="container-fluid p-0">
             <div class="row align-items-center w-100 mx-0 px-0">
@@ -121,23 +72,20 @@ if (is_front_page() or $current_page == "quero-conhecer-portugal" or $current_pa
                 </figure>
 
                 <div class="endereco space lh-1 small text-white-footer">
-                    <p>Contato: +351 910 297 331</p>
+                    <p><a href="tel:+351 910 297 331" class="text-white">Contato: +351 910 297 331</a></p>
                     <p>Edifício Parque Oceano, Av. Marginal 2 4º</p>
                     <p>A, 2780-337 Lisboa, Portugal</p>
                 </div>
 
                 <figure class="social d-flex gap-3 mb-0">
-                    <a href="" target="_blank">
+                    <a href="https://www.facebook.com/atlantichub/" target="_blank">
                         <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/icons/facebook-footer.svg" alt="Logo facebook">
                     </a>
-                    <a href="" target="_blank">
+                    <a href="https://www.instagram.com/atlantic.hub/" target="_blank">
                         <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/icons/instagram-footer.svg" alt="Logo Instagram">
                     </a>
-                    <a href="" target="_blank">
+                    <a href="https://www.youtube.com/channel/UCVo_n0KQDbeZ4GpmQ-ey8dA/videos" target="_blank">
                         <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/icons/youtube-footer.svg" alt="Logo Youtube">
-                    </a>
-                    <a href="" target="_blank">
-                        <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/icons/twitter-footer.svg" alt="Logo Twitter">
                     </a>
                 </figure>
             </div>
@@ -161,28 +109,27 @@ if (is_front_page() or $current_page == "quero-conhecer-portugal" or $current_pa
             <div class="col-6">
                 <div class="d-flex gap-3">
                     <figure class="logo space">
-                        <img loading="lazy" class="img-fluid" width="180px" src="<?php echo $home ?>/assets/images/logo-atlantic-footer.png" alt="Logo Atlantic">
+                        <a href="/">
+                            <img loading="lazy" class="img-fluid" width="180px" src="<?php echo $home ?>/assets/images/logo-atlantic-footer.png" alt="Logo Atlantic">
+                        </a>
                     </figure>
 
                     <div class="endereco space lh-1 small text-white-footer">
-                        <p>Contato: +351 910 297 331</p>
+                        <p><a href="tel:+351 910 297 331" class="text-white">Contato: +351 910 297 331</a></p>
                         <p>Edifício Parque Oceano, Av. Marginal 2 4º</p>
                         <p>A, 2780-337 Lisboa, Portugal</p>
                     </div>
                 </div>
 
                 <figure class="social d-flex gap-3 mb-0">
-                    <a href="" target="_blank">
+                    <a href="https://www.facebook.com/atlantichub/" target="_blank">
                         <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/icons/facebook-footer.svg" alt="Logo facebook">
                     </a>
-                    <a href="" target="_blank">
+                    <a href="https://www.instagram.com/atlantic.hub/" target="_blank">
                         <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/icons/instagram-footer.svg" alt="Logo Instagram">
                     </a>
-                    <a href="" target="_blank">
+                    <a href="https://www.youtube.com/channel/UCVo_n0KQDbeZ4GpmQ-ey8dA/videos" target="_blank">
                         <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/icons/youtube-footer.svg" alt="Logo Youtube">
-                    </a>
-                    <a href="" target="_blank">
-                        <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/icons/twitter-footer.svg" alt="Logo Twitter">
                     </a>
                 </figure>
             </div>

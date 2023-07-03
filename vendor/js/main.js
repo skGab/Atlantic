@@ -17,8 +17,8 @@ document.addEventListener('DOMContentLoaded', function () {
       type: 'loop',
       perPage: 2,
       pagination: false,
-      gap: 20,
-      autoWidth: true,
+      gap: 50,
+      // autoWidth: true,
       // focus: 'center',
       breakpoints: {
         768: {

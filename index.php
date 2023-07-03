@@ -370,14 +370,14 @@ $home = get_stylesheet_directory_uri();
             </div>
 
             <div class="col-12 col-md-6 mb-4 text-center">
-                <video id="myVideo1" width="480" loop muted controls preload="none">
+                <video id="myVideo1" width="480" class="img-fluid" loop muted controls preload="none">
                     <source src="<?php echo $home ?>/assets/images/depoimentos/depoimento_1.mp4" type="video/mp4">
                     Seu navegador não suporta este video
                 </video>
             </div>
 
             <div class="col-12 col-md-6 mb-0 text-center">
-                <video id="myVideo2" width="480" loop muted controls preload="none">
+                <video id="myVideo2" width="480" class="img-fluid" loop muted controls preload="none">
                     <source src="<?php echo $home ?>/assets/images/depoimentos/depoimento_2.mp4" type="video/mp4">
                     Seu navegador não suporta este video
                 </video>
@@ -398,17 +398,11 @@ $home = get_stylesheet_directory_uri();
                 <div class="splide__track">
                     <ul class="splide__list">
                         <li class="splide__slide text-center">
-                            <a href="">
-                                <img loading="lazy" class="img-fluid d-md-none" src="<?php echo $home ?>/assets/images/conheca_atlantic.png" alt="Video Conheça Atlantic">
-                                <img loading="lazy" class="img-fluid d-none d-md-block h-100" src="<?php echo $home ?>/assets/images/conheca_atlantic.png" alt="Video Conheça Atlantic">
-                            </a>
+                            <iframe loading="lazy" height="315" class="w-100" src="https://www.youtube.com/embed/b_oSBjeYXTM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                         </li>
 
                         <li class="splide__slide text-center">
-                            <a href="">
-                                <img loading="lazy" class="img-fluid d-md-none" src="<?php echo $home ?>/assets/images/mkt_digital.png" alt="Video Marketing Digital">
-                                <img loading="lazy" class="img-fluid d-none d-md-block h-100" src="<?php echo $home ?>/assets/images/mkt_digital.png" alt="Video Marketing Digital">
-                            </a>
+                            <iframe loading="lazy" height="315" class="w-100" src="https://www.youtube.com/embed/BcKT1tnYZNc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                         </li>
                     </ul>
                 </div>
