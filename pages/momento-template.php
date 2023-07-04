@@ -27,7 +27,7 @@ if ($current_page === "ja-estou-em-portugal-e-quero-tracionar") {
     <div class="mask-banner-dark"></div>
     <div class="container">
         <div class="row w-100 mx-0">
-            <div class="title-banner col-lg-8 col-12 ms-lg-5 ms-3">
+            <div class="title-banner col-lg-8 col-12 ms-lg-5 ms-3" data-aos="fade-left" data-aos-duration="1200">
                 <?php if ($current_page === "quero-conhecer-portugal") : ?>
                     <h1 class="text-white text-uppercase">Quero conhecer portugal<br> para os meus negócios</h1>
                     <span class="d-lg-none d-block px-5" style="line-height: 50px;">Quero conhecer portugal<br> para os meus negócios</span>
@@ -61,7 +61,7 @@ if ($current_page === "ja-estou-em-portugal-e-quero-tracionar") {
 
     <div class="container px-4 pt-4">
         <div class="row justify-content-lg-between mx-0 pt-5 pb-lg-5">
-            <div class="col-lg-5 col-12 text-primary pe-lg-4">
+            <div class="col-lg-5 col-12 text-primary pe-lg-4" data-aos="fade-right" data-aos-duration="1200">
                 <h3 class="mb-4">
                     <?php if ($current_page === "quero-conhecer-portugal") : ?>
                         Portugal tem sido um dos destaques da União Europeia em termos de crescimento econômico nos últimos anos.
@@ -102,7 +102,7 @@ if ($current_page === "ja-estou-em-portugal-e-quero-tracionar") {
 
             </div>
 
-            <div class="col-lg-6 col-12 text-primary">
+            <div class="col-lg-6 col-12 text-primary" data-aos="fade-right" data-aos-duration="1500">
                 <p>
                     <?php if ($current_page === "quero-conhecer-portugal") : ?>
                         Uma das principais vantagens de expandir os negócios para Portugal é a posição estratégica do país, que funciona como uma porta de entrada para o mercado europeu e africano.
@@ -146,7 +146,7 @@ if ($current_page === "ja-estou-em-portugal-e-quero-tracionar") {
 <section id="relacionados" class="d-block bg-dark py-5">
     <div class="container px-4 pt-5">
         <div class="row">
-            <div class="col-lg-4 col-12 mb-4 pb-3">
+            <div class="col-lg-4 col-12 mb-4 pb-3" data-aos="fade-up" data-aos-duration="1200">
                 <div class="card bg-transparent border-0">
                     <div class="card-body">
                         <div class="row w-100 mx-0">
@@ -163,7 +163,7 @@ if ($current_page === "ja-estou-em-portugal-e-quero-tracionar") {
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-12 mb-4 pb-3">
+            <div class="col-lg-4 col-12 mb-4 pb-3" data-aos="fade-up" data-aos-duration="1500">
                 <div class="card bg-transparent border-0">
                     <div class="card-body">
                         <div class="row w-100 mx-0">
@@ -180,7 +180,7 @@ if ($current_page === "ja-estou-em-portugal-e-quero-tracionar") {
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-12 mb-4 pb-3">
+            <div class="col-lg-4 col-12 mb-4 pb-3" data-aos="fade-up" data-aos-duration="1800">
                 <div class="card bg-transparent border-0">
                     <div class="card-body">
                         <div class="row w-100 mx-0">
