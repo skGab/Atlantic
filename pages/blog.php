@@ -12,7 +12,7 @@ $home = get_stylesheet_directory_uri();
 <!-- ARTIGOS EM DESTAQUE -->
 <section id="destaque-artigos" class="container py-5 mt-5">
     <div class="row justify-content-lg-between w-100 mx-0 mt-lg-5">
-        <div class="col-lg-10 col-12">
+        <div class="col-lg-10 col-12" data-aos="fade-right" data-aos-duration="1200">
             <h1 class="text-primary d-lg-block d-none fw-normal text-uppercase mb-4">Blog</h1>
             <h1 class="text-primary d-lg-none d-block fw-normal text-uppercase display-4 mb-3">Blog</h1>
         </div>
@@ -21,7 +21,7 @@ $home = get_stylesheet_directory_uri();
             <a href="#" class="text-secondary bg-light rounded-pill px-4 py-1 me-2">Tags</a>
         </div>
 
-        <div class="col-lg-5 col-12 mb-4">
+        <div class="col-lg-5 col-12 mb-4" data-aos="fade-right" data-aos-duration="1200">
             <?php
             $destaque_args = array(
                 'post_type' => 'post',
@@ -69,7 +69,7 @@ $home = get_stylesheet_directory_uri();
         );
         $blog_posts = new WP_Query($blog_args);
         ?>
-        <div class="col-lg-5 col-12 d-flex flex-column mb-lg-0 mb-4">
+        <div class="col-lg-5 col-12 d-flex flex-column mb-lg-0 mb-4" data-aos="fade-left" data-aos-duration="1200">
             <?php
             if ($blog_posts->have_posts()) :
                 $blog_posts->the_post();
@@ -121,7 +121,7 @@ $home = get_stylesheet_directory_uri();
                     </div>
         </div>
 
-        <div class="col-2 d-lg-inline d-none pb-4 px-0">
+        <div class="col-2 d-lg-inline d-none pb-4 px-0" data-aos="fade-left" data-aos-duration="1200">
             <?php if ($blog_posts->have_posts()) :
                         $blog_posts->the_post(); ?>
                 <div class="card bg-light w-100 h-100 align-items-strech rounded-0 border-0 position-relative">
@@ -156,10 +156,11 @@ $home = get_stylesheet_directory_uri();
 <!-- NOTÍCIAS -->
 <section id="noticias" class="container py-5">
     <div class="row justify-content-lg-between w-100 mx-0">
-        <div class="col-lg-10 col-12 pe-5">
+        <div class="col-lg-10 col-12 pe-5" data-aos="fade-right" data-aos-duration="1200">
             <h1 class="d-lg-none d-block text-primary fw-normal text-uppercase display-4 mb-3 pe-5">Acompanhe as noticias</h1>
             <h1 class="d-lg-block d-none text-primary fw-normal text-uppercase mb-4">Acompanhe as noticias</h1>
         </div>
+
         <div class="col-12 d-lg-none d-flex align-items-center w-100 mb-4 pb-2">
             <a href="https://www.facebook.com/atlantichub/" target="_blank" class="me-2">
                 <img src="<?= $home; ?>/assets/icons/facebook.svg" alt="ícone do Facebook">
@@ -183,7 +184,7 @@ $home = get_stylesheet_directory_uri();
             $noticias_posts = new WP_Query($noticias_args);
             if ($noticias_posts->have_posts()) : while ($noticias_posts->have_posts()) : $noticias_posts->the_post();
             ?>
-                    <div class="card bg-transparent w-100 rounded-0 border-0 position-relative mb-lg-4 mb-5">
+                    <div class="card bg-transparent w-100 rounded-0 border-0 position-relative mb-lg-4 mb-5" data-aos="fade-right" data-aos-duration="1200">
                         <div class="row align-items-lg-center g-0">
                             <div class="col-12 col-sm-6 mb-4 mb-sm-0">
                                 <img src="<?= $home; ?>/assets/images/img-post1.jpg" class="img-cover rounded-0" alt="Capa do Post">
@@ -252,7 +253,7 @@ $home = get_stylesheet_directory_uri();
             endif; ?>
         </div>
 
-        <div class="pesquisa col-3 d-lg-inline d-none">
+        <div class="pesquisa col-3 d-lg-inline d-none" >
             <!-- <div class="bg-light w-100 rounded-0 border-0 px-4 py-4 mb-5">
                 <h2 class="h5 card-title text-secondary pt-3">Pesquisar</h2>
                 <form class="search-form position-relative mb-5 pb-3 d-flex">
@@ -261,7 +262,7 @@ $home = get_stylesheet_directory_uri();
                 </form>
             </div> -->
 
-            <div id="categorias" class="bg-light w-100 rounded-0 border-0 px-4 pt-4 pb-5 mb-5">
+            <div id="categorias" class="bg-light w-100 rounded-0 border-0 px-4 pt-4 pb-5 mb-5" data-aos="fade-left" data-aos-duration="1500">
                 <h2 class="h5 card-title text-secondary pt-3 mb-4">Categorias</h2>
                 <?php
                 $categories = get_categories();
@@ -279,7 +280,7 @@ $home = get_stylesheet_directory_uri();
                 ?>
             </div>
 
-            <div id="tags" class="bg-light w-100 rounded-0 border-0 px-4 pt-4 pb-5 mb-5">
+            <div id="tags" class="bg-light w-100 rounded-0 border-0 px-4 pt-4 pb-5 mb-5" data-aos="fade-left" data-aos-duration="1500">
                 <h2 class="h5 card-title text-secondary pt-3 mb-4">Tags</h2>
 
                 <?php
