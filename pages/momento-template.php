@@ -11,14 +11,20 @@ $current_page =  get_page_uri();
 
 if ($current_page === "quero-conhecer-portugal") {
     $banner = $home . '/assets/images/banner-momento.jpg';
+    $posts = array(2658, 3335, 3272);
+    $perpage = 3;
 }
 
 if ($current_page === "ja-decidi-e-quero-avancar") {
     $banner = $home . '/assets/images/banner_ja_decidi.png';
+    $posts = array(4004, 2628, 3309);
+    $perpage = 3;
 }
 
 if ($current_page === "ja-estou-em-portugal-e-quero-tracionar") {
     $banner = $home . '/assets/images/banner_ja_estou.png';
+    $posts = array(4007, 3861, 3773, 4017);
+    $perpage = 4;
 }
 ?>
 
@@ -146,57 +152,34 @@ if ($current_page === "ja-estou-em-portugal-e-quero-tracionar") {
 <section id="relacionados" class="d-block bg-dark py-5">
     <div class="container px-4 pt-5">
         <div class="row">
-            <div class="col-lg-4 col-12 mb-4 pb-3" data-aos="fade-left" data-aos-duration="1200">
-                <div class="card bg-transparent border-0">
-                    <div class="card-body">
-                        <div class="row w-100 mx-0">
-                            <div class="col-9 pt-1">
-                                <h3 class="card-title h1 text-secondary">Atlantic Connection</h3>
-                                <p class="card-text text-white">O maior evento global sobre o ecossistema Brasil e Portugal</p>
+            <?php
+            $args = array(
+                'post_type' => 'post',
+                'posts_per_page' => $perpage,
+                'post__in' => $posts,
+            );
+            $posts = new WP_Query($args);
+            if ($posts->have_posts()) : while ($posts->have_posts()) : $posts->the_post();
+            ?>
+                    <div class="col-12 mb-4 mb-md-0 pb-3 <?php echo ($perpage == 4) ? 'col-lg-6' : 'col-lg-4' ?>" data-aos="fade-left" data-aos-duration="1200">
+                        <div class="card bg-transparent border-0">
+                            <div class="card-body">
+                                <div class="row w-100 mx-0">
+                                    <div class="col-9 pt-1">
+                                        <h3 class="card-title text-secondary"><?php echo get_the_title() ?></h3>
+                                        <p class="card-text text-white"><?php echo wp_trim_words(get_the_excerpt(), 10, '...'); ?></p>
+                                    </div>
+                                    <a href="<?php the_permalink(); ?>" class="col-3">
+                                        <span class="material-symbols-outlined border border-primary text-secondary rounded-pill p-1 me-auto">
+                                            east
+                                        </span>
+                                    </a>
+                                </div>
                             </div>
-                            <a href="#" class="col-3">
-                                <span class="material-symbols-outlined border border-primary text-secondary rounded-pill p-1 me-auto">
-                                    east
-                                </span>
-                            </a>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-12 mb-4 pb-3" data-aos="fade-left" data-aos-duration="1500">
-                <div class="card bg-transparent border-0">
-                    <div class="card-body">
-                        <div class="row w-100 mx-0">
-                            <div class="col-9 pt-1">
-                                <h3 class="card-title h1 text-secondary">Missões empresariais</h3>
-                                <p class="card-text text-white">A oportunidade mais efetiva de network para seus negóciose Portugal</p>
-                            </div>
-                            <a href="#" class="col-3">
-                                <span class="material-symbols-outlined border border-primary text-secondary rounded-pill p-1 me-auto">
-                                    east
-                                </span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-12 mb-4 pb-3" data-aos="fade-left" data-aos-duration="1800">
-                <div class="card bg-transparent border-0">
-                    <div class="card-body">
-                        <div class="row w-100 mx-0">
-                            <div class="col-9 pt-1">
-                                <h3 class="card-title h1 text-secondary">MarketFit</h3>
-                                <p class="card-text text-white">Um diagnóstico preliminar e seguro sobre a aderência ao mercado</p>
-                            </div>
-                            <a href="#" class="col-3">
-                                <span class="material-symbols-outlined border border-primary text-secondary rounded-pill p-1 me-auto">
-                                    east
-                                </span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <?php endwhile;
+            endif; ?>
         </div>
     </div>
 </section>

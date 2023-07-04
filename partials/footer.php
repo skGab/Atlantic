@@ -1,11 +1,11 @@
 <?php
-$current_page =  get_page_uri();
+$current_page =  $_SERVER['REQUEST_URI'];
 
 $home = get_stylesheet_directory_uri();
 
-if (is_front_page() or $current_page == "quero-conhecer-portugal" or $current_page == "ja-decidi-e-quero-avancar" or $current_page == "ja-estou-em-portugal-e-quero-tracionar") : ?>
+if (is_front_page() or $current_page == "/quero-conhecer-portugal/" or $current_page == "/ja-decidi-e-quero-avancar/" or $current_page == "/ja-estou-em-portugal-e-quero-tracionar/") : ?>
     <!-- CONTATO -->
-    <section id="contato" class="d-lg-block d-none bg-light">
+    <section id="contato" class="d-none d-lg-block bg-light">
         <div class="container-fluid p-0">
             <div class="row align-items-center w-100 mx-0 px-0">
                 <div class="col-4 px-0">
@@ -108,7 +108,7 @@ if (is_front_page() or $current_page == "quero-conhecer-portugal" or $current_pa
         <!-- DESKTOP -->
         <div class="row d-none d-md-flex py-5">
             <div class="col-6">
-                <div class="d-flex gap-3">
+                <div class="d-flex gap-3">  
                     <figure class="logo space">
                         <a href="/">
                             <img loading="lazy" class="img-fluid" width="180px" src="<?php echo $home ?>/assets/images/logo-atlantic-footer.png" alt="Logo Atlantic">
