@@ -20,7 +20,7 @@ while (have_posts()) :
     <section id="conteudo" class="container py-5 mt-5">
         <div class="row justify-content-lg-between w-100 mx-0 mt-lg-5">
             <div class="col-lg-7 col-12">
-                <h1 class="text-primary fw-normal mb-lg-4 mb-3">
+                <h1 class="text-primary fw-normal mb-lg-4 mb-3" data-aos="fade-right" data-aos-duration="1200">
                     <?php the_title(); ?>
                 </h1>
 
@@ -73,10 +73,10 @@ while (have_posts()) :
                             <img class="img-cover" src="<?= $home; ?>/assets/images/banner_especialistas.png" alt="Vista de Portugal" style="max-height: 150px !important;">
                         </div>
                         <div class="col-4 bg-primary py-5 ps-4 position-absolute bottom-0 ms-4" style="top: -3rem;">
-                            <div class="ps-2 pe-4">
+                            <div class="ps-2 pe-4" data-aos="fade-right" data-aos-duration="1500">
                                 <h3 class="h5 fw-light text-white mb-3 pb-1">Quer levar sua empresa para Portugal?</h3>
                             </div>
-                            <div class="ps-2 pb-3">
+                            <div class="ps-2 pb-3" data-aos="fade-right" data-aos-duration="1800">
                                 <a href="#" class="h6 mb-0 fw-normal text-white text-uppercase border border-white rounded-pill px-3 py-1">Saiba mais</a>
                             </div>
                         </div>
@@ -87,7 +87,7 @@ while (have_posts()) :
                 <section id="autor" class="d-lg-block d-none container-fluid px-0 pt-5 pb-4">
                     <div class="row w-100 mx-0">
                         <div class="col-12">
-                            <h4 class="h1 text-secondary mb-4">Sobre o autor</h4>
+                            <h4 class="h1 text-secondary mb-4" data-aos="fade-right" data-aos-duration="1500">Sobre o autor</h4>
                             <div class="container-fluid px-0 mb-4 pb-2">
                                 <div class="row align-items-start w-100 mx-0">
                                     <div class="col-4 position-relative">
@@ -96,7 +96,7 @@ while (have_posts()) :
                                             <?php echo get_avatar(get_the_author_meta('ID'), 150); ?>
                                         </div>
                                     </div>
-                                    <div class="col-7">
+                                    <div class="col-7" data-aos="fade-left" data-aos-duration="1500">
                                         <p class="small text-primary">
                                             <?php echo get_the_author_meta('description'); ?>
                                         </p>
@@ -177,7 +177,7 @@ while (have_posts()) :
                                 $categories = get_the_category();
                         ?>
 
-                                <div class="col-5 flex-grow-1 me-3 px-0 mb-5 pb-4">
+                                <div class="col-5 flex-grow-1 me-3 px-0 mb-5 pb-4" data-aos="fade-up" data-aos-duration="1500">
                                     <div class="card bg-light w-100 rounded-0 border-0">
                                         <div class="position-relative">
                                             <img src="<?= $home; ?>/assets/images/img-post1.jpg" class="card-img-top rounded-0" alt="Capa do Post" style="height: 200px !important;">
@@ -230,7 +230,7 @@ while (have_posts()) :
                     <?php echo get_search_form() ?>
                 </div> -->
 
-                <div id="categorias" class="bg-light w-100 rounded-0 border-0 px-4 pt-4 pb-5 mb-5">
+                <div id="categorias" class="bg-light w-100 rounded-0 border-0 px-4 pt-4 pb-5 mb-5" data-aos="fade-left" data-aos-duration="1500">
                     <h2 class="h5 card-title text-secondary pt-3 mb-4">Categorias</h2>
                     <?php
                     $categories = get_the_category();
@@ -248,7 +248,7 @@ while (have_posts()) :
                     ?>
                 </div>
 
-                <div id="tags" class="bg-light w-100 rounded-0 border-0 px-4 pt-4 pb-5 mb-5">
+                <div id="tags" class="bg-light w-100 rounded-0 border-0 px-4 pt-4 pb-5 mb-5" data-aos="fade-left" data-aos-duration="1800">
                     <h2 class="h5 card-title text-secondary pt-3 mb-4">Tags</h2>
 
                     <?php
@@ -270,16 +270,16 @@ while (have_posts()) :
                 <div class="container-fluid px-0 mt-5">
                     <div class="row w-100 mx-0">
                         <div class="col-12 d-lg-flex d-none justify-content-center align-items-center w-100 mb-4 pb-2">
-                            <a href="#" class="mx-2">
+                            <a href="#" class="mx-2" data-aos="fade-up" data-aos-duration="1200">
                                 <img src="<?= $home; ?>/assets/icons/facebook.svg" alt="ícone do Facebook">
                             </a>
-                            <a href="#" class="mx-2">
+                            <a href="#" class="mx-2" data-aos="fade-up" data-aos-duration="1500">
                                 <img src="<?= $home; ?>/assets/icons/instagram.svg" alt="Ícone do Instagram">
                             </a>
-                            <a href="#" class="mx-2">
+                            <a href="#" class="mx-2" data-aos="fade-up" data-aos-duration="1800">
                                 <img src="<?= $home; ?>/assets/icons/youtube.svg" alt="Ícone do Youtube">
                             </a>
-                            <a href="#" class="mx-2">
+                            <a href="#" class="mx-2" data-aos="fade-up" data-aos-duration="2000">
                                 <img src="<?= $home; ?>/assets/icons/twitter.svg" alt="Ícone do Twitter">
                             </a>
                         </div>
@@ -296,10 +296,10 @@ while (have_posts()) :
                 <img class="img-cover" src="<?= $home; ?>/assets/images/img-contact-post.jpg" alt="Vista de Portugal">
             </div>
             <div class="col-7 bg-primary py-5 ps-4 position-absolute bottom-0 ms-4">
-                <div class=" ps-2 pe-4">
+                <div class="ps-2 pe-4" data-aos="fade-right" data-aos-duration="1500">
                     <h3 class="fw-light text-white mb-3 pb-1">Quer levar <br> sua empresa para Portugal?</h3>
                 </div>
-                <div class="ps-2">
+                <div class="ps-2" data-aos="fade-right" data-aos-duration="1500">
                     <a href="#" class="h6 mb-0 fw-normal text-white text-uppercase border border-white rounded-pill px-3 py-1">Saiba mais</a>
                 </div>
             </div>
@@ -319,13 +319,13 @@ while (have_posts()) :
                                     <?php echo get_avatar(get_the_author_meta('ID'), 150); ?>
                                 </div>
                             </div>
-                            <div class="col-7">
+                            <div class="col-7" data-aos="fade-right" data-aos-duration="1500">
                                 <h4 class="text-secondary mb-0">Sobree o autor</h4>
                             </div>
                         </div>
                     </div>
 
-                    <p class="small text-primary">
+                    <p class="small text-primary" data-aos="fade-left" data-aos-duration="1500">
                         <?php echo get_the_author_meta('description'); ?>
                     </p>
                 </div>
@@ -384,77 +384,51 @@ while (have_posts()) :
                 <h1 class="text-secondary fw-normal mb-4">Posts relacionados</h1>
             </div>
 
-            <div class="col-lg-4 col-12 mb-4">
-                <div class="card bg-light w-100 rounded-0 border-0 position-relative">
-                    <div class="row g-0">
-                        <div class="col-6">
-                            <img src="<?= $home; ?>/assets/images/img-post2.jpg" class="d-block w-100 h-100 rounded-0" alt="Capa do Post">
-                        </div>
-                        <div class="col-6">
-                            <div class="card-body">
-                                <h2 class="h5 card-title text-secondary mb-0">Atlantic Connection</h2>
-                                <time datetime="2021-12-13" class="card-text small text-primary">13 de dez. 2021</time>
-                                <a href="#" class="text-secondary d-flex w-100 align-items-center mt-2">
-                                    Ler mais
-                                    <span class="material-symbols-outlined ms-1" style="font-size: 30px;">
-                                        arrow_right_alt
-                                    </span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="box2"></div>
-                </div>
-            </div>
+            <?php
+            $related_args_mob = array(
+                'post_type' => 'post',
+                'posts_per_page' => 3, // Altere este número para quantos posts você deseja mostrar
+                'post__not_in' => array(get_the_ID()), // Exclui o post atual
+                // 'author' => get_the_author_meta('ID'), // Filtra pelos posts do mesmo autor
+            );
 
-            <div class="col-lg-4 col-12 mb-4">
-                <div class="card bg-light w-100 rounded-0 border-0 position-relative">
-                    <div class="row g-0">
-                        <div class="col-6">
-                            <img src="<?= $home; ?>/assets/images/img-post2.jpg" class="d-block w-100 h-100 rounded-0" alt="Capa do Post">
-                        </div>
-                        <div class="col-6">
-                            <div class="card-body">
-                                <h2 class="h5 card-title text-secondary mb-0">Atlantic Connection</h2>
-                                <time datetime="2021-12-13" class="card-text small text-primary">13 de dez. 2021</time>
-                                <a href="#" class="text-secondary d-flex w-100 align-items-center mt-2">
-                                    Ler mais
-                                    <span class="material-symbols-outlined ms-1" style="font-size: 30px;">
-                                        arrow_right_alt
-                                    </span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="box2"></div>
-                </div>
-            </div>
+            $related_query_mob = new WP_Query($related_args_mob);
 
-            <div class="col-lg-4 col-12 mb-4">
-                <div class="card bg-light w-100 rounded-0 border-0 position-relative">
-                    <div class="row g-0">
-                        <div class="col-6">
-                            <img src="<?= $home; ?>/assets/images/img-post2.jpg" class="d-block w-100 h-100 rounded-0" alt="Capa do Post">
-                        </div>
-                        <div class="col-6">
-                            <div class="card-body">
-                                <h2 class="h5 card-title text-secondary mb-0">Atlantic Connection</h2>
-                                <time datetime="2021-12-13" class="card-text small text-primary">13 de dez. 2021</time>
-                                <a href="#" class="text-secondary d-flex w-100 align-items-center mt-2">
-                                    Ler mais
-                                    <span class="material-symbols-outlined ms-1" style="font-size: 30px;">
-                                        arrow_right_alt
-                                    </span>
-                                </a>
+            if ($related_query_mob->have_posts()) {
+                while ($related_query_mob->have_posts()) {
+                    $related_query_mob->the_post();
+
+                    $categories = get_the_category();
+            ?>
+                    <div class="col-lg-4 col-12 mb-4" data-aos="fade-right" data-aos-duration="1500">
+                        <div class="card bg-light w-100 rounded-0 border-0 position-relative">
+                            <div class="row g-0">
+                                <div class="col-6">
+                                    <img src="<?= $home; ?>/assets/images/img-post2.jpg" class="d-block w-100 h-100 rounded-0" alt="Capa do Post">
+                                </div>
+                                <div class="col-6">
+                                    <div class="card-body">
+                                        <h2 class="h6 card-title text-secondary mb-0"><?php echo get_the_title() ?></h2>
+                                        <time datetime="2021-12-13" class="card-text small text-primary"><?php the_date(); ?></time>
+                                        <a href="<?php the_permalink() ?>" class="text-secondary d-flex w-100 align-items-center mt-2">
+                                            Ler mais
+                                            <span class="material-symbols-outlined ms-1" style="font-size: 30px;">
+                                                arrow_right_alt
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
+                            <div class="box2"></div>
                         </div>
                     </div>
-                    <div class="box2"></div>
-                </div>
-            </div>
+            <?php
+                }
+            }
+            wp_reset_postdata(); // Reset the query
+            ?>
         </div>
     </section>
-
 <?php
 endwhile;
 get_template_part('partials/footer');

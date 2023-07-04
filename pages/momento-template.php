@@ -146,7 +146,7 @@ if ($current_page === "ja-estou-em-portugal-e-quero-tracionar") {
 <section id="relacionados" class="d-block bg-dark py-5">
     <div class="container px-4 pt-5">
         <div class="row">
-            <div class="col-lg-4 col-12 mb-4 pb-3" data-aos="fade-up" data-aos-duration="1200">
+            <div class="col-lg-4 col-12 mb-4 pb-3" data-aos="fade-left" data-aos-duration="1200">
                 <div class="card bg-transparent border-0">
                     <div class="card-body">
                         <div class="row w-100 mx-0">
@@ -163,7 +163,7 @@ if ($current_page === "ja-estou-em-portugal-e-quero-tracionar") {
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-12 mb-4 pb-3" data-aos="fade-up" data-aos-duration="1500">
+            <div class="col-lg-4 col-12 mb-4 pb-3" data-aos="fade-left" data-aos-duration="1500">
                 <div class="card bg-transparent border-0">
                     <div class="card-body">
                         <div class="row w-100 mx-0">
@@ -180,7 +180,7 @@ if ($current_page === "ja-estou-em-portugal-e-quero-tracionar") {
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-12 mb-4 pb-3" data-aos="fade-up" data-aos-duration="1800">
+            <div class="col-lg-4 col-12 mb-4 pb-3" data-aos="fade-left" data-aos-duration="1800">
                 <div class="card bg-transparent border-0">
                     <div class="card-body">
                         <div class="row w-100 mx-0">

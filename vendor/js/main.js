@@ -12,6 +12,12 @@ document.addEventListener('DOMContentLoaded', function () {
       // autoWidth: true,
       pagination: false,
       focus: 'center',
+      breakpoints: {
+        768: {
+          perPage: 2,
+          autoWidth: false,
+        },
+      },
     });
     splide_eventos.mount();
 
@@ -40,7 +46,6 @@ document.addEventListener('DOMContentLoaded', function () {
         768: {
           autoWidth: true,
           gap: 30,
-          perPage: 4,
         },
       },
     });

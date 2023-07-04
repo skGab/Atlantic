@@ -117,7 +117,7 @@ $home = get_stylesheet_directory_uri();
             </div>
 
             <div class="topicos col-12 d-md-none mb-4">
-                <figure class="d-flex mb-0 align-items-start gap-3">
+                <figure class="d-flex mb-0 align-items-start gap-3" data-aos="fade-left" data-aos-duration="1200">
                     <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/icons/group_icon.png" alt="Equipe">
                     <p>Uma equipe de especialistas, com larga experiência no mercado português vai oferecer um elenco de
                         caminhos para a sua jornada de internacionalização e conduzi-lo para o próximo estágio do

@@ -353,7 +353,7 @@ $home = get_stylesheet_directory_uri();
             <ul class="splide__list">
                 <li class="splide__slide">
                     <a href="https://materiais.atlantichub.com/atlantic-connection-2023?src=98ae1986600e4c29a707e3fc91dc2208&" target="_blank">
-                        <img loading="lazy" src="<?php echo $home ?>/assets/images/eventos/evento_1.webp" class="img-fluid d-none d-md-block" alt="Thumb Evento">
+                        <img loading="lazy" src="<?php echo $home ?>/assets/images/eventos/evento_1.webp" class="img-fluid" alt="Thumb Evento">
                     </a>
                 </li>
             </ul>
