@@ -14,7 +14,7 @@ $home = get_stylesheet_directory_uri();
     <div class="container px-4 py-5 py-md-5">
         <div class="row pt-md-5 align-items-md-center">
             <div class="col-12 col-lg-5 col-xxl-4 text-white mb-md-4 mb-xl-0">
-                <div class="title position-relative">
+                <div class="title position-relative" data-aos="fade-right" data-aos-duration="1000">
                     <!-- MOBILE -->
                     <h1 class="display-3 mb-4 text-white d-md-none">QUEM <br>
                         <strong class="fw-bold">SOMOS</strong>
@@ -36,12 +36,12 @@ $home = get_stylesheet_directory_uri();
                     </h2>
                 </div>
 
-                <p>Fundada em 2016, a Atlantic Hub é uma empresa global, com sede em Lisboa (Portugal) e em São Paulo (Brasil), especializada em fomentar negócios e parcerias dentro do ecossistema de empresas e startups luso-brasileiras.
+                <p data-aos="fade-right" data-aos-duration="1500">Fundada em 2016, a Atlantic Hub é uma empresa global, com sede em Lisboa (Portugal) e em São Paulo (Brasil), especializada em fomentar negócios e parcerias dentro do ecossistema de empresas e startups luso-brasileiras.
                 </p>
 
-                <p>Apoiamos empresários brasileiros, no processo de internacionalização de empresas a partir de Portugal. Nosso foco é oferecer todo o suporte necessário, através de serviços e realização de eventos, que direcionam, escalam e preparam empresas para um resultado positivo e duradouro.</p>
+                <p data-aos="fade-right" data-aos-duration="1500">Apoiamos empresários brasileiros, no processo de internacionalização de empresas a partir de Portugal. Nosso foco é oferecer todo o suporte necessário, através de serviços e realização de eventos, que direcionam, escalam e preparam empresas para um resultado positivo e duradouro.</p>
 
-                <p class="mb-0">Contamos com uma equipe de especialistas altamente preparada e qualificada para auxiliar a sua empresa a alcançar suas metas e objetivos.</p>
+                <p class="mb-0" data-aos="fade-right" data-aos-duration="1800">Contamos com uma equipe de especialistas altamente preparada e qualificada para auxiliar a sua empresa a alcançar suas metas e objetivos.</p>
             </div>
 
             <div class="col-lg-7 col-xxl-8 d-none d-md-block">
@@ -69,7 +69,7 @@ $home = get_stylesheet_directory_uri();
                 <p>A Atlantic Hub nasceu para sanar uma dor do mercado na qual os empresários enfrentam no processo de <br class="d-none d-md-block"> internacionalização de suas empresas, e muitas vezes desistem retornando para o seu país de origem. A Atlantic Hub <br class="d-none d-md-block"> nasce para derrubar as barreiras da expansão de negócios para a Europa, via Portugal.</p>
             </div>
 
-            <div class="col-12 col-md-6 col-lg-4 col-xxl-3 px-md-2 px-4 mb-md-3 mb-lg-0">
+            <div class="col-12 col-md-6 col-lg-4 col-xxl-3 px-md-2 px-4 mb-md-3 mb-lg-0" data-aos="fade-up" data-aos-duration="1000">
                 <div class="card px-3 h-100 py-5 py-md-2 text-center">
                     <div class="card-body d-flex justify-content-center flex-column">
                         <img src="<?php echo $home ?>/assets/icons/valores_icone.png" width="26px" class="mx-auto mb-3" alt="Icone Valores">
@@ -87,7 +87,7 @@ $home = get_stylesheet_directory_uri();
                 </div>
             </div>
 
-            <div class="col-12 col-md-6 col-lg-4 col-xxl-3 px-md-2 px-4 my-5 mt-md-0 mb-md-3 mb-xxl-0">
+            <div class="col-12 col-md-6 col-lg-4 col-xxl-3 px-md-2 px-4 my-5 mt-md-0 mb-md-3 mb-xxl-0" data-aos="fade-up" data-aos-duration="1500">
                 <div class="card px-3 h-100 py-5 py-md-2 text-center">
                     <div class="card-body  d-flex justify-content-center flex-column ">
                         <img src="<?php echo $home ?>/assets/icons/visao_icone.png" width="36px" class="mx-auto mb-3" alt="Icone Visão">
@@ -107,7 +107,7 @@ $home = get_stylesheet_directory_uri();
                 </div>
             </div>
 
-            <div class="col-12 col-md-6 col-lg-4 col-xxl-3 px-md-2 px-4 mb-5 mb-md-0">
+            <div class="col-12 col-md-6 col-lg-4 col-xxl-3 px-md-2 px-4 mb-5 mb-md-0" data-aos="fade-up" data-aos-duration="1800">
                 <div class="card px-3 h-100 py-5 py-md-2 text-center">
                     <div class="card-body d-flex justify-content-center flex-column ">
                         <img src="<?php echo $home ?>/assets/icons/missao_icone.png" width="37px" class="mx-auto mb-3" alt="Icone Missão">
@@ -125,7 +125,7 @@ $home = get_stylesheet_directory_uri();
                 </div>
             </div>
 
-            <div class="col-12 col-md-6 col-lg-4 col-xxl-3 px-md-2 px-4">
+            <div class="col-12 col-md-6 col-lg-4 col-xxl-3 px-md-2 px-4" data-aos="fade-up" data-aos-duration="2000">
                 <div class="card px-3 h-100 py-5 py-md-2 text-center">
                     <div class="card-body d-flex justify-content-center flex-column ">
 
@@ -170,10 +170,10 @@ $home = get_stylesheet_directory_uri();
     <div class="container px-4 py-5">
         <div class="row mb-5 pb-md-5">
             <div class="col-12">
-                <h2 class="mb-5">NOSSA EQUIPE</h2>
+                <h2 class="mb-5" data-aos="fade-left" data-aos-duration="1000">NOSSA EQUIPE</h2>
             </div>
 
-            <section id="splide_equipe" class="splide" aria-label="Splide Equipe">
+            <section id="splide_equipe" class="splide" aria-label="Splide Equipe" data-aos="fade-right" data-aos-duration="1000">
                 <div class="splide__track">
                     <ul class="splide__list">
                         <!-- EDUARDO -->
@@ -302,37 +302,37 @@ $home = get_stylesheet_directory_uri();
                 <img loading="lazy" class="w-100 d-none d-md-block" src="<?php echo $home ?>/assets/images/team_atlantic_desk.png" alt="Atlantic Team">
             </div>
 
-            <div class="col-12 col-sm-5 col-md-4 col-lg-3 col-xxl-2 text-center">
+            <div class="col-12 col-sm-5 col-md-4 col-lg-3 col-xxl-2 text-center" data-aos="fade-up" data-aos-duration="1500">
                 <img loading="lazy" class="mb-3" width="170" height="171" src="<?php echo $home ?>/assets/images/equipe/feliciana_thumb.webp" alt="Foto equipe Mob">
                 <p class="mb-0 small px-1">Feliciana Nogueira - <br class="d-md-none"> Gestora de Relacionamento</p>
             </div>
 
-            <div class="col-12 col-sm-5 col-md-4 col-lg-3 col-xxl-2 text-center">
+            <div class="col-12 col-sm-5 col-md-4 col-lg-3 col-xxl-2 text-center" data-aos="fade-up" data-aos-duration="1500">
                 <img loading="lazy" class="mb-3" width="170" height="171" src="<?php echo $home ?>/assets/images/equipe/carla_thumb.webp" alt="Foto equipe">
                 <p class="mb-0 small px-1">Carla Rigolo - <br class="d-md-none"> Executiva de Negócios e Relacionamento</p>
             </div>
 
-            <div class="col-12 col-sm-5 col-md-4 col-lg-3 col-xxl-2 text-center">
+            <div class="col-12 col-sm-5 col-md-4 col-lg-3 col-xxl-2 text-center" data-aos="fade-up" data-aos-duration="1500">
                 <img loading="lazy" class="mb-3" width="170" height="171" src="<?php echo $home ?>/assets/images/equipe/luciana_thumb.webp" alt="Foto equipe">
                 <p class="mb-0 small px-1">Luciana de Carvalho Viana - <br class="d-md-none"> Gestora de Missões Empresariais</p>
             </div>
 
-            <div class="col-12 col-sm-5 col-md-4 col-lg-3 col-xxl-2 text-center">
+            <div class="col-12 col-sm-5 col-md-4 col-lg-3 col-xxl-2 text-center" data-aos="fade-up" data-aos-duration="1500">
                 <img loading="lazy" class="mb-3" width="170" height="171" src="<?php echo $home ?>/assets/images/equipe/joao2_thumb.webp" alt="Foto equipe">
                 <p class="mb-0 small px-1">João Paulo Fleury Teixeira - <br class="d-md-none"> Financeiro</p>
             </div>
 
-            <div class="col-12 col-sm-5 col-md-4 col-lg-3 col-xxl-2 text-center">
+            <div class="col-12 col-sm-5 col-md-4 col-lg-3 col-xxl-2 text-center" data-aos="fade-up" data-aos-duration="1500">
                 <img loading="lazy" class="mb-3" width="170" height="171" src="<?php echo $home ?>/assets/images/equipe/paloma_thumb.webp" alt="Foto equipe">
                 <p class="mb-0 small px-1">Paloma Braga Abreu - <br class="d-md-none"> Analista de Marketing</p>
             </div>
 
-            <div class="col-12 col-sm-5 col-md-4 col-lg-3 col-xxl-2 text-center">
+            <div class="col-12 col-sm-5 col-md-4 col-lg-3 col-xxl-2 text-center" data-aos="fade-up" data-aos-duration="1500">
                 <img loading="lazy" class="mb-3" width="170" height="171" src="<?php echo $home ?>/assets/images/equipe/diego_thumb.webp" alt="Foto equipe">
                 <p class="mb-0 small px-1">Diego Maia - <br class="d-md-none"> Consultor de Projetos</p>
             </div>
 
-            <div class="col-12 col-sm-5 col-md-4 col-lg-3 col-xxl-2 text-center">
+            <div class="col-12 col-sm-5 col-md-4 col-lg-3 col-xxl-2 text-center" data-aos="fade-up" data-aos-duration="1500">
                 <img loading="lazy" class="mb-3" width="170" height="171" src="<?php echo $home ?>/assets/images/equipe/daniella_thumb.webp" alt="Foto equipe">
                 <p class="mb-0 small px-1">Daniella Rabaçal - <br class="d-md-none"> Head of Administration and Finance</p>
             </div>
@@ -388,8 +388,8 @@ $home = get_stylesheet_directory_uri();
     <div class="container px-4 py-4 pt-md-5">
         <div class="row">
             <div class="col mb-5">
-                <h2 class="mb-4">CASES <br class="d-md-none"> DE SUCESSO</h2>
-                <p class="mb-0 mb-md-4">Confiram abaixo as empresas que confiaram no nosso trabalho!
+                <h2 class="mb-4" data-aos="fade-left" data-aos-duration="1000">CASES <br class="d-md-none"> DE SUCESSO</h2>
+                <p class="mb-0 mb-md-4" data-aos="fade-right" data-aos-duration="1500">Confiram abaixo as empresas que confiaram no nosso trabalho!
                 </p>
             </div>
 
@@ -461,9 +461,9 @@ $home = get_stylesheet_directory_uri();
 
             <div class="col-10 col-xxl-7 cases_desc mx-auto d-none d-md-block">
                 <div class="d-flex align-items-start justify-content-center">
-                    <h3 class="h1"></h3>
+                    <h3 class="h1" data-aos="fade-right" data-aos-duration="1500"></h3>
                     <div class="line ms-5 me-4"></div>
-                    <p class="mb-0"></p>
+                    <p class="mb-0" data-aos="fade-left" data-aos-duration="1500"></p>
                 </div>
             </div>
         </div>

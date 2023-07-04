@@ -181,7 +181,6 @@ if (is_front_page() or $current_page == "quero-conhecer-portugal" or $current_pa
     </div>
 </footer>
 
-<!-- <script src="https://webapp355388.ip-192-155-89-190.cloudezapp.io/wp-content/themes/atlantichub/vendor/js/main.js"></script> -->
 <?php wp_footer(); ?>
 </body>
 
