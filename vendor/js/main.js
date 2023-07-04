@@ -1,6 +1,8 @@
 document.addEventListener('DOMContentLoaded', function () {
   const pageName = window.location.pathname;
 
+  AOS.init();
+
   // SLIDES HOME
   if (pageName === '/' || pageName === '/index') {
     var splide_eventos = new Splide('#splide_eventos', {

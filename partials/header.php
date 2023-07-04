@@ -47,7 +47,7 @@ if ($current_page === "quero-conhecer-portugal" or $current_page === "ja-decidi-
         </div>
     </header>
 
-    <header id="header" class="position-fixed w-100">
+    <header id="header" class="position-fixed w-100" data-aos="fade-down" data-aos-duration="800">
         <div class="px-lg-5 px-3 mt-2">
             <nav class="navbar navbar-light navbar-expand-lg bg-white py-0 mx-auto" aria-label="First navbar example">
                 <div class="container-fluid px-3 py-1 px-md-3 px-lg-4 px-xl-5">

@@ -15,8 +15,8 @@ if (is_front_page() or $current_page == "quero-conhecer-portugal" or $current_pa
                     </figure>
                 </div>
                 <div class="col-6 ms-3" style="z-index: 1;">
-                    <h2 class="text-secondary d-flex h2 mb-3" style="margin-left: -5rem;">QUER FALAR COM ESPECIALISTA<br> PARA A INTERNACIONALIZAÇÃO?</h2>
-                    <div id="form-candidatura" class="col-10 mt-5 ms-4">
+                    <h2 class="text-secondary d-flex h2 mb-3" style="margin-left: -5rem;" data-aos="fade-left" data-aos-duration="1500" data-aos-anchor-placement="top-bottom">QUER FALAR COM ESPECIALISTA<br> PARA A INTERNACIONALIZAÇÃO?</h2>
+                    <div id="form-candidatura" class="col-10 mt-5 ms-4" data-aos="fade-left" data-aos-duration="1800" data-aos-anchor-placement="bottom-bottom">
                         <form>
                             <div class="row">
                                 <div class="col mb-3">
@@ -78,13 +78,13 @@ if (is_front_page() or $current_page == "quero-conhecer-portugal" or $current_pa
                 </div>
 
                 <figure class="social d-flex gap-3 mb-0">
-                    <a href="https://www.facebook.com/atlantichub/" target="_blank">
+                    <a href="https://www.facebook.com/atlantichub/" target="_blank" data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="bottom-bottom">
                         <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/icons/facebook-footer.svg" alt="Logo facebook">
                     </a>
-                    <a href="https://www.instagram.com/atlantic.hub/" target="_blank">
+                    <a href="https://www.instagram.com/atlantic.hub/" target="_blank" data-aos="fade-up" data-aos-duration="1500" data-aos-anchor-placement="bottom-bottom">
                         <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/icons/instagram-footer.svg" alt="Logo Instagram">
                     </a>
-                    <a href="https://www.youtube.com/channel/UCVo_n0KQDbeZ4GpmQ-ey8dA/videos" target="_blank">
+                    <a href="https://www.youtube.com/channel/UCVo_n0KQDbeZ4GpmQ-ey8dA/videos" target="_blank" data-aos="fade-up" data-aos-duration="1800" data-aos-anchor-placement="bottom-bottom">
                         <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/icons/youtube-footer.svg" alt="Logo Youtube">
                     </a>
                 </figure>
@@ -123,13 +123,13 @@ if (is_front_page() or $current_page == "quero-conhecer-portugal" or $current_pa
 
                 <figure class="social d-flex gap-3 mb-0">
                     <a href="https://www.facebook.com/atlantichub/" target="_blank">
-                        <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/icons/facebook-footer.svg" alt="Logo facebook">
+                        <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/icons/facebook-footer.svg" alt="Logo facebook" data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
                     </a>
                     <a href="https://www.instagram.com/atlantic.hub/" target="_blank">
-                        <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/icons/instagram-footer.svg" alt="Logo Instagram">
+                        <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/icons/instagram-footer.svg" alt="Logo Instagram" data-aos="fade-up" data-aos-duration="1500" data-aos-anchor-placement="top-bottom">
                     </a>
                     <a href="https://www.youtube.com/channel/UCVo_n0KQDbeZ4GpmQ-ey8dA/videos" target="_blank">
-                        <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/icons/youtube-footer.svg" alt="Logo Youtube">
+                        <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/icons/youtube-footer.svg" alt="Logo Youtube" data-aos="fade-up" data-aos-duration="1800" data-aos-anchor-placement="top-bottom">
                     </a>
                 </figure>
             </div>
@@ -160,7 +160,7 @@ if (is_front_page() or $current_page == "quero-conhecer-portugal" or $current_pa
 
     <div class="container-fluid bg_desk">
         <!-- PATROCINEO -->
-        <div class="row patrocineo px-3 px-md-5 py-5 py-md-3">
+        <div class="row patrocineo px-3 px-md-5 py-5 py-md-3" data-aos="fade-left" data-aos-duration="1500" data-aos-anchor-placement="top-bottom">
             <figure class="col mb-0 text-primary d-md-flex align-items-center">
                 <div class="d-flex align-items-center mb-4 mb-md-0">
                     <p class="me-3 mb-0">

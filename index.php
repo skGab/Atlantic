@@ -11,7 +11,7 @@ $home = get_stylesheet_directory_uri();
                 <img src="<?php echo $home ?>/assets/images/banner_home_mob.png" class="mob d-block w-100 d-sm-none" alt="Banner Home Mobile">
                 <img src="<?php echo $home ?>/assets/images/banner_home_desk.png" class="desk w-100 d-none d-sm-block" alt="Banner Home Desktop">
 
-                <div class="text-white carousel-caption mx-auto text-start mb-5 pb-5">
+                <div class="text-white carousel-caption mx-auto text-start mb-5 pb-5" data-aos="fade-right" data-aos-duration="1500">
                     <div class="mb-3">
                         <button class="px-0 py-0 border-0 bg-transparent me-3" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
                             <img loading="lazy" class="w-100" src="<?php echo $home ?>/assets/icons/seta_sem_preenchida.svg" alt="Seta esquerda">
@@ -113,7 +113,7 @@ $home = get_stylesheet_directory_uri();
                 <span class="h5">da sua empresa em Portugal ?</span>
             </div>
 
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
                 <div class="card text-center mx-auto position-relative">
                     <div class="box position-absolute d-md-none"></div>
 
@@ -153,7 +153,7 @@ $home = get_stylesheet_directory_uri();
                 </div>
             </div>
 
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3 my-5 my-sm-0 my-md-0">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 my-5 my-sm-0 my-md-0" data-aos="fade-up" data-aos-duration="1200" data-aos-anchor-placement="top-bottom">
                 <div class="card text-center mx-auto position-relative">
                     <div class="box box-desk position-absolute"></div>
 
@@ -186,7 +186,7 @@ $home = get_stylesheet_directory_uri();
                 </div>
             </div>
 
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-duration="1500" data-aos-anchor-placement="top-bottom">
                 <div class="card text-center mx-auto position-relative">
                     <div class="box position-absolute d-md-none"></div>
 
@@ -227,8 +227,8 @@ $home = get_stylesheet_directory_uri();
 <section id="falar_especialistas" class="pb-5">
     <div class="bg position-relative">
 
-        <div class="card align-items-center justify-content-center d-flex position-absolute px-4 py-3">
-            <div class="px-4 py-3 py-md-0 d-block flex-0">
+        <div class="card align-items-center justify-content-center d-flex position-absolute px-4 py-3" data-aos="fade-right" data-aos-duration="800" data-aos-anchor-placement="bottom-bottom">
+            <div class="px-4 py-3 py-md-0 d-block flex-0" data-aos="fade-left" data-aos-duration="1500" data-aos-anchor-placement="top-bottom">
                 <h4 class="h3 card-title text-white lh-md-base mb-md-4">Quer falar com nossos especialistas para a internacionalização?</h4>
 
                 <button class="btn text-white border py-2 py-md-1"><a href="/contato" class="text-white">FALE CONOSCO</a></button>
@@ -282,7 +282,7 @@ $home = get_stylesheet_directory_uri();
     <div class="container px-4 pt-5">
         <div class="row mb-5 justify-content-between">
 
-            <div class="col-12 mb-5">
+            <div class="col-12 mb-5" data-aos="fade-right" data-aos-duration="1500">
                 <div class="d-flex align-items-center">
                     <h2 class="me-5">BLOG</h2>
                     <a href="/blog" class="small align-items-center d-flex d-md-none">
@@ -309,7 +309,7 @@ $home = get_stylesheet_directory_uri();
                     $blog_categories = get_the_category();
             ?>
 
-                    <div class="col-12 col-md-6 col-lg-4 mb-5">
+                    <div class="col-12 col-md-6 col-lg-4 mb-5" data-aos="fade-up" data-aos-duration="1500">
                         <div class="card mx-auto border-0 bg-transparent position-relative">
                             <div class="box position-absolute"></div>
 
@@ -339,7 +339,7 @@ $home = get_stylesheet_directory_uri();
         </div>
 
         <div class="row">
-            <div class="col-12 mb-4">
+            <div class="col-12 mb-4" data-aos="fade-right" data-aos-duration="1500">
                 <div class="d-flex align-items-center">
                     <h2 class="me-5">EVENTOS</h2>
                     <a href="" class="d-flex align-items-center">Ver todos <img loading="lazy" src="<?php echo $home ?>/assets/icons/seta_direita_azul_blog.svg" class="img-fluid ms-4" alt=""></a>
@@ -365,18 +365,18 @@ $home = get_stylesheet_directory_uri();
 <section id="depoimentos" class="py-md-5">
     <div class="container px-4 py-4 py-5">
         <div class="row pb-4 justify-content-center">
-            <div class="col-12">
+            <div class="col-12" data-aos="fade-down" data-aos-duration="1500" data-aos-anchor-placement="bottom-bottom">
                 <h2 class="mb-4 mb-md-5">DEPOIMENTOS</h2>
             </div>
 
-            <div class="col-12 col-md-6 mb-4 text-center">
+            <div class="col-12 col-md-6 mb-4 text-center" data-aos="fade-right" data-aos-duration="1800" data-aos-anchor-placement="bottom-bottom">
                 <video id="myVideo1" width="480" class="img-fluid" loop muted controls preload="none">
                     <source src="<?php echo $home ?>/assets/images/depoimentos/depoimento_1.mp4" type="video/mp4">
                     Seu navegador não suporta este video
                 </video>
             </div>
 
-            <div class="col-12 col-md-6 mb-0 text-center">
+            <div class="col-12 col-md-6 mb-0 text-center" data-aos="fade-left" data-aos-duration="1800" data-aos-anchor-placement="bottom-bottom">
                 <video id="myVideo2" width="480" class="img-fluid" loop muted controls preload="none">
                     <source src="<?php echo $home ?>/assets/images/depoimentos/depoimento_2.mp4" type="video/mp4">
                     Seu navegador não suporta este video
@@ -390,11 +390,11 @@ $home = get_stylesheet_directory_uri();
 <section id="videos" class="py-5">
     <div class="container px-4 pt-3 pb-5 pt-md-5">
         <div class="row mb-5">
-            <div class="col-12 mb-5">
+            <div class="col-12 mb-5" data-aos="fade-right" data-aos-duration="1500" data-aos-anchor-placement="bottom-bottom">
                 <h2>ATLANTIC <br class="d-md-none"> VÍDEOS</h2>
             </div>
 
-            <section id="splide_videos" class="splide" aria-label="Splide Videos">
+            <section id="splide_videos" class="splide" aria-label="Splide Videos" data-aos="fade-up" data-aos-duration="1500" data-aos-anchor-placement="bottom-bottom">
                 <div class="splide__track">
                     <ul class="splide__list">
                         <li class="splide__slide text-center">
@@ -410,11 +410,11 @@ $home = get_stylesheet_directory_uri();
         </div>
 
         <div class="row pt-5">
-            <div class="col-12 mb-4">
+            <div class="col-12 mb-4" data-aos="fade-right" data-aos-duration="1800" data-aos-anchor-placement="bottom-bottom">
                 <h2>NOSSOS <br class="d-md-none"> PARCEIROS</h2>
             </div>
 
-            <section id="splide_parceiros" class="splide" aria-label="Splide Parceiros">
+            <section id="splide_parceiros" class="splide" aria-label="Splide Parceiros" data-aos="fade-left" data-aos-duration="1800" data-aos-anchor-placement="bottom-bottom">
                 <div class="splide__track">
                     <ul class="splide__list align-items-center">
                         <li class="splide__slide">
