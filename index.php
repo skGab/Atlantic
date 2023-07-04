@@ -227,7 +227,7 @@ $home = get_stylesheet_directory_uri();
 <section id="falar_especialistas" class="pb-5">
     <div class="bg position-relative">
 
-        <div class="card align-items-center justify-content-center d-flex position-absolute px-4 py-3" data-aos="fade-right" data-aos-duration="800" data-aos-anchor-placement="bottom-bottom">
+        <div class="card align-items-center justify-content-center d-flex position-absolute px-4 py-3" data-aos="fade-right" data-aos-duration="800" data-aos-anchor-placement="top-bottom">
             <div class="px-4 py-3 py-md-0 d-block flex-0" data-aos="fade-left" data-aos-duration="1500" data-aos-anchor-placement="top-bottom">
                 <h4 class="h3 card-title text-white lh-md-base mb-md-4">Quer falar com nossos especialistas para a internacionalização?</h4>
 
