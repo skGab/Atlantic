@@ -15,7 +15,7 @@ if ($current_page === "quero-conhecer-portugal" or $current_page === "ja-decidi-
 <html <?php language_attributes(); ?>>
 
 <head>
-    <meta charset="<?php bloginfo( 'charset' ); ?>">
+    <meta charset="<?php bloginfo('charset'); ?>">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="<?php echo $home ?>/assets/icons/fav-icon.png" type="image/x-icon">
@@ -37,9 +37,7 @@ if ($current_page === "quero-conhecer-portugal" or $current_page === "ja-decidi-
                     </div>
 
                     <div class="horario text-center text-white px-md-3 px-3 py-1 rounded">
-                        <strong>
-                            HORÁRIO DE LISBOA
-                        </strong>
+                        HORÁRIO DE LISBOA
                         <?php echo do_shortcode('[lisbon_time]') ?>
                     </div>
                 </div>

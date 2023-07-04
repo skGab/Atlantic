@@ -107,7 +107,7 @@ $home = get_stylesheet_directory_uri();
 <!-- MOMENTO EMPRESA -->
 <section id="momento_empresa" class="pb-md-5">
     <div class="container px-4 py-5">
-        <div class="row justify-content-md-center pb-md-5">
+        <div class="row justify-content-md-center align-items-md-end pbmd--5">
             <div class="col-12 mb-5 text-md-center">
                 <h2 class="h2 mb-0">QUAL O MOMENTO</h2>
                 <span class="h5">da sua empresa em Portugal ?</span>
@@ -197,18 +197,23 @@ $home = get_stylesheet_directory_uri();
 
                     <div class="card-body ajuste w-100">
                         <div>
-                            <h5 class="card-title fw-bold">Atlantic Connection</h5>
-                            <p class="card-text">O maior evento global sobre o ecossistema Brasil e Portugal</p>
+                            <h5 class="card-title fw-bold">Portugal 2030</h5>
+                            <p class="card-text">Apoio global e integrado para a internacionalização de empresas</p>
                         </div>
                         <hr>
                         <div>
-                            <h5 class="card-title fw-bold">Missões empresariais</h5>
-                            <p class="card-text">A oportunidade mais efetiva de network para seus negócios</p>
+                            <h5 class="card-title fw-bold">Endereço Fiscal</h5>
+                            <p class="card-text">Sua empresa com escritório virtual em um endereço privilegiado</p>
                         </div>
                         <hr>
                         <div>
-                            <h5 class="card-title fw-bold">MarketFit</h5>
-                            <p class="card-text">Um diagnóstico preliminar e seguro sobre a aderência ao mercado</p>
+                            <h5 class="card-title fw-bold">Portugal Ventures</h5>
+                        </div>
+                        <hr>
+                        <div>
+                            <h5 class="card-title fw-bold">Escritório <br>
+                                Avançado Internacional</h5>
+                            <p class="card-text">Sua empresa tem presença garantida no exterior</p>
                         </div>
                         <button class="mt-3 bg-transparent fw-bold py-1">
                             <a href="/ja-estou-em-portugal-e-quero-tracionar/">

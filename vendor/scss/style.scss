@@ -113,13 +113,9 @@ body {
     }
 
     .horario {
-      font-size: 13px;
+      font-size: 12px;
       background-color: var(--title-blue);
-
-      strong {
-        letter-spacing: 0.8px;
-        font-size: 11px;
-      }
+      letter-spacing: 0.8px;
     }
   }
 
@@ -489,7 +485,7 @@ body {
       .call {
         z-index: 10;
       }
-      
+
       span {
         opacity: 5%;
         z-index: 0;
