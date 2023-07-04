@@ -146,7 +146,7 @@ $home = get_stylesheet_directory_uri();
                         processo: o <strong class="detail-2 px-2 py-1">Atlantic Scale-out.</strong></p>
                 </figure>
 
-                <a href="https://materiais.atlantichub.com/quer-levar-sua-empresa-para-portugal" class="px-3 py-2 fw-bold border" target="_blank"  data-aos="fade-left" data-aos-duration="1800">CONTRATE AGORA</a>
+                <a href="https://materiais.atlantichub.com/quer-levar-sua-empresa-para-portugal" class="px-3 py-2 fw-bold border" target="_blank" data-aos="fade-left" data-aos-duration="1800">CONTRATE AGORA</a>
             </div>
 
         </div>
@@ -166,7 +166,7 @@ $home = get_stylesheet_directory_uri();
                         de Ecossistema</h5>
                 </figure>
             </div>
-            <div class="col-3 col-lg-2"  data-aos="fade-up" data-aos-duration="1200">
+            <div class="col-3 col-lg-2" data-aos="fade-up" data-aos-duration="1200">
                 <figure class="mb-0 text-center">
                     <img loading="lazy" class="img-fluid mb-4" src="<?php echo $home ?>/assets/images/pilares/analise.png" alt="Thumb Pilar">
                     <h5>Análise <br>
@@ -230,7 +230,7 @@ $home = get_stylesheet_directory_uri();
                 <h2 class="display-3 fw-bold d-md-none" data-aos="fade-left" data-aos-duration="1500">Por que escolher a Atlantic Hub?</h2>
                 <h2 class="display-6 fw-bold d-none d-md-block" data-aos="fade-left" data-aos-duration="1500">Por que escolher <br> a Atlantic Hub?</h2>
 
-                <p  data-aos="fade-left" data-aos-duration="1500">Temos experiência, uma equipe especializada e metodologias para prospectar oportunidades e
+                <p data-aos="fade-left" data-aos-duration="1500">Temos experiência, uma equipe especializada e metodologias para prospectar oportunidades e
                     identificar riscos. A Atlantic Hub acompanha as empresas em todas as etapas de internacionalização.
                 </p>
 
@@ -344,7 +344,7 @@ $home = get_stylesheet_directory_uri();
                     MarketFit requer um investimento inicial de <br> <strong class="detail-2 px-2 h4 fw-bold">€ 1.750,00</strong>
                 </p>
 
-                <a href="/contato" target="_blank" class="px-3 py-2 fw-bold small d-none d-md-block">CONTRATE AGORA</a>
+                <a href="https://materiais.atlantichub.com/quer-levar-sua-empresa-para-portugal" target="_blank" class="px-3 py-2 fw-bold small d-none d-md-block">CONTRATE AGORA</a>
             </div>
 
             <div class="col-9 col-md-4 col-xxl-3 mb-4" data-aos="fade-left" data-aos-duration="1800">
@@ -354,7 +354,7 @@ $home = get_stylesheet_directory_uri();
             </div>
 
             <div class="col-12 d-md-none">
-                <a href="/contato" target="_blank" class="px-3 py-2 fw-bold">CONTRATE AGORA</a>
+                <a href="https://materiais.atlantichub.com/quer-levar-sua-empresa-para-portugal" target="_blank" class="px-3 py-2 fw-bold">CONTRATE AGORA</a>
             </div>
         </div>
     </div>

@@ -99,9 +99,9 @@ if ($current_page === "quero-conhecer-portugal" or $current_page === "ja-decidi-
                                 <li class="nav-item">
                                     <a class="nav-link pe-lg-3 pe-md-0 pe-3 <?php echo ($current_page === "contato" ? 'active' : '') ?>" href="/contato/">Contato</a>
                                 </li>
-                                <li class="nav-item">
+                                <!-- <li class="nav-item">
                                     <a class="nav-link pe-lg-3 pe-md-0 pe-3 <?php echo ($current_page === "vagas" ? 'active' : '') ?>" href="/vagas/">Vagas</a>
-                                </li>
+                                </li> -->
                                 <!-- <li class="nav-item d-lg-block d-none">
                                     <a class="nav-link" type="button" data-bs-toggle="modal" data-bs-target="#search-modal">
                                         <img src="<?php echo $home ?>/assets/icons/icon-search-blue.svg" alt="">

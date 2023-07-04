@@ -342,7 +342,7 @@ $home = get_stylesheet_directory_uri();
             <div class="col-12 mb-4" data-aos="fade-right" data-aos-duration="1500">
                 <div class="d-flex align-items-center">
                     <h2 class="me-5">EVENTOS</h2>
-                    <a href="" class="d-flex align-items-center">Ver todos <img loading="lazy" src="<?php echo $home ?>/assets/icons/seta_direita_azul_blog.svg" class="img-fluid ms-4" alt=""></a>
+                    <!-- <a href="" class="d-flex align-items-center">Ver todos <img loading="lazy" src="<?php echo $home ?>/assets/icons/seta_direita_azul_blog.svg" class="img-fluid ms-4" alt=""></a> -->
                 </div>
             </div>
         </div>
@@ -370,14 +370,14 @@ $home = get_stylesheet_directory_uri();
             </div>
 
             <div class="col-12 col-md-6 mb-4 text-center" data-aos="fade-right" data-aos-duration="1800" data-aos-anchor-placement="bottom-bottom">
-                <video id="myVideo1" width="480" class="img-fluid" loop muted controls preload="none">
+                <video id="myVideo1" width="480" class="img-fluid rounded-3" loop muted controls preload="none">
                     <source src="<?php echo $home ?>/assets/images/depoimentos/depoimento_1.mp4" type="video/mp4">
                     Seu navegador não suporta este video
                 </video>
             </div>
 
             <div class="col-12 col-md-6 mb-0 text-center" data-aos="fade-left" data-aos-duration="1800" data-aos-anchor-placement="bottom-bottom">
-                <video id="myVideo2" width="480" class="img-fluid" loop muted controls preload="none">
+                <video id="myVideo2" width="480" class="img-fluid rounded-3" loop muted controls preload="none">
                     <source src="<?php echo $home ?>/assets/images/depoimentos/depoimento_2.mp4" type="video/mp4">
                     Seu navegador não suporta este video
                 </video>

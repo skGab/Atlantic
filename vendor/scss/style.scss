@@ -486,8 +486,13 @@ body {
     #cta {
       background-color: #e1e5ec;
 
+      .call {
+        z-index: 10;
+      }
+      
       span {
         opacity: 5%;
+        z-index: 0;
       }
 
       h2 {
@@ -499,7 +504,7 @@ body {
       background-color: #051129;
       color: var(--title-blue);
 
-      .row{
+      .row {
         gap: 1.5rem;
       }
 
@@ -521,7 +526,7 @@ body {
         top: 25px;
       }
 
-      img{
+      img {
         object-fit: cover;
       }
     }
@@ -553,20 +558,20 @@ body {
     #cases {
       background-color: var(--text-white);
       color: #517794;
-      
+
       .info {
         p {
           max-width: 300px;
         }
       }
 
-      .line{
+      .line {
         height: 4rem;
-        width: .5rem;
-        background-color: #2583E2;
+        width: 0.5rem;
+        background-color: #2583e2;
       }
 
-      .cases_desc{
+      .cases_desc {
         min-height: 250px;
       }
     }

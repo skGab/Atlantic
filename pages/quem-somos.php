@@ -150,14 +150,15 @@ $home = get_stylesheet_directory_uri();
 <!-- CTA -->
 <section id="cta" class="py-md-4">
     <div class="container px-4 py-5">
-        <div class="row">
-            <div class="col text-center position-relative">
-                <span class="bg d-none d-md-block display-1 position-absolute">
-                    Pronto para internacionalizar sua empresa?
-                </span>
+        <div class="row position-relative">
+            <span class="bg d-none d-md-block display-1 position-absolute text-center">
+                Pronto para internacionalizar sua empresa?
+            </span>
+
+            <div class="call col text-center">
                 <h2 class="display-3 mb-4 d-md-none">Pronto para internacionalizar sua empresa?</h2>
                 <h2 class="display-5 mb-5 d-none d-md-block">Pronto para internacionalizar sua empresa?</h2>
-                <a href="https://materiais.atlantichub.com/quer-levar-sua-empresa-para-portugal" target="_blank" class="w-100 h-100" >
+                <a href="https://materiais.atlantichub.com/quer-levar-sua-empresa-para-portugal" target="_blank" class="w-100 h-100">
                     <img loading="lazy" src="<?php echo $home ?>/assets/icons/seta_internacionalizar.png" alt="Seta para direita">
                 </a>
             </div>

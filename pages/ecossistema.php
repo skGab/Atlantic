@@ -156,7 +156,7 @@ $home = get_stylesheet_directory_uri();
                         <input placeholder="Email*" type="email" class="form-control" id="email" aria-describedby="emailHelp">
                     </div>
 
-                    <button type="submit" class="btn text-secondary d-flex justify-content-lg-end align-items-center bg-transparent ms-auto px-0 pt-0">
+                    <button type="submit" class="btn text-secondary d-flex justify-content-lg-end align-items-center bg-transparent ms-auto px-0 pt-0" disabled>
                         Enviar
                         <span class="material-symbols-outlined ms-2" style="font-size: 35px;">
                             arrow_right_alt
@@ -194,7 +194,7 @@ $home = get_stylesheet_directory_uri();
                             </div>
 
                             <div class="col-2 pb-3">
-                                <button type="submit" class="btn text-secondary d-flex justify-content-lg-end align-items-center bg-transparent ms-auto px-0 pt-0">
+                                <button type="submit" class="btn text-secondary d-flex justify-content-lg-end align-items-center bg-transparent ms-auto px-0 pt-0" disabled>
                                     Enviar
                                     <span class="material-symbols-outlined ms-2" style="font-size: 35px;">
                                         arrow_right_alt

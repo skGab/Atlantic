@@ -4,6 +4,7 @@ $current_page =  get_page_uri();
 $home = get_stylesheet_directory_uri();
 
 if (is_front_page() or $current_page == "quero-conhecer-portugal" or $current_page == "ja-decidi-e-quero-avancar" or $current_page == "ja-estou-em-portugal-e-quero-tracionar") : ?>
+    <!-- CONTATO -->
     <section id="contato" class="d-lg-block d-none bg-light">
         <div class="container-fluid p-0">
             <div class="row align-items-center w-100 mx-0 px-0">
@@ -45,7 +46,7 @@ if (is_front_page() or $current_page == "quero-conhecer-portugal" or $current_pa
                                 <textarea class="form-control" placeholder="Mensagem*" id="mensagem" style="height: 100px"></textarea>
                             </div>
 
-                            <button type="submit" class="btn text-primary d-flex justify-content-lg-end align-items-center bg-transparent text-uppercase ms-auto px-0 pt-0">
+                            <button type="submit" class="btn text-primary d-flex justify-content-lg-end align-items-center bg-transparent text-uppercase ms-auto px-0 pt-0" disabled>
                                 Enviar
                                 <span class="material-symbols-outlined ms-2" style="font-size: 35px;">
                                     arrow_right_alt
@@ -99,7 +100,7 @@ if (is_front_page() or $current_page == "quero-conhecer-portugal" or $current_pa
                     <a href="/atlantic-marketfit" class="text-white-footer">Estudo de Mercado</a>
                     <a href="/blog" class="text-white-footer">Blog</a>
                     <a href="/contato" class="text-white-footer">Contato</a>
-                    <a href="/vagas" class="text-white-footer">Vagas</a>
+                    <!-- <a href="/vagas" class="text-white-footer">Vagas</a> -->
                 </nav>
             </div>
         </div>
@@ -141,7 +142,7 @@ if (is_front_page() or $current_page == "quero-conhecer-portugal" or $current_pa
                     <a href="/atlantic-marketfit" class="text-white-footer">Estudo de Mercado</a>
                     <a href="/blog" class="text-white-footer">Blog</a>
                     <a href="/contato" class="text-white-footer">Contato</a>
-                    <a href="/vagas" class="text-white-footer">Vagas</a>
+                    <!-- <a href="/vagas" class="text-white-footer">Vagas</a> -->
                 </nav>
             </div>
         </div>

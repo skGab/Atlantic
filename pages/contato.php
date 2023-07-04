@@ -52,7 +52,7 @@ $home = get_stylesheet_directory_uri();
                 <div class="mb-0">
                     <textarea class="form-control" id="mensagem" rows="4" placeholder="Mensagem*"></textarea>
                 </div>
-                <button type="submit" class="btn text-primary d-flex justify-content-lg-end align-items-center bg-transparent text-uppercase me-auto pt-0">
+                <button type="submit" class="btn text-primary d-flex justify-content-lg-end align-items-center bg-transparent text-uppercase me-auto pt-0" disabled>
                     Enviar
                     <span class="material-symbols-outlined ms-2" style="font-size: 35px;">
                         arrow_right_alt
