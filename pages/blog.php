@@ -16,10 +16,6 @@ $home = get_stylesheet_directory_uri();
             <h1 class="text-primary d-lg-block d-none fw-normal text-uppercase mb-4">Blog</h1>
             <h1 class="text-primary d-lg-none d-block fw-normal text-uppercase display-4 mb-3">Blog</h1>
         </div>
-        <div class="col-12 d-lg-none d-flex align-items-center w-100 mb-4">
-            <a href="#" class="text-secondary bg-light rounded-pill px-4 py-1 me-2">Categorias</a>
-            <a href="#" class="text-secondary bg-light rounded-pill px-4 py-1 me-2">Tags</a>
-        </div>
 
         <div class="col-lg-5 col-12 mb-4" data-aos="fade-right" data-aos-duration="1200">
             <?php

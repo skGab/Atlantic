@@ -3,7 +3,7 @@ get_template_part('partials/header');
 $home = get_stylesheet_directory_uri();
 ?>
 
-<!-- intro -->
+<!-- INTRO -->
 <section id="intro">
     <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
         <div class="carousel-inner">
@@ -318,7 +318,7 @@ $home = get_stylesheet_directory_uri();
                         <div class="card mx-auto border-0 bg-transparent position-relative">
                             <div class="box position-absolute"></div>
 
-                            <img loading="lazy" src="<?php echo $home ?>/assets/images/post_thumb1.webp" width="350" class="img-fluid" alt="">
+                            <img loading="lazy" src="<?php the_post_thumbnail_url() ?>" height="280" class="w-100" alt="Post Thumb">
 
                             <div class="card-body px-md-0">
                                 <p class="text-white small px-2 py-1 mb-3"><?php echo $categories[0]->name ?></p>

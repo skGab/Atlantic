@@ -77,14 +77,14 @@ while (have_posts()) :
                                 <h3 class="h5 fw-light text-white mb-3 pb-1">Quer levar sua empresa para Portugal?</h3>
                             </div>
                             <div class="ps-2 pb-3" data-aos="fade-right" data-aos-duration="1800">
-                                <a href="#" class="h6 mb-0 fw-normal text-white text-uppercase border border-white rounded-pill px-3 py-1">Saiba mais</a>
+                                <a href="https://materiais.atlantichub.com/atlantic-blog-marketfit" target="_blank" class="h6 mb-0 fw-normal text-white text-uppercase border border-white rounded-pill px-3 py-1">Saiba mais</a>
                             </div>
                         </div>
                     </div>
                 </section>
 
                 <!-- INFORMAÇÕES DO AUTOR -->
-                <section id="autor" class="d-lg-block d-none container-fluid px-0 pt-5 pb-4">
+                <!-- <section id="autor" class="d-lg-block d-none container-fluid px-0 pt-5 pb-4">
                     <div class="row w-100 mx-0">
                         <div class="col-12">
                             <h4 class="h1 text-secondary mb-4" data-aos="fade-right" data-aos-duration="1500">Sobre o autor</h4>
@@ -105,7 +105,7 @@ while (have_posts()) :
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> -->
 
                 <!-- COMENTÁRIOS -->
                 <!-- <section id="comentarios" class="container-fluid px-0 d-lg-block d-none pb-5">
@@ -270,17 +270,14 @@ while (have_posts()) :
                 <div class="container-fluid px-0 mt-5">
                     <div class="row w-100 mx-0">
                         <div class="col-12 d-lg-flex d-none justify-content-center align-items-center w-100 mb-4 pb-2">
-                            <a href="#" class="mx-2" data-aos="fade-up" data-aos-duration="1200">
+                            <a href="https://www.facebook.com/atlantichub/" class="mx-2" data-aos="fade-up" data-aos-duration="1200">
                                 <img src="<?= $home; ?>/assets/icons/facebook.svg" alt="ícone do Facebook">
                             </a>
-                            <a href="#" class="mx-2" data-aos="fade-up" data-aos-duration="1500">
+                            <a href="https://www.instagram.com/atlantic.hub/" class="mx-2" data-aos="fade-up" data-aos-duration="1500">
                                 <img src="<?= $home; ?>/assets/icons/instagram.svg" alt="Ícone do Instagram">
                             </a>
-                            <a href="#" class="mx-2" data-aos="fade-up" data-aos-duration="1800">
+                            <a href="https://www.youtube.com/channel/UCVo_n0KQDbeZ4GpmQ-ey8dA/videos" class="mx-2" data-aos="fade-up" data-aos-duration="1800">
                                 <img src="<?= $home; ?>/assets/icons/youtube.svg" alt="Ícone do Youtube">
-                            </a>
-                            <a href="#" class="mx-2" data-aos="fade-up" data-aos-duration="2000">
-                                <img src="<?= $home; ?>/assets/icons/twitter.svg" alt="Ícone do Twitter">
                             </a>
                         </div>
                     </div>
@@ -300,14 +297,14 @@ while (have_posts()) :
                     <h3 class="fw-light text-white mb-3 pb-1">Quer levar <br> sua empresa para Portugal?</h3>
                 </div>
                 <div class="ps-2" data-aos="fade-right" data-aos-duration="1500">
-                    <a href="#" class="h6 mb-0 fw-normal text-white text-uppercase border border-white rounded-pill px-3 py-1">Saiba mais</a>
+                    <a href="https://materiais.atlantichub.com/atlantic-blog-marketfit" class="h6 mb-0 fw-normal text-white text-uppercase border border-white rounded-pill px-3 py-1">Saiba mais</a>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- INFORMAÇÕES DO AUTOR -->
-    <section id="autor" class="d-lg-none pt-5 pb-4">
+    <!-- <section id="autor" class="d-lg-none pt-5 pb-4">
         <div class="container">
             <div class="row w-100 mx-0">
                 <div class="col-12">
@@ -331,7 +328,7 @@ while (have_posts()) :
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- COMENTÁRIOS -->
     <!-- <section id="comentarios" class="d-lg-none d-block pb-5">

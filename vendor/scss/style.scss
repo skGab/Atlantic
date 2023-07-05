@@ -345,6 +345,7 @@ body {
         img {
           z-index: 0;
           filter: grayscale(100%);
+          object-fit: cover;
           // max-width: 300px;
         }
 
