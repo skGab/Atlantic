@@ -14,7 +14,7 @@ $home = get_stylesheet_directory_uri();
     <div class="container px-4 py-5 py-md-5">
         <div class="row pt-md-5 align-items-md-center">
             <div class="col-12 col-lg-5 col-xxl-4 text-white mb-md-4 mb-xl-0">
-                <div class="title position-relative">
+                <div class="title position-relative" data-aos="fade-right" data-aos-duration="1000">
                     <!-- MOBILE -->
                     <h1 class="display-3 mb-4 text-white d-md-none">QUEM <br>
                         <strong class="fw-bold">SOMOS</strong>
@@ -36,17 +36,17 @@ $home = get_stylesheet_directory_uri();
                     </h2>
                 </div>
 
-                <p>Fundada em 2016, a Atlantic Hub é uma empresa global, com sede em Lisboa (Portugal) e em São Paulo (Brasil), especializada em fomentar negócios e parcerias dentro do ecossistema de empresas e startups luso-brasileiras.
+                <p data-aos="fade-right" data-aos-duration="1500">Fundada em 2016, a Atlantic Hub é uma empresa global, com sede em Lisboa (Portugal) e em São Paulo (Brasil), especializada em fomentar negócios e parcerias dentro do ecossistema de empresas e startups luso-brasileiras.
                 </p>
 
-                <p>Apoiamos empresários brasileiros, no processo de internacionalização de empresas a partir de Portugal. Nosso foco é oferecer todo o suporte necessário, através de serviços e realização de eventos, que direcionam, escalam e preparam empresas para um resultado positivo e duradouro.</p>
+                <p data-aos="fade-right" data-aos-duration="1500">Apoiamos empresários brasileiros, no processo de internacionalização de empresas a partir de Portugal. Nosso foco é oferecer todo o suporte necessário, através de serviços e realização de eventos, que direcionam, escalam e preparam empresas para um resultado positivo e duradouro.</p>
 
-                <p class="mb-0">Contamos com uma equipe de especialistas altamente preparada e qualificada para auxiliar a sua empresa a alcançar suas metas e objetivos.</p>
+                <p class="mb-0" data-aos="fade-right" data-aos-duration="1800">Contamos com uma equipe de especialistas altamente preparada e qualificada para auxiliar a sua empresa a alcançar suas metas e objetivos.</p>
             </div>
 
-            <figure class="col-lg-7 col-xxl-8 mb-0 d-none d-md-block">
-                <img loading="lazy" src="<?php echo $home ?>/assets/images/video_quem-somos_deks.png" class="img-fluid" alt="Video Quem Somos Desktop">
-            </figure>
+            <div class="col-lg-7 col-xxl-8 d-none d-md-block">
+                <iframe height="410" class="w-100 rounded-3" src="https://www.youtube.com/embed/X52ovzfyx40?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
         </div>
     </div>
 </section>
@@ -69,7 +69,7 @@ $home = get_stylesheet_directory_uri();
                 <p>A Atlantic Hub nasceu para sanar uma dor do mercado na qual os empresários enfrentam no processo de <br class="d-none d-md-block"> internacionalização de suas empresas, e muitas vezes desistem retornando para o seu país de origem. A Atlantic Hub <br class="d-none d-md-block"> nasce para derrubar as barreiras da expansão de negócios para a Europa, via Portugal.</p>
             </div>
 
-            <div class="col-12 col-md-6 col-lg-4 col-xxl-3 px-md-2 px-4 mb-md-3 mb-lg-0">
+            <div class="col-12 col-md-6 col-lg-4 col-xxl-3 px-md-2 px-4 mb-md-3 mb-lg-0" data-aos="fade-up" data-aos-duration="1000">
                 <div class="card px-3 h-100 py-5 py-md-2 text-center">
                     <div class="card-body d-flex justify-content-center flex-column">
                         <img src="<?php echo $home ?>/assets/icons/valores_icone.png" width="26px" class="mx-auto mb-3" alt="Icone Valores">
@@ -87,7 +87,7 @@ $home = get_stylesheet_directory_uri();
                 </div>
             </div>
 
-            <div class="col-12 col-md-6 col-lg-4 col-xxl-3 px-md-2 px-4 my-5 mt-md-0 mb-md-3 mb-xxl-0">
+            <div class="col-12 col-md-6 col-lg-4 col-xxl-3 px-md-2 px-4 my-5 mt-md-0 mb-md-3 mb-xxl-0" data-aos="fade-up" data-aos-duration="1500">
                 <div class="card px-3 h-100 py-5 py-md-2 text-center">
                     <div class="card-body  d-flex justify-content-center flex-column ">
                         <img src="<?php echo $home ?>/assets/icons/visao_icone.png" width="36px" class="mx-auto mb-3" alt="Icone Visão">
@@ -107,7 +107,7 @@ $home = get_stylesheet_directory_uri();
                 </div>
             </div>
 
-            <div class="col-12 col-md-6 col-lg-4 col-xxl-3 px-md-2 px-4 mb-5 mb-md-0">
+            <div class="col-12 col-md-6 col-lg-4 col-xxl-3 px-md-2 px-4 mb-5 mb-md-0" data-aos="fade-up" data-aos-duration="1800">
                 <div class="card px-3 h-100 py-5 py-md-2 text-center">
                     <div class="card-body d-flex justify-content-center flex-column ">
                         <img src="<?php echo $home ?>/assets/icons/missao_icone.png" width="37px" class="mx-auto mb-3" alt="Icone Missão">
@@ -125,7 +125,7 @@ $home = get_stylesheet_directory_uri();
                 </div>
             </div>
 
-            <div class="col-12 col-md-6 col-lg-4 col-xxl-3 px-md-2 px-4">
+            <div class="col-12 col-md-6 col-lg-4 col-xxl-3 px-md-2 px-4" data-aos="fade-up" data-aos-duration="2000">
                 <div class="card px-3 h-100 py-5 py-md-2 text-center">
                     <div class="card-body d-flex justify-content-center flex-column ">
 
@@ -150,14 +150,17 @@ $home = get_stylesheet_directory_uri();
 <!-- CTA -->
 <section id="cta" class="py-md-4">
     <div class="container px-4 py-5">
-        <div class="row">
-            <div class="col text-center position-relative">
-                <span class="bg d-none d-md-block display-1 position-absolute">
-                    Pronto para internacionalizar sua empresa?
-                </span>
+        <div class="row position-relative">
+            <span class="bg d-none d-md-block display-1 position-absolute text-center">
+                Pronto para internacionalizar sua empresa?
+            </span>
+
+            <div class="call col text-center">
                 <h2 class="display-3 mb-4 d-md-none">Pronto para internacionalizar sua empresa?</h2>
                 <h2 class="display-5 mb-5 d-none d-md-block">Pronto para internacionalizar sua empresa?</h2>
-                <a href=""><img loading="lazy" src="<?php echo $home ?>/assets/icons/seta_internacionalizar.png" alt="Seta para direita"></a>
+                <a href="https://materiais.atlantichub.com/quer-levar-sua-empresa-para-portugal" target="_blank" class="w-100 h-100">
+                    <img loading="lazy" src="<?php echo $home ?>/assets/icons/seta_internacionalizar.png" alt="Seta para direita">
+                </a>
             </div>
         </div>
     </div>
@@ -166,25 +169,23 @@ $home = get_stylesheet_directory_uri();
 <!-- NOSSA EQUIPE -->
 <section id="nossa-equipe" class="py-md-5">
     <div class="container px-4 py-5">
-        <div class="row mb-5">
+        <div class="row mb-5 pb-md-5">
             <div class="col-12">
-                <h2 class="mb-5">NOSSA EQUIPE</h2>
+                <h2 class="mb-5" data-aos="fade-left" data-aos-duration="1000">NOSSA EQUIPE</h2>
             </div>
 
-            <section id="splide_equipe" class="splide" aria-label="Splide Equipe">
+            <section id="splide_equipe" class="splide" aria-label="Splide Equipe" data-aos="fade-right" data-aos-duration="1000">
                 <div class="splide__track">
                     <ul class="splide__list">
+                        <!-- EDUARDO -->
                         <li class="splide__slide text-center">
                             <figure class="mb-4">
-                                <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/images/equipe/thumb_eduardo.png" alt="Foto Eduardo">
+                                <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/images/equipe/thumb_eduardo.webp" alt="Foto Eduardo">
                             </figure>
 
                             <div class="info mb-5">
                                 <h3 class="fw-bold h5">EDUARDO MIGLIORELLI</h3>
                                 <p>CEO / CO-FOUNDER</p>
-                                <p class="text-center mx-auto desc">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                                    officia deserunt mollit anim id est laborum. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                                    officia deserunt mollit anim id est laborum. </p>
                             </div>
 
                             <figure class="col mb-0">
@@ -199,17 +200,15 @@ $home = get_stylesheet_directory_uri();
                                 </a>
                             </figure>
                         </li>
+                        <!-- BENIFICIO -->
                         <li class="splide__slide text-center">
                             <figure class="mb-4">
-                                <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/images/equipe/benicio_thumb_desk.png" alt="Foto Benicio">
+                                <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/images/equipe/benicio_thumb_desk.webp" alt="Foto Benicio">
                             </figure>
 
                             <div class="info mb-5">
                                 <h3 class="fw-bold h5">BENÍCIO FILHO</h3>
                                 <p>COUNTRY MANAGER BRAZIL / CO-FOUNDER</p>
-                                <p class="text-center mx-auto desc">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                                    officia deserunt mollit anim id est laborum. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                                    officia deserunt mollit anim id est laborum. </p>
                             </div>
 
                             <figure class="col mb-0">
@@ -224,17 +223,61 @@ $home = get_stylesheet_directory_uri();
                                 </a>
                             </figure>
                         </li>
+                        <!-- THIAGO -->
                         <li class="splide__slide text-center">
                             <figure class="mb-4">
-                                <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/images/equipe/tiago_thumb_desk.png" alt="Foto Tiago">
+                                <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/images/equipe/tiago_thumb_desk.webp" alt="Foto Tiago">
                             </figure>
 
                             <div class="info mb-5">
                                 <h3 class="fw-bold h5">THIAGO MATSUMOTO</h3>
                                 <p>CMO / CO-FOUNDER</p>
-                                <p class="text-center mx-auto desc">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                                    officia deserunt mollit anim id est laborum. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                                    officia deserunt mollit anim id est laborum. </p>
+                            </div>
+
+                            <figure class="col mb-0">
+                                <a href="" target="_blank">
+                                    <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/icons/facebook.svg" alt="Icone Facebook">
+                                </a>
+                                <a href="" target="_blank" class="mx-2">
+                                    <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/icons/instagram.svg" alt="Icone Instagram">
+                                </a>
+                                <a href="" target="_blank">
+                                    <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/icons/twitter.svg" alt="Icone Twitter">
+                                </a>
+                            </figure>
+                        </li>
+                        <!-- NELSON -->
+                        <li class="splide__slide text-center">
+                            <figure class="mb-4">
+                                <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/images/equipe/nelson_thumb.webp" alt="Foto Tiago">
+                            </figure>
+
+                            <div class="info mb-5">
+                                <h3 class="fw-bold h5">NELSON CORRÊA</h3>
+                                <p>CFO / CO-FOUNDER</p>
+                            </div>
+
+                            <figure class="col mb-0">
+                                <a href="" target="_blank">
+                                    <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/icons/facebook.svg" alt="Icone Facebook">
+                                </a>
+                                <a href="" target="_blank" class="mx-2">
+                                    <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/icons/instagram.svg" alt="Icone Instagram">
+                                </a>
+                                <a href="" target="_blank">
+                                    <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/icons/twitter.svg" alt="Icone Twitter">
+                                </a>
+                            </figure>
+                        </li>
+                        <!-- jOÃO -->
+                        <li class="splide__slide text-center">
+                            <figure class="mb-4">
+                                <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/images/equipe/joao_thumb.webp" alt="Foto Tiago">
+                            </figure>
+
+                            <div class="info mb-5">
+                                <h3 class="fw-bold h5">JOÃO CABRAL</h3>
+                                <p>HEAD OF INNOVATION</p>
                             </div>
 
                             <figure class="col mb-0">
@@ -255,35 +298,44 @@ $home = get_stylesheet_directory_uri();
         </div>
 
         <div class="row text-center align-items-center justify-content-center py-5 position-relative">
-
-            <div class="detail position-absolute p-0">
+            <div class="detail position-absolute top-0 p-0">
                 <img loading="lazy" class="w-100 d-md-none" src="<?php echo $home ?>/assets/images/atlantic-detail.png" alt="Atlantic Team">
                 <img loading="lazy" class="w-100 d-none d-md-block" src="<?php echo $home ?>/assets/images/team_atlantic_desk.png" alt="Atlantic Team">
             </div>
 
-            <div class="col-5 col-md-4 col-lg-2 text-md-center text-end">
-                <img loading="lazy" class="img-fluid d-md-none" src="<?php echo $home ?>/assets/images/equipe/equipe1.png" alt="Foto equipe Mob">
-                <img loading="lazy" class="img-fluid d-none d-md-block" src="<?php echo $home ?>/assets/images/equipe/equipe1_desk.png" alt="Foto equipe Desk">
+            <div class="col-12 col-sm-5 col-md-4 col-lg-3 col-xxl-2 text-center" data-aos="fade-up" data-aos-duration="1500">
+                <img loading="lazy" class="mb-3" width="170" height="171" src="<?php echo $home ?>/assets/images/equipe/feliciana_thumb.webp" alt="Foto equipe Mob">
+                <p class="mb-0 small px-1">Feliciana Nogueira - <br class="d-md-none"> Gestora de Relacionamento</p>
             </div>
-            <div class="col-5 col-md-4 col-lg-2 text-md-center text-start mb-md-3 mb-lg-0">
-                <img loading="lazy" class="img-fluid d-md-none" src="<?php echo $home ?>/assets/images/equipe/equipe2.png" alt="Foto equipe">
-                <img loading="lazy" class="img-fluid d-none d-md-block" src="<?php echo $home ?>/assets/images/equipe/equipe2_desk.png" alt="Foto equipe">
+
+            <div class="col-12 col-sm-5 col-md-4 col-lg-3 col-xxl-2 text-center" data-aos="fade-up" data-aos-duration="1500">
+                <img loading="lazy" class="mb-3" width="170" height="171" src="<?php echo $home ?>/assets/images/equipe/carla_thumb.webp" alt="Foto equipe">
+                <p class="mb-0 small px-1">Carla Rigolo - <br class="d-md-none"> Executiva de Negócios e Relacionamento</p>
             </div>
-            <div class="col-5 col-md-4 col-lg-2 text-md-center text-end my-4 my-md-0">
-                <img loading="lazy" class="img-fluid d-md-none" src="<?php echo $home ?>/assets/images/equipe/equipe3.png" alt="Foto equipe">
-                <img loading="lazy" class="img-fluid d-none d-md-block" src="<?php echo $home ?>/assets/images/equipe/equipe3_desk.png" alt="Foto equipe">
+
+            <div class="col-12 col-sm-5 col-md-4 col-lg-3 col-xxl-2 text-center" data-aos="fade-up" data-aos-duration="1500">
+                <img loading="lazy" class="mb-3" width="170" height="171" src="<?php echo $home ?>/assets/images/equipe/luciana_thumb.webp" alt="Foto equipe">
+                <p class="mb-0 small px-1">Luciana de Carvalho Viana - <br class="d-md-none"> Gestora de Missões Empresariais</p>
             </div>
-            <div class="col-5 col-md-4 col-lg-2 text-md-center text-start my-4 my-md-0">
-                <img loading="lazy" class="img-fluid d-md-none" src="<?php echo $home ?>/assets/images/equipe/equipe4.png" alt="Foto equipe">
-                <img loading="lazy" class="img-fluid d-none d-md-block" src="<?php echo $home ?>/assets/images/equipe/equipe4_desk.png" alt="Foto equipe">
+
+            <div class="col-12 col-sm-5 col-md-4 col-lg-3 col-xxl-2 text-center" data-aos="fade-up" data-aos-duration="1500">
+                <img loading="lazy" class="mb-3" width="170" height="171" src="<?php echo $home ?>/assets/images/equipe/joao2_thumb.webp" alt="Foto equipe">
+                <p class="mb-0 small px-1">João Paulo Fleury Teixeira - <br class="d-md-none"> Financeiro</p>
             </div>
-            <div class="col-5 col-md-4 col-lg-2 text-md-center text-end">
-                <img loading="lazy" class="img-fluid d-md-none" src="<?php echo $home ?>/assets/images/equipe/equipe5.png" alt="Foto equipe">
-                <img loading="lazy" class="img-fluid d-none d-md-block" src="<?php echo $home ?>/assets/images/equipe/equipe5_desk.png" alt="Foto equipe">
+
+            <div class="col-12 col-sm-5 col-md-4 col-lg-3 col-xxl-2 text-center" data-aos="fade-up" data-aos-duration="1500">
+                <img loading="lazy" class="mb-3" width="170" height="171" src="<?php echo $home ?>/assets/images/equipe/paloma_thumb.webp" alt="Foto equipe">
+                <p class="mb-0 small px-1">Paloma Braga Abreu - <br class="d-md-none"> Analista de Marketing</p>
             </div>
-            <div class="col-5 col-md-4 col-lg-2 text-md-center text-start d-md-none">
-                <img loading="lazy" class="img-fluid d-md-none" src="<?php echo $home ?>/assets/images/equipe/equipe6.png" alt="Foto equipe">
-                <img loading="lazy" class="img-fluid d-none d-md-block" src="<?php echo $home ?>/assets/images/equipe/equipe6_desk.png" alt="Foto equipe">
+
+            <div class="col-12 col-sm-5 col-md-4 col-lg-3 col-xxl-2 text-center" data-aos="fade-up" data-aos-duration="1500">
+                <img loading="lazy" class="mb-3" width="170" height="171" src="<?php echo $home ?>/assets/images/equipe/diego_thumb.webp" alt="Foto equipe">
+                <p class="mb-0 small px-1">Diego Maia - <br class="d-md-none"> Consultor de Projetos</p>
+            </div>
+
+            <div class="col-12 col-sm-5 col-md-4 col-lg-3 col-xxl-2 text-center" data-aos="fade-up" data-aos-duration="1500">
+                <img loading="lazy" class="mb-3" width="170" height="171" src="<?php echo $home ?>/assets/images/equipe/daniella_thumb.webp" alt="Foto equipe">
+                <p class="mb-0 small px-1">Daniella Rabaçal - <br class="d-md-none"> Head of Administration and Finance</p>
             </div>
         </div>
     </div>
@@ -292,7 +344,7 @@ $home = get_stylesheet_directory_uri();
 <!-- DADOS -->
 <section id="dados" class="position-relative py-md-5">
     <figure class="mb-0 position-absolute top-50 start-50 translate-middle">
-        <img loading="lazy" src="<?php echo $home?>/assets/images/nossos-numeros.png" alt="Nossos numeros">
+        <img loading="lazy" src="<?php echo $home ?>/assets/images/nossos-numeros.png" alt="Nossos numeros">
     </figure>
 
     <div class="container px-4 py-5 text-center">
@@ -333,21 +385,21 @@ $home = get_stylesheet_directory_uri();
 </section>
 
 <!-- CASES DE SUCESSO -->
-<section id="cases" class="py-md-5">
-    <div class="container px-4 py-4 py-md-5">
+<section id="cases" class="pt-md-5">
+    <div class="container px-4 py-4 pt-md-5">
         <div class="row">
             <div class="col mb-5">
-                <h2 class="mb-4">CASES <br class="d-md-none"> DE SUCESSO</h2>
-                <p class="mb-0 mb-md-4">Confiram abaixo as empresas que confiaram no nosso trabalho!
+                <h2 class="mb-4" data-aos="fade-left" data-aos-duration="1000">CASES <br class="d-md-none"> DE SUCESSO</h2>
+                <p class="mb-0 mb-md-4" data-aos="fade-right" data-aos-duration="1500">Confiram abaixo as empresas que confiaram no nosso trabalho!
                 </p>
             </div>
 
-            <section id="splide_cases" class="splide" aria-label="Splide Cases">
+            <section id="splide_cases" class="splide mb-5" aria-label="Splide Cases">
                 <div class="splide__track">
                     <ul class="splide__list">
                         <li class="splide__slide">
                             <figure class="mb-4 text-center">
-                                <img loading="lazy" class="img-fluid" src="<?php echo $home?>/assets/images/cases/conquest_logo.png" alt="Logo Conquest">
+                                <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/images/cases/conquest_logo.png" alt="Logo Conquest">
                             </figure>
 
                             <div class="info px-5 text-start px-5 d-md-none">
@@ -359,7 +411,7 @@ $home = get_stylesheet_directory_uri();
 
                         <li class="splide__slide">
                             <figure class="mb-4 text-center">
-                                <img loading="lazy" class="img-fluid" src="<?php echo $home?>/assets/images/cases/brain_logo.png" alt="Logo Brain">
+                                <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/images/cases/brain_logo.png" alt="Logo Brain">
                             </figure>
 
                             <div class="info px-5 text-start d-md-none">
@@ -371,7 +423,7 @@ $home = get_stylesheet_directory_uri();
 
                         <li class="splide__slide">
                             <figure class="mb-4 text-center">
-                                <img loading="lazy" class="img-fluid" src="<?php echo $home?>/assets/images/cases/tcia_logo.png" alt="Logo TCIA">
+                                <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/images/cases/tcia_logo.png" alt="Logo TCIA">
                             </figure>
 
                             <div class="info px-5 text-start  d-md-none">
@@ -383,7 +435,7 @@ $home = get_stylesheet_directory_uri();
 
                         <li class="splide__slide">
                             <figure class="mb-4 text-center">
-                                <img loading="lazy" class="img-fluid" src="<?php echo $home?>/assets/images/cases/brasillab_logo.png" alt="Logo BrasilLab">
+                                <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/images/cases/brasillab_logo.png" alt="Logo BrasilLab">
                             </figure>
 
                             <div class="info px-5 text-start d-md-none">
@@ -395,7 +447,7 @@ $home = get_stylesheet_directory_uri();
 
                         <li class="splide__slide">
                             <figure class="mb-4 text-center">
-                                <img loading="lazy" class="img-fluid" src="<?php echo $home?>/assets/images/cases/apexbrasil_logo.png" alt="Logo ApexBrasil">
+                                <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/images/cases/apexbrasil_logo.png" alt="Logo ApexBrasil">
                             </figure>
 
                             <div class="info px-5 text-start d-md-none">
@@ -407,6 +459,14 @@ $home = get_stylesheet_directory_uri();
                     </ul>
                 </div>
             </section>
+
+            <div class="col-10 col-xxl-7 cases_desc mx-auto d-none d-md-block">
+                <div class="d-flex align-items-start justify-content-center">
+                    <h3 class="h1" data-aos="fade-right" data-aos-duration="1500"></h3>
+                    <div class="line ms-5 me-4"></div>
+                    <p class="mb-0" data-aos="fade-left" data-aos-duration="1500"></p>
+                </div>
+            </div>
         </div>
     </div>
 </section>
@@ -420,97 +480,97 @@ $home = get_stylesheet_directory_uri();
             </div>
 
             <figure class="col-6 col-md-4 col-lg-2 text-center">
-                <img loading="lazy" class="img-fluid" src="<?php echo $home?>/assets/images/parceiros/federacao_logo.png" alt="Logo Federação">
+                <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/images/parceiros/federacao_logo.png" alt="Logo Federação">
             </figure>
             <figure class="col-6 col-md-4 col-lg-2 text-center mb-0">
-                <img loading="lazy" class="img-fluid" src="<?php echo $home?>/assets/images/parceiros/nodap_logo.png" alt="Logo Nodap">
+                <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/images/parceiros/nodap_logo.png" alt="Logo Nodap">
             </figure>
             <figure class="col-6 col-md-4 col-lg-2 text-center mb-0">
-                <img loading="lazy" class="img-fluid" src="<?php echo $home?>/assets/images/parceiros/bauc_logo.png" alt="Logo Bauc">
+                <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/images/parceiros/bauc_logo.png" alt="Logo Bauc">
             </figure>
             <figure class="col-6 col-md-4 col-lg-2 text-center mb-0">
-                <img loading="lazy" class="img-fluid" src="<?php echo $home?>/assets/images/parceiros/portugal_logo.png" alt="Logo Portugal Ventures">
+                <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/images/parceiros/portugal_logo.png" alt="Logo Portugal Ventures">
             </figure>
             <figure class="col-6 col-md-4 col-lg-2 text-center mb-0">
-                <img loading="lazy" class="img-fluid" src="<?php echo $home?>/assets/images/parceiros/nacionalidade_logo.png" alt="Logo Nacionalidade">
+                <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/images/parceiros/nacionalidade_logo.png" alt="Logo Nacionalidade">
             </figure>
             <figure class="col-6 col-md-4 col-lg-2 text-center mb-0">
-                <img loading="lazy" class="img-fluid" src="<?php echo $home?>/assets/images/parceiros/conexao_logo.png" alt="Logo Conexão Europa">
+                <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/images/parceiros/conexao_logo.png" alt="Logo Conexão Europa">
             </figure>
             <figure class="col-6 col-md-4 col-lg-2 text-center mb-0">
-                <img loading="lazy" class="img-fluid" src="<?php echo $home?>/assets/images/parceiros/blackbeans_logo.png" alt="Logo Black Beans">
+                <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/images/parceiros/blackbeans_logo.png" alt="Logo Black Beans">
             </figure>
             <figure class="col-6 col-md-4 col-lg-2 text-center mb-0">
-                <img loading="lazy" class="img-fluid" src="<?php echo $home?>/assets/images/parceiros/salomao_logo.png" alt="Logo Brasil Salomão">
+                <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/images/parceiros/salomao_logo.png" alt="Logo Brasil Salomão">
             </figure>
             <figure class="col-6 col-md-4 col-lg-2 text-center mb-0">
-                <img loading="lazy" class="img-fluid" src="<?php echo $home?>/assets/images/parceiros/bossanova_logo.png" alt="Logo Bossanova">
+                <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/images/parceiros/bossanova_logo.png" alt="Logo Bossanova">
             </figure>
             <figure class="col-6 col-md-4 col-lg-2 text-center mb-0">
-                <img loading="lazy" class="img-fluid" src="<?php echo $home?>/assets/images/parceiros/euro_logo.png" alt="Logo EuroDicas">
+                <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/images/parceiros/euro_logo.png" alt="Logo EuroDicas">
             </figure>
             <figure class="col-6 col-md-4 col-lg-2 text-center mb-0">
-                <img loading="lazy" class="img-fluid" src="<?php echo $home?>/assets/images/parceiros/martinhal_logo.png" alt="Logo Martinhal">
+                <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/images/parceiros/martinhal_logo.png" alt="Logo Martinhal">
             </figure>
             <figure class="col-6 col-md-4 col-lg-2 text-center mb-0">
-                <img loading="lazy" class="img-fluid" src="<?php echo $home?>/assets/images/parceiros/logo_random3.png" alt="Logo Câmara">
+                <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/images/parceiros/logo_random3.png" alt="Logo Câmara">
             </figure>
             <figure class="col-6 col-md-4 col-lg-2 text-center mb-0">
-                <img loading="lazy" class="img-fluid" src="<?php echo $home?>/assets/images/parceiros/por_logo.png" alt="Logo Camara">
+                <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/images/parceiros/por_logo.png" alt="Logo Camara">
             </figure>
             <figure class="col-6 col-md-4 col-lg-2 text-center mb-0">
-                <img loading="lazy" class="img-fluid" src="<?php echo $home?>/assets/images/parceiros/camara_logo.png" alt="Logo Camara">
+                <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/images/parceiros/camara_logo.png" alt="Logo Camara">
             </figure>
             <figure class="col-6 col-md-4 col-lg-2 text-center mb-0">
-                <img loading="lazy" class="img-fluid" src="<?php echo $home?>/assets/images/parceiros/logo_random.png" alt="Logo Camara">
+                <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/images/parceiros/logo_random.png" alt="Logo Camara">
             </figure>
             <figure class="col-6 col-md-4 col-lg-2 text-center mb-0">
-                <img loading="lazy" class="img-fluid" src="<?php echo $home?>/assets/images/parceiros/investsp_logo.png" alt="Logo Invest SP">
+                <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/images/parceiros/investsp_logo.png" alt="Logo Invest SP">
             </figure>
             <figure class="col-6 col-md-4 col-lg-2 text-center mb-0">
-                <img loading="lazy" class="img-fluid" src="<?php echo $home?>/assets/images/parceiros/digitalks_logo.png" alt="Logo Digitalks">
+                <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/images/parceiros/digitalks_logo.png" alt="Logo Digitalks">
             </figure>
             <figure class="col-6 col-md-4 col-lg-2 text-center mb-0">
-                <img loading="lazy" class="img-fluid" src="<?php echo $home?>/assets/images/parceiros/world.png" alt="Logo World">
+                <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/images/parceiros/world.png" alt="Logo World">
             </figure>
             <figure class="col-6 col-md-4 col-lg-2 text-center mb-0">
-                <img loading="lazy" class="img-fluid" src="<?php echo $home?>/assets/images/parceiros/itescs_logo.png" alt="Logo Itescs">
+                <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/images/parceiros/itescs_logo.png" alt="Logo Itescs">
             </figure>
             <figure class="col-6 col-md-4 col-lg-2 text-center mb-0">
-                <img loading="lazy" class="img-fluid" src="<?php echo $home?>/assets/images/parceiros/celepar_logo.png" alt="Logo Celepar">
+                <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/images/parceiros/celepar_logo.png" alt="Logo Celepar">
             </figure>
             <figure class="col-6 col-md-4 col-lg-2 text-center mb-0">
-                <img loading="lazy" class="img-fluid" src="<?php echo $home?>/assets/images/parceiros/sae_logo.png" alt="Logo SAE BRASIL">
+                <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/images/parceiros/sae_logo.png" alt="Logo SAE BRASIL">
             </figure>
             <figure class="col-6 col-md-4 col-lg-2 text-center mb-0">
-                <img loading="lazy" class="img-fluid" src="<?php echo $home?>/assets/images/parceiros/ourinvest_logo.png" alt="Logo OURINVEST">
+                <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/images/parceiros/ourinvest_logo.png" alt="Logo OURINVEST">
             </figure>
             <figure class="col-6 col-md-4 col-lg-2 text-center mb-0">
-                <img loading="lazy" class="img-fluid" src="<?php echo $home?>/assets/images/parceiros/abcasa_logo.png" alt="Logo ABCCASA">
+                <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/images/parceiros/abcasa_logo.png" alt="Logo ABCCASA">
             </figure>
             <figure class="col-6 col-md-4 col-lg-2 text-center mb-0">
-                <img loading="lazy" class="img-fluid" src="<?php echo $home?>/assets/images/parceiros/inodev_logo.png" alt="Logo INODEV">
+                <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/images/parceiros/inodev_logo.png" alt="Logo INODEV">
             </figure>
             <figur class="col-6 col-md-4 col-lg-2 text-center mb-0" e>
-                <img loading="lazy" class="img-fluid" src="<?php echo $home?>/assets/images/parceiros/conselho_logo.png" alt="Logo Conselho">
+                <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/images/parceiros/conselho_logo.png" alt="Logo Conselho">
             </figur>
             <figure class="col-6 col-md-4 col-lg-2 text-center mb-0">
-                <img loading="lazy" class="img-fluid" src="<?php echo $home?>/assets/images/parceiros/logo_random2.png" alt="Logo Casa de Portugal">
+                <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/images/parceiros/logo_random2.png" alt="Logo Casa de Portugal">
             </figure>
             <figure class="col-6 col-md-4 col-lg-2 text-center mb-0">
-                <img loading="lazy" class="img-fluid" src="<?php echo $home?>/assets/images/parceiros/fcj_logo.png" alt="Logo FCJ">
+                <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/images/parceiros/fcj_logo.png" alt="Logo FCJ">
             </figure>
             <figure class="col-6 col-md-4 col-lg-2 text-center mb-0">
-                <img loading="lazy" class="img-fluid" src="<?php echo $home?>/assets/images/parceiros/abd_logo.png" alt="Logo ABDi">
+                <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/images/parceiros/abd_logo.png" alt="Logo ABDi">
             </figure>
             <figure class="col-6 col-md-4 col-lg-2 text-center mb-0">
-                <img loading="lazy" class="img-fluid" src="<?php echo $home?>/assets/images/parceiros/hakingrio_logo.png" alt="Logo Hacking Rio">
+                <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/images/parceiros/hakingrio_logo.png" alt="Logo Hacking Rio">
             </figure>
             <figure class="col-6 col-md-4 col-lg-2 text-center mb-0">
-                <img loading="lazy" class="img-fluid" src="<?php echo $home?>/assets/images/parceiros/startup_logo.png" alt="Logo Startupi">
+                <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/images/parceiros/startup_logo.png" alt="Logo Startupi">
             </figure>
             <figure class="col-6 col-md-4 col-lg-2 text-center mb-0">
-                <img loading="lazy" class="img-fluid" src="<?php echo $home?>/assets/images/parceiros/logo_mds.png" alt="Logo MDS">
+                <img loading="lazy" class="img-fluid" src="<?php echo $home ?>/assets/images/parceiros/logo_mds.png" alt="Logo MDS">
             </figure>
         </div>
     </div>

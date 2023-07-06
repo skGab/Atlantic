@@ -15,8 +15,8 @@ $home = get_stylesheet_directory_uri();
     <div class="container">
         <div class="row w-100">
             <div class="title-banner col-lg-1 col-4 ms-lg-5 ms-3">
-                <h1 class="text-white text-uppercase">Contato</h1>
-                <span>Contato</span>
+                <h1 class="text-white text-uppercase" data-aos="fade-right" data-aos-duration="1500">Contato</h1>
+                <span data-aos="fade-right" data-aos-duration="1500">Contato</span>
             </div>
         </div>
     </div>
@@ -25,7 +25,7 @@ $home = get_stylesheet_directory_uri();
 <!-- FALE CONOSCO -->
 <section id="fale-conosco" class="container py-5">
     <div class="row justify-content-lg-between w-100 mx-0 py-lg-5">
-        <div class="form col-lg-8 col-12 mx-lg-5 ps-lg-0 pe-lg-5">
+        <div class="form col-lg-7 col-12 mx-lg-5 ps-lg-0 pe-lg-5" data-aos="fade-right" data-aos-duration="1500" data-aos-anchor-placement="top-bottom">
             <h1 class="text-primary text-uppercase fw-normal mb-3 pe-lg-5">Fale conosco</h1>
             <h2 class="h6 text-primary mb-5 pe-lg-4">
                 Se você está interessado em nossos serviços ou está a procura de um desafio profissional emocionante,
@@ -52,7 +52,7 @@ $home = get_stylesheet_directory_uri();
                 <div class="mb-0">
                     <textarea class="form-control" id="mensagem" rows="4" placeholder="Mensagem*"></textarea>
                 </div>
-                <button type="submit" class="btn text-primary d-flex justify-content-lg-end align-items-center bg-transparent text-uppercase me-auto pt-0">
+                <button type="submit" class="btn text-primary d-flex justify-content-lg-end align-items-center bg-transparent text-uppercase me-auto pt-0" disabled>
                     Enviar
                     <span class="material-symbols-outlined ms-2" style="font-size: 35px;">
                         arrow_right_alt
@@ -61,15 +61,15 @@ $home = get_stylesheet_directory_uri();
             </form>
         </div>
 
-        <div class="col-lg-2 col-12 me-lg-4 pe-lg-0">
+        <div class="col-lg-3 col-12 me-lg-4 pe-lg-0" >
             <div class="border-top border-primary d-lg-none d-block px-0 pt-5">
-                <h1 class="display-4 text-secondary fw-normal mb-4">Onde estamos</h1>
+                <h1 class="display-4 text-secondary fw-normal mb-4" data-aos="fade-left" data-aos-duration="1500">Onde estamos</h1>
             </div>
             <div class="d-lg-block d-none px-0 pt-5">
-                <h1 class="h3 text-secondary fw-normal mb-4">Onde estamos</h1>
+                <h1 class="h3 text-secondary fw-normal mb-4" data-aos="fade-left" data-aos-duration="1500">Onde estamos</h1>
             </div>
 
-            <div class="mb-4 pb-2">
+            <div class="mb-4 pb-2" data-aos="fade-left" data-aos-duration="1800">
                 <h2 class="h6 text-primary text-uppercase mb-2">Portugal</h2>
                 <address>
                     <p class="text-primary">Av. Mar. Gomes da Costa 19, 1800-255 Lisboa, Portugal</p>
@@ -84,7 +84,7 @@ $home = get_stylesheet_directory_uri();
                 </a>
             </div>
 
-            <div class="mb-4">
+            <div class="mb-4" data-aos="fade-left" data-aos-duration="1800">
                 <h2 class="h6 text-primary text-uppercase mb-2">Brazil</h2>
                 <address>
                     <p class="text-primary">Alameda Terracota, 185 - Cerâmica, São Caetano do Sul - SP, 09531-190</p>
@@ -99,7 +99,6 @@ $home = get_stylesheet_directory_uri();
                 </a>
             </div>
         </div>
-
     </div>
 </section>
 
