@@ -180,7 +180,7 @@ while (have_posts()) :
                                 <div class="col-5 flex-grow-1 me-3 px-0 mb-5 pb-4" data-aos="fade-up" data-aos-duration="1500">
                                     <div class="card bg-light w-100 rounded-0 border-0">
                                         <div class="position-relative">
-                                            <img src="<?= $home; ?>/assets/images/img-post1.jpg" class="card-img-top rounded-0" alt="Capa do Post" style="height: 200px !important;">
+                                            <img src="<?php the_post_thumbnail_url() ?>" class="card-img-top rounded-0" alt="Capa do Post" style="height: 200px !important;">
                                         </div>
 
                                         <div class="box1"></div>
@@ -401,7 +401,7 @@ while (have_posts()) :
                         <div class="card bg-light w-100 rounded-0 border-0 position-relative">
                             <div class="row g-0">
                                 <div class="col-6">
-                                    <img src="<?= $home; ?>/assets/images/img-post2.jpg" class="d-block w-100 h-100 rounded-0" alt="Capa do Post">
+                                    <img src="<?php the_post_thumbnail_url() ?>" class="d-block w-100 h-100 rounded-0" alt="Capa do Post">
                                 </div>
                                 <div class="col-6">
                                     <div class="card-body">

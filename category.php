@@ -34,7 +34,7 @@ $home = get_stylesheet_directory_uri();
                     <div class="card bg-transparent w-100 rounded-0 border-0 position-relative mb-lg-4 mb-5">
                         <div class="row align-items-lg-center g-0">
                             <div class="col-12 col-sm-6 mb-4 mb-sm-0">
-                                <img src="<?= $home; ?>/assets/images/img-post1.jpg" class="img-cover rounded-0" alt="Capa do Post">
+                                <img src="<?php the_post_thumbnail_url() ?>" class="img-cover rounded-0" alt="Capa do Post">
                             </div>
                             <div class="col-12 col-sm-6">
                                 <div class="card-body py-0">

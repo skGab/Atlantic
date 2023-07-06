@@ -29,7 +29,7 @@ $home = get_stylesheet_directory_uri();
             ?>
                     <div class="card bg-light w-100 rounded-0 border-0">
                         <div class="position-relative">
-                            <img src="<?= $home; ?>/assets/images/img-post1.jpg" class="card-img-top rounded-0" alt="Capa do Post">
+                            <img src="<?php the_post_thumbnail_url() ?>" class="card-img-top rounded-0" alt="Capa do Post">
 
                             <div class="info-post">
                                 <a href="" class="small text-secondary bg-secondary text-light fw-light rounded-pill px-3 py-1 me-2"><?php echo ucfirst($destaque_args['category_name']); ?></a>
@@ -73,7 +73,7 @@ $home = get_stylesheet_directory_uri();
                 <div class="card bg-light w-100 rounded-0 border-0 position-relative mb-lg-5 mb-4">
                     <div class="row g-0">
                         <div class="col-12 col-sm-6">
-                            <img src="<?= $home; ?>/assets/images/post_2.webp" class="img-cover rounded-0" alt="Capa do Post" style="height: 198px !important;">
+                            <img src="<?php the_post_thumbnail_url() ?>" class="img-cover rounded-0" alt="Capa do Post" style="height: 198px !important;">
                         </div>
                         <div class="col-12 col-sm-6">
                             <div class="card-body">
@@ -98,7 +98,7 @@ $home = get_stylesheet_directory_uri();
                     <div class="card bg-light w-100 rounded-0 border-0 position-relative mb-lg-3">
                         <div class="row g-0">
                             <div class="col-12 col-sm-6">
-                                <img src="<?= $home; ?>/assets/images/post_2.webp" class="d-block w-100 h-100 rounded-0" alt="Capa do Post" style="height: 198px !important;">
+                                <img src="<?php the_post_thumbnail_url() ?>" class="d-block w-100 h-100 rounded-0" alt="Capa do Post" style="height: 198px !important;">
                             </div>
                             <div class="col-12 col-sm-6">
                                 <div class="card-body">
@@ -123,7 +123,7 @@ $home = get_stylesheet_directory_uri();
                 <div class="card bg-light w-100 h-100 align-items-strech rounded-0 border-0 position-relative">
                     <div class="row flex-column g-0">
                         <div class="col-12">
-                            <img src="<?= $home; ?>/assets/images/post_2.webp" class="d-block w-100 h-100 rounded-0" alt="Capa do Post">
+                            <img src="<?php the_post_thumbnail_url() ?>" class="d-block w-100 h-100 rounded-0" alt="Capa do Post">
                         </div>
                         <div class="col-12">
                             <div class="card-body">
@@ -183,7 +183,7 @@ $home = get_stylesheet_directory_uri();
                     <div class="card bg-transparent w-100 rounded-0 border-0 position-relative mb-lg-4 mb-5" data-aos="fade-right" data-aos-duration="1200">
                         <div class="row align-items-lg-center g-0">
                             <div class="col-12 col-sm-6 mb-4 mb-sm-0">
-                                <img src="<?= $home; ?>/assets/images/img-post1.jpg" class="img-cover rounded-0" alt="Capa do Post">
+                                <img src="<?php the_post_thumbnail_url() ?>" class="img-cover rounded-0" alt="Capa do Post">
                             </div>
                             <div class="col-12 col-sm-6">
                                 <div class="card-body py-0">
