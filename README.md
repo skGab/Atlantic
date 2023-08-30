@@ -1,9 +1,9 @@
 <!-- TITLE -->
-<h1 align="center" color="black"><a href="" target="_blank">Atlantic Hub</a></h1>
+<h1 align="center" color="black"><a href="https://www.atlantichub.com/" target="_blank">Atlantic Hub</a></h1>
 
 <!-- THUMB -->
 <p align="center">
-  <a href="" rel="noopener" target="_blank">
+  <a href="https://www.atlantichub.com/" rel="noopener" target="_blank">
         <img src="./assets/images/doc_thumb.png"  alt="Logo do Projeto" object-fit="cover">
   </a>
 </p>
